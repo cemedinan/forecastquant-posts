@@ -1,0 +1,93 @@
+{
+  "searched_at": "2026-11-08T22:11:54.271118+00:00",
+  "window_start": "2026-11-08T20:11:54.271118+00:00",
+  "window_end": "2026-11-08T22:11:54.271118+00:00",
+  "search_requested_start": "2026-11-08T20:11:44Z",
+  "search_effective_end": null,
+  "max_age_seconds": 7200,
+  "timezone": "America/Santiago",
+  "source_context": {
+    "2118779927340470279": {
+      "url": "https://x.com/forecastquant/status/2118779927340470279",
+      "summary": "El autor presenta una curva atribuida a dacoinminster publicada el 13-feb-2013; afirma parámetros sin recalibrar. El post reconoce que correlación histórica no garantiza desempeño futuro. Atribución y ausencia de recalibración son afirmaciones del propio post, no verificadas aquí contra el original de Bitcointalk."
+    },
+    "2119169301949141264": {
+      "url": "https://x.com/forecastquant/status/2119169301949141264",
+      "summary": "Extrapolación condicional de la misma curva hasta 2050. Cruces indicados por el autor: $1M 19-dic-2035, $10M 6-sep-2049. Son resultados del modelo del post, no garantías ni objetivos verificados."
+    }
+  },
+  "items": [
+    {
+      "id": "2119535615637324097",
+      "author": "david_eng_mba",
+      "url": "https://x.com/david_eng_mba/status/2119535615637324097",
+      "created_at": "2026-11-08T21:00:44Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-08 18:00:44 America/Santiago",
+      "age_minutes_at_validation": 71.17,
+      "context": "Distingue media rápida y estructura lenta; llama adopción a una media de precios y compara con Power Law. Contexto adicional leído: respuesta del mismo hilo 2119536934892761357 sobre R² ajustado.",
+      "suggested_text": "The two clocks are useful, but a rising price average isn’t independent evidence of adoption. I’d separate the price fit from network growth and test the curve out of sample. Which adoption measure would confirm your structural reading?",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {
+        "likes": 35,
+        "replies": 5
+      },
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2119535615637324097&text=The%20two%20clocks%20are%20useful%2C%20but%20a%20rising%20price%20average%20isn%E2%80%99t%20independent%20evidence%20of%20adoption.%20I%E2%80%99d%20separate%20the%20price%20fit%20from%20network%20growth%20and%20test%20the%20curve%20out%20of%20sample.%20Which%20adoption%20measure%20would%20confirm%20your%20structural%20reading%3F",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2119535615637324097",
+      "followers_count": 26377,
+      "followers_count_verified": true,
+      "followers_source": "x.get_users_by_usernames.public_metrics.followers_count",
+      "checked_at": "2026-11-08T22:11:54.271118+00:00",
+      "followers_checked_at": "2026-11-08T22:11:54.271118+00:00"
+    }
+  ],
+  "excluded_previous_candidates": [
+    {
+      "id": "2119275500384206888",
+      "created_at": "2026-11-08T03:47:08Z",
+      "reason": "Fuera de ventana estricta de 2 horas"
+    },
+    {
+      "id": "2119448133621174613",
+      "created_at": "2026-11-08T15:13:07Z",
+      "reason": "Fuera de ventana estricta de 2 horas"
+    },
+    {
+      "id": "2119461857064833147",
+      "created_at": "2026-11-08T16:07:39Z",
+      "reason": "Fuera de ventana estricta de 2 horas"
+    },
+    {
+      "id": "2119415773479543260",
+      "created_at": "2026-11-08T13:04:31Z",
+      "reason": "Fuera de ventana estricta de 2 horas"
+    },
+    {
+      "id": "2119420052760109351",
+      "created_at": "2026-11-08T13:21:32Z",
+      "reason": "Fuera de ventana estricta de 2 horas"
+    },
+    {
+      "id": "2119547966536962235",
+      "author": "btcnewsalerts",
+      "created_at": "2026-11-08T21:49:49Z",
+      "followers_count": 9348,
+      "checked_at": "2026-11-08T22:11:54.271118+00:00",
+      "reason": "followers_count <= 20000"
+    }
+  ],
+  "status": "research_complete_not_published",
+  "notes": [
+    "1 oportunidad cumple ambas condiciones; sin rellenar cupo.",
+    "Verificados perfiles de ambos candidatos previos mediante x.get_users_by_usernames; búsqueda adicional devolvió public_metrics de autores.",
+    "No duplicar 2119536934892761357: es el mismo autor y conversación que el candidato seleccionado.",
+    "Revalidar antigüedad <=7200 s antes del despliegue; candidato vence el 8-nov a las 20:00:44 America/Santiago.",
+    "No se modificó repositorio/generador ni se publicó respuesta."
+  ],
+  "checked_at": "2026-11-08T22:11:54.271118+00:00",
+  "min_followers_exclusive": 20000,
+  "followers_rule": "public_metrics.followers_count > 20000"
+}

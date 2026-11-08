@@ -1,0 +1,74 @@
+{
+  "discarded": {
+    "2119275500384206888": {
+      "author": "",
+      "created_at": "2026-11-08T03:47:08Z",
+      "id": "2119275500384206888",
+      "reason": "Fuera de ventana estricta de 2 horas",
+      "source": "excluded_previous_candidates"
+    },
+    "2119415773479543260": {
+      "author": "",
+      "created_at": "2026-11-08T13:04:31Z",
+      "id": "2119415773479543260",
+      "reason": "Fuera de ventana estricta de 2 horas",
+      "source": "excluded_previous_candidates"
+    },
+    "2119420052760109351": {
+      "author": "",
+      "created_at": "2026-11-08T13:21:32Z",
+      "id": "2119420052760109351",
+      "reason": "Fuera de ventana estricta de 2 horas",
+      "source": "excluded_previous_candidates"
+    },
+    "2119448133621174613": {
+      "author": "",
+      "created_at": "2026-11-08T15:13:07Z",
+      "id": "2119448133621174613",
+      "reason": "Fuera de ventana estricta de 2 horas",
+      "source": "excluded_previous_candidates"
+    },
+    "2119461857064833147": {
+      "author": "",
+      "created_at": "2026-11-08T16:07:39Z",
+      "id": "2119461857064833147",
+      "reason": "Fuera de ventana estricta de 2 horas",
+      "source": "excluded_previous_candidates"
+    },
+    "2119547966536962235": {
+      "author": "btcnewsalerts",
+      "created_at": "2026-11-08T21:49:49Z",
+      "followers_checked_at": "2026-11-08T22:11:54.271118+00:00",
+      "followers_count": 9348,
+      "id": "2119547966536962235",
+      "reason": "followers_count <= 20000",
+      "source": "excluded_previous_candidates"
+    }
+  },
+  "evaluated_at": "2026-11-08T23:11:51.128973+00:00",
+  "history": {
+    "2119535615637324097": {
+      "archived_at": "2026-11-08T23:11:51.128973+00:00",
+      "author": "david_eng_mba",
+      "created_at": "2026-11-08T21:00:44Z",
+      "exclude_reason": "older_than_7200s",
+      "followers_checked_at": "2026-11-08T22:11:54.271118+00:00",
+      "followers_count": 26377,
+      "id": "2119535615637324097",
+      "qualification": {
+        "age_seconds": 7867.129,
+        "exclude_reason": "older_than_7200s",
+        "followers_checked_at": "2026-11-08T22:11:54.271118+00:00",
+        "followers_count": 26377,
+        "followers_count_verified": true,
+        "min_followers_exclusive": 20000,
+        "qualified": false,
+        "window_seconds": 7200
+      },
+      "url": "https://x.com/david_eng_mba/status/2119535615637324097"
+    }
+  },
+  "items": {},
+  "min_followers_exclusive": 20000,
+  "window_seconds": 7200
+}
