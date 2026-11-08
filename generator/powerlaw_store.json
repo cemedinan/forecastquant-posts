@@ -1,0 +1,89 @@
+{
+  "discarded": {
+    "2119275500384206888": {
+      "author": "",
+      "created_at": "2026-11-08T03:47:08Z",
+      "id": "2119275500384206888",
+      "reason": "Fuera de ventana estricta de 2 horas",
+      "source": "excluded_previous_candidates"
+    },
+    "2119415773479543260": {
+      "author": "",
+      "created_at": "2026-11-08T13:04:31Z",
+      "id": "2119415773479543260",
+      "reason": "Fuera de ventana estricta de 2 horas",
+      "source": "excluded_previous_candidates"
+    },
+    "2119420052760109351": {
+      "author": "",
+      "created_at": "2026-11-08T13:21:32Z",
+      "id": "2119420052760109351",
+      "reason": "Fuera de ventana estricta de 2 horas",
+      "source": "excluded_previous_candidates"
+    },
+    "2119448133621174613": {
+      "author": "",
+      "created_at": "2026-11-08T15:13:07Z",
+      "id": "2119448133621174613",
+      "reason": "Fuera de ventana estricta de 2 horas",
+      "source": "excluded_previous_candidates"
+    },
+    "2119461857064833147": {
+      "author": "",
+      "created_at": "2026-11-08T16:07:39Z",
+      "id": "2119461857064833147",
+      "reason": "Fuera de ventana estricta de 2 horas",
+      "source": "excluded_previous_candidates"
+    },
+    "2119547966536962235": {
+      "author": "btcnewsalerts",
+      "created_at": "2026-11-08T21:49:49Z",
+      "followers_checked_at": "2026-11-08T22:11:54.271118+00:00",
+      "followers_count": 9348,
+      "id": "2119547966536962235",
+      "reason": "followers_count <= 20000",
+      "source": "excluded_previous_candidates"
+    }
+  },
+  "evaluated_at": "2026-11-08T22:15:19.223447+00:00",
+  "history": {},
+  "items": {
+    "2119535615637324097": {
+      "author": "david_eng_mba",
+      "context": "Distingue media rápida y estructura lenta; llama adopción a una media de precios y compara con Power Law. Contexto adicional leído: respuesta del mismo hilo 2119536934892761357 sobre R² ajustado.",
+      "created_at": "2026-11-08T21:00:44Z",
+      "created_at_chile": "2026-11-08 18:00:44 America/Santiago",
+      "created_at_verified": true,
+      "cta": "",
+      "exclude_reason": "",
+      "first_seen_at": "2026-11-08T22:09:42.810552+00:00",
+      "followers_checked_at": "2026-11-08T22:11:54.271118+00:00",
+      "followers_count": 26377,
+      "followers_count_verified": true,
+      "followers_source": "x.get_users_by_usernames.public_metrics.followers_count",
+      "id": "2119535615637324097",
+      "language": "en",
+      "last_seen_at": "2026-11-08T22:15:19.223447+00:00",
+      "qualification": {
+        "age_seconds": 4475.223,
+        "exclude_reason": "",
+        "followers_checked_at": "2026-11-08T22:11:54.271118+00:00",
+        "followers_count": 26377,
+        "followers_count_verified": true,
+        "min_followers_exclusive": 20000,
+        "qualified": true,
+        "window_seconds": 7200
+      },
+      "qualified": true,
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2119535615637324097",
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2119535615637324097&text=The%20two%20clocks%20are%20useful%2C%20but%20a%20rising%20price%20average%20isn%E2%80%99t%20independent%20evidence%20of%20adoption.%20I%E2%80%99d%20separate%20the%20price%20fit%20from%20network%20growth%20and%20test%20the%20curve%20out%20of%20sample.%20Which%20adoption%20measure%20would%20confirm%20your%20structural%20reading%3F",
+      "source_post_id": null,
+      "suggested_text": "The two clocks are useful, but a rising price average isn’t independent evidence of adoption. I’d separate the price fit from network growth and test the curve out of sample. Which adoption measure would confirm your structural reading?",
+      "timestamp_source": "x.get_posts_by_ids",
+      "url": "https://x.com/david_eng_mba/status/2119535615637324097"
+    }
+  },
+  "last_batch_searched_at": "2026-11-08T22:11:54.271118+00:00",
+  "min_followers_exclusive": 20000,
+  "window_seconds": 7200
+}
