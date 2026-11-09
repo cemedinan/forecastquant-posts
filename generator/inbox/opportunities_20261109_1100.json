@@ -1,0 +1,111 @@
+{
+ "searched_at": "2026-11-09T14:08:59+00:00",
+ "window_start": "2026-11-09T12:08:59+00:00",
+ "window_end": "2026-11-09T14:08:59+00:00",
+ "max_age_seconds": 7200,
+ "timezone": "America/Santiago",
+ "source_context": {
+  "2118779927340470279": {
+   "url": "https://x.com/forecastquant/status/2118779927340470279",
+   "summary": "El autor presenta una curva atribuida a dacoinminster publicada el 13-feb-2013; afirma parámetros sin recalibrar. El post reconoce que correlación histórica no garantiza desempeño futuro. Atribución y ausencia de recalibración son afirmaciones del propio post, no verificadas aquí contra el original de Bitcointalk."
+  },
+  "2119169301949141264": {
+   "url": "https://x.com/forecastquant/status/2119169301949141264",
+   "summary": "Extrapolación condicional de la misma curva hasta 2050. Cruces indicados por el autor: $1M 19-dic-2035, $10M 6-sep-2049. Son resultados del modelo del post, no garantías ni objetivos verificados."
+  }
+ },
+ "items": [
+  {
+   "id": "2119778075130880072",
+   "author": "alpha_pls",
+   "url": "https://x.com/alpha_pls/status/2119778075130880072",
+   "created_at": "2026-11-09T13:04:11Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 10:04:11 America/Santiago",
+   "context": "Análisis largo: $BTC lleva cinco velas semanales rojas, cerró bajo la media de 50 semanas y volvió al rango previo (piso en 60k). Compara con 2023, cuando la caída a la media de 200 días ($73,2k según él) se compró, pero reconoce que ahora el precio está bajo los máximos de mayo. Si falla, quiere un cierre semanal no menor a 66k. Cree que el fondo macro está hecho; cierra con 'construye exposición y deja que el tiempo haga el resto'.",
+   "suggested_text": "The part I'd underline is your own caveat: in 2023 the 200DMA was bought from above the breakdown, this time price sits below the May highs. Same level, different structure. Building exposure in spot, no leverage, is what lets you sit through either the 6-month or the 12-month version. $BTC",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 30,
+    "replies": 5
+   },
+   "followers_count": 135179,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T14:08:59+00:00",
+   "followers_checked_at": "2026-11-09T14:08:59+00:00"
+  },
+  {
+   "id": "2119777959078690818",
+   "author": "GreatMattsby",
+   "url": "https://x.com/GreatMattsby/status/2119777959078690818",
+   "created_at": "2026-11-09T13:03:43Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 10:03:43 America/Santiago",
+   "context": "Dice que $BTC no está muerto: el par $BTC/oro está retesteando desde arriba su 'banda de soporte de bull market'. Perder esa banda en 2025 inició el bear market y la recuperó en septiembre. Es el primer retest real; si aguanta, la corrida de Bitcoin contra el oro 'recién empieza'.",
+   "suggested_text": "Pricing $BTC in gold instead of dollars strips out a lot of noise, so I like the frame. One backtest holding is a good sign, not a confirmation: I'd want a weekly close above the band before calling the run just getting started. What timeframe are you using for it?",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 52,
+    "replies": 6
+   },
+   "followers_count": 56733,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T14:08:59+00:00",
+   "followers_checked_at": "2026-11-09T14:08:59+00:00"
+  },
+  {
+   "id": "2119790211169243336",
+   "author": "ORamosBets",
+   "url": "https://x.com/ORamosBets/status/2119790211169243336",
+   "created_at": "2026-11-09T13:52:24Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 10:52:24 America/Santiago",
+   "context": "Análisis de la vela semanal: quinta semana roja seguida, caída de 4,5% y pérdida del soporte de 80K; mínimo semanal cerca de 73,5K y cierre en 74,8K. Atribuye parte a la caída de la bolsa tecnológica. Menciona que los ETF spot perdieron más de 1.200M netos en AUM, con IBIT concentrando la salida, y que para él los ETF son el motor principal. Dice que el rango aún no está roto del todo.",
+   "suggested_text": "Buen resumen. Lo que más me llama la atención es el contraste: más de 1.200M netos fuera de los ETF spot y aun así el rango no está roto. Si los ETF son el motor, como dices, ¿cuánta salida más crees que aguanta antes de perder los 73,5K? $BTC",
+   "language": "es",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 9,
+    "replies": 1
+   },
+   "followers_count": 79178,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T14:08:59+00:00",
+   "followers_checked_at": "2026-11-09T14:08:59+00:00"
+  },
+  {
+   "id": "2119789681139151248",
+   "author": "ZynxBTC",
+   "url": "https://x.com/ZynxBTC/status/2119789681139151248",
+   "created_at": "2026-11-09T13:50:18Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 10:50:18 America/Santiago",
+   "context": "Cita un post sobre compras de $MSTR y celebra que compre al menos 1.000 BTC por semana: lo ve como una forma de 'diseñar' un precio más alto en vez de esperar al mercado, y dice que cada coin que compra Saylor es una menos para el resto ('squeeze the supply').",
+   "suggested_text": "Steady buying absorbs supply, but it doesn't set the price on its own: sellers on the other side still do. The flip side of \"one fewer for everyone else\" is concentration. The more one balance sheet holds, the more its funding becomes the risk everyone has to watch. $BTC",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 56,
+    "replies": 5
+   },
+   "followers_count": 22187,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T14:08:59+00:00",
+   "followers_checked_at": "2026-11-09T14:08:59+00:00"
+  }
+ ]
+}
