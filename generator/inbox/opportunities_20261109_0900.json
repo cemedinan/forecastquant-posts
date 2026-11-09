@@ -1,0 +1,145 @@
+{
+  "searched_at": "2026-11-09T12:06:23.984530+00:00",
+  "window_start": "2026-11-09T10:06:23.984530+00:00",
+  "window_end": "2026-11-09T12:06:23.984530+00:00",
+  "max_age_seconds": 7200,
+  "timezone": "America/Santiago",
+  "source_context": {
+    "2118779927340470279": {
+      "url": "https://x.com/forecastquant/status/2118779927340470279",
+      "summary": "El autor presenta una curva atribuida a dacoinminster publicada el 13-feb-2013; afirma parámetros sin recalibrar. El post reconoce que correlación histórica no garantiza desempeño futuro. Atribución y ausencia de recalibración son afirmaciones del propio post, no verificadas aquí contra el original de Bitcointalk."
+    },
+    "2119169301949141264": {
+      "url": "https://x.com/forecastquant/status/2119169301949141264",
+      "summary": "Extrapolación condicional de la misma curva hasta 2050. Cruces indicados por el autor: $1M 19-dic-2035, $10M 6-sep-2049. Son resultados del modelo del post, no garantías ni objetivos verificados."
+    }
+  },
+  "items": [
+    {
+      "id": "2119736640331800630",
+      "author": "maverickalpha_1",
+      "url": "https://x.com/maverickalpha_1/status/2119736640331800630",
+      "created_at": "2026-11-09T10:19:32Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-09 07:19:32 America/Santiago",
+      "context": "Mapa de escenarios: $BTC cerca de $74.500 tras tocar $73.477 el domingo, quinta semana roja. Soporte en la media de 200 días (~$73.170); resistencias $75.600-$76.000. Menciona salidas de ETF por $1,28B la semana pasada, $1,04B en largos liquidados, dato de inflación de EE.UU. el martes y que BTC está bajo el costo promedio de Strategy (~$75.450). Pregunta si comprar la caída o quedarse fuera. 43 likes, 3 respuestas al revisar.",
+      "suggested_text": "Useful map. With the 200-day near $73.2K below and Strategy's ~$75.45K cost basis just above, Tuesday's CPI may decide which line gives first. That's also why I'd only sit through it in spot, no leverage. Which side do you think breaks? $BTC",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {
+        "likes": 43,
+        "replies": 3
+      },
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2119736640331800630&text=Useful%20map.%20With%20the%20200-day%20near%20%2473.2K%20below%20and%20Strategy%27s%20~%2475.45K%20cost%20basis%20just%20above%2C%20Tuesday%27s%20CPI%20may%20decide%20which%20line%20gives%20first.%20That%27s%20also%20why%20I%27d%20only%20sit%20through%20it%20in%20spot%2C%20no%20leverage.%20Which%20side%20do%20you%20think%20breaks%3F%20%24BTC",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2119736640331800630",
+      "followers_count": 28243,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-09T12:06:23.984530+00:00",
+      "followers_checked_at": "2026-11-09T12:06:23.984530+00:00"
+    },
+    {
+      "id": "2119740448646533131",
+      "author": "fly_welinkBTC",
+      "url": "https://x.com/fly_welinkBTC/status/2119740448646533131",
+      "created_at": "2026-11-09T10:34:40Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-09 07:34:40 America/Santiago",
+      "context": "Dice que sigue comprando la caída de $BTC con tres razones: el ciclo bajista podría estar terminando por duración; las ganancias de cada bull market vienen disminuyendo, así que activos más volátiles correlacionados con BTC ($MSTR, $ASST) podrían amplificar retornos (reconoce mayor riesgo a la baja); y cuesta encontrar algo más atractivo que BTC frente a acciones de IA caras. 0 likes al revisar.",
+      "suggested_text": "Shrinking multiples each cycle is exactly what a power-law trend implies, so I agree on the decay. I'd just keep it in spot $BTC rather than amplify with MSTR or ASST, which stack company risk on top. More on the curve: https://x.com/forecastquant/status/2118779927340470279",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2118779927340470279",
+      "metrics": {
+        "likes": 0,
+        "replies": 0
+      },
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2119740448646533131&text=Shrinking%20multiples%20each%20cycle%20is%20exactly%20what%20a%20power-law%20trend%20implies%2C%20so%20I%20agree%20on%20the%20decay.%20I%27d%20just%20keep%20it%20in%20spot%20%24BTC%20rather%20than%20amplify%20with%20MSTR%20or%20ASST%2C%20which%20stack%20company%20risk%20on%20top.%20More%20on%20the%20curve%3A%20https%3A%2F%2Fx.com%2Fforecastquant%2Fstatus%2F2118779927340470279",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2119740448646533131",
+      "followers_count": 38350,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-09T12:06:23.984530+00:00",
+      "followers_checked_at": "2026-11-09T12:06:23.984530+00:00"
+    },
+    {
+      "id": "2119756882571067753",
+      "author": "tradermatt",
+      "url": "https://x.com/tradermatt/status/2119756882571067753",
+      "created_at": "2026-11-09T11:39:58Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-09 08:39:58 America/Santiago",
+      "context": "Artículo semanal (9 nov): BTC testeó el fondo de una zona de demanda diaria; si sigue cayendo, su zona para swing longs y compras spot es $68K-$64K ($64K es el origen del último impulso). Sobre $76,5K buscaría continuación alcista; con máximos y mínimos más bajos, short hacia $68K. También niveles de ETH, SOL y HYPE. 6 likes al revisar.",
+      "suggested_text": "Clear map. Having 68K-64K line up with where the whole pump started makes it a level with history behind it, not a round number. If price gets there fast, would you still buy spot straight away or wait for a base to form first? $BTC",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {
+        "likes": 6,
+        "replies": 1
+      },
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2119756882571067753&text=Clear%20map.%20Having%2068K-64K%20line%20up%20with%20where%20the%20whole%20pump%20started%20makes%20it%20a%20level%20with%20history%20behind%20it%2C%20not%20a%20round%20number.%20If%20price%20gets%20there%20fast%2C%20would%20you%20still%20buy%20spot%20straight%20away%20or%20wait%20for%20a%20base%20to%20form%20first%3F%20%24BTC",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2119756882571067753",
+      "followers_count": 34992,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-09T12:06:23.984530+00:00",
+      "followers_checked_at": "2026-11-09T12:06:23.984530+00:00"
+    },
+    {
+      "id": "2119759763386908687",
+      "author": "0xbeehive",
+      "url": "https://x.com/0xbeehive/status/2119759763386908687",
+      "created_at": "2026-11-09T11:51:25Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-09 08:51:25 America/Santiago",
+      "context": "Cita su propio post previo y plantea el peor escenario para $BTC: si el ciclo se vuelve un bear market completo, Bitcoin podría volver al borde inferior de su canal de largo plazo. Lo considera muy improbable y no es su escenario base, pero lo vigilaría si un catalizador bajista rompe la estructura. 3 likes, 3 reposts al revisar.",
+      "suggested_text": "Good one to keep on the radar. On long-term log charts that lower boundary works better as a reference for where past cycles found a floor than as a target. Which channel are you drawing here: a log regression or a power-law fit? $BTC",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {
+        "likes": 3,
+        "replies": 1
+      },
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2119759763386908687&text=Good%20one%20to%20keep%20on%20the%20radar.%20On%20long-term%20log%20charts%20that%20lower%20boundary%20works%20better%20as%20a%20reference%20for%20where%20past%20cycles%20found%20a%20floor%20than%20as%20a%20target.%20Which%20channel%20are%20you%20drawing%20here%3A%20a%20log%20regression%20or%20a%20power-law%20fit%3F%20%24BTC",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2119759763386908687",
+      "followers_count": 70103,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-09T12:06:23.984530+00:00",
+      "followers_checked_at": "2026-11-09T12:06:23.984530+00:00"
+    },
+    {
+      "id": "2119760966892065188",
+      "author": "cryptogems555",
+      "url": "https://x.com/cryptogems555/status/2119760966892065188",
+      "created_at": "2026-11-09T11:56:12Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-09 08:56:12 America/Santiago",
+      "context": "Cita una respuesta con datos históricos: las dos veces que Bitcoin perdió la media de 50 semanas después de un piso de ciclo (2012 y 2019) estuvo meses bajo ella, sin falsa ruptura rápida, pero el mínimo del ciclo se sostuvo ambas veces. La respuesta citada añade que el colchón actual sobre el mínimo de junio es más delgado. Pregunta si sigues holdeando. 28 likes, 6 respuestas al revisar.",
+      "suggested_text": "Two analogs is a thin sample, but the useful part is the shape: months of chop under the 50-week rather than a quick reclaim. That's a long-term-trend question, not a daily one. What would make you call the June low broken: one weekly close below it, or two? $BTC",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {
+        "likes": 28,
+        "replies": 6
+      },
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2119760966892065188&text=Two%20analogs%20is%20a%20thin%20sample%2C%20but%20the%20useful%20part%20is%20the%20shape%3A%20months%20of%20chop%20under%20the%2050-week%20rather%20than%20a%20quick%20reclaim.%20That%27s%20a%20long-term-trend%20question%2C%20not%20a%20daily%20one.%20What%20would%20make%20you%20call%20the%20June%20low%20broken%3A%20one%20weekly%20close%20below%20it%2C%20or%20two%3F%20%24BTC",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2119760966892065188",
+      "followers_count": 441062,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-09T12:06:23.984530+00:00",
+      "followers_checked_at": "2026-11-09T12:06:23.984530+00:00"
+    }
+  ],
+  "excluded_previous_candidates": []
+}
