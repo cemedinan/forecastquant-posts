@@ -37,11 +37,17 @@ main{max-width:900px;margin:auto;padding:8px 12px 40px}
 textarea.pl-text{width:100%;min-height:8em;white-space:pre-wrap;font:inherit;margin:6px 0;background:#0B0D26;color:#fff;padding:10px;border-radius:8px;border:1px solid #2a2f5a;resize:vertical}
 .dz{text-align:right;margin-top:10px}
 .dx{background:transparent;color:#B8BCCB;border:1px solid #444a7a;border-radius:8px;padding:4px 10px;font-size:13px;cursor:pointer}
+.tb-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+#pl-refresh{background:#C6E427;color:#0B0D26;border:0;border-radius:8px;padding:6px 12px;font-weight:700;cursor:pointer;font-size:14px;white-space:nowrap}
+#pl-refresh:disabled{opacity:.75;cursor:wait}
 </style></head><body>
 <div class="top"><div class="tb">
 <b>Conversaciones de interés</b>
 <span>Evaluado: 09-11-2026 16:22:54 hora Chile</span>
+<div class="tb-actions">
+<button type="button" id="pl-refresh" onclick="plRefresh(this)">🔄 Actualizar</button>
 <a class="home" href="../index.html">← Recomendaciones</a>
+</div>
 </div></div>
 <header><img src="../images/logo.jpg" alt="logo"><div>
 <h1>Conversaciones de interés</h1>
@@ -72,5 +78,7 @@ function plDismissed(){try{return JSON.parse(localStorage.getItem(PL_DK)||"[]")}
 function dis(c){if(!c)return;var id=c.getAttribute("data-id")||"";try{var d=plDismissed();if(d.indexOf(id)<0){d.push(id);localStorage.setItem(PL_DK,JSON.stringify(d))}}catch(e){}c.remove();plSweep()}
 function plFilter(topic,btn){if(btn){document.querySelectorAll("#pl-topics button").forEach(function(b){b.classList.remove("on")});btn.classList.add("on")}var active=topic||"all";var cards=document.querySelectorAll("article.pl-card");var left=0;cards.forEach(function(c){var show=active==="all"||c.getAttribute("data-topic")===active;c.style.display=show?"":"none";if(show)left++});document.querySelectorAll("[data-topic-heading]").forEach(function(h){var id=h.getAttribute("data-topic-heading");var any=false;cards.forEach(function(c){if(c.style.display!=="none"&&c.getAttribute("data-topic")===id)any=true});h.style.display=any?"":"none"});var empty=document.getElementById("pl-empty");var topicEmpty=document.getElementById("pl-topic-empty");if(empty)empty.hidden=left>0||active!=="all";if(topicEmpty)topicEmpty.hidden=left>0||active==="all"}
 function plSweep(){var MAX=7200*1000,SKEW=120*1000,MIN=20000,now=Date.now();function followersOk(c){var raw=c.getAttribute("data-followers-count")||"";if(!/^[0-9]+$/.test(raw))return false;var n=Number(raw);var checked=Date.parse(c.getAttribute("data-followers-checked-at")||"");return n>MIN&&isFinite(checked)}var gone=plDismissed();document.querySelectorAll("article.pl-card").forEach(function(c){if(gone.indexOf(c.getAttribute("data-id"))>=0){c.remove();return}var t=Date.parse(c.getAttribute("data-created-at")||"");if(!isFinite(t)||(now-t)>MAX||(t-now)>SKEW||!followersOk(c))c.remove()});var cnt=document.getElementById("pl-cnt");if(cnt)cnt.textContent=String(document.querySelectorAll("article.pl-card").length);var on=document.querySelector("#pl-topics button.on");plFilter(on?on.getAttribute("data-topic"):"all",null)}
+function plRefresh(b){if(b){b.disabled=true;b.textContent="Actualizando…"}var on=document.querySelector("#pl-topics button.on");var topic=on?(on.getAttribute("data-topic")||"all"):"all";var u=location.pathname+"?t="+Date.now();if(topic!=="all"&&/^[a-z0-9][a-z0-9-]{0,40}$/.test(topic))u+="&tema="+encodeURIComponent(topic);setTimeout(function(){location.replace(u)},300)}
 plSweep();
+(function(){var topic="";try{topic=new URLSearchParams(location.search).get("tema")||""}catch(e){return}if(!/^[a-z0-9][a-z0-9-]{0,40}$/.test(topic))return;var btn=document.querySelector('#pl-topics button[data-topic="'+topic+'"]');if(btn)plFilter(topic,btn)})();
 </script></body></html>
