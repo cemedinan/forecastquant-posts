@@ -445,8 +445,8 @@ class GeneratorContractTests(unittest.TestCase):
 class TopicTests(unittest.TestCase):
     def test_configured_topics_are_power_law_and_price(self):
         topics = pl.load_topics()
-        self.assertEqual([topic["id"] for topic in topics], ["power-law", "precio-btc"])
-        self.assertEqual([topic["label"] for topic in topics], ["Power law de Bitcoin", "Debate del precio de BTC"])
+        self.assertEqual([topic["id"] for topic in topics], ["power-law", "custodia", "precio-btc"])
+        self.assertEqual([topic["label"] for topic in topics], ["Power law de Bitcoin", "Custodia de Bitcoin", "Debate del precio de BTC"])
         self.assertEqual([topic["id"] for topic in topics if topic["default"]], ["precio-btc"])
 
     def test_keywords_and_explicit_topic_assign_the_card(self):

@@ -1,0 +1,82 @@
+{
+ "searched_at": "2026-11-09T17:22:59+00:00",
+ "window_start": "2026-11-09T15:22:59+00:00",
+ "window_end": "2026-11-09T17:22:59+00:00",
+ "max_age_seconds": 7200,
+ "timezone": "America/Santiago",
+ "source_context": {},
+ "items": [
+  {
+   "id": "2119826757054316620",
+   "author": "vikrantnyc",
+   "url": "https://x.com/vikrantnyc/status/2119826757054316620",
+   "created_at": "2026-11-09T16:17:38Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 13:17:38 America/Santiago",
+   "context": "Vik Sharma (Cake Wallet) dice que miles de millones en Bitcoin salen de la autocustodia hacia ETFs porque la gente teme guardar sus propias llaves; la solución, según él, no es renunciar a las llaves sino hacer billeteras tan fáciles que el miedo no gane, y menciona el trabajo de @cakewallet.",
+   "suggested_text": "Agree the fear is real. Part of it is that self-custody often still means trusting one more company's app or device. Generating your own keys on an offline machine removes that layer, and it's less scary than it sounds. I wrote a step-by-step guide to building that air-gapped setup yourself, free on Kindle until Wednesday: https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 63,
+    "replies": 13
+   },
+   "followers_count": 34848,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T17:22:59+00:00",
+   "followers_checked_at": "2026-11-09T17:22:59+00:00",
+   "topic": "custodia"
+  },
+  {
+   "id": "2119841949658349704",
+   "author": "misterrcrypto",
+   "url": "https://x.com/misterrcrypto/status/2119841949658349704",
+   "created_at": "2026-11-09T17:18:00Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 14:18:00 America/Santiago",
+   "context": "Mister Crypto recuerda que $BTC tuvo nueve correcciones de 17% a 50% durante el bull run 2020-2021 antes del techo final; dice que sigue creyendo que estamos en bull market y que 'las caídas son un regalo'. Adjunta un gráfico.",
+   "suggested_text": "Nine 17% to 50% corrections in one cycle is the stat people forget when a dip starts to feel like the end. The catch: those dips were only a gift for people holding spot. A 30% wick is a buying chance without leverage and a liquidation with it. $BTC",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 3,
+    "replies": 1
+   },
+   "followers_count": 135171,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T17:22:59+00:00",
+   "followers_checked_at": "2026-11-09T17:22:59+00:00",
+   "topic": "precio-btc"
+  },
+  {
+   "id": "2119838797328179699",
+   "author": "CryptoTheBossX",
+   "url": "https://x.com/CryptoTheBossX/status/2119838797328179699",
+   "created_at": "2026-11-09T17:05:28Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 14:05:28 America/Santiago",
+   "context": "The Boss publica una actualización macro de $BTC: el precio sigue dentro de una cuña ascendente en diario y testeó el borde superior de la 'bull market support band', con un rebote inmediato que defiende ese soporte. Dice que vigila la interacción entre las diagonales de resistencia y los pisos de soporte. Cita su análisis del 2-oct sobre divergencia bajista en RSI. Aclara que no es consejo financiero.",
+   "suggested_text": "Interesting tension in this chart: a rising wedge usually resolves down, while the support band bounce argues the other way. If the band fails on a weekly close, which matters more to you, the wedge target or the next horizontal floor? $BTC",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 23,
+    "replies": 12
+   },
+   "followers_count": 57166,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T17:22:59+00:00",
+   "followers_checked_at": "2026-11-09T17:22:59+00:00",
+   "topic": "precio-btc"
+  }
+ ]
+}
