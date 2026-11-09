@@ -1,0 +1,106 @@
+{
+ "searched_at": "2026-11-09T21:22:43+00:00",
+ "window_start": "2026-11-09T19:22:43+00:00",
+ "window_end": "2026-11-09T21:22:43+00:00",
+ "max_age_seconds": 7200,
+ "timezone": "America/Santiago",
+ "source_context": {},
+ "items": [
+  {
+   "id": "2119878089702555765",
+   "author": "thepowerfulHRV",
+   "url": "https://x.com/thepowerfulHRV/status/2119878089702555765",
+   "created_at": "2026-11-09T19:41:36Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 16:41:36 America/Santiago",
+   "context": "Mark Harvey publica un gráfico y dice que Bitcoin volvió a estar por DEBAJO de la banda inferior del power law; según él, las caídas previas bajo la banda coincidieron con shocks como el colapso de FTX y el crash del COVID, y esos periodos precedieron fuertes subidas de varios años. Cierra con «Do what you will with this information».",
+   "suggested_text": "Worth keeping in mind: dipping below the band says the model's fit is being tested, it isn't a timer for the next rally. A handful of past episodes is a small sample, not a guarantee. I broke down how the power law is built here if you want the mechanics: https://x.com/forecastquant/status/2118779927340470279",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 35,
+    "replies": 2
+   },
+   "followers_count": 23726,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T21:22:43+00:00",
+   "followers_checked_at": "2026-11-09T21:22:43+00:00",
+   "topic": "power-law"
+  },
+  {
+   "id": "2119896833971322958",
+   "author": "martypartymusic",
+   "url": "https://x.com/martypartymusic/status/2119896833971322958",
+   "created_at": "2026-11-09T20:56:05Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 17:56:05 America/Santiago",
+   "context": "MartyParty cita su propio gráfico semanal logarítmico de Bitcoin vs Amazon y dice que todos los activos acumulados pasan por la misma fase y que Bitcoin seguirá hasta 2030; llama a ser paciente, comprar spot en autocustodia en zonas de acumulación y esperar FUD y narrativas bajistas.",
+   "suggested_text": "The part that matters most is spot plus self-custody. With no leverage, nobody can shake you out with a margin call, so the only thing left to manage is your own patience. The Amazon comparison is a picture, not a promise, but the discipline holds either way.",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 42,
+    "replies": 6
+   },
+   "followers_count": 242699,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T21:22:43+00:00",
+   "followers_checked_at": "2026-11-09T21:22:43+00:00",
+   "topic": "precio-btc"
+  },
+  {
+   "id": "2119890650942361913",
+   "author": "CryptoA40672341",
+   "url": "https://x.com/CryptoA40672341/status/2119890650942361913",
+   "created_at": "2026-11-09T20:31:31Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 17:31:31 America/Santiago",
+   "context": "Crypto Analyst publica un gráfico y dice que $BTC está débil: las acciones subieron pero BTC no, «$btc knows something», y anticipa pronto 73.000 dólares.",
+   "suggested_text": "Stocks up while $BTC lags is worth watching, but on its own it doesn't tell you which way it breaks. If you hold spot with no leverage, a move to $73k is something you can sit through, not a liquidation.",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 13,
+    "replies": 1
+   },
+   "followers_count": 80867,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T21:22:43+00:00",
+   "followers_checked_at": "2026-11-09T21:22:43+00:00",
+   "topic": "precio-btc"
+  },
+  {
+   "id": "2119898065452634341",
+   "author": "johnmorganFL",
+   "url": "https://x.com/johnmorganFL/status/2119898065452634341",
+   "created_at": "2026-11-09T21:00:59Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 18:00:59 America/Santiago",
+   "context": "John Morgan informa que Mercado Bitcoin (Brasil) está restaurando la visibilidad de las cuentas: desde el 9 de noviembre los clientes pueden ver sus saldos por activo, pero los retiros y el trading siguen fuera de línea tras el incidente del 2 de noviembre.",
+   "suggested_text": "Seeing your balance isn't the same as being able to move it. That gap is exactly what self-custody closes. I wrote a step-by-step guide to building your own air-gapped setup without trusting an exchange or a hardware vendor, free on Kindle until Wednesday: https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 0,
+    "replies": 0
+   },
+   "followers_count": 33851,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T21:22:43+00:00",
+   "followers_checked_at": "2026-11-09T21:22:43+00:00",
+   "topic": "custodia"
+  }
+ ]
+}
