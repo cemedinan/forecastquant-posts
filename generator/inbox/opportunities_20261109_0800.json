@@ -1,0 +1,95 @@
+{
+  "searched_at": "2026-11-09T11:10:18.381938+00:00",
+  "window_start": "2026-11-09T09:10:18.381970+00:00",
+  "window_end": "2026-11-09T11:10:18.381938+00:00",
+  "max_age_seconds": 7200,
+  "timezone": "America/Santiago",
+  "source_context": {
+    "2118779927340470279": {
+      "url": "https://x.com/forecastquant/status/2118779927340470279",
+      "summary": "El autor presenta una curva atribuida a dacoinminster publicada el 13-feb-2013; afirma parámetros sin recalibrar. El post reconoce que correlación histórica no garantiza desempeño futuro. Atribución y ausencia de recalibración son afirmaciones del propio post, no verificadas aquí contra el original de Bitcointalk."
+    },
+    "2119169301949141264": {
+      "url": "https://x.com/forecastquant/status/2119169301949141264",
+      "summary": "Extrapolación condicional de la misma curva hasta 2050. Cruces indicados por el autor: $1M 19-dic-2035, $10M 6-sep-2049. Son resultados del modelo del post, no garantías ni objetivos verificados."
+    }
+  },
+  "items": [
+    {
+      "id": "2119731743507005569",
+      "author": "Web3Niels",
+      "url": "https://x.com/Web3Niels/status/2119731743507005569",
+      "created_at": "2026-11-09T10:00:05Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-09 07:00:05 America/Santiago",
+      "context": "Dice que $BTC no ha perdido su zona de demanda $73K-$75K; mientras se mantenga cree que estamos casi en el piso, y que la charla sobre un nuevo mínimo de ciclo suele aparecer cerca del piso, no del techo. 38 likes, 26 respuestas al revisar.",
+      "suggested_text": "Louder talk about new cycle lows is a fair sentiment read, but it isn't a level. What would invalidate the bottom call for you: a weekly close under $73K, or something else? $BTC",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {
+        "likes": 38,
+        "replies": 26
+      },
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2119731743507005569&text=Louder%20talk%20about%20new%20cycle%20lows%20is%20a%20fair%20sentiment%20read%2C%20but%20it%20isn%27t%20a%20level.%20What%20would%20invalidate%20the%20bottom%20call%20for%20you%3A%20a%20weekly%20close%20under%20%2473K%2C%20or%20something%20else%3F%20%24BTC",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2119731743507005569",
+      "followers_count": 64409,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-09T11:10:18.381938+00:00",
+      "followers_checked_at": "2026-11-09T11:10:18.381938+00:00"
+    },
+    {
+      "id": "2119747056893845576",
+      "author": "cdntradegrljenn",
+      "url": "https://x.com/cdntradegrljenn/status/2119747056893845576",
+      "created_at": "2026-11-09T11:00:56Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-09 08:00:56 America/Santiago",
+      "context": "Señala que $BTC cotiza cerca de $74.000 tras su quinto cierre semanal rojo consecutivo, en un soporte importante, y lo compara con la racha récord de nueve velas semanales rojas al inicio del último gran bear market, cuando BTC cayó más de 54% hacia $17.600.",
+      "suggested_text": "Five red weeks against the record nine is a useful yardstick, but a streak counts weeks, not depth. I'd watch whether this one keeps printing lower lows or starts to grind sideways. Which support matters most to you here? $BTC",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {
+        "likes": 1,
+        "replies": 0
+      },
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2119747056893845576&text=Five%20red%20weeks%20against%20the%20record%20nine%20is%20a%20useful%20yardstick%2C%20but%20a%20streak%20counts%20weeks%2C%20not%20depth.%20I%27d%20watch%20whether%20this%20one%20keeps%20printing%20lower%20lows%20or%20starts%20to%20grind%20sideways.%20Which%20support%20matters%20most%20to%20you%20here%3F%20%24BTC",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2119747056893845576",
+      "followers_count": 64834,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-09T11:10:18.381938+00:00",
+      "followers_checked_at": "2026-11-09T11:10:18.381938+00:00"
+    },
+    {
+      "id": "2119728649377333256",
+      "author": "fly_welinkBTC",
+      "url": "https://x.com/fly_welinkBTC/status/2119728649377333256",
+      "created_at": "2026-11-09T09:47:47Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-09 06:47:47 America/Santiago",
+      "context": "Análisis on-chain (Profit/Loss Ratio Momentum): tras ~11 meses de presión bajista, el impulso de pérdidas se debilita y el verde reaparece desde septiembre-noviembre 2026; el autor concluye que la fase de momentum negativo puede haber terminado, pero que no se confirma un bull market ni se descartan nuevos mínimos.",
+      "suggested_text": "Good distinction between bear momentum fading and a bull market starting. Loss momentum peaking early and then weakening is the useful part, and you're right it doesn't rule out new lows. What would count as confirmation for you: sustained green expansion, and over what timeframe? $BTC",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {
+        "likes": 2,
+        "replies": 1
+      },
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2119728649377333256&text=Good%20distinction%20between%20bear%20momentum%20fading%20and%20a%20bull%20market%20starting.%20Loss%20momentum%20peaking%20early%20and%20then%20weakening%20is%20the%20useful%20part%2C%20and%20you%27re%20right%20it%20doesn%27t%20rule%20out%20new%20lows.%20What%20would%20count%20as%20confirmation%20for%20you%3A%20sustained%20green%20expansion%2C%20and%20over%20what%20timeframe%3F%20%24BTC",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2119728649377333256",
+      "followers_count": 38350,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-09T11:10:18.381938+00:00",
+      "followers_checked_at": "2026-11-09T11:10:18.381938+00:00"
+    }
+  ],
+  "excluded_previous_candidates": []
+}
