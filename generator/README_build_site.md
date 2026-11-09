@@ -36,11 +36,46 @@ Leer /workspace/poster_data.json (Poster lo sobrescribe en cada actualizacion). 
 15. NUNCA OMITIR (2026-11-02): no existe sección "Omitidos". Hits fuera de show (poster_select), off_niche, ilegibles y ts hidden se muestran al final en "Ideas con menor potencial", marcados ⚠️, con 3 hooks e imagen.
 16. SIN "gráfico pendiente" (2026-11-02): toda tarjeta lleva imagen. Serie real pública si existe (p. ej. Farside: /workspace/charts/mk_1102b.py bars()), si no, tarjeta de cifras clave card() con datos del propio post; ambos temas, alternar.
 
-17. Conversaciones Power Law / precio BTC (2026-11-08): `powerlaw_conversations.py` junto a `build_site.py`. En cada actualización solo entran posts originales con `created_at` verificado y antigüedad ≤ 7200 segundos respecto del momento de la actualización, y `followers_count` entero verificado (`followers_count_verified: true`, con `followers_checked_at`) estrictamente mayor que 20000. La antigüedad sale de la creación del post, no de una cita ni de `searched_at`. Un conteo ausente, no verificado o ≤ 20000 no entra. Una marca de verificación no sustituye el número. La ventana no se amplía para completar cupos. Los que quedan fuera se archivan en `powerlaw_store.json` (`discarded` / `history`) sin el texto de la respuesta, y no se renderizan. La tarjeta muestra el conteo y la hora de la revisión. Dedup por id del post original. `build_site.py` revalida e inyecta la sección al reconstruir `index.html`. Cuatro pasadas al día, sin borrar el resto de tarjetas:
+17. Conversaciones de interés (2026-11-09): página aparte en `conversaciones/index.html` → https://cemedinan.github.io/forecastquant-posts/conversaciones/ . `index.html` solo muestra el botón «Abrir conversaciones» (marcadores `powerlaw-conversations`). El resto de tarjetas de la principal no se toca. La página de conversaciones enlaza de vuelta a `../index.html`.
+
+Reglas que no cambian: solo posts originales con `created_at` verificado y antigüedad ≤ 7200 segundos respecto del momento de la actualización, y `followers_count` entero verificado (`followers_count_verified: true`, con `followers_checked_at`) estrictamente mayor que 20000. La antigüedad sale de la creación del post, no de una cita ni de `searched_at`. Un conteo ausente, no verificado o ≤ 20000 no entra. Una marca de verificación no sustituye el número. La ventana no se amplía para completar cupos. Los que quedan fuera se archivan en `powerlaw_store.json` (`discarded` / `history`) sin el texto de la respuesta, y no se renderizan. Dedup por id del post original. Nada se publica solo: no hay llamada a la API de X.
+
+Cada tarjeta: tema, autor, enlace al post original, hora Chile, contexto, respuesta en el idioma del post (editable y copiable). «Responder con sugerencia» es `https://x.com/intent/post?in_reply_to=ID&text=...`. «Responder en blanco» es el mismo id sin parámetro `text`. Si no queda nadie dentro de la ventana, la página lo dice y no rellena con cuentas chicas. Un modelo no es una garantía.
+
+`build_site.py` sigue llamando a `inject_into_page(..., repo_dir=repo)`. Eso reescribe el enlace en `index.html` y vuelve a generar `conversaciones/index.html` en el mismo repo. No borra la carpeta `conversaciones/`.
+
+Cuatro pasadas al día, desde la raíz del repo. `--index` sigue siendo la página principal; la de conversaciones se escribe al lado, en `conversaciones/index.html` (o en `--page`, si hace falta otra ruta).
 
 ```
-python3 update_powerlaw.py /ruta/opportunities.json /ruta/repo/index.html
-python3 update_powerlaw.py --revalidate /ruta/repo/index.html
+python3 generator/update_powerlaw.py --revalidate --index index.html
+python3 generator/update_powerlaw.py generator/inbox/opportunities_YYYYMMDD.json --index index.html
 ```
 
-Cada tarjeta: autor, enlace al post original, hora Chile, contexto, respuesta editable y copiable. "Responder con sugerencia" es `https://x.com/intent/post?in_reply_to=ID&text=...`. "Responder en blanco" es el mismo id sin parámetro `text`. Nada se publica solo. Un modelo no es una garantía. El enlace a un post propio queda solo si ya viene dentro del texto sugerido.
+La segunda forma ya revalida la ventana; `--revalidate` solo hace falta cuando no hay lote nuevo. Sigue valiendo el orden viejo de dos posicionales: `python3 generator/update_powerlaw.py <lote.json> <index.html>`.
+
+### Agregar un tema
+
+Editar `generator/conversation_topics.json`. Es una lista. Cada objeto tiene:
+
+- `id`: minúsculas, números y guiones (`etf`, `mineros`). Es el `data-topic` de la tarjeta y no se cambia después: las tarjetas ya guardadas lo usan.
+- `label`: texto del filtro y del encabezado, en español.
+- `keywords`: lista de frases. Si el lote no trae `topic`, gana la primera frase que aparezca (sin importar mayúsculas) en `context` o en `suggested_text`. Los temas más específicos van primero.
+- `default`: exactamente uno en `true`. Es el tema si ninguna palabra clave calza y el lote no trae un id conocido.
+
+Ejemplo para sumar mineros, sin tocar Python:
+
+```json
+{
+  "id": "mineros",
+  "label": "Mineros",
+  "keywords": ["hashrate", "miner"]
+}
+```
+
+En el JSON del lote, se puede fijar el tema y saltear las palabras clave:
+
+```json
+"topic": "mineros"
+```
+
+Un `topic` que no esté en la lista no crea una sección: la tarjeta cae en las palabras clave o en el tema default. Al correr `update_powerlaw.py`, el filtro y las secciones salen solos de esa lista. Hoy la lista es `power-law` (Power law de Bitcoin) y `precio-btc` (Debate del precio de BTC, default).

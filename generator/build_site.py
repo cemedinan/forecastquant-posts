@@ -204,11 +204,12 @@ page=f"""<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="
 <div id="dl"><ul id="dll"></ul><button onclick="resAll()">Restaurar todas</button> <button onclick="cpd()">Copiar lista de descartadas</button> <button onclick="psd()">Pegar lista</button></div>
 <div id="toast">Tarjeta descartada · <a onclick="undo()">Deshacer</a></div>
 <main>{''.join(out)}</main><script>{js}</script></body></html>"""
-# Conversaciones Power Law / precio BTC. Ventana fija de 7200s sobre created_at
-# del post original. Sync: powerlaw_conversations.py junto a este archivo.
-# No publica nada en X; solo inyecta la sección ya filtrada.
+# Conversaciones de interés. Ventana fija de 7200s sobre created_at del post
+# original. La página completa queda en <repo>/conversaciones/index.html;
+# index.html solo recibe el enlace. Un rebuild no borra esa página.
+# No publica nada en X. Sync: powerlaw_conversations.py junto a este archivo.
 import powerlaw_conversations as _pl
-page=_pl.inject_into_page(page, ST)
+page=_pl.inject_into_page(page, ST, repo_dir=repo)
 open(os.path.join(repo,'index.html'),'w').write(page)
 pp=f'{ST}/poster_processed.json';old=json.load(open(pp)) if os.path.exists(pp) else []
 json.dump(sorted(set(old)|set(processed)),open(pp,'w'),indent=1)
