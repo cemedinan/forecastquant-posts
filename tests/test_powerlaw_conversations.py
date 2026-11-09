@@ -541,6 +541,47 @@ class ConversationsPageTests(unittest.TestCase):
         self.assertIn("Volver a recomendaciones", again)
         self.assertGreater(len(again), 500)
 
+    def test_refresh_button_survives_regeneration(self):
+        pl.refresh(self.store_dir, VALIDATION, load_batch(), self.index)
+        page_path = conversations_file(self.index)
+        page = open(page_path, encoding="utf-8").read()
+        self._assert_refresh_button(page)
+        fresh = (
+            "<!DOCTYPE html><html><body><main>"
+            '<article class="card" data-id="meme-1"></article>'
+            '</main><span id="cnt">1</span> de 1 tarjetas visibles</body></html>'
+        )
+        updated = pl.inject_into_page(fresh, self.store_dir, VALIDATION, persist=False, repo_dir=self.repo)
+        self.assertNotIn('id="pl-refresh"', updated)
+        self.assertNotIn("🔄 Actualizar", updated)
+        self.assertNotIn("pl-card", updated)
+        self.assertEqual(article_ids(updated), ["meme-1"])
+        again = open(page_path, encoding="utf-8").read()
+        self._assert_refresh_button(again)
+        later = VALIDATION + timedelta(hours=4)
+        pl.write_conversations_page(page_path, self.store_dir, later, persist=True)
+        empty = open(page_path, encoding="utf-8").read()
+        self._assert_refresh_button(empty)
+        self.assertNotIn('class="card pl-card"', empty)
+        self.assertIn("Evaluado:", empty)
+        rendered = pl.render_conversations_page([], later)
+        self._assert_refresh_button(rendered)
+
+    def _assert_refresh_button(self, page):
+        top = page[page.find('<div class="top">') : page.find("<header>")]
+        self.assertIn('id="pl-refresh"', top)
+        self.assertIn("🔄 Actualizar", top)
+        self.assertIn('onclick="plRefresh(this)"', top)
+        self.assertLess(top.find('id="pl-refresh"'), top.find('class="home"'))
+        self.assertIn("Evaluado:", top)
+        chips = re.search(r'<div class="chips" id="pl-topics">.*?</div>', page)
+        self.assertIsNotNone(chips)
+        self.assertNotIn("Actualizar", chips.group(0))
+        self.assertIn("function plRefresh", page)
+        self.assertIn('"?t="+Date.now()', page)
+        self.assertIn("&tema=", page)
+        self.assertIn('.get("tema")', page)
+
     def test_expired_rebuild_leaves_an_honest_page(self):
         pl.refresh(self.store_dir, VALIDATION, load_batch(), self.index)
         page_path = conversations_file(self.index)
