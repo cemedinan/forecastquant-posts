@@ -1,0 +1,106 @@
+{
+ "searched_at": "2026-11-09T19:22:54+00:00",
+ "window_start": "2026-11-09T17:22:54+00:00",
+ "window_end": "2026-11-09T19:22:54+00:00",
+ "max_age_seconds": 7200,
+ "timezone": "America/Santiago",
+ "source_context": {},
+ "items": [
+  {
+   "id": "2119855035781882352",
+   "author": "Coinvo",
+   "url": "https://x.com/Coinvo/status/2119855035781882352",
+   "created_at": "2026-11-09T18:10:00Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 15:10:00 America/Santiago",
+   "context": "Coinvo comparte un video y dice que Adam Back advierte que Wall Street está entrando en la custodia de Bitcoin; según el post, los críticos dicen que esto mata la autocustodia y centraliza el control, una amenaza directa de los bancos a la promesa original de Bitcoin.",
+   "suggested_text": "Wall Street holding coins isn't the threat by itself. The threat is people forgetting they can opt out. Self-custody doesn't have to mean trusting an exchange or a hardware vendor either. I wrote a step-by-step guide to building your own air-gapped setup, free on Kindle until Wednesday: https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 54,
+    "replies": 8
+   },
+   "followers_count": 335890,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T19:22:54+00:00",
+   "followers_checked_at": "2026-11-09T19:22:54+00:00",
+   "topic": "custodia"
+  },
+  {
+   "id": "2119854115677237360",
+   "author": "pepetoshi",
+   "url": "https://x.com/pepetoshi/status/2119854115677237360",
+   "created_at": "2026-11-09T18:06:20Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 15:06:20 America/Santiago",
+   "context": "Pepetoshi comenta que, según BlackRock, grandes holders están cambiando bitcoin en autocustodia por su ETF, con más de 5.000 millones de dólares en conversiones in-kind, sobre todo por preocupaciones de seguridad; ironiza que mucha gente solo quería que otro se preocupara de las llaves.",
+   "suggested_text": "That's the honest version of the trade-off. The ETF doesn't remove the key risk, it moves it to someone you can't audit. Holding your own keys gets a lot less scary once you understand each step instead of trusting a device or an app blindly.",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 5,
+    "replies": 2
+   },
+   "followers_count": 74130,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T19:22:54+00:00",
+   "followers_checked_at": "2026-11-09T19:22:54+00:00",
+   "topic": "custodia"
+  },
+  {
+   "id": "2119858019953422583",
+   "author": "SatoshiDropsHQ",
+   "url": "https://x.com/SatoshiDropsHQ/status/2119858019953422583",
+   "created_at": "2026-11-09T18:21:51Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 15:21:51 America/Santiago",
+   "context": "Satoshi Drops dice que 3.600 millones de dólares en $BTC se cambiaron in-kind al IBIT de BlackRock, mayormente por seguridad, y pregunta a sus seguidores: ¿autocustodia o ETF?",
+   "suggested_text": "Self-custody. I get why people pick the ETF, the fear is real and bad setups are real. The fix is learning to do it properly, offline, without depending on an exchange or a device maker. I put the whole process in a guide: https://x.com/forecastquant/status/2119476332635586800",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 0,
+    "replies": 0
+   },
+   "followers_count": 75000,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T19:22:54+00:00",
+   "followers_checked_at": "2026-11-09T19:22:54+00:00",
+   "topic": "custodia"
+  },
+  {
+   "id": "2119869177666101385",
+   "author": "TheMoonHailey",
+   "url": "https://x.com/TheMoonHailey/status/2119869177666101385",
+   "created_at": "2026-11-09T19:06:11Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 16:06:11 America/Santiago",
+   "context": "Hailey dice que ya había advertido que 87K era la última trampa alcista y que $BTC volvería a 75K–73K; su plan: 75K → 70K (piso) → 80K → 87K → 100K, y pide guardar el post para revisarlo en unos meses.",
+   "suggested_text": "$75K to $70K to $100K is a clean roadmap, but the path is the part nobody controls. If that $70K bottom comes, it's a buying chance for spot holders and a liquidation for anyone leveraged long on the way down. Same call, very different outcome depending on how you hold $BTC.",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 0,
+    "replies": 0
+   },
+   "followers_count": 95946,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T19:22:54+00:00",
+   "followers_checked_at": "2026-11-09T19:22:54+00:00",
+   "topic": "precio-btc"
+  }
+ ]
+}
