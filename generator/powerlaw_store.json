@@ -45,7 +45,7 @@
       "source": "excluded_previous_candidates"
     }
   },
-  "evaluated_at": "2026-11-09T23:22:34.522982+00:00",
+  "evaluated_at": "2026-11-09T23:58:59.101132+00:00",
   "history": {
     "2119535615637324097": {
       "archived_at": "2026-11-08T23:11:51.128973+00:00",
@@ -626,44 +626,29 @@
         "window_seconds": 7200
       },
       "url": "https://x.com/johnmorganFL/status/2119898065452634341"
-    }
-  },
-  "items": {
+    },
     "2119905908364849340": {
+      "archived_at": "2026-11-09T23:58:59.101132+00:00",
       "author": "SimplyBitcoin",
-      "context": "Simply Bitcoin dice que cambiar Bitcoin en autocustodia por un ETF es «la definición de cambiar tu libertad por comodidad».",
       "created_at": "2026-11-09T21:32:09Z",
-      "created_at_chile": "2026-11-09 18:32:09 America/Santiago",
-      "created_at_verified": true,
-      "cta": "",
-      "exclude_reason": "",
-      "first_seen_at": "2026-11-09T23:22:34.522982+00:00",
+      "exclude_reason": "older_than_7200s",
       "followers_checked_at": "2026-11-09T23:23:00+00:00",
       "followers_count": 162998,
-      "followers_count_verified": true,
-      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
       "id": "2119905908364849340",
-      "language": "en",
-      "last_seen_at": "2026-11-09T23:22:34.522982+00:00",
       "qualification": {
-        "age_seconds": 6625.523,
-        "exclude_reason": "",
+        "age_seconds": 8810.101,
+        "exclude_reason": "older_than_7200s",
         "followers_checked_at": "2026-11-09T23:23:00+00:00",
         "followers_count": 162998,
         "followers_count_verified": true,
         "min_followers_exclusive": 20000,
-        "qualified": true,
+        "qualified": false,
         "window_seconds": 7200
       },
-      "qualified": true,
-      "reply_blank": "https://x.com/intent/post?in_reply_to=2119905908364849340",
-      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2119905908364849340&text=And%20the%20convenience%20gap%20is%20smaller%20than%20it%20looks.%20A%20basic%20self-custody%20setup%20takes%20an%20afternoon%20to%20learn%3B%20an%20ETF%20share%20is%20a%20claim%20you%20can%27t%20move%2C%20spend%20or%20verify%20yourself.%20I%20wrote%20a%20book%20on%20building%20your%20own%20air-gapped%20setup%20without%20exchanges%20or%20hardware%20vendors%2C%20free%20on%20Kindle%20until%20Wednesday%3A%20https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0HQ5NS31N%3FdplnkId%3Dc09ef739-11f3-4c76-8c62-92ce160a3341%26nodl%3D1",
-      "source_post_id": null,
-      "suggested_text": "And the convenience gap is smaller than it looks. A basic self-custody setup takes an afternoon to learn; an ETF share is a claim you can't move, spend or verify yourself. I wrote a book on building your own air-gapped setup without exchanges or hardware vendors, free on Kindle until Wednesday: https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
-      "timestamp_source": "x.get_posts_by_ids",
-      "topic": "custodia",
       "url": "https://x.com/SimplyBitcoin/status/2119905908364849340"
-    },
+    }
+  },
+  "items": {
     "2119921081587048677": {
       "author": "Diditaihuttu",
       "context": "Didi Taihuttu recuerda que en 2017 vendió todo, entró all-in en Bitcoin y se lo tatuó en el brazo; dice que sigue sin cuenta bancaria ni planes de tenerla y cierra con «Not your keys, not your coins».",
@@ -681,7 +666,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T23:22:34.522982+00:00",
       "qualification": {
-        "age_seconds": 3008.523,
+        "age_seconds": 5193.101,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T23:23:00+00:00",
         "followers_count": 87955,
@@ -716,7 +701,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T23:22:34.522982+00:00",
       "qualification": {
-        "age_seconds": 1505.523,
+        "age_seconds": 3690.101,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T23:23:00+00:00",
         "followers_count": 215153,
@@ -751,7 +736,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T23:22:34.522982+00:00",
       "qualification": {
-        "age_seconds": 388.523,
+        "age_seconds": 2573.101,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T23:23:00+00:00",
         "followers_count": 40810,
@@ -786,7 +771,7 @@
       "language": "es",
       "last_seen_at": "2026-11-09T23:22:34.522982+00:00",
       "qualification": {
-        "age_seconds": 386.523,
+        "age_seconds": 2571.101,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T23:23:00+00:00",
         "followers_count": 35877,
