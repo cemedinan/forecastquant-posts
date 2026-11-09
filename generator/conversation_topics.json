@@ -1,0 +1,13 @@
+[
+  {
+    "id": "power-law",
+    "label": "Power law de Bitcoin",
+    "keywords": ["power law", "power-law", "ley de potencia", "dacoinminster"]
+  },
+  {
+    "id": "precio-btc",
+    "label": "Debate del precio de BTC",
+    "keywords": [],
+    "default": true
+  }
+]

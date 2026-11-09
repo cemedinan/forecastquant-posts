@@ -81,6 +81,25 @@ def normalize_outside(page):
     )
 
 
+def conversations_file(index_path):
+    return pl.conversations_path_for(index_path)
+
+
+def meme_total(page=None):
+    """Tarjetas de la página principal, sin la sección de conversaciones."""
+    if page is None:
+        with open(INDEX_PATH, encoding="utf-8") as handle:
+            page = handle.read()
+    return len(article_ids(pl.strip_section(page)))
+
+
+def counter(page):
+    match = re.search(r'<span id="cnt">(\d+)</span> de (\d+) tarjetas visibles', page)
+    if not match:
+        raise AssertionError("no se encontró el contador de tarjetas")
+    return int(match.group(1)), int(match.group(2))
+
+
 class FreshnessTests(unittest.TestCase):
     def test_validation_instant_keeps_only_david(self):
         store = pl.empty_store()
@@ -290,13 +309,18 @@ class PageTests(unittest.TestCase):
         self.assertEqual([item for item in out_ids if not item.startswith("pl-")], base_ids)
         old_sections = re.findall(r'<h2 class="sec">([^<]*)</h2>', pl.strip_section(original))
         new_sections = re.findall(r'<h2 class="sec">([^<]*)</h2>', updated)
-        self.assertEqual(new_sections[0], pl.SECTION_TITLE)
-        self.assertEqual(new_sections[1:], old_sections)
+        self.assertEqual(new_sections, old_sections)
+        self.assertNotIn('class="card pl-card"', updated)
+        self.assertIn('id="pl-conversations-link"', updated)
+        self.assertIn('href="conversaciones/"', updated)
+        self.assertIn("Abrir conversaciones", updated)
+        self.assertEqual(counter(updated), (meme_total(original), meme_total(original)))
         again = pl.inject_into_page(updated, self.store_dir, VALIDATION, persist=False)
         self.assertEqual(again, updated)
 
     def test_rendered_cards_use_both_validated_intents(self):
-        page = self._apply(VALIDATION)
+        index = self._apply(VALIDATION)
+        page = open(conversations_file(self.index), encoding="utf-8").read()
         batch = {item["id"]: item for item in load_batch()["items"]}
         cards = re.findall(r'<article class="card pl-card".*?</article>', page)
         self.assertEqual(len(cards), 1)
@@ -314,28 +338,38 @@ class PageTests(unittest.TestCase):
         self.assertIn("revisado 08-11-2026 19:11:54 hora Chile", card)
         self.assertIn("vence 08-11-2026 20:00:44 hora Chile", card)
         self.assertIn('data-followers-count="26377"', card)
+        self.assertIn('data-topic="power-law"', card)
+        self.assertIn("Power law de Bitcoin", card)
         self.assertIn("Responder con sugerencia", card)
         self.assertIn("Responder en blanco", card)
         self.assertNotIn("forecastquant", card)
         self.assertNotIn("btcnewsalerts", page)
+        self.assertNotIn("btcnewsalerts", index)
         for status_id in DISCARDED_IDS:
             self.assertNotIn(status_id, page)
+            self.assertNotIn(status_id, index)
         self.assertIn("Un modelo no es una garantía.", page)
         self.assertIn("7200 segundos", page)
         self.assertIn("mayor que 20.000", page)
-        self.assertIn('<span id="cnt">130</span> de 130 tarjetas visibles', page)
+        self.assertNotIn('class="card pl-card"', index)
+        self.assertEqual(counter(index), (meme_total(), meme_total()))
+        self.assertEqual(len(article_ids(index)), meme_total())
 
     def test_empty_state_when_nothing_is_inside_the_window(self):
-        page = self._apply(VALIDATION + timedelta(hours=4))
+        index = self._apply(VALIDATION + timedelta(hours=4))
+        page = open(conversations_file(self.index), encoding="utf-8").read()
         self.assertNotIn('class="card pl-card"', page)
+        self.assertNotIn('class="card pl-card"', index)
         self.assertIn("Sin posts originales dentro de los últimos 7200 segundos con un conteo de seguidores verificado mayor que 20.000", page)
         self.assertNotIn("Responder con sugerencia", page)
         for raw in load_batch()["items"]:
             self.assertNotIn(raw["suggested_text"], page)
             self.assertNotIn(raw["id"], page)
-        self.assertIn('<span id="cnt">129</span> de 129 tarjetas visibles', page)
         original = open(INDEX_PATH, encoding="utf-8").read()
-        self.assertEqual(len(article_ids(page)), len(article_ids(pl.strip_section(original))))
+        base = meme_total(original)
+        self.assertEqual(counter(index), (base, base))
+        self.assertNotEqual(base, 0)
+        self.assertEqual(len(article_ids(index)), len(article_ids(pl.strip_section(original))))
 
     def test_cli_revalidates_at_the_given_update_time(self):
         script = os.path.join(ROOT, "generator", "update_powerlaw.py")
@@ -354,8 +388,11 @@ class PageTests(unittest.TestCase):
             cwd=ROOT,
         )
         page = open(self.index, encoding="utf-8").read()
-        self.assertEqual(article_ids(page).count("pl-2119535615637324097"), 1)
-        self.assertEqual(article_ids(page).count("pl-2119547966536962235"), 0)
+        conv = open(conversations_file(self.index), encoding="utf-8").read()
+        self.assertNotIn("pl-2119535615637324097", page)
+        self.assertIn('href="conversaciones/"', page)
+        self.assertEqual(article_ids(conv).count("pl-2119535615637324097"), 1)
+        self.assertEqual(article_ids(conv).count("pl-2119547966536962235"), 0)
         subprocess.check_call(
             [
                 sys.executable,
@@ -371,12 +408,17 @@ class PageTests(unittest.TestCase):
             cwd=ROOT,
         )
         later = open(self.index, encoding="utf-8").read()
+        later_conv = open(conversations_file(self.index), encoding="utf-8").read()
         self.assertNotIn('class="card pl-card"', later)
+        self.assertNotIn('class="card pl-card"', later_conv)
+        self.assertIn('href="conversaciones/"', later)
+        self.assertIn("Sin posts originales dentro de los últimos 7200 segundos", later_conv)
         store = json.load(open(os.path.join(self.store_dir, "powerlaw_store.json"), encoding="utf-8"))
         self.assertEqual(store["items"], {})
         self.assertEqual(store["window_seconds"], 7200)
         self.assertEqual(store["min_followers_exclusive"], 20000)
         self.assertEqual(store["discarded"]["2119547966536962235"]["followers_count"], 9348)
+        self.assertEqual(store["last_batch_searched_at"], "2026-11-08T22:11:54.271118+00:00")
         self.assertNotIn("suggested_text", json.dumps(store))
 
 
@@ -395,6 +437,125 @@ class GeneratorContractTests(unittest.TestCase):
         build = open(os.path.join(ROOT, "generator", "build_site.py"), encoding="utf-8").read()
         self.assertIn("powerlaw_conversations", build)
         self.assertIn("inject_into_page", build)
+        self.assertIn("repo_dir=repo", build)
+        self.assertIn("CONVERSATIONS_DIR", module)
+        self.assertIn('os.path.join(repo_dir, CONVERSATIONS_DIR, PAGE_NAME)', module)
+
+
+class TopicTests(unittest.TestCase):
+    def test_configured_topics_are_power_law_and_price(self):
+        topics = pl.load_topics()
+        self.assertEqual([topic["id"] for topic in topics], ["power-law", "precio-btc"])
+        self.assertEqual([topic["label"] for topic in topics], ["Power law de Bitcoin", "Debate del precio de BTC"])
+        self.assertEqual([topic["id"] for topic in topics if topic["default"]], ["precio-btc"])
+
+    def test_keywords_and_explicit_topic_assign_the_card(self):
+        now = VALIDATION
+        power = make_item(now - timedelta(seconds=30))
+        power["context"] = "Compara el ajuste con Power Law y una media de precios."
+        price = make_item(now - timedelta(seconds=40))
+        override = make_item(now - timedelta(seconds=50))
+        override["context"] = "Habla de la power law, pero el lote lo marca como precio."
+        override["topic"] = "precio-btc"
+        unknown = make_item(now - timedelta(seconds=60))
+        unknown["topic"] = "tema-que-no-existe"
+        store = pl.empty_store()
+        pl.merge_batch(store, {"items": [power, price, override, unknown]}, now)
+        self.assertEqual(store["items"][power["id"]]["topic"], "power-law")
+        self.assertEqual(store["items"][price["id"]]["topic"], "precio-btc")
+        self.assertEqual(store["items"][override["id"]]["topic"], "precio-btc")
+        self.assertEqual(store["items"][unknown["id"]]["topic"], "precio-btc")
+
+    def test_new_topic_in_the_list_gets_a_filter_and_a_section(self):
+        topics = pl.load_topics() + [{
+            "id": "mineros",
+            "label": "Mineros",
+            "keywords": ["hashrate"],
+            "default": False,
+        }]
+        now = VALIDATION
+        item = make_item(now - timedelta(seconds=25))
+        item["topic"] = "mineros"
+        item["context"] = "El hashrate marcó un máximo."
+        store = pl.empty_store()
+        pl.merge_batch(store, {"items": [item]}, now, topics=topics)
+        self.assertEqual(store["items"][item["id"]]["topic"], "mineros")
+        page = pl.render_conversations_page(pl.qualified_items(store, now), now, topics=topics)
+        self.assertIn('data-topic="mineros"', page)
+        self.assertIn('data-topic-heading="mineros"', page)
+        self.assertIn(">Mineros</button>", page)
+        self.assertIn(">Power law de Bitcoin</button>", page)
+        self.assertIn(">Debate del precio de BTC</button>", page)
+        self.assertIn(">Todos</button>", page)
+        self.assertIn('href="../index.html"', page)
+
+    def test_topics_file_rejects_two_defaults(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = os.path.join(tmp, "topics.json")
+            with open(path, "w", encoding="utf-8") as handle:
+                json.dump(
+                    [
+                        {"id": "a", "label": "A", "default": True},
+                        {"id": "b", "label": "B", "default": True},
+                    ],
+                    handle,
+                )
+            with self.assertRaises(ValueError):
+                pl.load_topics(path)
+
+
+class ConversationsPageTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.store_dir = os.path.join(self.tmp.name, "store")
+        os.makedirs(self.store_dir)
+        self.repo = os.path.join(self.tmp.name, "repo")
+        os.makedirs(self.repo)
+        self.index = os.path.join(self.repo, "index.html")
+        shutil.copy(INDEX_PATH, self.index)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def test_rebuild_refreshes_the_page_and_keeps_the_link(self):
+        pl.refresh(self.store_dir, VALIDATION, load_batch(), self.index)
+        page_path = conversations_file(self.index)
+        first = open(page_path, encoding="utf-8").read()
+        self.assertIn("david_eng_mba", first)
+        self.assertIn('data-topic="power-law"', first)
+        self.assertIn("Debate del precio de BTC", first)
+        fresh = (
+            "<!DOCTYPE html><html><body><main>"
+            '<article class="card" data-id="meme-1"></article>'
+            '</main><span id="cnt">1</span> de 1 tarjetas visibles</body></html>'
+        )
+        updated = pl.inject_into_page(fresh, self.store_dir, VALIDATION, persist=False, repo_dir=self.repo)
+        self.assertIn('href="conversaciones/"', updated)
+        self.assertNotIn("pl-card", updated)
+        self.assertNotIn("david_eng_mba", updated)
+        again = open(page_path, encoding="utf-8").read()
+        self.assertTrue(os.path.isfile(page_path))
+        self.assertIn("<title>Conversaciones de interés</title>", again)
+        self.assertIn("david_eng_mba", again)
+        self.assertIn('href="../index.html"', again)
+        self.assertIn("Volver a recomendaciones", again)
+        self.assertGreater(len(again), 500)
+
+    def test_expired_rebuild_leaves_an_honest_page(self):
+        pl.refresh(self.store_dir, VALIDATION, load_batch(), self.index)
+        page_path = conversations_file(self.index)
+        fresh = (
+            "<!DOCTYPE html><html><body><main></main>"
+            '<span id="cnt">0</span> de 0 tarjetas visibles</body></html>'
+        )
+        later = VALIDATION + timedelta(hours=4)
+        updated = pl.inject_into_page(fresh, self.store_dir, later, persist=True, repo_dir=self.repo)
+        self.assertIn('href="conversaciones/"', updated)
+        page = open(page_path, encoding="utf-8").read()
+        self.assertTrue(page.startswith("<!DOCTYPE html>"))
+        self.assertIn("Sin posts originales dentro de los últimos 7200 segundos", page)
+        self.assertNotIn('class="card pl-card"', page)
+        self.assertNotIn("create_posts", page)
 
 
 if __name__ == "__main__":

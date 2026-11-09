@@ -261,6 +261,7 @@
       "source_post_id": null,
       "suggested_text": "The SPX divergence point is interesting, but correcting together can also mean BTC keeps trading as a risk asset for longer. Your own confirmation, both holding their lows and recovering, is the part I'd wait for before calling it final. What level breaks the thesis for you? $BTC",
       "timestamp_source": "x.get_posts_by_ids",
+      "topic": "precio-btc",
       "url": "https://x.com/theionicXBT/status/2119765339257143459"
     },
     "2119773421122765264": {
@@ -295,6 +296,7 @@
       "source_post_id": null,
       "suggested_text": "El paralelo con 2022 es bueno, pero un mínimo más alto se confirma después, no durante el testeo. Por eso en estas zonas de \"última esperanza\" prefiero estar en spot y sin apalancamiento. ¿Qué cierre semanal lo invalidaría para ti? $BTC",
       "timestamp_source": "x.get_posts_by_ids",
+      "topic": "precio-btc",
       "url": "https://x.com/cryptokakarot/status/2119773421122765264"
     },
     "2119773945151074637": {
@@ -329,6 +331,7 @@
       "source_post_id": "2118779927340470279",
       "suggested_text": "Same psychology maybe, but not the same multiples. In power-law terms, cycle peaks have tended to land closer to the long-run trend each time, so I'd read history as a range, not a repeat. The curve I use: https://x.com/forecastquant/status/2118779927340470279 $BTC",
       "timestamp_source": "x.get_posts_by_ids",
+      "topic": "power-law",
       "url": "https://x.com/WhaleTwits/status/2119773945151074637"
     },
     "2119776158174609837": {
@@ -363,6 +366,7 @@
       "source_post_id": null,
       "suggested_text": "Prior cycles not making new lows after this kind of break is a useful contrast, but it's a handful of cases, not a rule. With $1B+ in longs flushed, I'd watch whether spot demand holds the level without leverage doing the lifting. $BTC",
       "timestamp_source": "x.get_posts_by_ids",
+      "topic": "precio-btc",
       "url": "https://x.com/TheBlockCo/status/2119776158174609837"
     },
     "2119776599046230238": {
@@ -397,6 +401,7 @@
       "source_post_id": null,
       "suggested_text": "A clear $73K invalidation is more than most people give. The part I'd change is the leverage: a long held to a new ATH can get stopped by one wick before the thesis is even wrong. Spot lets you be early without getting liquidated. $BTC",
       "timestamp_source": "x.get_posts_by_ids",
+      "topic": "precio-btc",
       "url": "https://x.com/Wealthmanager/status/2119776599046230238"
     },
     "2119777959078690818": {
@@ -431,6 +436,7 @@
       "source_post_id": null,
       "suggested_text": "Pricing $BTC in gold instead of dollars strips out a lot of noise, so I like the frame. One backtest holding is a good sign, not a confirmation: I'd want a weekly close above the band before calling the run just getting started. What timeframe are you using for it?",
       "timestamp_source": "x.get_posts_by_ids",
+      "topic": "precio-btc",
       "url": "https://x.com/GreatMattsby/status/2119777959078690818"
     },
     "2119778075130880072": {
@@ -465,6 +471,7 @@
       "source_post_id": null,
       "suggested_text": "The part I'd underline is your own caveat: in 2023 the 200DMA was bought from above the breakdown, this time price sits below the May highs. Same level, different structure. Building exposure in spot, no leverage, is what lets you sit through either the 6-month or the 12-month version. $BTC",
       "timestamp_source": "x.get_posts_by_ids",
+      "topic": "precio-btc",
       "url": "https://x.com/alpha_pls/status/2119778075130880072"
     },
     "2119789681139151248": {
@@ -499,6 +506,7 @@
       "source_post_id": null,
       "suggested_text": "Steady buying absorbs supply, but it doesn't set the price on its own: sellers on the other side still do. The flip side of \"one fewer for everyone else\" is concentration. The more one balance sheet holds, the more its funding becomes the risk everyone has to watch. $BTC",
       "timestamp_source": "x.get_posts_by_ids",
+      "topic": "precio-btc",
       "url": "https://x.com/ZynxBTC/status/2119789681139151248"
     },
     "2119790211169243336": {
@@ -533,6 +541,7 @@
       "source_post_id": null,
       "suggested_text": "Buen resumen. Lo que más me llama la atención es el contraste: más de 1.200M netos fuera de los ETF spot y aun así el rango no está roto. Si los ETF son el motor, como dices, ¿cuánta salida más crees que aguanta antes de perder los 73,5K? $BTC",
       "timestamp_source": "x.get_posts_by_ids",
+      "topic": "precio-btc",
       "url": "https://x.com/ORamosBets/status/2119790211169243336"
     }
   },
