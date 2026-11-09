@@ -1,0 +1,130 @@
+{
+ "searched_at": "2026-11-09T23:23:00+00:00",
+ "window_start": "2026-11-09T21:23:00+00:00",
+ "window_end": "2026-11-09T23:23:00+00:00",
+ "max_age_seconds": 7200,
+ "timezone": "America/Santiago",
+ "source_context": {},
+ "items": [
+  {
+   "id": "2119905908364849340",
+   "author": "SimplyBitcoin",
+   "url": "https://x.com/SimplyBitcoin/status/2119905908364849340",
+   "created_at": "2026-11-09T21:32:09Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 18:32:09 America/Santiago",
+   "context": "Simply Bitcoin dice que cambiar Bitcoin en autocustodia por un ETF es «la definición de cambiar tu libertad por comodidad».",
+   "suggested_text": "And the convenience gap is smaller than it looks. A basic self-custody setup takes an afternoon to learn; an ETF share is a claim you can't move, spend or verify yourself. I wrote a book on building your own air-gapped setup without exchanges or hardware vendors, free on Kindle until Wednesday: https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 33,
+    "replies": 3
+   },
+   "followers_count": 162998,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T23:23:00+00:00",
+   "followers_checked_at": "2026-11-09T23:23:00+00:00",
+   "topic": "custodia"
+  },
+  {
+   "id": "2119932079618331045",
+   "author": "BtcAndres",
+   "url": "https://x.com/BtcAndres/status/2119932079618331045",
+   "created_at": "2026-11-09T23:16:08Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 20:16:08 America/Santiago",
+   "context": "Btcandres cita a punktoshi, a quien le vaciaron Exodus y Phantom; este dice que tenía las semillas guardadas en papel y sospecha que su iPhone fue comprometido. Andrés responde: «Bitcoin. No cripto. En hardware wallet con tu entropía» y critica usar billeteras en el teléfono.",
+   "suggested_text": "El propio afectado sospecha del iPhone, y ahí está el punto: guardar la semilla en papel no sirve de mucho si las claves terminan viviendo en un teléfono conectado. Firmar en un equipo que nunca toca internet cambia ese riesgo. Escribí un libro sobre cómo armar eso uno mismo, gratis en Kindle hasta el miércoles: https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
+   "language": "es",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 1,
+    "replies": 1
+   },
+   "followers_count": 35877,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T23:23:00+00:00",
+   "followers_checked_at": "2026-11-09T23:23:00+00:00",
+   "topic": "custodia"
+  },
+  {
+   "id": "2119921081587048677",
+   "author": "Diditaihuttu",
+   "url": "https://x.com/Diditaihuttu/status/2119921081587048677",
+   "created_at": "2026-11-09T22:32:26Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 19:32:26 America/Santiago",
+   "context": "Didi Taihuttu recuerda que en 2017 vendió todo, entró all-in en Bitcoin y se lo tatuó en el brazo; dice que sigue sin cuenta bancaria ni planes de tenerla y cierra con «Not your keys, not your coins».",
+   "suggested_text": "The tattoo is the easy part; the keys are the real commitment. Holding them means owning the backup, the inheritance plan and the opsec too. Curious what setup you've settled on after all these years?",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 11,
+    "replies": 2
+   },
+   "followers_count": 87955,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T23:23:00+00:00",
+   "followers_checked_at": "2026-11-09T23:23:00+00:00",
+   "topic": "custodia"
+  },
+  {
+   "id": "2119927385919262931",
+   "author": "SantimentData",
+   "url": "https://x.com/SantimentData/status/2119927385919262931",
+   "created_at": "2026-11-09T22:57:29Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 19:57:29 America/Santiago",
+   "context": "Santiment dice que las billeteras de 1 a 10 BTC sumaron 10.076 BTC en dos semanas y las de 10 a 100 BTC otros 4.131 BTC mientras BTC caía hacia 75K; marca 75K como nivel clave y dice que recuperar 78K y luego 80K reforzaría la idea de un piso local, y que perder los mínimos recientes con esas billeteras vendiendo debilitaría la señal.",
+   "suggested_text": "Useful signal, with one caveat: address cohorts can shift when custodians reshuffle coins, so it reads best next to exchange balances. The $75K hold is the cleaner test. Will be watching whether the 1 to 100 BTC trend survives the next leg down, if there is one.",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 5,
+    "replies": 0
+   },
+   "followers_count": 215153,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T23:23:00+00:00",
+   "followers_checked_at": "2026-11-09T23:23:00+00:00",
+   "topic": "precio-btc"
+  },
+  {
+   "id": "2119932070713610466",
+   "author": "WhaleTwits",
+   "url": "https://x.com/WhaleTwits/status/2119932070713610466",
+   "created_at": "2026-11-09T23:16:06Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 20:16:06 America/Santiago",
+   "context": "WhaleTwits dice que Bitcoin repite por cuarta vez el ciclo de cuatro años (2026 bajista, 2027 recuperación?) y destaca dos diferencias: la caída a 58,6K fue de ~53% desde 126K (antes 77-85%) y llegó en 268 días (antes 363-406). Pregunta si 58,6K ya fue el piso y aclara que la historia no garantiza otro mercado alcista.",
+   "suggested_text": "The shallower, faster drawdown is the most interesting part of this. Four cycles is still a small sample, and each halving cuts a smaller share of new supply, so I'd treat the timeline as a scenario, not a schedule.",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 5,
+    "replies": 0
+   },
+   "followers_count": 40810,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-09T23:23:00+00:00",
+   "followers_checked_at": "2026-11-09T23:23:00+00:00",
+   "topic": "precio-btc"
+  }
+ ]
+}
