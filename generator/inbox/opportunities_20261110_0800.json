@@ -1,0 +1,106 @@
+{
+ "searched_at": "2026-11-10T11:19:05+00:00",
+ "window_start": "2026-11-10T09:19:05+00:00",
+ "window_end": "2026-11-10T11:19:05+00:00",
+ "max_age_seconds": 7200,
+ "timezone": "America/Santiago",
+ "source_context": {},
+ "items": [
+  {
+   "id": "2120092764469887020",
+   "author": "dotkrueger",
+   "url": "https://x.com/dotkrueger/status/2120092764469887020",
+   "created_at": "2026-11-10T09:54:39Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-10 06:54:39 America/Santiago",
+   "context": "Fred Krueger dice que el power law pone a Bitcoin en «just under 3x by end of 2027», que no ve otro activo grande que haga 3x, y enumera cómo llegar: pivote de la Fed a tasas más bajas, préstamos con Bitcoin masivos, cuellos de botella de energía/permisos para la IA y el trade de la devaluación.",
+   "suggested_text": "Just under 3x by end of 2027 is where the trend line sits, not a promise. What I find more useful is the corridor around it: price can spend long stretches well below the line, so I plan for the range, not the point. My projection to 2050, with the assumptions: https://x.com/forecastquant/status/2119169301949141264",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 100,
+    "replies": 18
+   },
+   "followers_count": 388670,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-10T11:19:05+00:00",
+   "followers_checked_at": "2026-11-10T11:19:05+00:00",
+   "topic": "power-law"
+  },
+  {
+   "id": "2120109159194530275",
+   "author": "BullishMarktCap",
+   "url": "https://x.com/BullishMarktCap/status/2120109159194530275",
+   "created_at": "2026-11-10T10:59:47Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-10 07:59:47 America/Santiago",
+   "context": "BullishMarketCap informa que BlackRock reporta $3.600 millones en conversiones de Bitcoin a acciones de IBIT «driven by security concerns», mientras su ETF spot registra $213,2 millones en salidas.",
+   "suggested_text": "Swapping self-custodied coins for IBIT shares over security worries trades one risk for another: no seed to lose, but now you hold a claim through a custodian and a broker. Security can be learned instead of outsourced. I wrote a book on building your own air-gapped setup, free on Kindle until Wednesday: https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 0,
+    "replies": 0
+   },
+   "followers_count": 23032,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-10T11:19:05+00:00",
+   "followers_checked_at": "2026-11-10T11:19:05+00:00",
+   "topic": "custodia"
+  },
+  {
+   "id": "2120112006590300403",
+   "author": "Wealthmanager",
+   "url": "https://x.com/Wealthmanager/status/2120112006590300403",
+   "created_at": "2026-11-10T11:11:06Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-10 08:11:06 America/Santiago",
+   "context": "Wealthmanager comparte un mapa de liquidaciones: dice que $BTC tiene bastante más liquidez de liquidaciones en cortos por encima del precio que de largos por debajo, y que una subida podría provocar un short squeeze.",
+   "suggested_text": "Liquidation maps show where the fuel is, not which side gets lit first. Those clusters often get swept in both directions before price picks one. That's why I'd rather hold spot without leverage than bet on which side gets squeezed.",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 20,
+    "replies": 7
+   },
+   "followers_count": 26485,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-10T11:19:05+00:00",
+   "followers_checked_at": "2026-11-10T11:19:05+00:00",
+   "topic": "precio-btc"
+  },
+  {
+   "id": "2120097951997653072",
+   "author": "BigDott50",
+   "url": "https://x.com/BigDott50/status/2120097951997653072",
+   "created_at": "2026-11-10T10:15:15Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-10 07:15:15 America/Santiago",
+   "context": "Shahnawaz plantea que #Bitcoin podría seguir un patrón parecido a 2023: rally tras el piso, meses laterales, barrida de liquidez bajo un soporte clave y luego recuperación hacia nuevos máximos; dice que estaríamos en la etapa 3.",
+   "suggested_text": "The 2023 analogy is interesting, but the market isn't the same one: spot ETF flows and corporate treasuries weren't moving price back then, and they're driving a lot of the selling now. What would invalidate Stage 3 for you?",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 16,
+    "replies": 3
+   },
+   "followers_count": 23380,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-10T11:19:05+00:00",
+   "followers_checked_at": "2026-11-10T11:19:05+00:00",
+   "topic": "precio-btc"
+  }
+ ]
+}
