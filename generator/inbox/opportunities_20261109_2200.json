@@ -1,0 +1,130 @@
+{
+ "searched_at": "2026-11-10T01:18:00+00:00",
+ "window_start": "2026-11-09T23:18:00+00:00",
+ "window_end": "2026-11-10T01:18:00+00:00",
+ "max_age_seconds": 7200,
+ "timezone": "America/Santiago",
+ "source_context": {},
+ "items": [
+  {
+   "id": "2119954508927164552",
+   "author": "maxkeiser",
+   "url": "https://x.com/maxkeiser/status/2119954508927164552",
+   "created_at": "2026-11-10T00:45:16Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 21:45:16 America/Santiago",
+   "context": "Max Keiser publica «Not your keys, not your Bitcoin.» junto a una imagen.",
+   "suggested_text": "The slogan is the easy part. The harder question is where the keys actually live: a phone wallet or a device you have to trust can still expose them. I wrote a book on building your own air-gapped setup without exchanges or hardware vendors, free on Kindle until Wednesday: https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 26,
+    "replies": 2
+   },
+   "followers_count": 683595,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-10T01:18:00+00:00",
+   "followers_checked_at": "2026-11-10T01:18:00+00:00",
+   "topic": "custodia"
+  },
+  {
+   "id": "2119943117730447436",
+   "author": "TheICHpodcast",
+   "url": "https://x.com/TheICHpodcast/status/2119943117730447436",
+   "created_at": "2026-11-10T00:00:00Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 21:00:00 America/Santiago",
+   "context": "The Iced Coffee Hour comparte un clip donde Anthony Pompliano dice: «If you're just optimizing for security, probably the ETF is the single most secure thing for people to do», como la forma más segura de tener entre $10.000 y $10.000.000 en Bitcoin, en lugar de una hardware wallet.",
+   "suggested_text": "Depends on which risk you're optimizing for. An ETF removes the risk of losing your seed, but adds custodian and broker risk, and you can't move or spend the coins yourself. Self-custody done carefully is a skill you can learn, not a gamble. I wrote a book on doing it air-gapped, free on Kindle until Wednesday: https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 23,
+    "replies": 4
+   },
+   "followers_count": 35403,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-10T01:18:00+00:00",
+   "followers_checked_at": "2026-11-10T01:18:00+00:00",
+   "topic": "custodia"
+  },
+  {
+   "id": "2119956990520856643",
+   "author": "Diditaihuttu",
+   "url": "https://x.com/Diditaihuttu/status/2119956990520856643",
+   "created_at": "2026-11-10T00:55:08Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 21:55:08 America/Santiago",
+   "context": "Didi Taihuttu cita la noticia de que Coinbase recibió aprobación federal para operar como trust bank nacional y dice que Bitcoin se creó para hacer opcionales a los intermediarios: «Mass adoption means NOTHING if we sacrifice financial freedom. NOT YOUR KEYS. NOT YOUR COINS.»",
+   "suggested_text": "A bank charter doesn't change Bitcoin, it changes who holds the keys by default. Intermediaries only stay optional if people actually practice withdrawing to keys they control. That's the part adoption headlines skip.",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 7,
+    "replies": 1
+   },
+   "followers_count": 87957,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-10T01:18:00+00:00",
+   "followers_checked_at": "2026-11-10T01:18:00+00:00",
+   "topic": "custodia"
+  },
+  {
+   "id": "2119956018427793461",
+   "author": "GreatMattsby",
+   "url": "https://x.com/GreatMattsby/status/2119956018427793461",
+   "created_at": "2026-11-10T00:51:16Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 21:51:16 America/Santiago",
+   "context": "The Great Mattsby muestra el VWAP anclado de $BTC desde 2011: la banda +3σ está en $71.145 y el precio en $74,9k, encima de ella. Dice que 15 años de datos la marcan como soporte y pregunta: «Do you trust the chart or the fear?»",
+   "suggested_text": "What I like here is that the level rises with time instead of being a fixed number. The power law gives a similar long-run view: https://x.com/forecastquant/status/2118779927340470279 Neither is a guarantee, but both beat reading fear off a 4h chart. How many weekly closes has BTC had below that band?",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 16,
+    "replies": 5
+   },
+   "followers_count": 56734,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-10T01:18:00+00:00",
+   "followers_checked_at": "2026-11-10T01:18:00+00:00",
+   "topic": "precio-btc"
+  },
+  {
+   "id": "2119944063763747304",
+   "author": "AnalisaCrypto",
+   "url": "https://x.com/AnalisaCrypto/status/2119944063763747304",
+   "created_at": "2026-11-10T00:03:46Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-09 21:03:46 America/Santiago",
+   "context": "Analisa Crypto Prime (en indonesio) dice que BTC rebotó desde $73.510 y prueba $75.500–$75.600 como resistencia, bajo la EMA200 diaria (~$76.800). Señala que en el rebote subió el open interest y la ratio de cuentas long en OKX sigue en ~2,8, o sea, rebote con longs nuevos y no cierre de shorts.",
+   "suggested_text": "Poin open interest-nya yang paling penting: kalau pantulan ini diisi long baru, bukan short yang menutup posisi, resistance $75.600 jadi ujian yang lebih berat. Menarik dilihat apakah data inflasi AS malam ini mengubah komposisi itu.",
+   "language": "in",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {
+    "likes": 10,
+    "replies": 0
+   },
+   "followers_count": 60901,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-10T01:18:00+00:00",
+   "followers_checked_at": "2026-11-10T01:18:00+00:00",
+   "topic": "precio-btc"
+  }
+ ]
+}
