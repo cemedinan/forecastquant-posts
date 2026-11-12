@@ -1,0 +1,52 @@
+{
+ "searched_at": "2026-11-12T11:21:42+00:00",
+ "window_start": "2026-11-12T09:21:42+00:00",
+ "window_end": "2026-11-12T11:21:42+00:00",
+ "max_age_seconds": 7200,
+ "timezone": "America/Santiago",
+ "source_context": {},
+ "items": [
+  {
+   "id": "2120835919447986424",
+   "author": "ellioclips",
+   "url": "https://x.com/ellioclips/status/2120835919447986424",
+   "created_at": "2026-11-12T11:07:41Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-12 08:07:41 America/Santiago",
+   "context": "EllioTrades Clips comparte un clip de EllioTrades: dice que ballenas de Bitcoin mueven sus monedas a BlackRock por miedo a hackeos, que la autocustodia no es para todos y que la mayoría estaría mejor teniendo su Bitcoin en la bolsa; cita: \"Self custody was not necessarily a mistake, but it absolutely caused much more pain than it saved over the years\".",
+   "suggested_text": "Self-custody hurts when people improvise it. But the answer to hacking fear is a better setup, not handing the keys back: a fund share is a claim on $BTC, not $BTC you control. I wrote a book on building your own air-gapped setup step by step: https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {},
+   "followers_count": 27020,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-12T11:21:42+00:00",
+   "followers_checked_at": "2026-11-12T11:21:42+00:00",
+   "topic": "custodia"
+  },
+  {
+   "id": "2120819856333218119",
+   "author": "0xPhilanthrop",
+   "url": "https://x.com/0xPhilanthrop/status/2120819856333218119",
+   "created_at": "2026-11-12T10:03:51Z",
+   "created_at_verified": true,
+   "timestamp_source": "x.get_posts_by_ids",
+   "created_at_chile": "2026-11-12 07:03:51 America/Santiago",
+   "context": "Philanthrop publica un \"roadmap\" mes a mes para BTC 2026-2027 tras caer bajo $74K: noviembre miedo a optimismo, diciembre rally y euforia, enero complacencia, febrero ansiedad, marzo capitulación; advierte que la trampa será creer que solo puede subir.",
+   "suggested_text": "Month-by-month roadmaps are fun, but the month is the part nobody can know. What I find more useful is where $BTC sits versus its long-term power law trend: it tells you if price is cheap or stretched, not when the top comes. How I read that trend: https://x.com/forecastquant/status/2118779927340470279",
+   "language": "en",
+   "cta": "",
+   "source_post_id": null,
+   "metrics": {},
+   "followers_count": 59771,
+   "followers_count_verified": true,
+   "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+   "checked_at": "2026-11-12T11:21:42+00:00",
+   "followers_checked_at": "2026-11-12T11:21:42+00:00",
+   "topic": "precio-btc"
+  }
+ ]
+}
