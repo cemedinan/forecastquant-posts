@@ -45,7 +45,7 @@
       "source": "excluded_previous_candidates"
     }
   },
-  "evaluated_at": "2026-11-12T23:07:26.790075+00:00",
+  "evaluated_at": "2026-11-12T23:25:43.061712+00:00",
   "history": {
     "2119535615637324097": {
       "archived_at": "2026-11-08T23:11:51.128973+00:00",
@@ -2586,43 +2586,98 @@
         "window_seconds": 7200
       },
       "url": "https://x.com/cantonmeow/status/2120983548085838163"
+    },
+    "2120990015031324837": {
+      "archived_at": "2026-11-12T23:25:37.437372+00:00",
+      "author": "CryptoMichNL",
+      "created_at": "2026-11-12T21:20:00Z",
+      "exclude_reason": "older_than_7200s",
+      "followers_checked_at": "2026-11-12T23:06:30+00:00",
+      "followers_count": 822431,
+      "id": "2120990015031324837",
+      "qualification": {
+        "age_seconds": 7537.437,
+        "exclude_reason": "older_than_7200s",
+        "followers_checked_at": "2026-11-12T23:06:30+00:00",
+        "followers_count": 822431,
+        "followers_count_verified": true,
+        "min_followers_exclusive": 20000,
+        "qualified": false,
+        "window_seconds": 7200
+      },
+      "url": "https://x.com/CryptoMichNL/status/2120990015031324837"
     }
   },
   "items": {
-    "2120990015031324837": {
-      "author": "CryptoMichNL",
-      "context": "Michaël van de Poppe dice que ha estado comprando Bitcoin hoy por varias razones: el sentimiento en torno al activo es tan malo que le cuesta pensar que siga cayendo mucho; ha habido muchos eventos que podrían haber hecho colapsar a Bitcoin y no lo hicieron, solo una corrección del 20%; está en una zona de soporte, apenas bajo la media de 200 días y, según él, ideal para liquidez; Bitcoin tocó fondo el viernes anterior al IPO de SpaceX y no le sorprendería ver la misma cadencia ahora; el Nasdaq ya ha subido mucho y hay una brecha entre Bitcoin y el Nasdaq, que según él no tarda en cerrarse, y por eso ha estado comprando.",
-      "created_at": "2026-11-12T21:20:00Z",
-      "created_at_chile": "2026-11-12 18:20:00 America/Santiago",
+    "2121000085626736761": {
+      "author": "PetroDivisa",
+      "context": "Petro Divisa dice que Bitcoin va camino a sus primeras pérdidas anuales consecutivas: una caída de aproximadamente 16% en 2026 tras una baja de 6,34% en 2025, a menos que se recupere por encima de US$87.500 al 31 de diciembre. Incluye una imagen.",
+      "created_at": "2026-11-12T22:00:01Z",
+      "created_at_chile": "2026-11-12 19:00:01 America/Santiago",
       "created_at_verified": true,
       "cta": "",
       "exclude_reason": "",
-      "first_seen_at": "2026-11-12T23:07:26.790075+00:00",
-      "followers_checked_at": "2026-11-12T23:06:30+00:00",
-      "followers_count": 822431,
+      "first_seen_at": "2026-11-12T23:25:37.437372+00:00",
+      "followers_checked_at": "2026-11-12T23:25:00+00:00",
+      "followers_count": 185866,
       "followers_count_verified": true,
       "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
-      "id": "2120990015031324837",
-      "language": "en",
-      "last_seen_at": "2026-11-12T23:07:26.790075+00:00",
+      "id": "2121000085626736761",
+      "language": "es",
+      "last_seen_at": "2026-11-12T23:25:43.061712+00:00",
       "qualification": {
-        "age_seconds": 6446.79,
+        "age_seconds": 5142.062,
         "exclude_reason": "",
-        "followers_checked_at": "2026-11-12T23:06:30+00:00",
-        "followers_count": 822431,
+        "followers_checked_at": "2026-11-12T23:25:00+00:00",
+        "followers_count": 185866,
         "followers_count_verified": true,
         "min_followers_exclusive": 20000,
         "qualified": true,
         "window_seconds": 7200
       },
       "qualified": true,
-      "reply_blank": "https://x.com/intent/post?in_reply_to=2120990015031324837",
-      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2120990015031324837&text=The%2020%25%20hold%20through%20those%20headlines%20is%20the%20interesting%20part.%20I%20also%20check%20where%20%24BTC%20sits%20versus%20its%20power%20law%20trend%2C%20not%20just%20the%20200-day%2C%20when%20sentiment%20gets%20this%20washed%20out.%20How%20I%20read%20that%20model%3A%20https%3A%2F%2Fx.com%2Fforecastquant%2Fstatus%2F2118779927340470279",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2121000085626736761",
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2121000085626736761&text=Los%20US%2487.500%20al%2031%20de%20diciembre%20marcan%20el%20a%C3%B1o%20calendario%2C%20pero%20esa%20es%20una%20ventana%20bastante%20arbitraria.%20Yo%20prefiero%20mirar%20d%C3%B3nde%20est%C3%A1%20%24BTC%20respecto%20a%20su%20tendencia%20de%20power%20law%2C%20no%20solo%20el%20cierre%20anual.%20As%C3%AD%20leo%20ese%20modelo%3A%20https%3A%2F%2Fx.com%2Fforecastquant%2Fstatus%2F2118779927340470279",
       "source_post_id": null,
-      "suggested_text": "The 20% hold through those headlines is the interesting part. I also check where $BTC sits versus its power law trend, not just the 200-day, when sentiment gets this washed out. How I read that model: https://x.com/forecastquant/status/2118779927340470279",
+      "suggested_text": "Los US$87.500 al 31 de diciembre marcan el año calendario, pero esa es una ventana bastante arbitraria. Yo prefiero mirar dónde está $BTC respecto a su tendencia de power law, no solo el cierre anual. Así leo ese modelo: https://x.com/forecastquant/status/2118779927340470279",
       "timestamp_source": "x.get_posts_by_ids",
       "topic": "precio-btc",
-      "url": "https://x.com/CryptoMichNL/status/2120990015031324837"
+      "url": "https://x.com/PetroDivisa/status/2121000085626736761"
+    },
+    "2121000094451339483": {
+      "author": "TheCryptoSquire",
+      "context": "John Squire comenta que Deutsche Bank activó la custodia de activos digitales para clientes institucionales y corporativos, con Bitcoin y Ether incluidos, menciona que BNY ya soporta custodia de XRP y pregunta cuándo Deutsche Bank agregará XRP. Cita un post del 11-nov sobre el lanzamiento y adjunta un video de 26 s (no revisado).",
+      "created_at": "2026-11-12T22:00:03Z",
+      "created_at_chile": "2026-11-12 19:00:03 America/Santiago",
+      "created_at_verified": true,
+      "cta": "",
+      "exclude_reason": "",
+      "first_seen_at": "2026-11-12T23:25:37.437372+00:00",
+      "followers_checked_at": "2026-11-12T23:25:00+00:00",
+      "followers_count": 553110,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "id": "2121000094451339483",
+      "language": "en",
+      "last_seen_at": "2026-11-12T23:25:43.061712+00:00",
+      "qualification": {
+        "age_seconds": 5140.062,
+        "exclude_reason": "",
+        "followers_checked_at": "2026-11-12T23:25:00+00:00",
+        "followers_count": 553110,
+        "followers_count_verified": true,
+        "min_followers_exclusive": 20000,
+        "qualified": true,
+        "window_seconds": 7200
+      },
+      "qualified": true,
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2121000094451339483",
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2121000094451339483&text=Bank%20custody%20gives%20institutions%20access%2C%20but%20the%20bank%20still%20holds%20the%20keys.%20For%20individuals%20there%27s%20another%20route%3A%20holding%20your%20own%20%24BTC%20keys%20offline.%20I%20wrote%20a%20book%20on%20building%20an%20air-gapped%20setup%20yourself%3A%20https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0HQ5NS31N%3FdplnkId%3Dc09ef739-11f3-4c76-8c62-92ce160a3341%26nodl%3D1",
+      "source_post_id": null,
+      "suggested_text": "Bank custody gives institutions access, but the bank still holds the keys. For individuals there's another route: holding your own $BTC keys offline. I wrote a book on building an air-gapped setup yourself: https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
+      "timestamp_source": "x.get_posts_by_ids",
+      "topic": "custodia",
+      "url": "https://x.com/TheCryptoSquire/status/2121000094451339483"
     },
     "2121000333262336432": {
       "author": "MartiniGuyYT",
@@ -2641,7 +2696,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T23:07:26.790075+00:00",
       "qualification": {
-        "age_seconds": 3986.79,
+        "age_seconds": 5083.062,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T23:06:30+00:00",
         "followers_count": 700742,
@@ -2658,6 +2713,41 @@
       "timestamp_source": "x.get_posts_by_ids",
       "topic": "custodia",
       "url": "https://x.com/MartiniGuyYT/status/2121000333262336432"
+    },
+    "2121005546388021577": {
+      "author": "BitcoinMagazine",
+      "context": "Bitcoin Magazine informa que El Salvador compró hoy otro BTC para su Reserva Estratégica de Bitcoin y que ahora tiene 7.833 BTC, valorados en 559 millones de dólares según el post. Incluye dos imágenes.",
+      "created_at": "2026-11-12T22:21:43Z",
+      "created_at_chile": "2026-11-12 19:21:43 America/Santiago",
+      "created_at_verified": true,
+      "cta": "",
+      "exclude_reason": "",
+      "first_seen_at": "2026-11-12T23:25:37.437372+00:00",
+      "followers_checked_at": "2026-11-12T23:25:00+00:00",
+      "followers_count": 4497806,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "id": "2121005546388021577",
+      "language": "en",
+      "last_seen_at": "2026-11-12T23:25:43.061712+00:00",
+      "qualification": {
+        "age_seconds": 3840.062,
+        "exclude_reason": "",
+        "followers_checked_at": "2026-11-12T23:25:00+00:00",
+        "followers_count": 4497806,
+        "followers_count_verified": true,
+        "min_followers_exclusive": 20000,
+        "qualified": true,
+        "window_seconds": 7200
+      },
+      "qualified": true,
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2121005546388021577",
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2121005546388021577&text=Buying%20one%20BTC%20a%20day%20while%20price%20keeps%20sliding%20is%20a%20time-horizon%20decision%2C%20not%20a%20price%20call.%20The%20part%20I%27d%20like%20to%20know%20more%20about%3A%20how%20a%207%2C833%20%24BTC%20reserve%20is%20actually%20held%20and%20who%20controls%20the%20keys.",
+      "source_post_id": null,
+      "suggested_text": "Buying one BTC a day while price keeps sliding is a time-horizon decision, not a price call. The part I'd like to know more about: how a 7,833 $BTC reserve is actually held and who controls the keys.",
+      "timestamp_source": "x.get_posts_by_ids",
+      "topic": "precio-btc",
+      "url": "https://x.com/BitcoinMagazine/status/2121005546388021577"
     },
     "2121016301279740043": {
       "author": "cantonmeow",
@@ -2676,7 +2766,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T23:07:26.790075+00:00",
       "qualification": {
-        "age_seconds": 179.79,
+        "age_seconds": 1276.062,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T23:06:30+00:00",
         "followers_count": 96767,
@@ -2695,7 +2785,7 @@
       "url": "https://x.com/cantonmeow/status/2121016301279740043"
     }
   },
-  "last_batch_searched_at": "2026-11-12T23:07:00+00:00",
+  "last_batch_searched_at": "2026-11-12T23:25:00+00:00",
   "min_followers_exclusive": 20000,
   "window_seconds": 7200
 }
