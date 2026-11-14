@@ -1,0 +1,52 @@
+{
+  "searched_at": "2026-11-14T01:22:31+00:00",
+  "window_start": "2026-11-13T23:22:31+00:00",
+  "window_end": "2026-11-14T01:22:31+00:00",
+  "max_age_seconds": 7200,
+  "timezone": "America/Santiago",
+  "source_context": {},
+  "items": [
+    {
+      "id": "2121411521246900334",
+      "author": "Barchart",
+      "url": "https://x.com/Barchart/status/2121411521246900334",
+      "created_at": "2026-11-14T01:14:55Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-13 22:14:55 America/Santiago",
+      "context": "Barchart (último momento): Bitcoin entra en mercado bajista tras caer más de 20% desde su máximo de septiembre (con gráfico).",
+      "suggested_text": "A 20% drop is the textbook bear label, but $BTC has gone through much deeper drawdowns without leaving its long-term trend. I find it more useful to ask where price sits versus that trend than what we call it. The model I use is here: https://x.com/forecastquant/status/2118779927340470279",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {},
+      "followers_count": 579967,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-14T01:22:31+00:00",
+      "followers_checked_at": "2026-11-14T01:22:31+00:00",
+      "topic": "precio-btc"
+    },
+    {
+      "id": "2121399329940557952",
+      "author": "Cointel_io",
+      "url": "https://x.com/Cointel_io/status/2121399329940557952",
+      "created_at": "2026-11-14T00:26:28Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-13 21:26:28 America/Santiago",
+      "context": "Cointel: $BTC cae a $68.500, mínimo de 12 semanas; el mercado descuenta 91,9% de probabilidad de alza de 25 pb de la Fed en diciembre, ETF spot con $1.490M de salidas netas en seis sesiones; soporte clave en $67.650 y posible objetivo bajista en $64.000. Pregunta si BTC encontrará soporte.",
+      "suggested_text": "With a December hike already priced at 91.9%, a lot of the bad news is on the table. For $BTC I'd watch whether $67,650 holds once the ETF outflows slow, more than the headline itself. Where would you start worrying?",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {},
+      "followers_count": 61202,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-14T01:22:31+00:00",
+      "followers_checked_at": "2026-11-14T01:22:31+00:00",
+      "topic": "precio-btc"
+    }
+  ]
+}
