@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Página «Conversaciones de interés» (conversaciones/index.html).
 
-En cada actualización califican solo posts originales con created_at
-de como máximo 7200 segundos y autor con followers_count verificado
+Al agregar un post nuevo califican solo originales con created_at de
+como máximo 7200 segundos y autor con followers_count verificado
 estrictamente mayor que 20000. No se usa la hora de una cita, ni
 searched_at, ni una marca de verificación. Un conteo ausente o no
 verificado queda fuera. La ventana no se amplía para completar cupos.
+Las tarjetas ya publicadas se quedan en la página hasta que las
+descartes; no se borran al cumplir las 2 horas.
 
 Los temas viven en conversation_topics.json. Cada tarjeta lleva un tema
 (el campo topic del lote, si es un id conocido; si no, la primera
@@ -42,10 +44,17 @@ HOME_HREF = "../index.html"
 CHILE = ZoneInfo("America/Santiago")
 _TOPIC_ID = re.compile(r"^[a-z0-9][a-z0-9-]{0,40}$")
 EMPTY_TEXT = (
-    "Sin posts originales dentro de los últimos 7200 segundos con un conteo de seguidores "
-    "verificado mayor que 20.000. No se completa la sección con autores en o bajo 20.000 "
+    "No hay conversaciones pendientes. Las nuevas se agregan solo si el post original "
+    "tiene como máximo 7200 segundos y el autor tiene un conteo de seguidores verificado "
+    "mayor que 20.000. Las tarjetas ya publicadas se quedan aquí hasta que las descartes. "
+    "No se completa la página con autores en o bajo 20.000 ni con un conteo desconocido."
+)
+TOPIC_EMPTY_TEXT = (
+    "Sin posts de este tema. Las que descartaste siguen ocultas en este dispositivo "
+    "salvo que elijas mostrarlas. No se completa la página con autores en o bajo 20.000 "
     "ni con un conteo desconocido."
 )
+INBOX_DIR_NAME = "inbox"
 
 _ITEM_FIELDS = (
     "id",
@@ -247,6 +256,22 @@ def chile_stamp(moment, seconds=True):
     return local.strftime(pattern)
 
 
+def format_age(created, evaluated_at):
+    """Antigüedad en español, por ejemplo «hace 5 h»."""
+    seconds = int(
+        (evaluated_at.astimezone(timezone.utc) - created.astimezone(timezone.utc)).total_seconds()
+    )
+    if seconds < 0:
+        seconds = 0
+    if seconds < 60:
+        return "hace un momento"
+    if seconds < 3600:
+        return f"hace {seconds // 60} min"
+    if seconds < 86400:
+        return f"hace {seconds // 3600} h"
+    return f"hace {seconds // 86400} d"
+
+
 def format_followers(count):
     return f"{count:,}".replace(",", ".")
 
@@ -312,8 +337,13 @@ def _archive_stub(item, reason, evaluated_at):
     }
 
 
-def classify(item, evaluated_at):
-    """Devuelve (califica, motivo). La ventana es siempre WINDOW_SECONDS."""
+def classify(item, evaluated_at, require_fresh=True):
+    """Devuelve (califica, motivo).
+
+    La ventana de WINDOW_SECONDS solo se exige al admitir un post nuevo
+    (require_fresh=True). Las tarjetas ya publicadas se revalidan sin
+    esa ventana para que no desaparezcan a las 2 horas.
+    """
     status_id = str(item.get("id") or "").strip()
     if not status_id or not status_id.isdigit():
         return False, "missing_id"
@@ -356,7 +386,7 @@ def classify(item, evaluated_at):
     age = (evaluated_at.astimezone(timezone.utc) - created).total_seconds()
     if age < -FUTURE_SKEW_SECONDS:
         return False, "unverifiable_created_at"
-    if age > WINDOW_SECONDS:
+    if require_fresh and age > WINDOW_SECONDS:
         return False, "older_than_7200s"
     followers_ok, followers_reason = follower_gate(item, evaluated_at)
     if not followers_ok:
@@ -421,7 +451,8 @@ def merge_batch(store, batch, evaluated_at, topics=None):
         previous = items.get(status_id)
         item = _public_item(raw, previous, evaluated_at)
         item["topic"] = resolve_topic(item, topics)
-        ok, reason = classify(item, evaluated_at)
+        # Si ya estaba publicada, no se evicta por cumplir las 2 horas.
+        ok, reason = classify(item, evaluated_at, require_fresh=previous is None)
         if not ok:
             history[status_id] = _archive_stub(item, reason, evaluated_at)
             items.pop(status_id, None)
@@ -452,7 +483,7 @@ def reclassify(store, evaluated_at, topics=None):
             del items[status_id]
             continue
         item["topic"] = resolve_topic(item, topics)
-        ok, reason = classify(item, evaluated_at)
+        ok, reason = classify(item, evaluated_at, require_fresh=False)
         if not ok:
             history[status_id] = _archive_stub(item, reason, evaluated_at)
             del items[status_id]
@@ -475,11 +506,69 @@ def qualified_items(store, evaluated_at):
         status_id = str(item.get("id") or "")
         if status_id in discarded:
             continue
-        ok, _reason = classify(item, evaluated_at)
+        ok, _reason = classify(item, evaluated_at, require_fresh=False)
         if ok:
             chosen.append(item)
-    chosen.sort(key=lambda item: (item.get("created_at") or "", str(item.get("id") or "")))
+    # Las más recientes arriba, para que las rondas nuevas no queden enterradas.
+    chosen.sort(key=lambda item: (item.get("created_at") or "", str(item.get("id") or "")), reverse=True)
     return chosen
+
+
+def inbox_path(store_dir):
+    return os.path.join(store_dir, INBOX_DIR_NAME)
+
+
+def restore_from_inbox(store, inbox_dir, topics=None):
+    """Reincorpora tarjetas que ya calificaron en rondas previas y siguen en el inbox.
+
+    No inventa datos: solo usa el JSON original. El filtro de 2 horas y de
+    seguidores se aplica respecto de searched_at del lote, que es cuando
+    entraron a la página. Omite ids en discarded y los que no califican.
+    """
+    topics = load_topics() if topics is None else topics
+    if not inbox_dir or not os.path.isdir(inbox_dir):
+        return 0
+    discarded = store.setdefault("discarded", {})
+    items = store.setdefault("items", {})
+    history = store.setdefault("history", {})
+    restored = 0
+    names = sorted(name for name in os.listdir(inbox_dir) if name.endswith(".json"))
+    for name in names:
+        path = os.path.join(inbox_dir, name)
+        try:
+            with open(path, encoding="utf-8") as handle:
+                batch = json.load(handle)
+        except (OSError, json.JSONDecodeError, TypeError):
+            continue
+        if not isinstance(batch, dict):
+            continue
+        evaluated = parse_time(
+            batch.get("searched_at") or batch.get("checked_at") or batch.get("window_end")
+        )
+        if evaluated is None:
+            continue
+        for raw in batch.get("items") or []:
+            if not isinstance(raw, dict):
+                continue
+            status_id = str(raw.get("id") or "").strip()
+            if not status_id or status_id in discarded or status_id in items:
+                continue
+            item = _public_item(raw, None, evaluated)
+            item["topic"] = resolve_topic(item, topics)
+            ok, _reason = classify(item, evaluated, require_fresh=True)
+            if not ok:
+                continue
+            if not isinstance(item.get("suggested_text"), str) or not item["suggested_text"].strip():
+                continue
+            item["qualified"] = True
+            item["exclude_reason"] = ""
+            item["qualification"] = qualification_record(item, evaluated, True, "")
+            item["reply_with_suggestion"] = suggestion_intent(status_id, item["suggested_text"])
+            item["reply_blank"] = blank_intent(status_id)
+            history.pop(status_id, None)
+            items[status_id] = item
+            restored += 1
+    return restored
 
 
 def _esc(value):
@@ -491,7 +580,7 @@ def render_main_link():
     return (
         START
         + '<div class="warn" id="pl-conversations-link"><b>Conversaciones de interés.</b> '
-        + "Posts de X a los que quizá quieras responder: power law de Bitcoin y el debate del precio de BTC. "
+        + "Posts de X a los que quizá quieras responder: power law, arcoíris de riesgo, custodia y el debate del precio de BTC. "
         + "Nada se publica solo."
         + f'<div><a class="ref" href="{MAIN_LINK_HREF}" style="display:inline-block;margin-top:8px">Abrir conversaciones</a></div></div>'
         + END
@@ -517,7 +606,7 @@ def _reply_lang(item):
     return "en"
 
 
-def render_card(item, topic):
+def render_card(item, topic, evaluated_at=None):
     status_id = str(item["id"])
     created = parse_time(item["created_at"])
     checked = parse_time(item.get("followers_checked_at"))
@@ -529,18 +618,23 @@ def render_card(item, topic):
     text = item["suggested_text"]
     suggestion = suggestion_intent(status_id, text)
     blank = blank_intent(status_id)
-    expires = created + timedelta(seconds=WINDOW_SECONDS)
+    when = evaluated_at or created
+    created_iso = created.strftime("%Y-%m-%dT%H:%M:%SZ")
+    age_label = format_age(created, when)
+    age_s = (when.astimezone(timezone.utc) - created.astimezone(timezone.utc)).total_seconds()
+    new_pill = '<span class="pill new">Nuevo</span>' if age_s <= WINDOW_SECONDS else ""
     length_note = ""
     if len(text) > 280:
         length_note = f'<div class="l280">más de 280 caracteres ({len(text)})</div>'
     return (
         f'<article class="card pl-card" id="pl{status_id}" data-id="pl-{status_id}" '
         f'data-reply-id="{status_id}" data-topic="{_esc(topic["id"])}" '
-        f'data-created-at="{_esc(created.strftime("%Y-%m-%dT%H:%M:%SZ"))}" '
+        f'data-created-at="{_esc(created_iso)}" '
         f'data-followers-count="{count}" data-followers-checked-at="{_esc(item.get("followers_checked_at") or "")}" '
         f'data-g="0" data-n="1"><div class="ch"><div><b>{_esc(item["author"].strip())}</b> '
-        f'<span class="pill new">Nuevo</span><span class="pill">{_esc(topic["label"])}</span>'
-        f'<div class="sm">{_esc(chile_stamp(created))} · vence {_esc(chile_stamp(expires))}</div>'
+        f'{new_pill}<span class="pill">{_esc(topic["label"])}</span>'
+        f'<div class="sm">{_esc(chile_stamp(created))} · '
+        f'<span class="pl-age" data-created-at="{_esc(created_iso)}">{_esc(age_label)}</span></div>'
         f'<div class="sm">Seguidores: {_esc(format_followers(count))} · revisado {_esc(chile_stamp(checked))}</div></div>'
         f'<a class="ref" href="{_esc(item["url"])}" target="_blank" rel="noopener">Ver post original ↗</a></div>'
         f'<div class="why"><b>Contexto:</b> {_esc(item["context"].strip())}</div>'
@@ -594,6 +688,10 @@ textarea.pl-text{width:100%;min-height:8em;white-space:pre-wrap;font:inherit;mar
 .tb-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 #pl-refresh{background:#C6E427;color:#0B0D26;border:0;border-radius:8px;padding:6px 12px;font-weight:700;cursor:pointer;font-size:14px;white-space:nowrap}
 #pl-refresh:disabled{opacity:.75;cursor:wait}
+.dismiss-bar{max-width:900px;margin:0 auto 8px;padding:0 16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+#pl-show-dismissed,#pl-restore-all{background:transparent;color:#C6E427;border:1px solid #C6E427;border-radius:8px;padding:6px 12px;font-weight:700;cursor:pointer;font-size:13px;white-space:nowrap}
+#pl-show-dismissed.on{background:#C6E427;color:#0B0D26}
+article.pl-card.pl-dismissed{opacity:.72;border-style:dashed}
 """
 
 PAGE_SCRIPT = """
@@ -603,24 +701,44 @@ function plQuote(s){return encodeURIComponent(s).replace(/[!'()*]/g,function(c){
 function plSync(el){var card=el.closest('article.card');if(!card)return;var a=card.querySelector('a.pl-sug');if(!a)return;var id=card.getAttribute('data-reply-id');a.setAttribute('href','https://x.com/intent/post?in_reply_to='+id+'&text='+plQuote(el.value))}
 function plCopy(b){var ta=b.closest('.blk').querySelector('textarea');var t=ta.value;function ok(){b.textContent='Copiado';setTimeout(function(){b.textContent='Copiar texto'},2000)}function fb(){var e=document.createElement('textarea');e.value=t;e.style.position='fixed';e.style.left='-9999px';document.body.appendChild(e);e.select();try{document.execCommand('copy')}catch(x){}document.body.removeChild(e);ok()}if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(ok,fb)}else fb()}
 var PL_DK="fq_conv_dismissed_v1";
-function plDismissed(){try{return JSON.parse(localStorage.getItem(PL_DK)||"[]")}catch(e){return []}}
-function dis(c){if(!c)return;var id=c.getAttribute("data-id")||"";try{var d=plDismissed();if(d.indexOf(id)<0){d.push(id);localStorage.setItem(PL_DK,JSON.stringify(d))}}catch(e){}c.remove();plSweep()}
-function plFilter(topic,btn){if(btn){document.querySelectorAll("#pl-topics button").forEach(function(b){b.classList.remove("on")});btn.classList.add("on")}var active=topic||"all";var cards=document.querySelectorAll("article.pl-card");var left=0;cards.forEach(function(c){var show=active==="all"||c.getAttribute("data-topic")===active;c.style.display=show?"":"none";if(show)left++});document.querySelectorAll("[data-topic-heading]").forEach(function(h){var id=h.getAttribute("data-topic-heading");var any=false;cards.forEach(function(c){if(c.style.display!=="none"&&c.getAttribute("data-topic")===id)any=true});h.style.display=any?"":"none"});var empty=document.getElementById("pl-empty");var topicEmpty=document.getElementById("pl-topic-empty");if(empty)empty.hidden=left>0||active!=="all";if(topicEmpty)topicEmpty.hidden=left>0||active==="all"}
-function plSweep(){var MAX=7200*1000,SKEW=120*1000,MIN=20000,now=Date.now();function followersOk(c){var raw=c.getAttribute("data-followers-count")||"";if(!/^[0-9]+$/.test(raw))return false;var n=Number(raw);var checked=Date.parse(c.getAttribute("data-followers-checked-at")||"");return n>MIN&&isFinite(checked)}var gone=plDismissed();document.querySelectorAll("article.pl-card").forEach(function(c){if(gone.indexOf(c.getAttribute("data-id"))>=0){c.remove();return}var t=Date.parse(c.getAttribute("data-created-at")||"");if(!isFinite(t)||(now-t)>MAX||(t-now)>SKEW||!followersOk(c))c.remove()});var cnt=document.getElementById("pl-cnt");if(cnt)cnt.textContent=String(document.querySelectorAll("article.pl-card").length);var on=document.querySelector("#pl-topics button.on");plFilter(on?on.getAttribute("data-topic"):"all",null)}
+var plShowDismissed=false;
+function plDismissed(){try{var d=JSON.parse(localStorage.getItem(PL_DK)||"[]");return Array.isArray(d)?d:[]}catch(e){return []}}
+function plSaveDismissed(d){try{localStorage.setItem(PL_DK,JSON.stringify(d))}catch(e){}}
+function plSafeId(id){return String(id||"").replace(/[^a-zA-Z0-9_-]/g,"")}
+function plApplyHideStyle(){var s=document.getElementById("pl-hide-style");if(plShowDismissed){if(s)s.textContent="";return}var css=plDismissed().map(function(id){return 'article.pl-card[data-id="'+plSafeId(id)+'"]{display:none}'}).join("");if(!s){s=document.createElement("style");s.id="pl-hide-style";document.head.appendChild(s)}s.textContent=css}
+function dis(c){if(!c)return;var id=c.getAttribute("data-id")||"";var d=plDismissed();if(d.indexOf(id)<0){d.push(id);plSaveDismissed(d)}c.classList.add("pl-dismissed");plSweep()}
+function plRestore(c){if(!c)return;var id=c.getAttribute("data-id")||"";plSaveDismissed(plDismissed().filter(function(x){return x!==id}));c.classList.remove("pl-dismissed");plSweep()}
+function plRestoreAll(){plSaveDismissed([]);document.querySelectorAll("article.pl-card").forEach(function(c){c.classList.remove("pl-dismissed")});plShowDismissed=false;plSweep()}
+function plToggleDismissed(){plShowDismissed=!plShowDismissed;plSweep()}
+function plAge(iso){var t=Date.parse(iso);if(!isFinite(t))return "";var s=Math.max(0,Math.floor((Date.now()-t)/1000));if(s<60)return "hace un momento";if(s<3600)return "hace "+Math.floor(s/60)+" min";if(s<86400)return "hace "+Math.floor(s/3600)+" h";return "hace "+Math.floor(s/86400)+" d"}
+function plStampAges(){document.querySelectorAll(".pl-age").forEach(function(el){el.textContent=plAge(el.getAttribute("data-created-at")||"")})}
+function plFilter(topic,btn){if(btn){document.querySelectorAll("#pl-topics button").forEach(function(b){b.classList.remove("on")});btn.classList.add("on")}var active=topic||"all";var cards=document.querySelectorAll("article.pl-card");var left=0,pending=0;cards.forEach(function(c){var topicOk=active==="all"||c.getAttribute("data-topic")===active;var dismissed=c.classList.contains("pl-dismissed");var show=topicOk&&(!dismissed||plShowDismissed);c.style.display=show?"":"none";if(topicOk&&!dismissed)pending++;if(show)left++});document.querySelectorAll("[data-topic-heading]").forEach(function(h){var id=h.getAttribute("data-topic-heading");var any=false;cards.forEach(function(c){if(c.style.display!=="none"&&c.getAttribute("data-topic")===id)any=true});h.style.display=any?"":"none"});var empty=document.getElementById("pl-empty");var topicEmpty=document.getElementById("pl-topic-empty");if(empty)empty.hidden=pending>0||active!=="all";if(topicEmpty)topicEmpty.hidden=pending>0||active==="all"}
+function plSweep(){var gone=plDismissed();var visible=0,hidden=0;document.querySelectorAll("article.pl-card").forEach(function(c){var dismissed=gone.indexOf(c.getAttribute("data-id"))>=0;c.classList.toggle("pl-dismissed",dismissed);var btn=c.querySelector(".dx");if(btn){if(dismissed){btn.textContent="↩ Restaurar";btn.setAttribute("onclick","plRestore(this.closest('.card'))")}else{btn.textContent="✕ Descartar";btn.setAttribute("onclick","dis(this.closest('.card'))")}}if(dismissed)hidden++;else visible++});var showBtn=document.getElementById("pl-show-dismissed");if(showBtn){showBtn.hidden=hidden===0&&!plShowDismissed;showBtn.textContent=(plShowDismissed?"Ocultar descartadas":"Mostrar descartadas")+" ("+hidden+")";showBtn.classList.toggle("on",plShowDismissed)}var restoreAll=document.getElementById("pl-restore-all");if(restoreAll)restoreAll.hidden=hidden===0;var cnt=document.getElementById("pl-cnt");if(cnt)cnt.textContent=String(visible);plApplyHideStyle();plStampAges();var on=document.querySelector("#pl-topics button.on");plFilter(on?on.getAttribute("data-topic"):"all",null)}
 function plRefresh(b){if(b){b.disabled=true;b.textContent="Actualizando…"}var on=document.querySelector("#pl-topics button.on");var topic=on?(on.getAttribute("data-topic")||"all"):"all";var u=location.pathname+"?t="+Date.now();if(topic!=="all"&&/^[a-z0-9][a-z0-9-]{0,40}$/.test(topic))u+="&tema="+encodeURIComponent(topic);setTimeout(function(){location.replace(u)},300)}
 plSweep();
 (function(){var topic="";try{topic=new URLSearchParams(location.search).get("tema")||""}catch(e){return}if(!/^[a-z0-9][a-z0-9-]{0,40}$/.test(topic))return;var btn=document.querySelector('#pl-topics button[data-topic="'+topic+'"]');if(btn)plFilter(topic,btn)})();
 """
 
 
+
+HEAD_HIDE_SCRIPT = (
+    '<script>(function(){try{var d=JSON.parse(localStorage.getItem("fq_conv_dismissed_v1")||"[]");'
+    "if(!d.length)return;var s=document.createElement('style');s.id='pl-hide-style';"
+    "s.textContent=d.map(function(id){return 'article.pl-card[data-id="'+String(id).replace(/[^a-zA-Z0-9_-]/g,'')+'"]{display:none}'}).join('');"
+    "document.head.appendChild(s)}catch(e){}})();</script>"
+)
+
+
 def _warn(evaluated_at):
     return (
         '<div class="warn">Nada se publica solo. Un modelo no es una garantía. '
-        "Cada actualización incluye solo posts originales con como máximo 7200 segundos "
+        "Cada lote nuevo incluye solo posts originales con como máximo 7200 segundos "
         "de antigüedad, contados desde la creación del post (no desde una cita ni desde "
         "la búsqueda), y un conteo de seguidores verificado estrictamente mayor que 20.000. "
         "Si el conteo falta, no entra. Una marca de verificación no sustituye el número. "
         "La ventana no se amplía para completar cupos. "
+        "Las tarjetas que ya entraron se quedan en esta página hasta que las descartes; "
+        "no se borran al cumplir las 2 horas. "
         f"Evaluado: {_esc(chile_stamp(evaluated_at))}.</div>"
     )
 
@@ -632,7 +750,7 @@ def render_conversations_page(items, evaluated_at, topics=None):
     grouped = {topic["id"]: [] for topic in topics}
     for item in items:
         topic = _topic_of(item, topics)
-        card = render_card(item, topic)
+        card = render_card(item, topic, evaluated_at)
         if card:
             grouped[topic["id"]].append(card)
     total = sum(len(cards) for cards in grouped.values())
@@ -660,7 +778,9 @@ def render_conversations_page(items, evaluated_at, topics=None):
         '<meta name="viewport" content="width=device-width,initial-scale=1">',
         '<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">',
         '<meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">',
-        f"<title>{_esc(SECTION_TITLE)}</title><style>{PAGE_CSS}</style></head><body>",
+        f"<title>{_esc(SECTION_TITLE)}</title><style>{PAGE_CSS}</style>",
+        HEAD_HIDE_SCRIPT,
+        "</head><body>",
         '<div class="top"><div class="tb">',
         f"<b>{_esc(SECTION_TITLE)}</b>",
         f"<span>Evaluado: {_esc(chile_stamp(evaluated_at))}</span>",
@@ -671,19 +791,19 @@ def render_conversations_page(items, evaluated_at, topics=None):
         "</div></div>",
         '<header><img src="../images/logo.jpg" alt="logo"><div>',
         f"<h1>{_esc(SECTION_TITLE)}</h1>",
-        f'<p><span id="pl-cnt">{total}</span> dentro de la ventana de 2 horas. Nada se publica solo.</p>',
+        f'<p><span id="pl-cnt">{total}</span> conversaciones. Se quedan hasta que las descartes. Nada se publica solo.</p>',
         f'<p><a href="{HOME_HREF}">Volver a recomendaciones</a></p>',
         "</div></header>",
         f'<div class="chips" id="pl-topics">{"".join(buttons)}</div>',
-        '<p class="hint">Filtra por tema. Cada tarjeta vence dos horas después del post original.</p>',
+        '<p class="hint">Filtra por tema. Las tarjetas se quedan hasta que las descartes. El filtro de 2 horas y de más de 20.000 seguidores solo se usa al agregar posts nuevos.</p>',
+        '<div class="dismiss-bar">',
+        '<button type="button" id="pl-show-dismissed" hidden onclick="plToggleDismissed()">Mostrar descartadas (0)</button>',
+        '<button type="button" id="pl-restore-all" hidden onclick="plRestoreAll()">Restaurar todas</button>',
+        "</div>",
         "<main>",
         _warn(evaluated_at),
         f'<div class="pend" id="pl-empty"{hidden}>{EMPTY_TEXT}</div>',
-        (
-            '<div class="pend" id="pl-topic-empty" hidden>Sin posts de este tema dentro de los últimos '
-            "7200 segundos con un conteo de seguidores verificado mayor que 20.000. "
-            "No se completa la página con autores en o bajo 20.000 ni con un conteo desconocido.</div>"
-        ),
+        f'<div class="pend" id="pl-topic-empty" hidden>{TOPIC_EMPTY_TEXT}</div>',
         *sections,
         "</main>",
         f"<script>{PAGE_SCRIPT}</script></body></html>",
@@ -750,6 +870,7 @@ def inject_into_page(page, store_dir, evaluated_at=None, persist=True, repo_dir=
 def refresh(store_dir, evaluated_at=None, batch=None, index_path=None, page_path=None):
     evaluated_at = (evaluated_at or datetime.now(timezone.utc)).astimezone(timezone.utc)
     store = load_store(store_dir)
+    restore_from_inbox(store, inbox_path(store_dir))
     if batch is not None:
         merge_batch(store, batch, evaluated_at)
     else:

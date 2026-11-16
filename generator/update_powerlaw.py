@@ -2,8 +2,9 @@
 """Incorpora un lote y reescribe conversaciones/index.html.
 
 index.html solo conserva el enlace a esa página. No llama a la API de X
-y no publica. La ventana se vuelve a medir en este instante (o en
---evaluated-at): created_at del post original, máximo 7200 s.
+y no publica. El filtro de 7200 s y de más de 20.000 seguidores solo se
+aplica al admitir posts nuevos. Las tarjetas ya publicadas se conservan
+hasta que las descartes en la página.
 
 Desde la raíz del repo:
 
@@ -38,7 +39,7 @@ def main(argv=None):
         help="HTML de conversaciones. Por defecto, conversaciones/index.html junto a --index.",
     )
     parser.add_argument("--store-dir", default=here)
-    parser.add_argument("--revalidate", action="store_true", help="Reaplica los 7200 s al almacén, sin lote nuevo.")
+    parser.add_argument("--revalidate", action="store_true", help="Reescribe la página con las tarjetas ya publicadas, sin lote nuevo. No las borra por antigüedad.")
     parser.add_argument("--evaluated-at", help="ISO-8601 con zona. Por defecto, la hora de esta ejecución.")
     args = parser.parse_args(argv)
     if not args.batch and not args.revalidate:

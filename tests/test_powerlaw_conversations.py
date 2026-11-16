@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Ventana de 7200 s, dedup e inyección sin tocar el resto de la página."""
+"""Admisión en 7200 s, retención hasta descartar, dedup e inyección."""
 import json
 import os
 import re
@@ -120,7 +120,9 @@ class FreshnessTests(unittest.TestCase):
             self.assertNotIn("suggested_text", store["discarded"][status_id])
         expires = datetime(2026, 11, 8, 23, 0, 44, tzinfo=timezone.utc)
         self.assertEqual([item["id"] for item in pl.qualified_items(store, expires)], QUALIFIED_IDS)
-        self.assertEqual(pl.qualified_items(store, expires + timedelta(seconds=1)), [])
+        later = expires + timedelta(seconds=1)
+        self.assertEqual([item["id"] for item in pl.qualified_items(store, later)], QUALIFIED_IDS)
+        self.assertEqual(store["items"][QUALIFIED_IDS[0]]["suggested_text"], chosen[0]["suggested_text"])
 
     def test_supplied_intents_match_the_text_and_blank_has_no_text(self):
         batch = load_batch()
@@ -153,7 +155,7 @@ class FreshnessTests(unittest.TestCase):
             now,
         )
         chosen = [item["id"] for item in pl.qualified_items(store, now)]
-        self.assertEqual(chosen, [edge["id"], fresh["id"]])
+        self.assertEqual(chosen, [fresh["id"], edge["id"]])
         self.assertNotIn(just_over["id"], chosen)
         self.assertEqual(store["window_seconds"], 7200)
 
@@ -263,17 +265,24 @@ class FreshnessTests(unittest.TestCase):
         pl.merge_batch(store, {"items": [moved]}, now)
         self.assertEqual(store["items"][item["id"]]["created_at"], created)
 
-    def test_aged_items_leave_the_selection_and_drop_the_reply_text(self):
+    def test_aged_items_stay_in_the_selection_and_keep_the_reply_text(self):
         store = pl.empty_store()
         pl.merge_batch(store, load_batch(), VALIDATION)
         later = VALIDATION + timedelta(hours=3)
         pl.reclassify(store, later)
-        self.assertEqual(pl.qualified_items(store, later), [])
-        blob = json.dumps(store)
-        for raw in load_batch()["items"]:
-            self.assertNotIn(raw["suggested_text"], blob)
-            self.assertIn(raw["id"], store["history"])
-            self.assertNotIn("suggested_text", store["history"][raw["id"]])
+        chosen = pl.qualified_items(store, later)
+        self.assertEqual([item["id"] for item in chosen], QUALIFIED_IDS)
+        david = store["items"][QUALIFIED_IDS[0]]
+        self.assertIn("suggested_text", david)
+        self.assertTrue(david["suggested_text"].strip())
+        self.assertNotIn(QUALIFIED_IDS[0], store["history"])
+        later_batch_time = later
+        fresh = make_item(later_batch_time - timedelta(seconds=30))
+        pl.merge_batch(store, {"items": [fresh]}, later_batch_time)
+        ids = [item["id"] for item in pl.qualified_items(store, later_batch_time)]
+        self.assertIn(QUALIFIED_IDS[0], ids)
+        self.assertIn(fresh["id"], ids)
+        self.assertEqual(store["items"][QUALIFIED_IDS[0]]["suggested_text"], david["suggested_text"])
 
 
 class PageTests(unittest.TestCase):
@@ -336,12 +345,19 @@ class PageTests(unittest.TestCase):
         self.assertIn(raw["context"], card)
         self.assertIn("Seguidores: 26.377", card)
         self.assertIn("revisado 08-11-2026 19:11:54 hora Chile", card)
-        self.assertIn("vence 08-11-2026 20:00:44 hora Chile", card)
+        self.assertIn("hace 1 h", card)
+        self.assertNotIn("vence ", card)
         self.assertIn('data-followers-count="26377"', card)
         self.assertIn('data-topic="power-law"', card)
         self.assertIn("Power law de Bitcoin", card)
         self.assertIn("Responder con sugerencia", card)
         self.assertIn("Responder en blanco", card)
+        self.assertIn("✕ Descartar", card)
+        self.assertIn("Mostrar descartadas", page)
+        self.assertIn("Restaurar todas", page)
+        self.assertIn("fq_conv_dismissed_v1", page)
+        self.assertIn("plRestore", page)
+        self.assertIn("plToggleDismissed", page)
         self.assertNotIn("forecastquant", card)
         self.assertNotIn("btcnewsalerts", page)
         self.assertNotIn("btcnewsalerts", index)
@@ -355,12 +371,13 @@ class PageTests(unittest.TestCase):
         self.assertEqual(counter(index), (meme_total(), meme_total()))
         self.assertEqual(len(article_ids(index)), meme_total())
 
-    def test_empty_state_when_nothing_is_inside_the_window(self):
+    def test_empty_state_when_a_late_batch_has_nothing_to_admit(self):
         index = self._apply(VALIDATION + timedelta(hours=4))
         page = open(conversations_file(self.index), encoding="utf-8").read()
         self.assertNotIn('class="card pl-card"', page)
         self.assertNotIn('class="card pl-card"', index)
-        self.assertIn("Sin posts originales dentro de los últimos 7200 segundos con un conteo de seguidores verificado mayor que 20.000", page)
+        self.assertIn("No hay conversaciones pendientes", page)
+        self.assertIn("7200 segundos", page)
         self.assertNotIn("Responder con sugerencia", page)
         for raw in load_batch()["items"]:
             self.assertNotIn(raw["suggested_text"], page)
@@ -410,16 +427,19 @@ class PageTests(unittest.TestCase):
         later = open(self.index, encoding="utf-8").read()
         later_conv = open(conversations_file(self.index), encoding="utf-8").read()
         self.assertNotIn('class="card pl-card"', later)
-        self.assertNotIn('class="card pl-card"', later_conv)
+        self.assertIn('class="card pl-card"', later_conv)
         self.assertIn('href="conversaciones/"', later)
-        self.assertIn("Sin posts originales dentro de los últimos 7200 segundos", later_conv)
+        self.assertEqual(article_ids(later_conv).count("pl-2119535615637324097"), 1)
+        self.assertIn("hace ", later_conv)
+        self.assertNotIn("Sin posts originales dentro de los últimos 7200 segundos", later_conv)
         store = json.load(open(os.path.join(self.store_dir, "powerlaw_store.json"), encoding="utf-8"))
-        self.assertEqual(store["items"], {})
+        self.assertIn("2119535615637324097", store["items"])
+        self.assertIn("suggested_text", store["items"]["2119535615637324097"])
         self.assertEqual(store["window_seconds"], 7200)
         self.assertEqual(store["min_followers_exclusive"], 20000)
         self.assertEqual(store["discarded"]["2119547966536962235"]["followers_count"], 9348)
         self.assertEqual(store["last_batch_searched_at"], "2026-11-08T22:11:54.271118+00:00")
-        self.assertNotIn("suggested_text", json.dumps(store))
+        self.assertNotIn("suggested_text", json.dumps(store["discarded"]))
 
 
 class GeneratorContractTests(unittest.TestCase):
@@ -432,8 +452,10 @@ class GeneratorContractTests(unittest.TestCase):
         module = open(os.path.join(ROOT, "generator", "powerlaw_conversations.py"), encoding="utf-8").read()
         self.assertIn("WINDOW_SECONDS = 7200", module)
         self.assertIn("MIN_FOLLOWERS_EXCLUSIVE = 20000", module)
-        self.assertIn("n>MIN", module)
+        self.assertIn("require_fresh", module)
+        self.assertIn("fq_conv_dismissed_v1", module)
         self.assertNotIn("timedelta(hours=24)", module)
+        self.assertNotIn("MAX=7200*1000", module)
         build = open(os.path.join(ROOT, "generator", "build_site.py"), encoding="utf-8").read()
         self.assertIn("powerlaw_conversations", build)
         self.assertIn("inject_into_page", build)
@@ -445,8 +467,16 @@ class GeneratorContractTests(unittest.TestCase):
 class TopicTests(unittest.TestCase):
     def test_configured_topics_are_power_law_and_price(self):
         topics = pl.load_topics()
-        self.assertEqual([topic["id"] for topic in topics], ["power-law", "custodia", "precio-btc"])
-        self.assertEqual([topic["label"] for topic in topics], ["Power law de Bitcoin", "Custodia de Bitcoin", "Debate del precio de BTC"])
+        self.assertEqual([topic["id"] for topic in topics], ["power-law", "custodia", "rainbow", "precio-btc"])
+        self.assertEqual(
+            [topic["label"] for topic in topics],
+            [
+                "Power law de Bitcoin",
+                "Custodia de Bitcoin",
+                "Arcoíris de riesgo de Bitcoin",
+                "Debate del precio de BTC",
+            ],
+        )
         self.assertEqual([topic["id"] for topic in topics if topic["default"]], ["precio-btc"])
 
     def test_keywords_and_explicit_topic_assign_the_card(self):
@@ -560,10 +590,11 @@ class ConversationsPageTests(unittest.TestCase):
         self._assert_refresh_button(again)
         later = VALIDATION + timedelta(hours=4)
         pl.write_conversations_page(page_path, self.store_dir, later, persist=True)
-        empty = open(page_path, encoding="utf-8").read()
-        self._assert_refresh_button(empty)
-        self.assertNotIn('class="card pl-card"', empty)
-        self.assertIn("Evaluado:", empty)
+        kept = open(page_path, encoding="utf-8").read()
+        self._assert_refresh_button(kept)
+        self.assertIn('class="card pl-card"', kept)
+        self.assertIn("david_eng_mba", kept)
+        self.assertIn("Evaluado:", kept)
         rendered = pl.render_conversations_page([], later)
         self._assert_refresh_button(rendered)
 
@@ -582,7 +613,7 @@ class ConversationsPageTests(unittest.TestCase):
         self.assertIn("&tema=", page)
         self.assertIn('.get("tema")', page)
 
-    def test_expired_rebuild_leaves_an_honest_page(self):
+    def test_later_rebuild_keeps_published_cards(self):
         pl.refresh(self.store_dir, VALIDATION, load_batch(), self.index)
         page_path = conversations_file(self.index)
         fresh = (
@@ -594,9 +625,80 @@ class ConversationsPageTests(unittest.TestCase):
         self.assertIn('href="conversaciones/"', updated)
         page = open(page_path, encoding="utf-8").read()
         self.assertTrue(page.startswith("<!DOCTYPE html>"))
-        self.assertIn("Sin posts originales dentro de los últimos 7200 segundos", page)
-        self.assertNotIn('class="card pl-card"', page)
+        self.assertIn('class="card pl-card"', page)
+        self.assertIn("david_eng_mba", page)
+        self.assertIn("✕ Descartar", page)
+        self.assertIn("🔄 Actualizar", page)
         self.assertNotIn("create_posts", page)
+
+
+    def test_rainbow_keywords_get_their_own_section(self):
+        now = VALIDATION
+        item = make_item(now - timedelta(seconds=25))
+        item["context"] = "El bitcoin rainbow chart vuelve a la banda de riesgo."
+        store = pl.empty_store()
+        pl.merge_batch(store, {"items": [item]}, now)
+        self.assertEqual(store["items"][item["id"]]["topic"], "rainbow")
+        page = pl.render_conversations_page(pl.qualified_items(store, now), now)
+        self.assertIn('data-topic="rainbow"', page)
+        self.assertIn('data-topic-heading="rainbow"', page)
+        self.assertIn("Arcoíris de riesgo de Bitcoin", page)
+        self.assertIn("arcoiris", json.dumps(pl.load_topics(), ensure_ascii=False).casefold())
+
+
+class RetentionTests(unittest.TestCase):
+    def test_format_age_uses_short_spanish_labels(self):
+        start = datetime(2026, 11, 15, 18, 0, 0, tzinfo=timezone.utc)
+        self.assertEqual(pl.format_age(start, start + timedelta(seconds=20)), "hace un momento")
+        self.assertEqual(pl.format_age(start, start + timedelta(minutes=12)), "hace 12 min")
+        self.assertEqual(pl.format_age(start, start + timedelta(hours=5)), "hace 5 h")
+        self.assertEqual(pl.format_age(start, start + timedelta(days=2, hours=3)), "hace 2 d")
+
+    def test_restore_from_inbox_replays_qualified_batches_only(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        inbox = os.path.join(tmp.name, "inbox")
+        os.makedirs(inbox)
+        now = VALIDATION
+        good = make_item(now - timedelta(seconds=90))
+        good["context"] = "Contexto real del lote, sin inventar."
+        late = make_item(now - timedelta(hours=5))
+        late["context"] = "Este ya era viejo cuando se buscó."
+        thin = make_item(now - timedelta(seconds=40))
+        thin["suggested_text"] = "  "
+        batch = {
+            "searched_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "items": [good, late, thin],
+        }
+        with open(os.path.join(inbox, "opportunities_20261108_2211.json"), "w", encoding="utf-8") as handle:
+            json.dump(batch, handle)
+        store = pl.empty_store()
+        restored = pl.restore_from_inbox(store, inbox)
+        self.assertEqual(restored, 1)
+        self.assertEqual(list(store["items"]), [good["id"]])
+        self.assertEqual(store["items"][good["id"]]["suggested_text"], good["suggested_text"])
+        self.assertEqual(store["items"][good["id"]]["context"], good["context"])
+        self.assertNotIn(late["id"], store["items"])
+        self.assertNotIn(thin["id"], store["items"])
+        later = now + timedelta(hours=6)
+        pl.reclassify(store, later)
+        chosen = pl.qualified_items(store, later)
+        self.assertEqual([item["id"] for item in chosen], [good["id"]])
+        page = pl.render_conversations_page(chosen, later)
+        self.assertIn(good["suggested_text"], page)
+        self.assertIn("hace 6 h", page)
+        self.assertNotIn("Nuevo", page)
+
+    def test_new_old_posts_are_still_rejected_at_admission(self):
+        now = VALIDATION + timedelta(hours=6)
+        old = make_item(now - timedelta(hours=5))
+        store = pl.empty_store()
+        pl.merge_batch(store, {"searched_at": now.isoformat(), "items": [old]}, now)
+        self.assertEqual(pl.qualified_items(store, now), [])
+        self.assertEqual(store["history"][old["id"]]["exclude_reason"], "older_than_7200s")
+        self.assertNotIn("suggested_text", store["history"][old["id"]])
+
+
 
 
 if __name__ == "__main__":
