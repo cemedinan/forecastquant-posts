@@ -1,0 +1,52 @@
+{
+  "searched_at": "2026-11-17T13:15:40+00:00",
+  "window_start": "2026-11-17T11:15:40+00:00",
+  "window_end": "2026-11-17T13:15:40+00:00",
+  "max_age_seconds": 7200,
+  "timezone": "America/Santiago",
+  "source_context": {},
+  "items": [
+    {
+      "id": "2122661038575493299",
+      "author": "KeystoneWallet",
+      "created_at": "2026-11-17T12:00:03Z",
+      "followers_count": 65970,
+      "topic": "custodia",
+      "language": "en",
+      "context": "Keystone Hardware Wallet (@KeystoneWallet) explica el malware inyectado vía scripts de Optimizely en sitios de 178 organizaciones (CNN, BBC, Zoom, Salesforce, GitLab): cambia direcciones cripto en la página y el portapapeles (BTC, ETH/EVM, Solana, TRON, TON…), roba tarjetas y cookies y apunta a iPhone/iPad; dice que ~$7,040 llegaron al atacante en ~9 h el 16-nov. Recomienda actualizar iOS, verificar la dirección completa en la pantalla del hardware wallet, compararla con la fuente original y no con el portapapeles, usar libreta/whitelist y enviar una prueba pequeña. Cifras según el autor, no verificadas.",
+      "suggested_text": "Point C is the one people skip. Reading the full address on the device screen only protects you if what you compare it against didn't come through the same compromised page or clipboard. Take it from the original source, then check every character on the device. $BTC",
+      "url": "https://x.com/KeystoneWallet/status/2122661038575493299",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-17 09:00:03 America/Santiago",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {},
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-17T13:15:40+00:00",
+      "followers_checked_at": "2026-11-17T13:15:40+00:00"
+    },
+    {
+      "id": "2122661938098274766",
+      "author": "Danny_Crypton",
+      "created_at": "2026-11-17T12:03:37Z",
+      "followers_count": 297894,
+      "topic": "precio-btc",
+      "language": "en",
+      "context": "@Danny_Crypton dice que Bitcoin repite por cuarta vez un patrón de 4 años (bear, falso rebote, bull #1, bull #2) y proyecta 2026 bear, 2027 recuperación, 2028-2029 nuevo techo; nota que esta caída fue menor (~53%, de $126K a $58,600) y más rápida (268 días vs 363-406) y pregunta si $58,600 fue el piso. Él mismo aclara que la historia no garantiza el resultado. Cifras según el autor, no verificadas (incluye video).",
+      "suggested_text": "The shallower, faster drawdown you point out is exactly why I'd be careful mapping 2026-2029 onto the old calendar: if the cycle is changing shape, the timing can change too. Spot only, no leverage, means you don't need the pattern to hit on schedule. $BTC",
+      "url": "https://x.com/Danny_Crypton/status/2122661938098274766",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-17 09:03:37 America/Santiago",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {},
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-17T13:15:40+00:00",
+      "followers_checked_at": "2026-11-17T13:15:40+00:00"
+    }
+  ]
+}
