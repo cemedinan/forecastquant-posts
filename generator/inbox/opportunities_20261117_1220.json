@@ -1,0 +1,31 @@
+{
+  "searched_at": "2026-11-17T15:18:08+00:00",
+  "window_start": "2026-11-17T13:18:08+00:00",
+  "window_end": "2026-11-17T15:18:08+00:00",
+  "max_age_seconds": 7200,
+  "timezone": "America/Santiago",
+  "source_context": {},
+  "items": [
+    {
+      "id": "2122696019544609029",
+      "author": "nsquaredvalue",
+      "created_at": "2026-11-17T14:19:03Z",
+      "followers_count": 32803,
+      "topic": "power-law",
+      "language": "en",
+      "context": "Timothy Peterson (@nsquaredvalue) anuncia una investigación nueva, \"Bitcoin's Holy Grail\": una regla de asignación en Bitcoin que, según él, supera al power law 3:1, al stock-to-flow 4:1 y al buy-and-hold 5:1 desde diciembre de 2017, con 46,4% anual compuesto frente a 22,7% del buy-and-hold (incluye video y enlace). Cifras según el autor, no verificadas; el texto completo del post llega truncado.",
+      "suggested_text": "A backtest starting Dec 2017 is a decent stress test, since it covers two full bear markets. What I'd want to see for any allocation rule is how much of that edge holds out of sample and after costs. The power law was never a trading rule anyway, more a long-run baseline to measure against. $BTC",
+      "url": "https://x.com/nsquaredvalue/status/2122696019544609029",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-17 11:19:03 America/Santiago",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {},
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-17T15:18:08+00:00",
+      "followers_checked_at": "2026-11-17T15:18:08+00:00"
+    }
+  ]
+}
