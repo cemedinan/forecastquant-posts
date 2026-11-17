@@ -1,0 +1,31 @@
+{
+  "searched_at": "2026-11-17T01:16:59+00:00",
+  "window_start": "2026-11-16T23:17:00+00:00",
+  "window_end": "2026-11-17T01:16:59+00:00",
+  "max_age_seconds": 7200,
+  "timezone": "America/Santiago",
+  "source_context": {},
+  "items": [
+    {
+      "id": "2122492098741957058",
+      "author": "esatoshiclub",
+      "created_at": "2026-11-17T00:48:44Z",
+      "followers_count": 134360,
+      "topic": "precio-btc",
+      "language": "en",
+      "context": "Satoshi Club (@esatoshiclub) dice que oficialmente estamos en el mercado bajista de Bitcoin más largo de la historia, por solo un día, y bromea con romper el mínimo de $57K en el día 410 para luego empezar a prepararse para el próximo halving (incluye imagen). Conteo de días según el autor, no verificado.",
+      "suggested_text": "With only a handful of cycles, \"longest bear ever\" is a low bar to clear, so I wouldn't read much into the day count itself. What I'd watch is whether the $57K low holds on a weekly close. Spot only, no leverage, and the exact day stops mattering much. $BTC",
+      "url": "https://x.com/esatoshiclub/status/2122492098741957058",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-16 21:48:44 America/Santiago",
+      "cta": "",
+      "source_post_id": null,
+      "metrics": {},
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-17T01:16:59+00:00",
+      "followers_checked_at": "2026-11-17T01:16:59+00:00"
+    }
+  ]
+}
