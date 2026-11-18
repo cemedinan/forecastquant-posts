@@ -15,7 +15,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "generator"))
 import powerlaw_conversations as pl  # noqa: E402
 
-BATCH_PATH = os.path.join(ROOT, "generator", "inbox", "opportunities_20261108_2h_20k.json")
+BATCH_PATH = os.path.join(ROOT, "generator", "inbox", "archive", "opportunities_20261108_2h_20k.json")
 INDEX_PATH = os.path.join(ROOT, "index.html")
 VALIDATION = datetime(2026, 11, 8, 22, 11, 54, tzinfo=timezone.utc)
 DISCARDED_IDS = [
@@ -348,7 +348,7 @@ class PageTests(unittest.TestCase):
         self.assertIn("hace 1 h", card)
         self.assertNotIn("vence ", card)
         self.assertIn('data-followers-count="26377"', card)
-        self.assertIn('data-topic="power-law"', card)
+        self.assertIn('data-topic="powerlaw"', card)
         self.assertIn("Power law de Bitcoin", card)
         self.assertIn("Responder con sugerencia", card)
         self.assertIn("Responder en blanco", card)
@@ -465,19 +465,32 @@ class GeneratorContractTests(unittest.TestCase):
 
 
 class TopicTests(unittest.TestCase):
-    def test_configured_topics_are_power_law_and_price(self):
+    def test_configured_topics_are_the_eight_interest_themes(self):
         topics = pl.load_topics()
-        self.assertEqual([topic["id"] for topic in topics], ["power-law", "custodia", "rainbow", "precio-btc"])
+        self.assertEqual(
+            [topic["id"] for topic in topics],
+            ["powerlaw", "rainbow", "halving", "temperature", "drawdowns", "adoption", "custody", "price"],
+        )
         self.assertEqual(
             [topic["label"] for topic in topics],
             [
                 "Power law de Bitcoin",
-                "Custodia de Bitcoin",
                 "Arcoíris de riesgo de Bitcoin",
+                "Halving y emisión",
+                "Temperatura de mercado / valoración",
+                "Caídas y recuperación de ciclos",
+                "Adopción de Bitcoin",
+                "Custodia de Bitcoin",
                 "Debate del precio de BTC",
             ],
         )
-        self.assertEqual([topic["id"] for topic in topics if topic["default"]], ["precio-btc"])
+        self.assertEqual([topic["id"] for topic in topics if topic["default"]], ["price"])
+        blob = json.dumps(topics, ensure_ascii=False).casefold()
+        self.assertIn("ley de potencia", blob)
+        self.assertIn("loi de puissance", blob)
+        self.assertIn("mvrv", blob)
+        self.assertIn("autocustodia", blob)
+        self.assertIn("direcciones con saldo", blob)
 
     def test_keywords_and_explicit_topic_assign_the_card(self):
         now = VALIDATION
@@ -486,15 +499,15 @@ class TopicTests(unittest.TestCase):
         price = make_item(now - timedelta(seconds=40))
         override = make_item(now - timedelta(seconds=50))
         override["context"] = "Habla de la power law, pero el lote lo marca como precio."
-        override["topic"] = "precio-btc"
+        override["topic"] = "price"
         unknown = make_item(now - timedelta(seconds=60))
         unknown["topic"] = "tema-que-no-existe"
         store = pl.empty_store()
         pl.merge_batch(store, {"items": [power, price, override, unknown]}, now)
-        self.assertEqual(store["items"][power["id"]]["topic"], "power-law")
-        self.assertEqual(store["items"][price["id"]]["topic"], "precio-btc")
-        self.assertEqual(store["items"][override["id"]]["topic"], "precio-btc")
-        self.assertEqual(store["items"][unknown["id"]]["topic"], "precio-btc")
+        self.assertEqual(store["items"][power["id"]]["topic"], "powerlaw")
+        self.assertEqual(store["items"][price["id"]]["topic"], "price")
+        self.assertEqual(store["items"][override["id"]]["topic"], "price")
+        self.assertEqual(store["items"][unknown["id"]]["topic"], "price")
 
     def test_new_topic_in_the_list_gets_a_filter_and_a_section(self):
         topics = pl.load_topics() + [{
@@ -519,7 +532,30 @@ class TopicTests(unittest.TestCase):
         self.assertIn(">Todos</button>", page)
         self.assertIn('href="../index.html"', page)
 
+    def test_new_topic_keywords_assign_their_sections(self):
+        now = VALIDATION
+        cases = [
+            ("halving", "El próximo halving deja poco supply left por emitir."),
+            ("temperature", "El MVRV cerca de 1,1 se lee como señal de piso."),
+            ("drawdowns", "El cycle clock compara el drawdown con ciclos previos."),
+            ("adoption", "La curva de adopción sigue sumando direcciones con saldo."),
+            ("custody", "Pasarse a autocustodia con una hardware wallet air-gapped."),
+        ]
+        store = pl.empty_store()
+        items = []
+        for i, (topic_id, context) in enumerate(cases):
+            item = make_item(now - timedelta(seconds=20 + i))
+            item["context"] = context
+            items.append((topic_id, item))
+        pl.merge_batch(store, {"items": [item for _topic, item in items]}, now)
+        page = pl.render_conversations_page(pl.qualified_items(store, now), now)
+        for topic_id, item in items:
+            self.assertEqual(store["items"][item["id"]]["topic"], topic_id)
+            self.assertIn(f'data-topic="{topic_id}"', page)
+            self.assertIn(f'data-topic-heading="{topic_id}"', page)
+
     def test_topics_file_rejects_two_defaults(self):
+
         with tempfile.TemporaryDirectory() as tmp:
             path = os.path.join(tmp, "topics.json")
             with open(path, "w", encoding="utf-8") as handle:
@@ -552,7 +588,7 @@ class ConversationsPageTests(unittest.TestCase):
         page_path = conversations_file(self.index)
         first = open(page_path, encoding="utf-8").read()
         self.assertIn("david_eng_mba", first)
-        self.assertIn('data-topic="power-law"', first)
+        self.assertIn('data-topic="powerlaw"', first)
         self.assertIn("Debate del precio de BTC", first)
         fresh = (
             "<!DOCTYPE html><html><body><main>"

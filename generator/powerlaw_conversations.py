@@ -580,7 +580,7 @@ def render_main_link():
     return (
         START
         + '<div class="warn" id="pl-conversations-link"><b>Conversaciones de interés.</b> '
-        + "Posts de X a los que quizá quieras responder: power law, arcoíris de riesgo, custodia y el debate del precio de BTC. "
+        + "Posts de X a los que quizá quieras responder: power law, arcoíris de riesgo, halving y emisión, temperatura de mercado, caídas de ciclo, adopción, custodia y el debate del precio de BTC. "
         + "Nada se publica solo."
         + f'<div><a class="ref" href="{MAIN_LINK_HREF}" style="display:inline-block;margin-top:8px">Abrir conversaciones</a></div></div>'
         + END

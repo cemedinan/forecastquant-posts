@@ -1,32 +1,31 @@
 [
   {
-    "id": "power-law",
+    "id": "powerlaw",
     "label": "Power law de Bitcoin",
     "keywords": [
       "power law",
       "power-law",
+      "powerlaw",
       "ley de potencia",
-      "dacoinminster"
-    ]
-  },
-  {
-    "id": "custodia",
-    "label": "Custodia de Bitcoin",
-    "keywords": [
-      "self-custody",
-      "self custody",
-      "autocustodia",
-      "custodia",
-      "custody",
-      "air-gapped",
-      "air gapped",
-      "airgapped",
-      "hardware wallet",
-      "cold wallet",
-      "cold storage",
-      "billetera fría",
-      "seed phrase",
-      "not your keys"
+      "loi de puissance",
+      "lei de potência",
+      "dacoinminster",
+      "santostasi",
+      "giovanni santostasi"
+    ],
+    "references": [
+      {
+        "url": "https://x.com/ForecastQuant/status/2122317683030941979",
+        "note": "Power law original de Dacoinminster (2013) frente al precio diario, extendido a 2060. El máximo de 2017 llegó a 9,4× la curva y el mínimo de 2018 quedó por debajo."
+      },
+      {
+        "url": "https://x.com/forecastquant/status/2118779927340470279",
+        "note": "Explicación del power law."
+      },
+      {
+        "url": "https://x.com/forecastquant/status/2119169301949141264",
+        "note": "Proyección a 2050."
+      }
     ]
   },
   {
@@ -41,13 +40,173 @@
       "arcoiris de riesgo",
       "arcoíris bitcoin",
       "arcoiris bitcoin",
+      "gráfico arcoíris",
+      "grafico arco-iris",
+      "graphique arc-en-ciel",
       "arcoiris"
+    ],
+    "references": [
+      {
+        "url": "https://x.com/ForecastQuant/status/2122106525854401008",
+        "note": "Toda la historia de precio en el Rainbow Chart: 14 años, 4 halvings, de $12 a más de $100.000."
+      }
     ]
   },
   {
-    "id": "precio-btc",
+    "id": "halving",
+    "label": "Halving y emisión",
+    "keywords": [
+      "halving",
+      "halvening",
+      "block subsidy",
+      "subsidio por bloque",
+      "recompensa de los mineros",
+      "miner reward",
+      "emisión de bitcoin",
+      "bitcoin emission",
+      "supply left",
+      "21 million",
+      "21 millones",
+      "last bitcoin",
+      "último bitcoin",
+      "ultimo bitcoin"
+    ],
+    "references": [
+      {
+        "url": "https://x.com/ForecastQuant/status/2122747344701501622",
+        "note": "En el próximo halving solo quedará por emitir el 3,125% de los 21M. El subsidio baja de 3,125 a 1,5625 BTC por bloque, de ~450 a ~225 BTC por día."
+      }
+    ]
+  },
+  {
+    "id": "temperature",
+    "label": "Temperatura de mercado / valoración",
+    "keywords": [
+      "mvrv",
+      "market temperature",
+      "temperatura de mercado",
+      "température du marché",
+      "200-week",
+      "200 week average",
+      "media de 200 semanas",
+      "valuation band",
+      "señal de piso",
+      "bottom signal",
+      "top signal",
+      "señal de techo"
+    ],
+    "references": [
+      {
+        "url": "https://x.com/ForecastQuant/status/2122727211610542288",
+        "note": "Índice Market Temperature: de 99,29 a 0,67 en 364 días. Combina MVRV, precio vs. media de 200 cierres semanales, drawdown desde el récord y momentum de 90 días ajustado por volatilidad, 25% cada uno."
+      }
+    ]
+  },
+  {
+    "id": "drawdowns",
+    "label": "Caídas y recuperación de ciclos",
+    "keywords": [
+      "drawdown",
+      "drawdowns",
+      "cycle clock",
+      "drawdown atlas",
+      "reclaim the peak",
+      "reclaim the high",
+      "días en recuperar",
+      "recuperar el máximo",
+      "comprar el techo",
+      "buying the top",
+      "cycle drawdown",
+      "caída del ciclo",
+      "caídas de ciclo"
+    ],
+    "references": [
+      {
+        "url": "https://x.com/ForecastQuant/status/2122375393776951738",
+        "note": "Bitcoin Cycle Clock. Ej.: 2011: -92,7% y 622 días en recuperar; 2013: -84,5% y 1.177 días."
+      },
+      {
+        "url": "https://x.com/ForecastQuant/status/2122676377011069293",
+        "note": "Bitcoin Drawdown Atlas: los dos máximos de 2013, uno recuperado en 210 días y el otro en 1.177."
+      }
+    ]
+  },
+  {
+    "id": "adoption",
+    "label": "Adopción de Bitcoin",
+    "keywords": [
+      "funded addresses",
+      "direcciones con saldo",
+      "adoption curve",
+      "curva de adopción",
+      "courbe d'adoption",
+      "curva de adoção",
+      "bitcoin holders",
+      "holder count",
+      "número de holders",
+      "network growth",
+      "crecimiento de la red",
+      "adresses approvisionnées"
+    ],
+    "references": [
+      {
+        "url": "https://x.com/ForecastQuant/status/2122675621704941640",
+        "note": "Bitcoin Adoption Curve: BTC cayó 32% en un año y aun así sumó 2,5M de direcciones con saldo; 1M en 2012, 10M en 2016, 50M en 2023."
+      }
+    ]
+  },
+  {
+    "id": "custody",
+    "label": "Custodia de Bitcoin",
+    "keywords": [
+      "self-custody",
+      "self custody",
+      "autocustodia",
+      "auto-custodia",
+      "custodia",
+      "custody",
+      "air-gapped",
+      "air gapped",
+      "airgapped",
+      "hardware wallet",
+      "billetera fría",
+      "cold wallet",
+      "cold storage",
+      "seed phrase",
+      "frase semilla",
+      "not your keys",
+      "garde en propre",
+      "autocustódia"
+    ],
+    "references": [
+      {
+        "url": "https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
+        "note": "Libro. Nunca decir que es gratis."
+      },
+      {
+        "url": "https://x.com/forecastquant/status/2119476332635586800",
+        "note": "Post de promoción del libro."
+      }
+    ]
+  },
+  {
+    "id": "price",
     "label": "Debate del precio de BTC",
     "keywords": [],
-    "default": true
+    "default": true,
+    "references": [
+      {
+        "url": "https://x.com/ForecastQuant/status/2122727211610542288",
+        "note": "Usar temperatura o caídas, el que mejor calce con la discusión."
+      },
+      {
+        "url": "https://x.com/ForecastQuant/status/2122375393776951738",
+        "note": "Cycle Clock, si encaja mejor que temperatura."
+      },
+      {
+        "url": "https://x.com/ForecastQuant/status/2122676377011069293",
+        "note": "Drawdown Atlas, si encaja mejor que temperatura."
+      }
+    ]
   }
 ]

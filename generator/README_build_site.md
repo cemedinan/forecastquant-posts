@@ -40,7 +40,7 @@ Leer /workspace/poster_data.json (Poster lo sobrescribe en cada actualizacion). 
 
 Reglas de admisión de posts nuevos (no cambian): solo originales con `created_at` verificado y antigüedad ≤ 7200 segundos respecto del momento en que entra el lote, y `followers_count` entero verificado (`followers_count_verified: true`, con `followers_checked_at`) estrictamente mayor que 20000. La antigüedad sale de la creación del post, no de una cita ni de `searched_at`. Un conteo ausente, no verificado o ≤ 20000 no entra. Una marca de verificación no sustituye el número. La ventana no se amplía para completar cupos. Los que no califican al entrar se archivan en `powerlaw_store.json` (`discarded` / `history`) sin el texto de la respuesta, y no se renderizan. Dedup por id del post original. Nada se publica solo: no hay llamada a la API de X.
 
-Desde 2026-11-15 las tarjetas ya publicadas no vencen ni se borran a las 2 horas. Se quedan en `conversaciones/index.html` (y en `powerlaw_store.json` → `items`) hasta que el usuario las descarta. El botón «✕ Descartar» guarda el `data-id` en `localStorage` (`fq_conv_dismissed_v1`) y las oculta; siguen ocultas tras recargar o pulsar «🔄 Actualizar». «Mostrar descartadas» / «Restaurar» / «Restaurar todas» permiten deshacer en ese navegador. La antigüedad se muestra en la tarjeta («hace 5 h»). Al reconstruir, se reincorporan desde `generator/inbox/` las rondas anteriores que aún tengan el JSON completo.
+Desde 2026-11-15 las tarjetas ya publicadas no vencen ni se borran a las 2 horas. Se quedan en `conversaciones/index.html` (y en `powerlaw_store.json` → `items`) hasta que el usuario las descarta. El botón «✕ Descartar» guarda el `data-id` en `localStorage` (`fq_conv_dismissed_v1`) y las oculta; siguen ocultas tras recargar o pulsar «🔄 Actualizar». «Mostrar descartadas» / «Restaurar» / «Restaurar todas» permiten deshacer en ese navegador. La antigüedad se muestra en la tarjeta («hace 5 h»). Al reconstruir, se reincorporan desde `generator/inbox/` (solo el directorio, no subcarpetas) las rondas anteriores que aún tengan el JSON completo. Los lotes en `generator/inbox/archive/` no se recargan. El 18-nov-2026 se vació el store y se archivaron los lotes previos para empezar de cero, con 8 temas y hasta 25 tarjetas nuevas por ronda.
 
 Cada tarjeta: tema, autor, enlace al post original, hora Chile, antigüedad, contexto, respuesta en el idioma del post (editable y copiable), y el botón Descartar. «Responder con sugerencia» es `https://x.com/intent/post?in_reply_to=ID&text=...`. «Responder en blanco» es el mismo id sin parámetro `text`. Si no hay tarjetas pendientes, la página lo dice y no rellena con cuentas chicas. Un modelo no es una garantía.
 
@@ -54,6 +54,8 @@ python3 generator/update_powerlaw.py generator/inbox/opportunities_YYYYMMDD.json
 ```
 
 La segunda forma ya incorpora el lote nuevo (sin borrar las tarjetas anteriores); `--revalidate` solo reescribe la página cuando no hay lote nuevo. Sigue valiendo el orden viejo de dos posicionales: `python3 generator/update_powerlaw.py <lote.json> <index.html>`.
+
+Temas actuales (2026-11-18): `powerlaw`, `rainbow`, `halving`, `temperature`, `drawdowns`, `adoption`, `custody` y `price` (el default). Las respuestas sugeridas enlazan el post de referencia de cada tema.
 
 ### Agregar un tema
 
