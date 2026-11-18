@@ -45,7 +45,7 @@
       "source": "excluded_previous_candidates"
     }
   },
-  "evaluated_at": "2026-11-17T23:17:01.704470+00:00",
+  "evaluated_at": "2026-11-18T01:16:38.086343+00:00",
   "history": {
     "2120883105162535157": {
       "archived_at": "2026-11-12T15:17:30.010128+00:00",
@@ -86,7 +86,7 @@
       "language": "en",
       "last_seen_at": "2026-11-08T22:11:54.271118+00:00",
       "qualification": {
-        "age_seconds": 785777.704,
+        "age_seconds": 792954.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-08T22:11:54.271118+00:00",
         "followers_count": 26377,
@@ -121,7 +121,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T11:10:18.381938+00:00",
       "qualification": {
-        "age_seconds": 739754.704,
+        "age_seconds": 746931.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T11:10:18.381938+00:00",
         "followers_count": 38350,
@@ -156,7 +156,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T11:10:18.381938+00:00",
       "qualification": {
-        "age_seconds": 739016.704,
+        "age_seconds": 746193.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T11:10:18.381938+00:00",
         "followers_count": 64409,
@@ -191,7 +191,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T12:06:23.984530+00:00",
       "qualification": {
-        "age_seconds": 737849.704,
+        "age_seconds": 745026.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T12:06:23.984530+00:00",
         "followers_count": 28243,
@@ -226,7 +226,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T12:06:23.984530+00:00",
       "qualification": {
-        "age_seconds": 736941.704,
+        "age_seconds": 744118.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T12:06:23.984530+00:00",
         "followers_count": 38350,
@@ -261,7 +261,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T11:10:18.381938+00:00",
       "qualification": {
-        "age_seconds": 735365.704,
+        "age_seconds": 742542.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T11:10:18.381938+00:00",
         "followers_count": 64834,
@@ -296,7 +296,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T12:06:23.984530+00:00",
       "qualification": {
-        "age_seconds": 733023.704,
+        "age_seconds": 740200.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T12:06:23.984530+00:00",
         "followers_count": 34992,
@@ -331,7 +331,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T12:06:23.984530+00:00",
       "qualification": {
-        "age_seconds": 732336.704,
+        "age_seconds": 739513.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T12:06:23.984530+00:00",
         "followers_count": 70103,
@@ -366,7 +366,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T12:06:23.984530+00:00",
       "qualification": {
-        "age_seconds": 732049.704,
+        "age_seconds": 739226.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T12:06:23.984530+00:00",
         "followers_count": 441062,
@@ -401,7 +401,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T13:03:55+00:00",
       "qualification": {
-        "age_seconds": 731007.704,
+        "age_seconds": 738184.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T13:03:55+00:00",
         "followers_count": 202743,
@@ -436,7 +436,7 @@
       "language": "es",
       "last_seen_at": "2026-11-09T13:03:55+00:00",
       "qualification": {
-        "age_seconds": 729080.704,
+        "age_seconds": 736257.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T13:03:55+00:00",
         "followers_count": 48033,
@@ -471,7 +471,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T13:03:55+00:00",
       "qualification": {
-        "age_seconds": 728955.704,
+        "age_seconds": 736132.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T13:03:55+00:00",
         "followers_count": 40807,
@@ -506,7 +506,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T13:03:55+00:00",
       "qualification": {
-        "age_seconds": 728427.704,
+        "age_seconds": 735604.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T13:03:55+00:00",
         "followers_count": 594886,
@@ -541,7 +541,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T13:03:55+00:00",
       "qualification": {
-        "age_seconds": 728322.704,
+        "age_seconds": 735499.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T13:03:55+00:00",
         "followers_count": 26486,
@@ -576,7 +576,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T14:08:59+00:00",
       "qualification": {
-        "age_seconds": 727998.704,
+        "age_seconds": 735175.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T14:08:59+00:00",
         "followers_count": 56733,
@@ -611,7 +611,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T14:08:59+00:00",
       "qualification": {
-        "age_seconds": 727970.704,
+        "age_seconds": 735147.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T14:08:59+00:00",
         "followers_count": 135179,
@@ -646,7 +646,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T14:08:59+00:00",
       "qualification": {
-        "age_seconds": 725203.704,
+        "age_seconds": 732380.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T14:08:59+00:00",
         "followers_count": 22187,
@@ -681,7 +681,7 @@
       "language": "es",
       "last_seen_at": "2026-11-09T14:08:59+00:00",
       "qualification": {
-        "age_seconds": 725077.704,
+        "age_seconds": 732254.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T14:08:59+00:00",
         "followers_count": 79178,
@@ -716,7 +716,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T17:22:59+00:00",
       "qualification": {
-        "age_seconds": 716363.704,
+        "age_seconds": 723540.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T17:22:59+00:00",
         "followers_count": 34848,
@@ -751,7 +751,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T17:22:59+00:00",
       "qualification": {
-        "age_seconds": 713493.704,
+        "age_seconds": 720670.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T17:22:59+00:00",
         "followers_count": 57166,
@@ -786,7 +786,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T17:22:59+00:00",
       "qualification": {
-        "age_seconds": 712741.704,
+        "age_seconds": 719918.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T17:22:59+00:00",
         "followers_count": 135171,
@@ -821,7 +821,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T19:22:54+00:00",
       "qualification": {
-        "age_seconds": 709841.704,
+        "age_seconds": 717018.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T19:22:54+00:00",
         "followers_count": 74130,
@@ -856,7 +856,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T19:22:54+00:00",
       "qualification": {
-        "age_seconds": 709621.704,
+        "age_seconds": 716798.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T19:22:54+00:00",
         "followers_count": 335890,
@@ -891,7 +891,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T19:22:54+00:00",
       "qualification": {
-        "age_seconds": 708910.704,
+        "age_seconds": 716087.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T19:22:54+00:00",
         "followers_count": 75000,
@@ -926,7 +926,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T19:22:54+00:00",
       "qualification": {
-        "age_seconds": 706250.704,
+        "age_seconds": 713427.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T19:22:54+00:00",
         "followers_count": 95946,
@@ -961,7 +961,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T21:22:43+00:00",
       "qualification": {
-        "age_seconds": 704125.704,
+        "age_seconds": 711302.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T21:22:43+00:00",
         "followers_count": 23726,
@@ -996,7 +996,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T21:22:43+00:00",
       "qualification": {
-        "age_seconds": 701130.704,
+        "age_seconds": 708307.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T21:22:43+00:00",
         "followers_count": 80867,
@@ -1031,7 +1031,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T21:22:43+00:00",
       "qualification": {
-        "age_seconds": 699656.704,
+        "age_seconds": 706833.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T21:22:43+00:00",
         "followers_count": 242699,
@@ -1066,7 +1066,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T21:22:43+00:00",
       "qualification": {
-        "age_seconds": 699362.704,
+        "age_seconds": 706539.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T21:22:43+00:00",
         "followers_count": 33851,
@@ -1101,7 +1101,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T23:23:00+00:00",
       "qualification": {
-        "age_seconds": 697492.704,
+        "age_seconds": 704669.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T23:23:00+00:00",
         "followers_count": 162998,
@@ -1136,7 +1136,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T23:23:00+00:00",
       "qualification": {
-        "age_seconds": 693875.704,
+        "age_seconds": 701052.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T23:23:00+00:00",
         "followers_count": 87955,
@@ -1171,7 +1171,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T23:23:00+00:00",
       "qualification": {
-        "age_seconds": 692372.704,
+        "age_seconds": 699549.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T23:23:00+00:00",
         "followers_count": 215153,
@@ -1206,7 +1206,7 @@
       "language": "en",
       "last_seen_at": "2026-11-09T23:23:00+00:00",
       "qualification": {
-        "age_seconds": 691255.704,
+        "age_seconds": 698432.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T23:23:00+00:00",
         "followers_count": 40810,
@@ -1241,7 +1241,7 @@
       "language": "es",
       "last_seen_at": "2026-11-09T23:23:00+00:00",
       "qualification": {
-        "age_seconds": 691253.704,
+        "age_seconds": 698430.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-09T23:23:00+00:00",
         "followers_count": 35877,
@@ -1276,7 +1276,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T01:18:00+00:00",
       "qualification": {
-        "age_seconds": 688621.704,
+        "age_seconds": 695798.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T01:18:00+00:00",
         "followers_count": 35403,
@@ -1311,7 +1311,7 @@
       "language": "in",
       "last_seen_at": "2026-11-10T01:18:00+00:00",
       "qualification": {
-        "age_seconds": 688395.704,
+        "age_seconds": 695572.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T01:18:00+00:00",
         "followers_count": 60901,
@@ -1346,7 +1346,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T01:18:00+00:00",
       "qualification": {
-        "age_seconds": 685905.704,
+        "age_seconds": 693082.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T01:18:00+00:00",
         "followers_count": 683595,
@@ -1381,7 +1381,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T01:18:00+00:00",
       "qualification": {
-        "age_seconds": 685545.704,
+        "age_seconds": 692722.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T01:18:00+00:00",
         "followers_count": 56734,
@@ -1416,7 +1416,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T01:18:00+00:00",
       "qualification": {
-        "age_seconds": 685313.704,
+        "age_seconds": 692490.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T01:18:00+00:00",
         "followers_count": 87957,
@@ -1451,7 +1451,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T11:19:05+00:00",
       "qualification": {
-        "age_seconds": 652942.704,
+        "age_seconds": 660119.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T11:19:05+00:00",
         "followers_count": 388670,
@@ -1486,7 +1486,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T11:19:05+00:00",
       "qualification": {
-        "age_seconds": 651706.704,
+        "age_seconds": 658883.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T11:19:05+00:00",
         "followers_count": 23380,
@@ -1521,7 +1521,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T11:19:05+00:00",
       "qualification": {
-        "age_seconds": 649034.704,
+        "age_seconds": 656211.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T11:19:05+00:00",
         "followers_count": 23032,
@@ -1556,7 +1556,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T11:19:05+00:00",
       "qualification": {
-        "age_seconds": 648355.704,
+        "age_seconds": 655532.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T11:19:05+00:00",
         "followers_count": 26485,
@@ -1591,7 +1591,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T13:22:41+00:00",
       "qualification": {
-        "age_seconds": 644849.704,
+        "age_seconds": 652026.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T13:22:41+00:00",
         "followers_count": 30353,
@@ -1626,7 +1626,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T13:22:41+00:00",
       "qualification": {
-        "age_seconds": 643610.704,
+        "age_seconds": 650787.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T13:22:41+00:00",
         "followers_count": 82782,
@@ -1661,7 +1661,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T13:22:41+00:00",
       "qualification": {
-        "age_seconds": 642275.704,
+        "age_seconds": 649452.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T13:22:41+00:00",
         "followers_count": 34523,
@@ -1696,7 +1696,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T13:22:41+00:00",
       "qualification": {
-        "age_seconds": 640981.704,
+        "age_seconds": 648158.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T13:22:41+00:00",
         "followers_count": 149810,
@@ -1731,7 +1731,7 @@
       "language": "es",
       "last_seen_at": "2026-11-10T15:24:01+00:00",
       "qualification": {
-        "age_seconds": 639413.704,
+        "age_seconds": 646590.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T15:24:01+00:00",
         "followers_count": 220614,
@@ -1766,7 +1766,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T15:24:01+00:00",
       "qualification": {
-        "age_seconds": 633924.704,
+        "age_seconds": 641101.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T15:24:01+00:00",
         "followers_count": 562448,
@@ -1801,7 +1801,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T15:24:01+00:00",
       "qualification": {
-        "age_seconds": 633796.704,
+        "age_seconds": 640973.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T15:24:01+00:00",
         "followers_count": 181049,
@@ -1836,7 +1836,7 @@
       "language": "vi",
       "last_seen_at": "2026-11-10T15:24:01+00:00",
       "qualification": {
-        "age_seconds": 633263.704,
+        "age_seconds": 640440.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T15:24:01+00:00",
         "followers_count": 687533,
@@ -1871,7 +1871,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T17:21:33+00:00",
       "qualification": {
-        "age_seconds": 629588.704,
+        "age_seconds": 636765.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T17:21:33+00:00",
         "followers_count": 40036,
@@ -1906,7 +1906,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T17:21:33+00:00",
       "qualification": {
-        "age_seconds": 628865.704,
+        "age_seconds": 636042.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T17:21:33+00:00",
         "followers_count": 116415,
@@ -1941,7 +1941,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T17:21:33+00:00",
       "qualification": {
-        "age_seconds": 627416.704,
+        "age_seconds": 634593.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T17:21:33+00:00",
         "followers_count": 161758,
@@ -1976,7 +1976,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T17:21:33+00:00",
       "qualification": {
-        "age_seconds": 627293.704,
+        "age_seconds": 634470.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T17:21:33+00:00",
         "followers_count": 82785,
@@ -2011,7 +2011,7 @@
       "language": "ru",
       "last_seen_at": "2026-11-10T19:24:28+00:00",
       "qualification": {
-        "age_seconds": 624272.704,
+        "age_seconds": 631449.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T19:24:28+00:00",
         "followers_count": 78745,
@@ -2046,7 +2046,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T19:24:28+00:00",
       "qualification": {
-        "age_seconds": 623478.704,
+        "age_seconds": 630655.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T19:24:28+00:00",
         "followers_count": 27971,
@@ -2081,7 +2081,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T19:24:28+00:00",
       "qualification": {
-        "age_seconds": 622773.704,
+        "age_seconds": 629950.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T19:24:28+00:00",
         "followers_count": 87636,
@@ -2116,7 +2116,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T19:24:28+00:00",
       "qualification": {
-        "age_seconds": 621918.704,
+        "age_seconds": 629095.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T19:24:28+00:00",
         "followers_count": 257554,
@@ -2151,7 +2151,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T19:24:28+00:00",
       "qualification": {
-        "age_seconds": 621847.704,
+        "age_seconds": 629024.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T19:24:28+00:00",
         "followers_count": 26376,
@@ -2186,7 +2186,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T21:23:15+00:00",
       "qualification": {
-        "age_seconds": 617967.704,
+        "age_seconds": 625144.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T21:23:15+00:00",
         "followers_count": 23751,
@@ -2221,7 +2221,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T21:23:15+00:00",
       "qualification": {
-        "age_seconds": 616619.704,
+        "age_seconds": 623796.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T21:23:15+00:00",
         "followers_count": 700830,
@@ -2256,7 +2256,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T21:23:15+00:00",
       "qualification": {
-        "age_seconds": 615679.704,
+        "age_seconds": 622856.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T21:23:15+00:00",
         "followers_count": 108641,
@@ -2291,7 +2291,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T21:23:15+00:00",
       "qualification": {
-        "age_seconds": 612404.704,
+        "age_seconds": 619581.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T21:23:15+00:00",
         "followers_count": 240198,
@@ -2326,7 +2326,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T21:23:15+00:00",
       "qualification": {
-        "age_seconds": 612165.704,
+        "age_seconds": 619342.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T21:23:15+00:00",
         "followers_count": 223927,
@@ -2361,7 +2361,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T23:18:37+00:00",
       "qualification": {
-        "age_seconds": 610647.704,
+        "age_seconds": 617824.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T23:18:37+00:00",
         "followers_count": 4498870,
@@ -2396,7 +2396,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T23:18:37+00:00",
       "qualification": {
-        "age_seconds": 609418.704,
+        "age_seconds": 616595.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T23:18:37+00:00",
         "followers_count": 3981405,
@@ -2431,7 +2431,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T23:18:37+00:00",
       "qualification": {
-        "age_seconds": 605053.704,
+        "age_seconds": 612230.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T23:18:37+00:00",
         "followers_count": 570641,
@@ -2466,7 +2466,7 @@
       "language": "en",
       "last_seen_at": "2026-11-10T23:18:37+00:00",
       "qualification": {
-        "age_seconds": 604787.704,
+        "age_seconds": 611964.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-10T23:18:37+00:00",
         "followers_count": 243799,
@@ -2501,7 +2501,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T01:21:43+00:00",
       "qualification": {
-        "age_seconds": 600352.704,
+        "age_seconds": 607529.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T01:21:43+00:00",
         "followers_count": 1517775,
@@ -2536,7 +2536,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T01:21:43+00:00",
       "qualification": {
-        "age_seconds": 599715.704,
+        "age_seconds": 606892.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T01:21:43+00:00",
         "followers_count": 58004,
@@ -2571,7 +2571,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T01:21:43+00:00",
       "qualification": {
-        "age_seconds": 598428.704,
+        "age_seconds": 605605.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T01:21:43+00:00",
         "followers_count": 185478,
@@ -2606,7 +2606,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T11:24:21+00:00",
       "qualification": {
-        "age_seconds": 566641.704,
+        "age_seconds": 573818.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T11:24:21+00:00",
         "followers_count": 132069,
@@ -2641,7 +2641,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T11:24:21+00:00",
       "qualification": {
-        "age_seconds": 565741.704,
+        "age_seconds": 572918.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T11:24:21+00:00",
         "followers_count": 72438,
@@ -2676,7 +2676,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T11:24:21+00:00",
       "qualification": {
-        "age_seconds": 565320.704,
+        "age_seconds": 572497.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T11:24:21+00:00",
         "followers_count": 29473,
@@ -2711,7 +2711,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T11:24:21+00:00",
       "qualification": {
-        "age_seconds": 564770.704,
+        "age_seconds": 571947.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T11:24:21+00:00",
         "followers_count": 77504,
@@ -2746,7 +2746,7 @@
       "language": "es",
       "last_seen_at": "2026-11-11T11:24:21+00:00",
       "qualification": {
-        "age_seconds": 561269.704,
+        "age_seconds": 568446.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T11:24:21+00:00",
         "followers_count": 68620,
@@ -2781,7 +2781,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T13:17:31+00:00",
       "qualification": {
-        "age_seconds": 558467.704,
+        "age_seconds": 565644.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T13:17:31+00:00",
         "followers_count": 95997,
@@ -2816,7 +2816,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T13:17:31+00:00",
       "qualification": {
-        "age_seconds": 558242.704,
+        "age_seconds": 565419.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T13:17:31+00:00",
         "followers_count": 24348,
@@ -2851,7 +2851,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T13:17:31+00:00",
       "qualification": {
-        "age_seconds": 557785.704,
+        "age_seconds": 564962.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T13:17:31+00:00",
         "followers_count": 74993,
@@ -2886,7 +2886,7 @@
       "language": "de",
       "last_seen_at": "2026-11-11T13:17:31+00:00",
       "qualification": {
-        "age_seconds": 555301.704,
+        "age_seconds": 562478.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T13:17:31+00:00",
         "followers_count": 42464,
@@ -2921,7 +2921,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T13:17:31+00:00",
       "qualification": {
-        "age_seconds": 554551.704,
+        "age_seconds": 561728.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T13:17:31+00:00",
         "followers_count": 20599,
@@ -2956,7 +2956,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T15:22:23+00:00",
       "qualification": {
-        "age_seconds": 552358.704,
+        "age_seconds": 559535.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T15:22:23+00:00",
         "followers_count": 609876,
@@ -2991,7 +2991,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T15:22:23+00:00",
       "qualification": {
-        "age_seconds": 551818.704,
+        "age_seconds": 558995.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T15:22:23+00:00",
         "followers_count": 106612,
@@ -3026,7 +3026,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T15:22:23+00:00",
       "qualification": {
-        "age_seconds": 551061.704,
+        "age_seconds": 558238.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T15:22:23+00:00",
         "followers_count": 228468,
@@ -3061,7 +3061,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T15:22:23+00:00",
       "qualification": {
-        "age_seconds": 549983.704,
+        "age_seconds": 557160.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T15:22:23+00:00",
         "followers_count": 105925,
@@ -3096,7 +3096,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T15:22:23+00:00",
       "qualification": {
-        "age_seconds": 548176.704,
+        "age_seconds": 555353.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T15:22:23+00:00",
         "followers_count": 29389,
@@ -3131,7 +3131,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T17:17:34+00:00",
       "qualification": {
-        "age_seconds": 542848.704,
+        "age_seconds": 550025.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T17:17:34+00:00",
         "followers_count": 165820,
@@ -3166,7 +3166,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T17:17:34+00:00",
       "qualification": {
-        "age_seconds": 541921.704,
+        "age_seconds": 549098.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T17:17:34+00:00",
         "followers_count": 1623452,
@@ -3201,7 +3201,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T17:17:34+00:00",
       "qualification": {
-        "age_seconds": 540301.704,
+        "age_seconds": 547478.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T17:17:34+00:00",
         "followers_count": 119255,
@@ -3236,7 +3236,7 @@
       "language": "ru",
       "last_seen_at": "2026-11-11T19:18:42+00:00",
       "qualification": {
-        "age_seconds": 537915.704,
+        "age_seconds": 545092.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T19:18:42+00:00",
         "followers_count": 78714,
@@ -3271,7 +3271,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T19:18:42+00:00",
       "qualification": {
-        "age_seconds": 536869.704,
+        "age_seconds": 544046.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T19:18:42+00:00",
         "followers_count": 106620,
@@ -3306,7 +3306,7 @@
       "language": "es",
       "last_seen_at": "2026-11-11T19:18:42+00:00",
       "qualification": {
-        "age_seconds": 536748.704,
+        "age_seconds": 543925.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T19:18:42+00:00",
         "followers_count": 69419,
@@ -3341,7 +3341,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T19:18:42+00:00",
       "qualification": {
-        "age_seconds": 534964.704,
+        "age_seconds": 542141.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T19:18:42+00:00",
         "followers_count": 274554,
@@ -3376,7 +3376,7 @@
       "language": "es",
       "last_seen_at": "2026-11-11T19:18:42+00:00",
       "qualification": {
-        "age_seconds": 533408.704,
+        "age_seconds": 540585.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T19:18:42+00:00",
         "followers_count": 46064,
@@ -3411,7 +3411,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T21:17:04+00:00",
       "qualification": {
-        "age_seconds": 529564.704,
+        "age_seconds": 536741.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T21:17:04+00:00",
         "followers_count": 50217,
@@ -3446,7 +3446,7 @@
       "language": "es",
       "last_seen_at": "2026-11-11T21:17:04+00:00",
       "qualification": {
-        "age_seconds": 527988.704,
+        "age_seconds": 535165.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T21:17:04+00:00",
         "followers_count": 35880,
@@ -3481,7 +3481,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T21:17:04+00:00",
       "qualification": {
-        "age_seconds": 527803.704,
+        "age_seconds": 534980.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T21:17:04+00:00",
         "followers_count": 399134,
@@ -3516,7 +3516,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T21:17:04+00:00",
       "qualification": {
-        "age_seconds": 525957.704,
+        "age_seconds": 533134.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T21:17:04+00:00",
         "followers_count": 59118,
@@ -3551,7 +3551,7 @@
       "language": "es",
       "last_seen_at": "2026-11-11T23:24:17+00:00",
       "qualification": {
-        "age_seconds": 524587.704,
+        "age_seconds": 531764.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T23:24:17+00:00",
         "followers_count": 22355,
@@ -3586,7 +3586,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T23:24:17+00:00",
       "qualification": {
-        "age_seconds": 523156.704,
+        "age_seconds": 530333.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T23:24:17+00:00",
         "followers_count": 32037,
@@ -3621,7 +3621,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T23:24:17+00:00",
       "qualification": {
-        "age_seconds": 519001.704,
+        "age_seconds": 526178.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T23:24:17+00:00",
         "followers_count": 20195,
@@ -3656,7 +3656,7 @@
       "language": "en",
       "last_seen_at": "2026-11-11T23:24:17+00:00",
       "qualification": {
-        "age_seconds": 518064.704,
+        "age_seconds": 525241.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-11T23:24:17+00:00",
         "followers_count": 108641,
@@ -3691,7 +3691,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T01:21:18+00:00",
       "qualification": {
-        "age_seconds": 515819.704,
+        "age_seconds": 522996.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T01:21:18+00:00",
         "followers_count": 35566,
@@ -3726,7 +3726,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T01:21:18+00:00",
       "qualification": {
-        "age_seconds": 512187.704,
+        "age_seconds": 519364.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T01:21:18+00:00",
         "followers_count": 47313,
@@ -3761,7 +3761,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T01:21:18+00:00",
       "qualification": {
-        "age_seconds": 511564.704,
+        "age_seconds": 518741.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T01:21:18+00:00",
         "followers_count": 185455,
@@ -3796,7 +3796,7 @@
       "language": "es",
       "last_seen_at": "2026-11-12T01:21:18+00:00",
       "qualification": {
-        "age_seconds": 511419.704,
+        "age_seconds": 518596.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T01:21:18+00:00",
         "followers_count": 165537,
@@ -3831,7 +3831,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T11:21:42+00:00",
       "qualification": {
-        "age_seconds": 479590.704,
+        "age_seconds": 486767.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T11:21:42+00:00",
         "followers_count": 59771,
@@ -3866,7 +3866,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T11:21:42+00:00",
       "qualification": {
-        "age_seconds": 475760.704,
+        "age_seconds": 482937.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T11:21:42+00:00",
         "followers_count": 27020,
@@ -3901,7 +3901,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T13:25:14+00:00",
       "qualification": {
-        "age_seconds": 473492.704,
+        "age_seconds": 480669.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T13:25:14+00:00",
         "followers_count": 132592,
@@ -3936,7 +3936,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T13:25:14+00:00",
       "qualification": {
-        "age_seconds": 473000.704,
+        "age_seconds": 480177.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T13:25:14+00:00",
         "followers_count": 93580,
@@ -3971,7 +3971,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T13:25:14+00:00",
       "qualification": {
-        "age_seconds": 469100.704,
+        "age_seconds": 476277.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T13:25:14+00:00",
         "followers_count": 235938,
@@ -4006,7 +4006,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T15:17:29+00:00",
       "qualification": {
-        "age_seconds": 465315.704,
+        "age_seconds": 472492.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T15:17:29+00:00",
         "followers_count": 54925,
@@ -4041,7 +4041,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T15:17:29+00:00",
       "qualification": {
-        "age_seconds": 464553.704,
+        "age_seconds": 471730.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T15:17:29+00:00",
         "followers_count": 29887,
@@ -4076,7 +4076,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T17:22:16+00:00",
       "qualification": {
-        "age_seconds": 459596.704,
+        "age_seconds": 466773.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T17:22:16+00:00",
         "followers_count": 116912,
@@ -4111,7 +4111,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T17:22:16+00:00",
       "qualification": {
-        "age_seconds": 458911.704,
+        "age_seconds": 466088.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T17:22:16+00:00",
         "followers_count": 59769,
@@ -4146,7 +4146,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T17:22:16+00:00",
       "qualification": {
-        "age_seconds": 454619.704,
+        "age_seconds": 461796.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T17:22:16+00:00",
         "followers_count": 95305,
@@ -4181,7 +4181,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T17:22:16+00:00",
       "qualification": {
-        "age_seconds": 453627.704,
+        "age_seconds": 460804.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T17:22:16+00:00",
         "followers_count": 61003,
@@ -4216,7 +4216,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T19:25:51+00:00",
       "qualification": {
-        "age_seconds": 451347.704,
+        "age_seconds": 458524.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T19:25:51+00:00",
         "followers_count": 101136,
@@ -4251,7 +4251,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T19:25:51+00:00",
       "qualification": {
-        "age_seconds": 450906.704,
+        "age_seconds": 458083.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T19:25:51+00:00",
         "followers_count": 62301,
@@ -4286,7 +4286,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T19:25:51+00:00",
       "qualification": {
-        "age_seconds": 450370.704,
+        "age_seconds": 457547.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T19:25:51+00:00",
         "followers_count": 26370,
@@ -4321,7 +4321,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T19:25:51+00:00",
       "qualification": {
-        "age_seconds": 450169.704,
+        "age_seconds": 457346.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T19:25:51+00:00",
         "followers_count": 306255,
@@ -4356,7 +4356,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T21:20:52+00:00",
       "qualification": {
-        "age_seconds": 443740.704,
+        "age_seconds": 450917.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T21:20:52+00:00",
         "followers_count": 822428,
@@ -4391,7 +4391,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T21:20:52+00:00",
       "qualification": {
-        "age_seconds": 441569.704,
+        "age_seconds": 448746.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T21:20:52+00:00",
         "followers_count": 700756,
@@ -4426,7 +4426,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T21:20:52+00:00",
       "qualification": {
-        "age_seconds": 441341.704,
+        "age_seconds": 448518.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T21:20:52+00:00",
         "followers_count": 57088,
@@ -4461,7 +4461,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T21:20:52+00:00",
       "qualification": {
-        "age_seconds": 440563.704,
+        "age_seconds": 447740.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T21:20:52+00:00",
         "followers_count": 96769,
@@ -4496,7 +4496,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T23:07:00+00:00",
       "qualification": {
-        "age_seconds": 439021.704,
+        "age_seconds": 446198.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T23:06:30+00:00",
         "followers_count": 822431,
@@ -4531,7 +4531,7 @@
       "language": "es",
       "last_seen_at": "2026-11-12T23:25:00+00:00",
       "qualification": {
-        "age_seconds": 436620.704,
+        "age_seconds": 443797.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T23:25:00+00:00",
         "followers_count": 185866,
@@ -4566,7 +4566,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T23:25:00+00:00",
       "qualification": {
-        "age_seconds": 436618.704,
+        "age_seconds": 443795.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T23:25:00+00:00",
         "followers_count": 553110,
@@ -4601,7 +4601,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T23:07:00+00:00",
       "qualification": {
-        "age_seconds": 436561.704,
+        "age_seconds": 443738.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T23:06:30+00:00",
         "followers_count": 700742,
@@ -4636,7 +4636,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T23:25:00+00:00",
       "qualification": {
-        "age_seconds": 435318.704,
+        "age_seconds": 442495.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T23:25:00+00:00",
         "followers_count": 4497806,
@@ -4671,7 +4671,7 @@
       "language": "en",
       "last_seen_at": "2026-11-12T23:07:00+00:00",
       "qualification": {
-        "age_seconds": 432754.704,
+        "age_seconds": 439931.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-12T23:06:30+00:00",
         "followers_count": 96767,
@@ -4706,7 +4706,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T01:15:00+00:00",
       "qualification": {
-        "age_seconds": 431205.704,
+        "age_seconds": 438382.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T01:15:30+00:00",
         "followers_count": 82775,
@@ -4741,7 +4741,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T01:15:00+00:00",
       "qualification": {
-        "age_seconds": 429630.704,
+        "age_seconds": 436807.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T01:15:30+00:00",
         "followers_count": 498411,
@@ -4776,7 +4776,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T01:15:00+00:00",
       "qualification": {
-        "age_seconds": 427598.704,
+        "age_seconds": 434775.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T01:15:30+00:00",
         "followers_count": 42143,
@@ -4811,7 +4811,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T01:15:00+00:00",
       "qualification": {
-        "age_seconds": 426733.704,
+        "age_seconds": 433910.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T01:15:30+00:00",
         "followers_count": 475732,
@@ -4846,7 +4846,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T01:15:00+00:00",
       "qualification": {
-        "age_seconds": 425165.704,
+        "age_seconds": 432342.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T01:15:30+00:00",
         "followers_count": 185445,
@@ -4881,7 +4881,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T11:21:40+00:00",
       "qualification": {
-        "age_seconds": 394135.704,
+        "age_seconds": 401312.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T11:21:40+00:00",
         "followers_count": 185766,
@@ -4916,7 +4916,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T11:21:40+00:00",
       "qualification": {
-        "age_seconds": 393061.704,
+        "age_seconds": 400238.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T11:21:40+00:00",
         "followers_count": 700705,
@@ -4951,7 +4951,7 @@
       "language": "es",
       "last_seen_at": "2026-11-13T11:21:40+00:00",
       "qualification": {
-        "age_seconds": 389843.704,
+        "age_seconds": 397020.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T11:21:40+00:00",
         "followers_count": 36610,
@@ -4986,7 +4986,7 @@
       "language": "es",
       "last_seen_at": "2026-11-13T11:21:40+00:00",
       "qualification": {
-        "age_seconds": 388872.704,
+        "age_seconds": 396049.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T11:21:40+00:00",
         "followers_count": 124653,
@@ -5021,7 +5021,7 @@
       "language": "es",
       "last_seen_at": "2026-11-13T13:16:03+00:00",
       "qualification": {
-        "age_seconds": 386754.704,
+        "age_seconds": 393931.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T13:16:03+00:00",
         "followers_count": 21796,
@@ -5056,7 +5056,7 @@
       "language": "es",
       "last_seen_at": "2026-11-13T13:16:03+00:00",
       "qualification": {
-        "age_seconds": 385021.704,
+        "age_seconds": 392198.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T13:16:03+00:00",
         "followers_count": 697129,
@@ -5091,7 +5091,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T13:16:03+00:00",
       "qualification": {
-        "age_seconds": 382623.704,
+        "age_seconds": 389800.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T13:16:03+00:00",
         "followers_count": 95407,
@@ -5126,7 +5126,7 @@
       "language": "zh",
       "last_seen_at": "2026-11-13T15:18:00+00:00",
       "qualification": {
-        "age_seconds": 379283.704,
+        "age_seconds": 386460.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T15:18:00+00:00",
         "followers_count": 23521,
@@ -5161,7 +5161,7 @@
       "language": "es",
       "last_seen_at": "2026-11-13T15:18:00+00:00",
       "qualification": {
-        "age_seconds": 379020.704,
+        "age_seconds": 386197.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T15:18:00+00:00",
         "followers_count": 185865,
@@ -5196,7 +5196,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T15:18:00+00:00",
       "qualification": {
-        "age_seconds": 377879.704,
+        "age_seconds": 385056.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T15:18:00+00:00",
         "followers_count": 20054,
@@ -5231,7 +5231,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T15:18:00+00:00",
       "qualification": {
-        "age_seconds": 375912.704,
+        "age_seconds": 383089.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T15:18:00+00:00",
         "followers_count": 145908,
@@ -5266,7 +5266,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T17:24:07+00:00",
       "qualification": {
-        "age_seconds": 373290.704,
+        "age_seconds": 380467.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T17:24:07+00:00",
         "followers_count": 242864,
@@ -5301,7 +5301,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T17:24:07+00:00",
       "qualification": {
-        "age_seconds": 372912.704,
+        "age_seconds": 380089.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T17:24:07+00:00",
         "followers_count": 1082584,
@@ -5336,7 +5336,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T17:24:07+00:00",
       "qualification": {
-        "age_seconds": 371510.704,
+        "age_seconds": 378687.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T17:24:07+00:00",
         "followers_count": 388383,
@@ -5371,7 +5371,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T17:24:07+00:00",
       "qualification": {
-        "age_seconds": 371359.704,
+        "age_seconds": 378536.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T17:24:07+00:00",
         "followers_count": 414509,
@@ -5406,7 +5406,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T17:24:07+00:00",
       "qualification": {
-        "age_seconds": 367493.704,
+        "age_seconds": 374670.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T17:24:07+00:00",
         "followers_count": 27891,
@@ -5441,7 +5441,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T19:16:40+00:00",
       "qualification": {
-        "age_seconds": 364911.704,
+        "age_seconds": 372088.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T19:16:40+00:00",
         "followers_count": 140272,
@@ -5476,7 +5476,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T19:16:40+00:00",
       "qualification": {
-        "age_seconds": 362582.704,
+        "age_seconds": 369759.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T19:16:40+00:00",
         "followers_count": 50275,
@@ -5511,7 +5511,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T19:16:40+00:00",
       "qualification": {
-        "age_seconds": 362213.704,
+        "age_seconds": 369390.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T19:16:40+00:00",
         "followers_count": 122766,
@@ -5546,7 +5546,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T19:16:40+00:00",
       "qualification": {
-        "age_seconds": 361815.704,
+        "age_seconds": 368992.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T19:16:40+00:00",
         "followers_count": 113717,
@@ -5581,7 +5581,7 @@
       "language": "es",
       "last_seen_at": "2026-11-13T19:16:40+00:00",
       "qualification": {
-        "age_seconds": 360601.704,
+        "age_seconds": 367778.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T19:16:40+00:00",
         "followers_count": 78821,
@@ -5616,7 +5616,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T21:24:48+00:00",
       "qualification": {
-        "age_seconds": 358632.704,
+        "age_seconds": 365809.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T21:24:48+00:00",
         "followers_count": 263139,
@@ -5651,7 +5651,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T21:24:48+00:00",
       "qualification": {
-        "age_seconds": 358300.704,
+        "age_seconds": 365477.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T21:24:48+00:00",
         "followers_count": 241221,
@@ -5686,7 +5686,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T21:24:48+00:00",
       "qualification": {
-        "age_seconds": 357385.704,
+        "age_seconds": 364562.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T21:24:48+00:00",
         "followers_count": 49792,
@@ -5721,7 +5721,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T21:24:48+00:00",
       "qualification": {
-        "age_seconds": 354382.704,
+        "age_seconds": 361559.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T21:24:48+00:00",
         "followers_count": 2928752,
@@ -5756,7 +5756,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T23:24:09+00:00",
       "qualification": {
-        "age_seconds": 349294.704,
+        "age_seconds": 356471.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T23:24:09+00:00",
         "followers_count": 47657,
@@ -5791,7 +5791,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T23:24:09+00:00",
       "qualification": {
-        "age_seconds": 347695.704,
+        "age_seconds": 354872.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T23:24:09+00:00",
         "followers_count": 73403,
@@ -5826,7 +5826,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T23:24:09+00:00",
       "qualification": {
-        "age_seconds": 347041.704,
+        "age_seconds": 354218.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T23:24:09+00:00",
         "followers_count": 184836,
@@ -5861,7 +5861,7 @@
       "language": "en",
       "last_seen_at": "2026-11-13T23:24:09+00:00",
       "qualification": {
-        "age_seconds": 346685.704,
+        "age_seconds": 353862.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-13T23:24:09+00:00",
         "followers_count": 31007,
@@ -5896,7 +5896,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T01:22:31+00:00",
       "qualification": {
-        "age_seconds": 341433.704,
+        "age_seconds": 348610.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T01:22:31+00:00",
         "followers_count": 61202,
@@ -5931,7 +5931,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T01:22:31+00:00",
       "qualification": {
-        "age_seconds": 338526.704,
+        "age_seconds": 345703.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T01:22:31+00:00",
         "followers_count": 579967,
@@ -5966,7 +5966,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T11:15:30+00:00",
       "qualification": {
-        "age_seconds": 309274.704,
+        "age_seconds": 316451.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T11:15:30+00:00",
         "followers_count": 342605,
@@ -6001,7 +6001,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T11:15:30+00:00",
       "qualification": {
-        "age_seconds": 307180.704,
+        "age_seconds": 314357.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T11:15:30+00:00",
         "followers_count": 35491,
@@ -6036,7 +6036,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T11:15:30+00:00",
       "qualification": {
-        "age_seconds": 305493.704,
+        "age_seconds": 312670.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T11:15:30+00:00",
         "followers_count": 80254,
@@ -6071,7 +6071,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T13:24:00+00:00",
       "qualification": {
-        "age_seconds": 299678.704,
+        "age_seconds": 306855.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T13:24:00+00:00",
         "followers_count": 163167,
@@ -6106,7 +6106,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T13:24:00+00:00",
       "qualification": {
-        "age_seconds": 297340.704,
+        "age_seconds": 304517.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T13:24:00+00:00",
         "followers_count": 414528,
@@ -6141,7 +6141,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T13:24:00+00:00",
       "qualification": {
-        "age_seconds": 295953.704,
+        "age_seconds": 303130.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T13:24:00+00:00",
         "followers_count": 102055,
@@ -6176,7 +6176,7 @@
       "language": "es",
       "last_seen_at": "2026-11-14T15:18:14+00:00",
       "qualification": {
-        "age_seconds": 293256.704,
+        "age_seconds": 300433.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T15:18:14+00:00",
         "followers_count": 68723,
@@ -6211,7 +6211,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T15:18:14+00:00",
       "qualification": {
-        "age_seconds": 291145.704,
+        "age_seconds": 298322.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T15:18:14+00:00",
         "followers_count": 23748,
@@ -6246,7 +6246,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T15:18:14+00:00",
       "qualification": {
-        "age_seconds": 288732.704,
+        "age_seconds": 295909.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T15:18:14+00:00",
         "followers_count": 760513,
@@ -6281,7 +6281,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T17:19:40+00:00",
       "qualification": {
-        "age_seconds": 287225.704,
+        "age_seconds": 294402.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T17:19:40+00:00",
         "followers_count": 297587,
@@ -6316,7 +6316,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T17:19:40+00:00",
       "qualification": {
-        "age_seconds": 286170.704,
+        "age_seconds": 293347.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T17:19:40+00:00",
         "followers_count": 242653,
@@ -6351,7 +6351,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T17:19:40+00:00",
       "qualification": {
-        "age_seconds": 283908.704,
+        "age_seconds": 291085.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T17:19:40+00:00",
         "followers_count": 40426,
@@ -6386,7 +6386,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T17:19:40+00:00",
       "qualification": {
-        "age_seconds": 281532.704,
+        "age_seconds": 288709.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T17:19:40+00:00",
         "followers_count": 85074,
@@ -6421,7 +6421,7 @@
       "language": "es",
       "last_seen_at": "2026-11-14T17:19:40+00:00",
       "qualification": {
-        "age_seconds": 281378.704,
+        "age_seconds": 288555.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T17:19:40+00:00",
         "followers_count": 65065,
@@ -6456,7 +6456,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T19:23:49+00:00",
       "qualification": {
-        "age_seconds": 278601.704,
+        "age_seconds": 285778.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T19:23:49+00:00",
         "followers_count": 34981,
@@ -6491,7 +6491,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T19:23:49+00:00",
       "qualification": {
-        "age_seconds": 278513.704,
+        "age_seconds": 285690.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T19:23:49+00:00",
         "followers_count": 49650,
@@ -6526,7 +6526,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T19:23:49+00:00",
       "qualification": {
-        "age_seconds": 276491.704,
+        "age_seconds": 283668.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T19:23:49+00:00",
         "followers_count": 49650,
@@ -6561,7 +6561,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T19:23:49+00:00",
       "qualification": {
-        "age_seconds": 275812.704,
+        "age_seconds": 282989.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T19:23:49+00:00",
         "followers_count": 562405,
@@ -6596,7 +6596,7 @@
       "language": "pt",
       "last_seen_at": "2026-11-14T21:17:51+00:00",
       "qualification": {
-        "age_seconds": 272273.704,
+        "age_seconds": 279450.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T21:17:51+00:00",
         "followers_count": 45195,
@@ -6631,7 +6631,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T21:17:51+00:00",
       "qualification": {
-        "age_seconds": 270180.704,
+        "age_seconds": 277357.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T21:17:51+00:00",
         "followers_count": 25579,
@@ -6666,7 +6666,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T21:17:51+00:00",
       "qualification": {
-        "age_seconds": 268867.704,
+        "age_seconds": 276044.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T21:17:51+00:00",
         "followers_count": 49651,
@@ -6701,7 +6701,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T21:17:51+00:00",
       "qualification": {
-        "age_seconds": 267421.704,
+        "age_seconds": 274598.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T21:17:51+00:00",
         "followers_count": 95606,
@@ -6736,7 +6736,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T21:17:51+00:00",
       "qualification": {
-        "age_seconds": 267420.704,
+        "age_seconds": 274597.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T21:17:51+00:00",
         "followers_count": 242996,
@@ -6771,7 +6771,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T23:23:26+00:00",
       "qualification": {
-        "age_seconds": 263809.704,
+        "age_seconds": 270986.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T23:23:26+00:00",
         "followers_count": 27915,
@@ -6806,7 +6806,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T23:23:26+00:00",
       "qualification": {
-        "age_seconds": 263074.704,
+        "age_seconds": 270251.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T23:23:26+00:00",
         "followers_count": 26340,
@@ -6841,7 +6841,7 @@
       "language": "es",
       "last_seen_at": "2026-11-14T23:23:26+00:00",
       "qualification": {
-        "age_seconds": 262377.704,
+        "age_seconds": 269554.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T23:23:26+00:00",
         "followers_count": 170556,
@@ -6876,7 +6876,7 @@
       "language": "en",
       "last_seen_at": "2026-11-14T23:23:26+00:00",
       "qualification": {
-        "age_seconds": 260407.704,
+        "age_seconds": 267584.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-14T23:23:26+00:00",
         "followers_count": 25583,
@@ -6911,7 +6911,7 @@
       "language": "es",
       "last_seen_at": "2026-11-15T01:19:12+00:00",
       "qualification": {
-        "age_seconds": 256519.704,
+        "age_seconds": 263696.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T01:19:12+00:00",
         "followers_count": 44615,
@@ -6946,7 +6946,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T01:19:12+00:00",
       "qualification": {
-        "age_seconds": 253808.704,
+        "age_seconds": 260985.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T01:19:12+00:00",
         "followers_count": 31001,
@@ -6981,7 +6981,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T01:19:12+00:00",
       "qualification": {
-        "age_seconds": 252920.704,
+        "age_seconds": 260097.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T01:19:12+00:00",
         "followers_count": 49651,
@@ -7016,7 +7016,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T01:19:12+00:00",
       "qualification": {
-        "age_seconds": 252755.704,
+        "age_seconds": 259932.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T01:19:12+00:00",
         "followers_count": 1781994,
@@ -7051,7 +7051,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T01:19:12+00:00",
       "qualification": {
-        "age_seconds": 252365.704,
+        "age_seconds": 259542.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T01:19:12+00:00",
         "followers_count": 185470,
@@ -7086,7 +7086,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T11:16:16+00:00",
       "qualification": {
-        "age_seconds": 222416.704,
+        "age_seconds": 229593.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T11:16:16+00:00",
         "followers_count": 559363,
@@ -7121,7 +7121,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T11:16:16+00:00",
       "qualification": {
-        "age_seconds": 219030.704,
+        "age_seconds": 226207.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T11:16:16+00:00",
         "followers_count": 157743,
@@ -7156,7 +7156,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T11:16:16+00:00",
       "qualification": {
-        "age_seconds": 218114.704,
+        "age_seconds": 225291.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T11:16:16+00:00",
         "followers_count": 119580,
@@ -7191,7 +7191,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T11:16:16+00:00",
       "qualification": {
-        "age_seconds": 216270.704,
+        "age_seconds": 223447.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T11:16:16+00:00",
         "followers_count": 22190,
@@ -7226,7 +7226,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T11:16:16+00:00",
       "qualification": {
-        "age_seconds": 216241.704,
+        "age_seconds": 223418.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T11:16:16+00:00",
         "followers_count": 35529,
@@ -7261,7 +7261,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T13:18:57+00:00",
       "qualification": {
-        "age_seconds": 211380.704,
+        "age_seconds": 218557.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T13:18:57+00:00",
         "followers_count": 105903,
@@ -7296,7 +7296,7 @@
       "language": "pt",
       "last_seen_at": "2026-11-15T13:18:57+00:00",
       "qualification": {
-        "age_seconds": 210756.704,
+        "age_seconds": 217933.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T13:18:57+00:00",
         "followers_count": 25507,
@@ -7331,7 +7331,7 @@
       "language": "es",
       "last_seen_at": "2026-11-15T13:18:57+00:00",
       "qualification": {
-        "age_seconds": 210696.704,
+        "age_seconds": 217873.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T13:18:57+00:00",
         "followers_count": 311333,
@@ -7366,7 +7366,7 @@
       "language": "es",
       "last_seen_at": "2026-11-15T15:20:12+00:00",
       "qualification": {
-        "age_seconds": 206219.704,
+        "age_seconds": 213396.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T15:20:12+00:00",
         "followers_count": 185883,
@@ -7401,7 +7401,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T15:20:12+00:00",
       "qualification": {
-        "age_seconds": 204961.704,
+        "age_seconds": 212138.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T15:20:12+00:00",
         "followers_count": 87956,
@@ -7436,7 +7436,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T15:20:12+00:00",
       "qualification": {
-        "age_seconds": 204561.704,
+        "age_seconds": 211738.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T15:20:12+00:00",
         "followers_count": 23607,
@@ -7471,7 +7471,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T15:20:12+00:00",
       "qualification": {
-        "age_seconds": 203234.704,
+        "age_seconds": 210411.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T15:20:12+00:00",
         "followers_count": 20868,
@@ -7506,7 +7506,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T17:16:05+00:00",
       "qualification": {
-        "age_seconds": 199323.704,
+        "age_seconds": 206500.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T17:16:05+00:00",
         "followers_count": 26401,
@@ -7541,7 +7541,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T17:16:05+00:00",
       "qualification": {
-        "age_seconds": 197175.704,
+        "age_seconds": 204352.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T17:16:05+00:00",
         "followers_count": 163212,
@@ -7576,7 +7576,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T17:16:05+00:00",
       "qualification": {
-        "age_seconds": 197158.704,
+        "age_seconds": 204335.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T17:16:05+00:00",
         "followers_count": 82722,
@@ -7611,7 +7611,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T17:16:05+00:00",
       "qualification": {
-        "age_seconds": 195496.704,
+        "age_seconds": 202673.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T17:16:05+00:00",
         "followers_count": 138831,
@@ -7646,7 +7646,7 @@
       "language": "es",
       "last_seen_at": "2026-11-15T19:21:58+00:00",
       "qualification": {
-        "age_seconds": 193057.704,
+        "age_seconds": 200234.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T19:21:58+00:00",
         "followers_count": 69537,
@@ -7681,7 +7681,7 @@
       "language": "es",
       "last_seen_at": "2026-11-15T19:21:58+00:00",
       "qualification": {
-        "age_seconds": 192944.704,
+        "age_seconds": 200121.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T19:21:58+00:00",
         "followers_count": 311339,
@@ -7716,7 +7716,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T19:21:58+00:00",
       "qualification": {
-        "age_seconds": 191745.704,
+        "age_seconds": 198922.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T19:21:58+00:00",
         "followers_count": 1133405,
@@ -7751,7 +7751,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T19:21:58+00:00",
       "qualification": {
-        "age_seconds": 189901.704,
+        "age_seconds": 197078.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T19:21:58+00:00",
         "followers_count": 36058,
@@ -7786,7 +7786,7 @@
       "language": "es",
       "last_seen_at": "2026-11-15T19:21:58+00:00",
       "qualification": {
-        "age_seconds": 188392.704,
+        "age_seconds": 195569.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T19:21:58+00:00",
         "followers_count": 54526,
@@ -7821,7 +7821,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T21:22:32+00:00",
       "qualification": {
-        "age_seconds": 182672.704,
+        "age_seconds": 189849.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T21:22:32+00:00",
         "followers_count": 224186,
@@ -7856,7 +7856,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T21:22:32+00:00",
       "qualification": {
-        "age_seconds": 182556.704,
+        "age_seconds": 189733.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T21:22:32+00:00",
         "followers_count": 88637,
@@ -7891,7 +7891,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T21:22:32+00:00",
       "qualification": {
-        "age_seconds": 181702.704,
+        "age_seconds": 188879.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T21:22:32+00:00",
         "followers_count": 26507,
@@ -7926,7 +7926,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T21:22:32+00:00",
       "qualification": {
-        "age_seconds": 181257.704,
+        "age_seconds": 188434.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T21:22:32+00:00",
         "followers_count": 1082502,
@@ -7961,7 +7961,7 @@
       "language": "pt",
       "last_seen_at": "2026-11-15T21:22:32+00:00",
       "qualification": {
-        "age_seconds": 180444.704,
+        "age_seconds": 187621.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T21:22:32+00:00",
         "followers_count": 96817,
@@ -7996,7 +7996,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T23:17:24.972693+00:00",
       "qualification": {
-        "age_seconds": 178072.704,
+        "age_seconds": 185249.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T23:18:30+00:00",
         "followers_count": 73359,
@@ -8031,7 +8031,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T23:17:24.972693+00:00",
       "qualification": {
-        "age_seconds": 178034.704,
+        "age_seconds": 185211.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T23:18:30+00:00",
         "followers_count": 154629,
@@ -8066,7 +8066,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T23:17:24.972693+00:00",
       "qualification": {
-        "age_seconds": 175582.704,
+        "age_seconds": 182759.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T23:18:30+00:00",
         "followers_count": 514085,
@@ -8101,7 +8101,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T23:17:24.972693+00:00",
       "qualification": {
-        "age_seconds": 173376.704,
+        "age_seconds": 180553.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T23:18:30+00:00",
         "followers_count": 74230,
@@ -8136,7 +8136,7 @@
       "language": "en",
       "last_seen_at": "2026-11-15T23:17:24.972693+00:00",
       "qualification": {
-        "age_seconds": 173261.704,
+        "age_seconds": 180438.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-15T23:18:30+00:00",
         "followers_count": 388161,
@@ -8171,7 +8171,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T01:23:59.289420+00:00",
       "qualification": {
-        "age_seconds": 170521.704,
+        "age_seconds": 177698.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T01:23:54+00:00",
         "followers_count": 243220,
@@ -8206,7 +8206,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T01:23:59.289420+00:00",
       "qualification": {
-        "age_seconds": 169460.704,
+        "age_seconds": 176637.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T01:23:54+00:00",
         "followers_count": 30012,
@@ -8241,7 +8241,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T01:23:59.289420+00:00",
       "qualification": {
-        "age_seconds": 166551.704,
+        "age_seconds": 173728.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T01:23:54+00:00",
         "followers_count": 218641,
@@ -8276,7 +8276,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T01:23:59.289420+00:00",
       "qualification": {
-        "age_seconds": 166327.704,
+        "age_seconds": 173504.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T01:23:54+00:00",
         "followers_count": 498717,
@@ -8311,7 +8311,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T01:23:59.289420+00:00",
       "qualification": {
-        "age_seconds": 166162.704,
+        "age_seconds": 173339.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T01:23:54+00:00",
         "followers_count": 99911,
@@ -8346,7 +8346,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T11:17:46.453755+00:00",
       "qualification": {
-        "age_seconds": 136485.704,
+        "age_seconds": 143662.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T11:18:30+00:00",
         "followers_count": 98781,
@@ -8381,7 +8381,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T11:17:46.453755+00:00",
       "qualification": {
-        "age_seconds": 136218.704,
+        "age_seconds": 143395.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T11:18:30+00:00",
         "followers_count": 24456,
@@ -8416,7 +8416,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T11:17:46.453755+00:00",
       "qualification": {
-        "age_seconds": 133626.704,
+        "age_seconds": 140803.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T11:18:30+00:00",
         "followers_count": 186715,
@@ -8451,7 +8451,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T11:17:46.453755+00:00",
       "qualification": {
-        "age_seconds": 131387.704,
+        "age_seconds": 138564.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T11:18:30+00:00",
         "followers_count": 167992,
@@ -8486,7 +8486,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T13:18:53.545492+00:00",
       "qualification": {
-        "age_seconds": 129476.704,
+        "age_seconds": 136653.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T13:18:21+00:00",
         "followers_count": 75314,
@@ -8521,7 +8521,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T13:18:53.545492+00:00",
       "qualification": {
-        "age_seconds": 128812.704,
+        "age_seconds": 135989.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T13:18:21+00:00",
         "followers_count": 98033,
@@ -8556,7 +8556,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T13:18:53.545492+00:00",
       "qualification": {
-        "age_seconds": 127610.704,
+        "age_seconds": 134787.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T13:18:21+00:00",
         "followers_count": 33808,
@@ -8591,7 +8591,7 @@
       "language": "es",
       "last_seen_at": "2026-11-16T13:18:53.545492+00:00",
       "qualification": {
-        "age_seconds": 125061.704,
+        "age_seconds": 132238.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T13:18:21+00:00",
         "followers_count": 69556,
@@ -8626,7 +8626,7 @@
       "language": "es",
       "last_seen_at": "2026-11-16T13:18:53.545492+00:00",
       "qualification": {
-        "age_seconds": 122686.704,
+        "age_seconds": 129863.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T13:18:21+00:00",
         "followers_count": 45157,
@@ -8661,7 +8661,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T15:25:25.946391+00:00",
       "qualification": {
-        "age_seconds": 121630.704,
+        "age_seconds": 128807.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T15:24:41+00:00",
         "followers_count": 26378,
@@ -8696,7 +8696,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T15:25:25.946391+00:00",
       "qualification": {
-        "age_seconds": 121508.704,
+        "age_seconds": 128685.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T15:24:41+00:00",
         "followers_count": 266297,
@@ -8731,7 +8731,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T15:25:25.946391+00:00",
       "qualification": {
-        "age_seconds": 119818.704,
+        "age_seconds": 126995.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T15:24:41+00:00",
         "followers_count": 106716,
@@ -8766,7 +8766,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T15:25:25.946391+00:00",
       "qualification": {
-        "age_seconds": 119763.704,
+        "age_seconds": 126940.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T15:24:41+00:00",
         "followers_count": 34082,
@@ -8801,7 +8801,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T15:25:25.946391+00:00",
       "qualification": {
-        "age_seconds": 115888.704,
+        "age_seconds": 123065.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T15:24:41+00:00",
         "followers_count": 2152607,
@@ -8836,7 +8836,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T17:17:06.387789+00:00",
       "qualification": {
-        "age_seconds": 111362.704,
+        "age_seconds": 118539.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T17:17:06+00:00",
         "followers_count": 79981,
@@ -8871,7 +8871,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T17:17:06.387789+00:00",
       "qualification": {
-        "age_seconds": 110750.704,
+        "age_seconds": 117927.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T17:17:06+00:00",
         "followers_count": 86914,
@@ -8906,7 +8906,7 @@
       "language": "de",
       "last_seen_at": "2026-11-16T17:17:06.387789+00:00",
       "qualification": {
-        "age_seconds": 108299.704,
+        "age_seconds": 115476.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T17:17:06+00:00",
         "followers_count": 21647,
@@ -8941,7 +8941,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T19:20:08.149691+00:00",
       "qualification": {
-        "age_seconds": 104614.704,
+        "age_seconds": 111791.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T19:21:30+00:00",
         "followers_count": 126088,
@@ -8976,7 +8976,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T19:20:08.149691+00:00",
       "qualification": {
-        "age_seconds": 104254.704,
+        "age_seconds": 111431.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T19:21:30+00:00",
         "followers_count": 300538,
@@ -9011,7 +9011,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T19:20:08.149691+00:00",
       "qualification": {
-        "age_seconds": 102960.704,
+        "age_seconds": 110137.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T19:21:30+00:00",
         "followers_count": 78164,
@@ -9046,7 +9046,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T19:20:08.149691+00:00",
       "qualification": {
-        "age_seconds": 102727.704,
+        "age_seconds": 109904.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T19:21:30+00:00",
         "followers_count": 71176,
@@ -9081,7 +9081,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T19:20:08.149691+00:00",
       "qualification": {
-        "age_seconds": 101821.704,
+        "age_seconds": 108998.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T19:21:30+00:00",
         "followers_count": 45256,
@@ -9116,7 +9116,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T21:21:33.439492+00:00",
       "qualification": {
-        "age_seconds": 100500.704,
+        "age_seconds": 107677.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T21:20:59+00:00",
         "followers_count": 49664,
@@ -9151,7 +9151,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T21:21:33.439492+00:00",
       "qualification": {
-        "age_seconds": 97321.704,
+        "age_seconds": 104498.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T21:20:59+00:00",
         "followers_count": 284723,
@@ -9186,7 +9186,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T21:21:33.439492+00:00",
       "qualification": {
-        "age_seconds": 96026.704,
+        "age_seconds": 103203.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T21:20:59+00:00",
         "followers_count": 306151,
@@ -9221,7 +9221,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T21:21:33.439492+00:00",
       "qualification": {
-        "age_seconds": 95066.704,
+        "age_seconds": 102243.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T21:20:59+00:00",
         "followers_count": 242637,
@@ -9256,7 +9256,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T21:21:33.439492+00:00",
       "qualification": {
-        "age_seconds": 93950.704,
+        "age_seconds": 101127.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T21:20:59+00:00",
         "followers_count": 25648,
@@ -9291,7 +9291,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T23:20:48.594727+00:00",
       "qualification": {
-        "age_seconds": 93041.704,
+        "age_seconds": 100218.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T23:20:59+00:00",
         "followers_count": 86845,
@@ -9326,7 +9326,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T23:20:48.594727+00:00",
       "qualification": {
-        "age_seconds": 91354.704,
+        "age_seconds": 98531.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T23:20:59+00:00",
         "followers_count": 98970,
@@ -9361,7 +9361,7 @@
       "language": "en",
       "last_seen_at": "2026-11-16T23:20:48.594727+00:00",
       "qualification": {
-        "age_seconds": 88212.704,
+        "age_seconds": 95389.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-16T23:20:59+00:00",
         "followers_count": 84534,
@@ -9396,7 +9396,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T01:16:48.586400+00:00",
       "qualification": {
-        "age_seconds": 80897.704,
+        "age_seconds": 88074.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T01:16:59+00:00",
         "followers_count": 134360,
@@ -9431,7 +9431,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T11:22:58.005488+00:00",
       "qualification": {
-        "age_seconds": 48733.704,
+        "age_seconds": 55910.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T11:22:57+00:00",
         "followers_count": 35241,
@@ -9466,7 +9466,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T11:22:58.005488+00:00",
       "qualification": {
-        "age_seconds": 46475.704,
+        "age_seconds": 53652.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T11:22:57+00:00",
         "followers_count": 20982,
@@ -9501,7 +9501,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T11:22:58.005488+00:00",
       "qualification": {
-        "age_seconds": 45501.704,
+        "age_seconds": 52678.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T11:22:57+00:00",
         "followers_count": 143235,
@@ -9536,7 +9536,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T13:15:40.440869+00:00",
       "qualification": {
-        "age_seconds": 40618.704,
+        "age_seconds": 47795.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T13:15:40+00:00",
         "followers_count": 65970,
@@ -9571,7 +9571,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T13:15:40.440869+00:00",
       "qualification": {
-        "age_seconds": 40404.704,
+        "age_seconds": 47581.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T13:15:40+00:00",
         "followers_count": 297894,
@@ -9606,7 +9606,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T15:18:09.037901+00:00",
       "qualification": {
-        "age_seconds": 32278.704,
+        "age_seconds": 39455.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T15:18:08+00:00",
         "followers_count": 32803,
@@ -9641,7 +9641,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T17:19:21.491622+00:00",
       "qualification": {
-        "age_seconds": 27900.704,
+        "age_seconds": 35077.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T17:18:56+00:00",
         "followers_count": 679675,
@@ -9676,7 +9676,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T17:19:21.491622+00:00",
       "qualification": {
-        "age_seconds": 26509.704,
+        "age_seconds": 33686.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T17:18:56+00:00",
         "followers_count": 234073,
@@ -9711,7 +9711,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T17:19:21.491622+00:00",
       "qualification": {
-        "age_seconds": 25914.704,
+        "age_seconds": 33091.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T17:18:56+00:00",
         "followers_count": 34087,
@@ -9746,7 +9746,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T17:19:21.491622+00:00",
       "qualification": {
-        "age_seconds": 23902.704,
+        "age_seconds": 31079.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T17:18:56+00:00",
         "followers_count": 610981,
@@ -9781,7 +9781,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T17:19:21.491622+00:00",
       "qualification": {
-        "age_seconds": 22095.704,
+        "age_seconds": 29272.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T17:18:56+00:00",
         "followers_count": 242637,
@@ -9816,7 +9816,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T19:20:48.737182+00:00",
       "qualification": {
-        "age_seconds": 20774.704,
+        "age_seconds": 27951.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T19:20:29+00:00",
         "followers_count": 20799,
@@ -9851,7 +9851,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T19:20:48.737182+00:00",
       "qualification": {
-        "age_seconds": 16897.704,
+        "age_seconds": 24074.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T19:20:29+00:00",
         "followers_count": 562479,
@@ -9886,7 +9886,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T19:20:48.737182+00:00",
       "qualification": {
-        "age_seconds": 15232.704,
+        "age_seconds": 22409.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T19:20:29+00:00",
         "followers_count": 20181,
@@ -9921,7 +9921,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T19:20:48.737182+00:00",
       "qualification": {
-        "age_seconds": 14318.704,
+        "age_seconds": 21495.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T19:20:29+00:00",
         "followers_count": 31039,
@@ -9956,7 +9956,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T21:18:43.686394+00:00",
       "qualification": {
-        "age_seconds": 13868.704,
+        "age_seconds": 21045.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T21:18:23+00:00",
         "followers_count": 83945,
@@ -9991,7 +9991,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T21:18:43.686394+00:00",
       "qualification": {
-        "age_seconds": 12961.704,
+        "age_seconds": 20138.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T21:18:23+00:00",
         "followers_count": 242653,
@@ -10026,7 +10026,7 @@
       "language": "es",
       "last_seen_at": "2026-11-17T21:18:43.686394+00:00",
       "qualification": {
-        "age_seconds": 12478.704,
+        "age_seconds": 19655.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T21:18:23+00:00",
         "followers_count": 35405,
@@ -10061,7 +10061,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T21:18:43.686394+00:00",
       "qualification": {
-        "age_seconds": 8972.704,
+        "age_seconds": 16149.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T21:18:23+00:00",
         "followers_count": 163286,
@@ -10096,7 +10096,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T23:17:01.704470+00:00",
       "qualification": {
-        "age_seconds": 5539.704,
+        "age_seconds": 12716.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T23:17:01+00:00",
         "followers_count": 163224,
@@ -10131,7 +10131,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T23:17:01.704470+00:00",
       "qualification": {
-        "age_seconds": 4607.704,
+        "age_seconds": 11784.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T23:17:01+00:00",
         "followers_count": 82724,
@@ -10166,7 +10166,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T23:17:01.704470+00:00",
       "qualification": {
-        "age_seconds": 3853.704,
+        "age_seconds": 11030.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T23:17:01+00:00",
         "followers_count": 27592,
@@ -10201,7 +10201,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T23:17:01.704470+00:00",
       "qualification": {
-        "age_seconds": 2986.704,
+        "age_seconds": 10163.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T23:17:01+00:00",
         "followers_count": 48008,
@@ -10236,7 +10236,7 @@
       "language": "en",
       "last_seen_at": "2026-11-17T23:17:01.704470+00:00",
       "qualification": {
-        "age_seconds": 121.704,
+        "age_seconds": 7298.086,
         "exclude_reason": "",
         "followers_checked_at": "2026-11-17T23:17:01+00:00",
         "followers_count": 48816,
@@ -10253,9 +10253,114 @@
       "timestamp_source": "x.get_posts_by_ids",
       "topic": "precio-btc",
       "url": "https://x.com/exitpumpBTC/status/2122830897518916086"
+    },
+    "2122834669796462961": {
+      "author": "KCEX_Official",
+      "context": "KCEX (exchange) dice que $BTC muestra señales de capitulación sin suelo confirmado: soporte clave $62K-$66K, compradores recientes sumaron ~66K BTC en esa zona, costo base de holders de corto plazo $74.1K; un cierre diario bajo $62K podría exponer $58.5K y el realized price de $53.7K (cifras del autor).",
+      "created_at": "2026-11-17T23:30:00Z",
+      "created_at_chile": "2026-11-17 20:30:00 America/Santiago",
+      "created_at_verified": true,
+      "cta": "",
+      "exclude_reason": "",
+      "first_seen_at": "2026-11-18T01:17:30+00:00",
+      "followers_checked_at": "2026-11-18T01:17:30+00:00",
+      "followers_count": 135845,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "id": "2122834669796462961",
+      "language": "en",
+      "last_seen_at": "2026-11-18T01:16:38.086343+00:00",
+      "qualification": {
+        "age_seconds": 6398.086,
+        "exclude_reason": "",
+        "followers_checked_at": "2026-11-18T01:17:30+00:00",
+        "followers_count": 135845,
+        "followers_count_verified": true,
+        "min_followers_exclusive": 20000,
+        "qualified": true,
+        "window_seconds": 7200
+      },
+      "qualified": true,
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2122834669796462961",
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2122834669796462961&text=Short-term%20holders%20sitting%20on%20a%20%2474.1K%20cost%20basis%20while%20price%20trades%20in%20the%20low%20%2460Ks%20is%20where%20weak%20hands%20usually%20hand%20coins%20to%20patient%20ones.%20Whether%20%2462K%20holds%20is%20the%20short-term%20question%3B%20the%20bigger%20one%20is%20whether%20you%27re%20positioned%20to%20not%20care.%20Spot%2C%20no%20leverage%2C%20keys%20in%20your%20own%20hands.%20%24BTC",
+      "source_post_id": null,
+      "suggested_text": "Short-term holders sitting on a $74.1K cost basis while price trades in the low $60Ks is where weak hands usually hand coins to patient ones. Whether $62K holds is the short-term question; the bigger one is whether you're positioned to not care. Spot, no leverage, keys in your own hands. $BTC",
+      "timestamp_source": "x.get_posts_by_ids",
+      "topic": "precio-btc",
+      "url": "https://x.com/KCEX_Official/status/2122834669796462961"
+    },
+    "2122843478237270406": {
+      "author": "X_Four_iv",
+      "context": "FOUR | Crypto Spaces explica en lenguaje simple cómo funciona la seguridad de Binance: fondos mayormente en cold storage, multisig/MPC, fondo SAFU (~15,000 BTC, ~US$1B, que no cubre phishing ni estafas) y límites de retiro con revisión manual; dice que 'tu parte' viene después.",
+      "created_at": "2026-11-18T00:05:00Z",
+      "created_at_chile": "2026-11-17 21:05:00 America/Santiago",
+      "created_at_verified": true,
+      "cta": "",
+      "exclude_reason": "",
+      "first_seen_at": "2026-11-18T01:17:30+00:00",
+      "followers_checked_at": "2026-11-18T01:17:30+00:00",
+      "followers_count": 50087,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "id": "2122843478237270406",
+      "language": "en",
+      "last_seen_at": "2026-11-18T01:16:38.086343+00:00",
+      "qualification": {
+        "age_seconds": 4298.086,
+        "exclude_reason": "",
+        "followers_checked_at": "2026-11-18T01:17:30+00:00",
+        "followers_count": 50087,
+        "followers_count_verified": true,
+        "min_followers_exclusive": 20000,
+        "qualified": true,
+        "window_seconds": 7200
+      },
+      "qualified": true,
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2122843478237270406",
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2122843478237270406&text=All%20of%20that%20protects%20the%20platform.%20It%20doesn%27t%20change%20that%20the%20coins%20in%20your%20account%20are%20an%20IOU%20until%20you%20withdraw%20them%2C%20and%20withdrawal%20limits%20and%20manual%20review%20cut%20both%20ways.%20The%20vault%20analogy%20works%2C%20it%27s%20just%20someone%20else%27s%20vault.%20If%20you%20want%20your%20own%2C%20I%20wrote%20how%20to%20build%20an%20air-gapped%20setup%20yourself%3A%20https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0HQ5NS31N%3FdplnkId%3Dc09ef739-11f3-4c76-8c62-92ce160a3341%26nodl%3D1",
+      "source_post_id": null,
+      "suggested_text": "All of that protects the platform. It doesn't change that the coins in your account are an IOU until you withdraw them, and withdrawal limits and manual review cut both ways. The vault analogy works, it's just someone else's vault. If you want your own, I wrote how to build an air-gapped setup yourself: https://www.amazon.com/dp/B0HQ5NS31N?dplnkId=c09ef739-11f3-4c76-8c62-92ce160a3341&nodl=1",
+      "timestamp_source": "x.get_posts_by_ids",
+      "topic": "custodia",
+      "url": "https://x.com/X_Four_iv/status/2122843478237270406"
+    },
+    "2122860066462191631": {
+      "author": "PhilakoneCrypto",
+      "context": "Philakone publica su resumen diario: BTC cerró en $64,921 tras tocar $63,301; Supertrend diario bajista, precio bajo las SMA 50 y 200, RSI 23.90. Soporte $61,956 y resistencia $81,188 (cifras del autor).",
+      "created_at": "2026-11-18T01:10:55Z",
+      "created_at_chile": "2026-11-17 22:10:55 America/Santiago",
+      "created_at_verified": true,
+      "cta": "",
+      "exclude_reason": "",
+      "first_seen_at": "2026-11-18T01:17:30+00:00",
+      "followers_checked_at": "2026-11-18T01:17:30+00:00",
+      "followers_count": 185638,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "id": "2122860066462191631",
+      "language": "en",
+      "last_seen_at": "2026-11-18T01:16:38.086343+00:00",
+      "qualification": {
+        "age_seconds": 343.086,
+        "exclude_reason": "",
+        "followers_checked_at": "2026-11-18T01:17:30+00:00",
+        "followers_count": 185638,
+        "followers_count_verified": true,
+        "min_followers_exclusive": 20000,
+        "qualified": true,
+        "window_seconds": 7200
+      },
+      "qualified": true,
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2122860066462191631",
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2122860066462191631&text=An%20RSI%20near%2024%20with%20price%20under%20both%20the%2050%20and%20200%20SMA%20is%20the%20kind%20of%20reading%20that%20makes%20everyone%20bearish%20at%20once.%20Useful%20context%2C%20but%20daily%20indicators%20describe%20the%20last%20few%20weeks%2C%20not%20the%20cycle.%20I%27d%20rather%20zoom%20out%20to%20the%20long-term%20trend%20before%20deciding%20what%20this%20level%20means%3A%20https%3A%2F%2Fx.com%2Fforecastquant%2Fstatus%2F2118779927340470279%20%24BTC",
+      "source_post_id": null,
+      "suggested_text": "An RSI near 24 with price under both the 50 and 200 SMA is the kind of reading that makes everyone bearish at once. Useful context, but daily indicators describe the last few weeks, not the cycle. I'd rather zoom out to the long-term trend before deciding what this level means: https://x.com/forecastquant/status/2118779927340470279 $BTC",
+      "timestamp_source": "x.get_posts_by_ids",
+      "topic": "precio-btc",
+      "url": "https://x.com/PhilakoneCrypto/status/2122860066462191631"
     }
   },
-  "last_batch_searched_at": "2026-11-17T23:17:01+00:00",
+  "last_batch_searched_at": "2026-11-18T01:17:30+00:00",
   "min_followers_exclusive": 20000,
   "window_seconds": 7200
 }
