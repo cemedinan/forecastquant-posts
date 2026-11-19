@@ -3,7 +3,7 @@
 
 index.html solo conserva el enlace a esa página. No llama a la API de X
 y no publica. Los posts nuevos piden followers_count verificado mayor
-que 10000, o mayor que 1000 en arcoíris y en toda custodia (hackeos
+que 2500, o mayor que 900 en arcoíris y en toda custodia (hackeos
 de exchanges, billeteras frías, autocustodia y el libro). La antigüedad
 ya no descarta. Hasta 75 tarjetas nuevas por ronda. Las ya publicadas
 se conservan hasta que las descartes en la página.

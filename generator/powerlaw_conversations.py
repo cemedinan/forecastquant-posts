@@ -2,8 +2,8 @@
 """Página «Conversaciones de interés» (conversaciones/index.html).
 
 Al agregar un post nuevo califican originales con created_at verificado
-y autor con followers_count verificado estrictamente mayor que 10000,
-o mayor que 1000 si el tema es arcoíris o custodia (hackeos de
+y autor con followers_count verificado estrictamente mayor que 2500,
+o mayor que 900 si el tema es arcoíris o custodia (hackeos de
 exchanges, billeteras frías, autocustodia y todo lo relacionado con
 el libro). La antigüedad ya no descarta; se prefieren conversaciones
 recientes y activas. No se usa la hora de una cita, ni searched_at, ni una marca
@@ -31,10 +31,10 @@ from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 WINDOW_SECONDS = 7200  # solo para la pastilla «Nuevo»; ya no filtra la admisión
-MIN_FOLLOWERS_EXCLUSIVE = 10000
-MIN_FOLLOWERS_RAINBOW_EXCLUSIVE = 1000
-MIN_FOLLOWERS_CUSTODY_EXCLUSIVE = 1000
-MIN_FOLLOWERS_BOOK_EXCLUSIVE = 1000
+MIN_FOLLOWERS_EXCLUSIVE = 2500
+MIN_FOLLOWERS_RAINBOW_EXCLUSIVE = 900
+MIN_FOLLOWERS_CUSTODY_EXCLUSIVE = 900
+MIN_FOLLOWERS_BOOK_EXCLUSIVE = 900
 RAINBOW_TOPIC_ID = "rainbow"
 CUSTODY_TOPIC_ID = "custody"
 MAX_NEW_PER_ROUND = 75
@@ -54,7 +54,7 @@ CHILE = ZoneInfo("America/Santiago")
 _TOPIC_ID = re.compile(r"^[a-z0-9][a-z0-9-]{0,40}$")
 EMPTY_TEXT = (
     "No hay conversaciones pendientes. Las nuevas se agregan si el autor tiene un "
-    "conteo de seguidores verificado mayor que 10.000, o mayor que 1.000 en arcoíris "
+    "conteo de seguidores verificado mayor que 2.500, o mayor que 900 en arcoíris "
     "y en custodia (hackeos de exchanges, billeteras frías, autocustodia y el libro). "
     "La antigüedad ya no descarta. Las tarjetas ya publicadas se quedan aquí hasta que "
     "las descartes. No se completa la página con un conteo desconocido ni bajo el mínimo."
@@ -301,7 +301,7 @@ def format_followers(count):
 
 
 def min_followers_for(item, topics=None):
-    """Umbral exclusivo: 1000 en arcoíris y en toda custodia, 10000 en el resto."""
+    """Umbral exclusivo: 900 en arcoíris y en toda custodia, 2500 en el resto."""
     topic = item.get("topic")
     if not (isinstance(topic, str) and topic.strip()):
         topic = resolve_topic(item, topics)
@@ -794,7 +794,7 @@ def _warn(evaluated_at):
     return (
         '<div class="warn">Nada se publica solo. Un modelo no es una garantía. '
         "Cada lote nuevo incluye posts originales con un conteo de seguidores "
-        "verificado estrictamente mayor que 10.000, o mayor que 1.000 si el tema "
+        "verificado estrictamente mayor que 2.500, o mayor que 900 si el tema "
         "es arcoíris o custodia (hackeos de exchanges, billeteras frías, "
         "autocustodia y el libro). La antigüedad ya no descarta; se prefieren conversaciones "
         "recientes y activas. Si el conteo falta, no entra. Una marca de "
@@ -858,7 +858,7 @@ def render_conversations_page(items, evaluated_at, topics=None):
         f'<p><a href="{HOME_HREF}">Volver a recomendaciones</a></p>',
         "</div></header>",
         f'<div class="chips" id="pl-topics">{"".join(buttons)}</div>',
-        '<p class="hint">Filtra por tema. Las tarjetas se quedan hasta que las descartes. Los posts nuevos piden más de 10.000 seguidores, o más de 1.000 en arcoíris y en custodia (hackeos, billeteras frías, autocustodia y el libro). La antigüedad ya no descarta.</p>',
+        '<p class="hint">Filtra por tema. Las tarjetas se quedan hasta que las descartes. Los posts nuevos piden más de 2.500 seguidores, o más de 900 en arcoíris y en custodia (hackeos, billeteras frías, autocustodia y el libro). La antigüedad ya no descarta.</p>',
         '<div class="dismiss-bar">',
         '<button type="button" id="pl-show-dismissed" hidden onclick="plToggleDismissed()">Mostrar descartadas (0)</button>',
         '<button type="button" id="pl-restore-all" hidden onclick="plRestoreAll()">Restaurar todas</button>',
