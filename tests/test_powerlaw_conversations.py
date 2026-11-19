@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Admisión por seguidores (10000 / 3000 en custodia), retención hasta descartar, dedup e inyección."""
+"""Admisión por seguidores (10000 / 1000 en arcoíris y custodia), retención hasta descartar, dedup e inyección."""
 import json
 import os
 import re
@@ -111,7 +111,7 @@ class FreshnessTests(unittest.TestCase):
         self.assertTrue(chosen[0]["qualification"]["qualified"])
         self.assertEqual(store["window_seconds"], 7200)
         self.assertEqual(store["min_followers_exclusive"], 10000)
-        self.assertEqual(store["min_followers_custody_exclusive"], 3000)
+        self.assertEqual(store["min_followers_custody_exclusive"], 1000)
         self.assertEqual(store["min_followers_rainbow_exclusive"], 1000)
         self.assertEqual(store["min_followers_book_exclusive"], 1000)
         self.assertEqual(store["max_new_per_round"], 75)
@@ -217,7 +217,7 @@ class FreshnessTests(unittest.TestCase):
         widened = make_item(now - timedelta(seconds=20))
         widened["followers_count"] = 100
         hack_exact = make_item(now - timedelta(seconds=110))
-        hack_exact["followers_count"] = 3000
+        hack_exact["followers_count"] = 1000
         hack_exact["topic"] = "custody"
         hack_exact["context"] = "Habla de un hackeo de exchange y fondos robados."
         hack_exact["custody_band"] = "hack_or_cold"
@@ -260,11 +260,12 @@ class FreshnessTests(unittest.TestCase):
         chosen = [item["id"] for item in pl.qualified_items(store, now)]
         self.assertEqual(
             chosen,
-            [above["id"], still_high["id"], hack_above["id"], rainbow_above["id"], book_above["id"]],
+            [above["id"], still_high["id"], hack_above["id"], rainbow_above["id"], book_above["id"], hack_low["id"]],
         )
-        self.assertEqual(store["items"][hack_above["id"]]["qualification"]["min_followers_exclusive"], 3000)
+        self.assertEqual(store["items"][hack_above["id"]]["qualification"]["min_followers_exclusive"], 1000)
         self.assertEqual(store["items"][rainbow_above["id"]]["qualification"]["min_followers_exclusive"], 1000)
         self.assertEqual(store["items"][book_above["id"]]["qualification"]["min_followers_exclusive"], 1000)
+        self.assertEqual(store["items"][hack_low["id"]]["qualification"]["min_followers_exclusive"], 1000)
         self.assertEqual(store["items"][above["id"]]["qualification"]["min_followers_exclusive"], 10000)
         self.assertEqual(store["history"][exact["id"]]["exclude_reason"], "followers_not_above_min")
         self.assertEqual(store["history"][missing["id"]]["exclude_reason"], "missing_followers_count")
@@ -274,11 +275,10 @@ class FreshnessTests(unittest.TestCase):
         self.assertEqual(store["history"][low_but_blue["id"]]["exclude_reason"], "followers_not_above_min")
         self.assertEqual(store["history"][mid["id"]]["exclude_reason"], "followers_not_above_min")
         self.assertEqual(store["history"][hack_exact["id"]]["exclude_reason"], "followers_not_above_min")
-        self.assertEqual(store["history"][hack_low["id"]]["exclude_reason"], "followers_not_above_min")
         self.assertEqual(store["history"][rainbow_exact["id"]]["exclude_reason"], "followers_not_above_min")
         self.assertEqual(store["history"][book_exact["id"]]["exclude_reason"], "followers_not_above_min")
         self.assertEqual(store["min_followers_exclusive"], 10000)
-        self.assertEqual(store["min_followers_custody_exclusive"], 3000)
+        self.assertEqual(store["min_followers_custody_exclusive"], 1000)
         self.assertEqual(store["min_followers_rainbow_exclusive"], 1000)
         self.assertEqual(store["min_followers_book_exclusive"], 1000)
         self.assertNotIn("suggested_text", json.dumps(store["history"]))
@@ -453,7 +453,7 @@ class PageTests(unittest.TestCase):
         self.assertIn("Un modelo no es una garantía.", page)
         self.assertIn("mayor que 10.000", page)
         self.assertIn("mayor que 1.000", page)
-        self.assertIn("mayor que 3.000", page)
+        self.assertNotIn("mayor que 3.000", page)
         self.assertIn("La antigüedad ya no descarta", page)
         self.assertNotIn('class="card pl-card"', index)
         self.assertEqual(counter(index), (meme_total(), meme_total()))
@@ -529,7 +529,7 @@ class PageTests(unittest.TestCase):
         self.assertIn("suggested_text", store["items"]["2119535615637324097"])
         self.assertEqual(store["window_seconds"], 7200)
         self.assertEqual(store["min_followers_exclusive"], 10000)
-        self.assertEqual(store["min_followers_custody_exclusive"], 3000)
+        self.assertEqual(store["min_followers_custody_exclusive"], 1000)
         self.assertEqual(store["min_followers_rainbow_exclusive"], 1000)
         self.assertEqual(store["min_followers_book_exclusive"], 1000)
         self.assertEqual(store["max_new_per_round"], 75)
@@ -550,7 +550,7 @@ class GeneratorContractTests(unittest.TestCase):
         self.assertIn("MIN_FOLLOWERS_EXCLUSIVE = 10000", module)
         self.assertIn("MIN_FOLLOWERS_RAINBOW_EXCLUSIVE = 1000", module)
         self.assertIn("MIN_FOLLOWERS_BOOK_EXCLUSIVE = 1000", module)
-        self.assertIn("MIN_FOLLOWERS_CUSTODY_EXCLUSIVE = 3000", module)
+        self.assertIn("MIN_FOLLOWERS_CUSTODY_EXCLUSIVE = 1000", module)
         self.assertIn("MAX_NEW_PER_ROUND = 75", module)
         self.assertIn("require_fresh", module)
         self.assertIn("fq_conv_dismissed_v1", module)

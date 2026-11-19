@@ -3,10 +3,10 @@
 
 Al agregar un post nuevo califican originales con created_at verificado
 y autor con followers_count verificado estrictamente mayor que 10000,
-o mayor que 1000 si el tema es arcoíris o si es custodia ligada al
-libro y la autocustodia, o mayor que 3000 si es custodia de hackeos
-a exchanges o billeteras frías. La antigüedad ya no descarta; se
-prefieren conversaciones recientes y activas. No se usa la hora de una cita, ni searched_at, ni una marca
+o mayor que 1000 si el tema es arcoíris o custodia (hackeos de
+exchanges, billeteras frías, autocustodia y todo lo relacionado con
+el libro). La antigüedad ya no descarta; se prefieren conversaciones
+recientes y activas. No se usa la hora de una cita, ni searched_at, ni una marca
 de verificación. Un conteo ausente o no verificado queda fuera. Hasta
 75 tarjetas nuevas por ronda, sin relleno. Las tarjetas ya publicadas
 se quedan en la página hasta que las descartes; no se reescriben ni
@@ -33,8 +33,8 @@ from zoneinfo import ZoneInfo
 WINDOW_SECONDS = 7200  # solo para la pastilla «Nuevo»; ya no filtra la admisión
 MIN_FOLLOWERS_EXCLUSIVE = 10000
 MIN_FOLLOWERS_RAINBOW_EXCLUSIVE = 1000
+MIN_FOLLOWERS_CUSTODY_EXCLUSIVE = 1000
 MIN_FOLLOWERS_BOOK_EXCLUSIVE = 1000
-MIN_FOLLOWERS_CUSTODY_EXCLUSIVE = 3000
 RAINBOW_TOPIC_ID = "rainbow"
 CUSTODY_TOPIC_ID = "custody"
 MAX_NEW_PER_ROUND = 75
@@ -55,10 +55,9 @@ _TOPIC_ID = re.compile(r"^[a-z0-9][a-z0-9-]{0,40}$")
 EMPTY_TEXT = (
     "No hay conversaciones pendientes. Las nuevas se agregan si el autor tiene un "
     "conteo de seguidores verificado mayor que 10.000, o mayor que 1.000 en arcoíris "
-    "y en la autocustodia ligada al libro, o mayor que 3.000 en hackeos de exchanges "
-    "y billeteras frías. La antigüedad ya no descarta. Las tarjetas ya publicadas se "
-    "quedan aquí hasta que las descartes. No se completa la página con un conteo "
-    "desconocido ni bajo el mínimo."
+    "y en custodia (hackeos de exchanges, billeteras frías, autocustodia y el libro). "
+    "La antigüedad ya no descarta. Las tarjetas ya publicadas se quedan aquí hasta que "
+    "las descartes. No se completa la página con un conteo desconocido ni bajo el mínimo."
 )
 TOPIC_EMPTY_TEXT = (
     "Sin posts de este tema. Las que descartaste siguen ocultas en este dispositivo "
@@ -301,69 +300,15 @@ def format_followers(count):
     return f"{count:,}".replace(",", ".")
 
 
-# Términos de hackeos a exchanges o billeteras frías (umbral 3000 en custodia).
-_CUSTODY_HACK_OR_COLD_TERMS = (
-    "exchange hack",
-    "hacked exchange",
-    "hackeo de exchange",
-    "hackeo de un exchange",
-    "ciberataque",
-    "ciberataques",
-    "exchange breach",
-    "hot wallet",
-    "stolen funds",
-    "hardware wallet",
-    "hardware wallets",
-    "billetera fría",
-    "billetera fria",
-    "billeteras frías",
-    "billeteras frias",
-    "cold wallet",
-    "cold wallets",
-    "cold storage",
-    "coldcard",
-    " ledger",
-    "trezor",
-)
-
-
-def custody_is_hack_or_cold(item):
-    """True si la conversación de custodia es de hackeos o billeteras frías.
-
-    Si no, se trata como autocustodia ligada al libro (umbral 1000).
-    Un campo custody_band explícito ('hack_or_cold' o 'book') tiene prioridad.
-    No se usa suggested_text, para no subir el umbral por el link del libro.
-    """
-    band = item.get("custody_band")
-    if isinstance(band, str):
-        key = band.strip().casefold().replace("-", "_").replace(" ", "_")
-        if key in {"hack_or_cold", "hack", "cold", "cold_wallet", "hardware"}:
-            return True
-        if key in {"book", "libro", "self_custody", "autocustodia"}:
-            return False
-    blob = " ".join(
-        part for part in (item.get("context") or "", item.get("text") or "") if part
-    ).casefold()
-    if not blob:
-        return False
-    padded = f" {blob} "
-    for term in _CUSTODY_HACK_OR_COLD_TERMS:
-        if term in padded:
-            return True
-    return False
-
-
 def min_followers_for(item, topics=None):
-    """Umbral exclusivo: 1000 en arcoíris y libro, 3000 en hackeos/frías, 10000 en el resto."""
+    """Umbral exclusivo: 1000 en arcoíris y en toda custodia, 10000 en el resto."""
     topic = item.get("topic")
     if not (isinstance(topic, str) and topic.strip()):
         topic = resolve_topic(item, topics)
     if topic == RAINBOW_TOPIC_ID:
         return MIN_FOLLOWERS_RAINBOW_EXCLUSIVE
     if topic == CUSTODY_TOPIC_ID:
-        if custody_is_hack_or_cold(item):
-            return MIN_FOLLOWERS_CUSTODY_EXCLUSIVE
-        return MIN_FOLLOWERS_BOOK_EXCLUSIVE
+        return MIN_FOLLOWERS_CUSTODY_EXCLUSIVE
     return MIN_FOLLOWERS_EXCLUSIVE
 
 
@@ -850,8 +795,8 @@ def _warn(evaluated_at):
         '<div class="warn">Nada se publica solo. Un modelo no es una garantía. '
         "Cada lote nuevo incluye posts originales con un conteo de seguidores "
         "verificado estrictamente mayor que 10.000, o mayor que 1.000 si el tema "
-        "es arcoíris o la autocustodia ligada al libro, o mayor que 3.000 en "
-        "hackeos de exchanges y billeteras frías. La antigüedad ya no descarta; se prefieren conversaciones "
+        "es arcoíris o custodia (hackeos de exchanges, billeteras frías, "
+        "autocustodia y el libro). La antigüedad ya no descarta; se prefieren conversaciones "
         "recientes y activas. Si el conteo falta, no entra. Una marca de "
         "verificación no sustituye el número. Hasta 75 tarjetas nuevas por ronda, "
         "sin relleno. No entran posts a los que @ForecastQuant ya respondió o que "
@@ -913,7 +858,7 @@ def render_conversations_page(items, evaluated_at, topics=None):
         f'<p><a href="{HOME_HREF}">Volver a recomendaciones</a></p>',
         "</div></header>",
         f'<div class="chips" id="pl-topics">{"".join(buttons)}</div>',
-        '<p class="hint">Filtra por tema. Las tarjetas se quedan hasta que las descartes. Los posts nuevos piden más de 10.000 seguidores, o más de 1.000 en arcoíris y en la autocustodia del libro, o más de 3.000 en hackeos y billeteras frías. La antigüedad ya no descarta.</p>',
+        '<p class="hint">Filtra por tema. Las tarjetas se quedan hasta que las descartes. Los posts nuevos piden más de 10.000 seguidores, o más de 1.000 en arcoíris y en custodia (hackeos, billeteras frías, autocustodia y el libro). La antigüedad ya no descarta.</p>',
         '<div class="dismiss-bar">',
         '<button type="button" id="pl-show-dismissed" hidden onclick="plToggleDismissed()">Mostrar descartadas (0)</button>',
         '<button type="button" id="pl-restore-all" hidden onclick="plRestoreAll()">Restaurar todas</button>',
