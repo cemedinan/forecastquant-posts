@@ -2,8 +2,9 @@
 """Incorpora un lote y reescribe conversaciones/index.html.
 
 index.html solo conserva el enlace a esa página. No llama a la API de X
-y no publica. El filtro de 7200 s y de más de 20.000 seguidores solo se
-aplica al admitir posts nuevos. Las tarjetas ya publicadas se conservan
+y no publica. Los posts nuevos piden followers_count verificado mayor
+que 10000, o mayor que 3000 en custodia. La antigüedad ya no descarta.
+Hasta 75 tarjetas nuevas por ronda. Las ya publicadas se conservan
 hasta que las descartes en la página.
 
 Desde la raíz del repo:

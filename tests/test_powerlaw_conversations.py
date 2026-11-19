@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Admisión en 7200 s, retención hasta descartar, dedup e inyección."""
+"""Admisión por seguidores (10000 / 3000 en custodia), retención hasta descartar, dedup e inyección."""
 import json
 import os
 import re
@@ -107,10 +107,12 @@ class FreshnessTests(unittest.TestCase):
         chosen = pl.qualified_items(store, VALIDATION)
         self.assertEqual([item["id"] for item in chosen], QUALIFIED_IDS)
         self.assertEqual(chosen[0]["followers_count"], 26377)
-        self.assertEqual(chosen[0]["qualification"]["min_followers_exclusive"], 20000)
+        self.assertEqual(chosen[0]["qualification"]["min_followers_exclusive"], 10000)
         self.assertTrue(chosen[0]["qualification"]["qualified"])
         self.assertEqual(store["window_seconds"], 7200)
-        self.assertEqual(store["min_followers_exclusive"], 20000)
+        self.assertEqual(store["min_followers_exclusive"], 10000)
+        self.assertEqual(store["min_followers_custody_exclusive"], 3000)
+        self.assertEqual(store["max_new_per_round"], 75)
         alerts = store["discarded"]["2119547966536962235"]
         self.assertEqual(alerts["followers_count"], 9348)
         self.assertEqual(alerts["author"], "btcnewsalerts")
@@ -143,7 +145,7 @@ class FreshnessTests(unittest.TestCase):
         self.assertEqual(david["source_post_id"], None)
         self.assertNotIn("2119547966536962235", json.dumps(load_batch()["items"]))
 
-    def test_exact_boundary_and_no_widening(self):
+    def test_age_no_longer_blocks_admission(self):
         now = datetime(2026, 11, 8, 23, 0, 44, tzinfo=timezone.utc)
         edge = make_item(now - timedelta(seconds=7200))
         just_over = make_item(now - timedelta(seconds=7201))
@@ -155,8 +157,7 @@ class FreshnessTests(unittest.TestCase):
             now,
         )
         chosen = [item["id"] for item in pl.qualified_items(store, now)]
-        self.assertEqual(chosen, [fresh["id"], edge["id"]])
-        self.assertNotIn(just_over["id"], chosen)
+        self.assertEqual(chosen, [fresh["id"], edge["id"], just_over["id"]])
         self.assertEqual(store["window_seconds"], 7200)
 
     def test_missing_or_unverified_created_at_is_excluded(self):
@@ -176,22 +177,25 @@ class FreshnessTests(unittest.TestCase):
         self.assertEqual(store["history"][unverified["id"]]["exclude_reason"], "unverifiable_created_at")
         self.assertNotIn("suggested_text", json.dumps(store["history"]))
 
-    def test_search_time_and_quote_time_do_not_qualify_an_old_original(self):
+    def test_search_time_and_quote_time_do_not_replace_created_at(self):
         now = VALIDATION
         old = make_item(now - timedelta(hours=5))
         old["parent_created_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
         old["quoted_status_created_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
         store = pl.empty_store()
         pl.merge_batch(store, {"searched_at": now.isoformat(), "window_end": now.isoformat(), "items": [old]}, now)
-        self.assertEqual(pl.qualified_items(store, now), [])
-        self.assertEqual(store["history"][old["id"]]["exclude_reason"], "older_than_7200s")
+        chosen = pl.qualified_items(store, now)
+        self.assertEqual([item["id"] for item in chosen], [old["id"]])
+        self.assertEqual(chosen[0]["created_at"], old["created_at"])
 
-    def test_follower_count_must_be_verified_and_above_20000(self):
+    def test_follower_count_must_be_verified_and_above_topic_minimum(self):
         now = VALIDATION
         exact = make_item(now - timedelta(seconds=30))
-        exact["followers_count"] = 20000
+        exact["followers_count"] = 10000
         above = make_item(now - timedelta(seconds=45))
-        above["followers_count"] = 20001
+        above["followers_count"] = 10001
+        still_high = make_item(now - timedelta(seconds=50))
+        still_high["followers_count"] = 20001
         missing = make_item(now - timedelta(seconds=55))
         missing.pop("followers_count")
         blue = make_item(now - timedelta(seconds=65))
@@ -206,23 +210,67 @@ class FreshnessTests(unittest.TestCase):
         low_but_blue = make_item(now - timedelta(seconds=95))
         low_but_blue["followers_count"] = 9348
         low_but_blue["is_blue_verified"] = True
+        mid = make_item(now - timedelta(seconds=100))
+        mid["followers_count"] = 5000
         widened = make_item(now - timedelta(seconds=20))
         widened["followers_count"] = 100
+        custody_exact = make_item(now - timedelta(seconds=110))
+        custody_exact["followers_count"] = 3000
+        custody_exact["topic"] = "custody"
+        custody_above = make_item(now - timedelta(seconds=120))
+        custody_above["followers_count"] = 3001
+        custody_above["topic"] = "custody"
         store = pl.empty_store()
         pl.merge_batch(
             store,
-            {"min_followers_exclusive": 0, "items": [exact, above, missing, blue, unverified, as_text, low_but_blue, widened]},
+            {"min_followers_exclusive": 0, "items": [
+                exact, above, still_high, missing, blue, unverified, as_text,
+                low_but_blue, mid, widened, custody_exact, custody_above,
+            ]},
             now,
         )
-        self.assertEqual([item["id"] for item in pl.qualified_items(store, now)], [above["id"]])
-        self.assertEqual(store["history"][exact["id"]]["exclude_reason"], "followers_not_above_20000")
+        chosen = [item["id"] for item in pl.qualified_items(store, now)]
+        self.assertEqual(chosen, [above["id"], still_high["id"], custody_above["id"]])
+        self.assertEqual(store["items"][custody_above["id"]]["qualification"]["min_followers_exclusive"], 3000)
+        self.assertEqual(store["items"][above["id"]]["qualification"]["min_followers_exclusive"], 10000)
+        self.assertEqual(store["history"][exact["id"]]["exclude_reason"], "followers_not_above_min")
         self.assertEqual(store["history"][missing["id"]]["exclude_reason"], "missing_followers_count")
         self.assertEqual(store["history"][blue["id"]]["exclude_reason"], "missing_followers_count")
         self.assertEqual(store["history"][unverified["id"]]["exclude_reason"], "unverifiable_followers_count")
         self.assertEqual(store["history"][as_text["id"]]["exclude_reason"], "unverifiable_followers_count")
-        self.assertEqual(store["history"][low_but_blue["id"]]["exclude_reason"], "followers_not_above_20000")
-        self.assertEqual(store["min_followers_exclusive"], 20000)
+        self.assertEqual(store["history"][low_but_blue["id"]]["exclude_reason"], "followers_not_above_min")
+        self.assertEqual(store["history"][mid["id"]]["exclude_reason"], "followers_not_above_min")
+        self.assertEqual(store["history"][custody_exact["id"]]["exclude_reason"], "followers_not_above_min")
+        self.assertEqual(store["min_followers_exclusive"], 10000)
+        self.assertEqual(store["min_followers_custody_exclusive"], 3000)
         self.assertNotIn("suggested_text", json.dumps(store["history"]))
+
+    def test_own_and_already_answered_posts_are_excluded(self):
+        now = VALIDATION
+        own = make_item(now - timedelta(seconds=20))
+        own["author"] = "ForecastQuant"
+        quoted = make_item(now - timedelta(seconds=30))
+        quoted["forecastquant_replied_or_quoted"] = True
+        ok = make_item(now - timedelta(seconds=40))
+        store = pl.empty_store()
+        pl.merge_batch(store, {"items": [own, quoted, ok]}, now)
+        self.assertEqual([item["id"] for item in pl.qualified_items(store, now)], [ok["id"]])
+        self.assertEqual(store["history"][own["id"]]["exclude_reason"], "own_account")
+        self.assertEqual(store["history"][quoted["id"]]["exclude_reason"], "already_replied_or_quoted")
+
+    def test_round_keeps_at_most_75_new_cards(self):
+        now = VALIDATION
+        items = [make_item(now - timedelta(seconds=i + 1)) for i in range(76)]
+        store = pl.empty_store()
+        pl.merge_batch(store, {"items": items}, now)
+        chosen = pl.qualified_items(store, now)
+        self.assertEqual(len(chosen), 75)
+        self.assertEqual(store["max_new_per_round"], 75)
+        oldest = items[-1]
+        self.assertNotIn(oldest["id"], store["items"])
+        self.assertEqual(store["history"][oldest["id"]]["exclude_reason"], "over_round_cap")
+        newest = items[0]
+        self.assertIn(newest["id"], store["items"])
 
     def test_snowflake_mismatch_is_unverifiable_even_if_the_clock_looks_fresh(self):
         now = VALIDATION
@@ -365,23 +413,27 @@ class PageTests(unittest.TestCase):
             self.assertNotIn(status_id, page)
             self.assertNotIn(status_id, index)
         self.assertIn("Un modelo no es una garantía.", page)
-        self.assertIn("7200 segundos", page)
-        self.assertIn("mayor que 20.000", page)
+        self.assertIn("mayor que 10.000", page)
+        self.assertIn("mayor que 3.000", page)
+        self.assertIn("La antigüedad ya no descarta", page)
         self.assertNotIn('class="card pl-card"', index)
         self.assertEqual(counter(index), (meme_total(), meme_total()))
         self.assertEqual(len(article_ids(index)), meme_total())
 
-    def test_empty_state_when_a_late_batch_has_nothing_to_admit(self):
-        index = self._apply(VALIDATION + timedelta(hours=4))
+    def test_empty_state_when_a_batch_has_nothing_to_admit(self):
+        now = VALIDATION
+        low = make_item(now - timedelta(seconds=30))
+        low["followers_count"] = 10000
+        pl.refresh(self.store_dir, now, {"items": [low]}, self.index)
+        index = open(self.index, encoding="utf-8").read()
         page = open(conversations_file(self.index), encoding="utf-8").read()
         self.assertNotIn('class="card pl-card"', page)
         self.assertNotIn('class="card pl-card"', index)
         self.assertIn("No hay conversaciones pendientes", page)
-        self.assertIn("7200 segundos", page)
+        self.assertIn("mayor que 10.000", page)
         self.assertNotIn("Responder con sugerencia", page)
-        for raw in load_batch()["items"]:
-            self.assertNotIn(raw["suggested_text"], page)
-            self.assertNotIn(raw["id"], page)
+        self.assertNotIn(low["suggested_text"], page)
+        self.assertNotIn(low["id"], page)
         original = open(INDEX_PATH, encoding="utf-8").read()
         base = meme_total(original)
         self.assertEqual(counter(index), (base, base))
@@ -436,7 +488,9 @@ class PageTests(unittest.TestCase):
         self.assertIn("2119535615637324097", store["items"])
         self.assertIn("suggested_text", store["items"]["2119535615637324097"])
         self.assertEqual(store["window_seconds"], 7200)
-        self.assertEqual(store["min_followers_exclusive"], 20000)
+        self.assertEqual(store["min_followers_exclusive"], 10000)
+        self.assertEqual(store["min_followers_custody_exclusive"], 3000)
+        self.assertEqual(store["max_new_per_round"], 75)
         self.assertEqual(store["discarded"]["2119547966536962235"]["followers_count"], 9348)
         self.assertEqual(store["last_batch_searched_at"], "2026-11-08T22:11:54.271118+00:00")
         self.assertNotIn("suggested_text", json.dumps(store["discarded"]))
@@ -451,7 +505,9 @@ class GeneratorContractTests(unittest.TestCase):
             self.assertNotIn("api.twitter.com", source)
         module = open(os.path.join(ROOT, "generator", "powerlaw_conversations.py"), encoding="utf-8").read()
         self.assertIn("WINDOW_SECONDS = 7200", module)
-        self.assertIn("MIN_FOLLOWERS_EXCLUSIVE = 20000", module)
+        self.assertIn("MIN_FOLLOWERS_EXCLUSIVE = 10000", module)
+        self.assertIn("MIN_FOLLOWERS_CUSTODY_EXCLUSIVE = 3000", module)
+        self.assertIn("MAX_NEW_PER_ROUND = 75", module)
         self.assertIn("require_fresh", module)
         self.assertIn("fq_conv_dismissed_v1", module)
         self.assertNotIn("timedelta(hours=24)", module)
@@ -710,29 +766,28 @@ class RetentionTests(unittest.TestCase):
             json.dump(batch, handle)
         store = pl.empty_store()
         restored = pl.restore_from_inbox(store, inbox)
-        self.assertEqual(restored, 1)
-        self.assertEqual(list(store["items"]), [good["id"]])
+        self.assertEqual(restored, 2)
+        self.assertEqual(set(store["items"]), {good["id"], late["id"]})
         self.assertEqual(store["items"][good["id"]]["suggested_text"], good["suggested_text"])
         self.assertEqual(store["items"][good["id"]]["context"], good["context"])
-        self.assertNotIn(late["id"], store["items"])
         self.assertNotIn(thin["id"], store["items"])
         later = now + timedelta(hours=6)
         pl.reclassify(store, later)
         chosen = pl.qualified_items(store, later)
-        self.assertEqual([item["id"] for item in chosen], [good["id"]])
+        self.assertEqual({item["id"] for item in chosen}, {good["id"], late["id"]})
         page = pl.render_conversations_page(chosen, later)
         self.assertIn(good["suggested_text"], page)
         self.assertIn("hace 6 h", page)
         self.assertNotIn("Nuevo", page)
 
-    def test_new_old_posts_are_still_rejected_at_admission(self):
+    def test_old_posts_are_admitted_when_followers_qualify(self):
         now = VALIDATION + timedelta(hours=6)
         old = make_item(now - timedelta(hours=5))
         store = pl.empty_store()
         pl.merge_batch(store, {"searched_at": now.isoformat(), "items": [old]}, now)
-        self.assertEqual(pl.qualified_items(store, now), [])
-        self.assertEqual(store["history"][old["id"]]["exclude_reason"], "older_than_7200s")
-        self.assertNotIn("suggested_text", store["history"][old["id"]])
+        chosen = pl.qualified_items(store, now)
+        self.assertEqual([item["id"] for item in chosen], [old["id"]])
+        self.assertTrue(store["items"][old["id"]]["qualified"])
 
 
 

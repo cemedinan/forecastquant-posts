@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """Página «Conversaciones de interés» (conversaciones/index.html).
 
-Al agregar un post nuevo califican solo originales con created_at de
-como máximo 7200 segundos y autor con followers_count verificado
-estrictamente mayor que 20000. No se usa la hora de una cita, ni
-searched_at, ni una marca de verificación. Un conteo ausente o no
-verificado queda fuera. La ventana no se amplía para completar cupos.
-Las tarjetas ya publicadas se quedan en la página hasta que las
-descartes; no se borran al cumplir las 2 horas.
+Al agregar un post nuevo califican originales con created_at verificado
+y autor con followers_count verificado estrictamente mayor que 10000,
+o mayor que 3000 si el tema es custodia (ciberataques a exchanges,
+billeteras frías, autocustodia y lo relacionado con el libro). La
+antigüedad ya no descarta; se prefieren conversaciones recientes y
+activas. No se usa la hora de una cita, ni searched_at, ni una marca
+de verificación. Un conteo ausente o no verificado queda fuera. Hasta
+75 tarjetas nuevas por ronda, sin relleno. Las tarjetas ya publicadas
+se quedan en la página hasta que las descartes; no se reescriben ni
+se borran al cambiar las reglas.
 
 Los temas viven en conversation_topics.json. Cada tarjeta lleva un tema
 (el campo topic del lote, si es un id conocido; si no, la primera
@@ -27,8 +30,11 @@ import urllib.parse
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
-WINDOW_SECONDS = 7200
-MIN_FOLLOWERS_EXCLUSIVE = 20000
+WINDOW_SECONDS = 7200  # solo para la pastilla «Nuevo»; ya no filtra la admisión
+MIN_FOLLOWERS_EXCLUSIVE = 10000
+MIN_FOLLOWERS_CUSTODY_EXCLUSIVE = 3000
+CUSTODY_TOPIC_ID = "custody"
+MAX_NEW_PER_ROUND = 75
 FUTURE_SKEW_SECONDS = 120
 SNOWFLAKE_TOLERANCE_SECONDS = 2
 SNOWFLAKE_EPOCH_MS = 1288834974657
@@ -44,15 +50,16 @@ HOME_HREF = "../index.html"
 CHILE = ZoneInfo("America/Santiago")
 _TOPIC_ID = re.compile(r"^[a-z0-9][a-z0-9-]{0,40}$")
 EMPTY_TEXT = (
-    "No hay conversaciones pendientes. Las nuevas se agregan solo si el post original "
-    "tiene como máximo 7200 segundos y el autor tiene un conteo de seguidores verificado "
-    "mayor que 20.000. Las tarjetas ya publicadas se quedan aquí hasta que las descartes. "
-    "No se completa la página con autores en o bajo 20.000 ni con un conteo desconocido."
+    "No hay conversaciones pendientes. Las nuevas se agregan si el autor tiene un "
+    "conteo de seguidores verificado mayor que 10.000, o mayor que 3.000 en custodia "
+    "(ciberataques a exchanges, billeteras frías, autocustodia y el libro). La "
+    "antigüedad ya no descarta. Las tarjetas ya publicadas se quedan aquí hasta que "
+    "las descartes. No se completa la página con un conteo desconocido ni bajo el mínimo."
 )
 TOPIC_EMPTY_TEXT = (
     "Sin posts de este tema. Las que descartaste siguen ocultas en este dispositivo "
-    "salvo que elijas mostrarlas. No se completa la página con autores en o bajo 20.000 "
-    "ni con un conteo desconocido."
+    "salvo que elijas mostrarlas. No se completa la página con un conteo desconocido "
+    "ni bajo el mínimo de seguidores."
 )
 INBOX_DIR_NAME = "inbox"
 
@@ -76,6 +83,7 @@ _ITEM_FIELDS = (
     "followers_source",
     "followers_checked_at",
     "topic",
+    "forecastquant_replied_or_quoted",
 )
 
 
@@ -147,6 +155,8 @@ def empty_store():
     return {
         "window_seconds": WINDOW_SECONDS,
         "min_followers_exclusive": MIN_FOLLOWERS_EXCLUSIVE,
+        "min_followers_custody_exclusive": MIN_FOLLOWERS_CUSTODY_EXCLUSIVE,
+        "max_new_per_round": MAX_NEW_PER_ROUND,
         "evaluated_at": None,
         "last_batch_searched_at": None,
         "items": {},
@@ -177,12 +187,16 @@ def load_store(store_dir):
             base["last_batch_searched_at"] = searched
     base["window_seconds"] = WINDOW_SECONDS
     base["min_followers_exclusive"] = MIN_FOLLOWERS_EXCLUSIVE
+    base["min_followers_custody_exclusive"] = MIN_FOLLOWERS_CUSTODY_EXCLUSIVE
+    base["max_new_per_round"] = MAX_NEW_PER_ROUND
     return base
 
 
 def save_store(store_dir, store):
     store["window_seconds"] = WINDOW_SECONDS
     store["min_followers_exclusive"] = MIN_FOLLOWERS_EXCLUSIVE
+    store["min_followers_custody_exclusive"] = MIN_FOLLOWERS_CUSTODY_EXCLUSIVE
+    store["max_new_per_round"] = MAX_NEW_PER_ROUND
     path = store_path(store_dir)
     os.makedirs(store_dir, exist_ok=True)
     with open(path, "w", encoding="utf-8") as fh:
@@ -276,8 +290,18 @@ def format_followers(count):
     return f"{count:,}".replace(",", ".")
 
 
-def follower_gate(item, evaluated_at):
-    """Conteo público verificado y estrictamente mayor que 20000.
+def min_followers_for(item, topics=None):
+    """Umbral exclusivo según el tema: 3000 en custodia, 10000 en el resto."""
+    topic = item.get("topic")
+    if not (isinstance(topic, str) and topic.strip()):
+        topic = resolve_topic(item, topics)
+    if topic == CUSTODY_TOPIC_ID:
+        return MIN_FOLLOWERS_CUSTODY_EXCLUSIVE
+    return MIN_FOLLOWERS_EXCLUSIVE
+
+
+def follower_gate(item, evaluated_at, topics=None):
+    """Conteo público verificado y estrictamente mayor que el mínimo del tema.
 
     Una marca de verificación no cuenta como tamaño. Sin número verificable
     el resultado es negativo.
@@ -294,8 +318,9 @@ def follower_gate(item, evaluated_at):
         return False, "unverifiable_followers_count"
     if checked > evaluated_at.astimezone(timezone.utc) + timedelta(seconds=FUTURE_SKEW_SECONDS):
         return False, "unverifiable_followers_count"
-    if count <= MIN_FOLLOWERS_EXCLUSIVE:
-        return False, "followers_not_above_20000"
+    minimum = min_followers_for(item, topics)
+    if count <= minimum:
+        return False, "followers_not_above_min"
     return True, ""
 
 
@@ -312,7 +337,7 @@ def qualification_record(item, evaluated_at, qualified, reason):
         "qualified": qualified,
         "exclude_reason": reason,
         "window_seconds": WINDOW_SECONDS,
-        "min_followers_exclusive": MIN_FOLLOWERS_EXCLUSIVE,
+        "min_followers_exclusive": min_followers_for(item),
         "age_seconds": age,
         "followers_count": count,
         "followers_count_verified": item.get("followers_count_verified") is True,
@@ -340,9 +365,9 @@ def _archive_stub(item, reason, evaluated_at):
 def classify(item, evaluated_at, require_fresh=True):
     """Devuelve (califica, motivo).
 
-    La ventana de WINDOW_SECONDS solo se exige al admitir un post nuevo
-    (require_fresh=True). Las tarjetas ya publicadas se revalidan sin
-    esa ventana para que no desaparezcan a las 2 horas.
+    require_fresh se conserva por compatibilidad, pero la antigüedad ya
+    no descarta un post nuevo. Las tarjetas ya publicadas se revalidan
+    sin evicción por edad ni por el cambio de umbrales.
     """
     status_id = str(item.get("id") or "").strip()
     if not status_id or not status_id.isdigit():
@@ -386,8 +411,12 @@ def classify(item, evaluated_at, require_fresh=True):
     age = (evaluated_at.astimezone(timezone.utc) - created).total_seconds()
     if age < -FUTURE_SKEW_SECONDS:
         return False, "unverifiable_created_at"
-    if require_fresh and age > WINDOW_SECONDS:
-        return False, "older_than_7200s"
+    # La antigüedad ya no descarta. require_fresh se conserva por compatibilidad.
+    _ = require_fresh
+    if isinstance(author, str) and author.strip().lstrip("@").lower() == "forecastquant":
+        return False, "own_account"
+    if item.get("forecastquant_replied_or_quoted") is True:
+        return False, "already_replied_or_quoted"
     followers_ok, followers_reason = follower_gate(item, evaluated_at)
     if not followers_ok:
         return False, followers_reason
@@ -420,6 +449,7 @@ def merge_batch(store, batch, evaluated_at, topics=None):
     discarded = store.setdefault("discarded", {})
     items = store.setdefault("items", {})
     history = store.setdefault("history", {})
+    newly_admitted = []
     for entry in batch.get("excluded_previous_candidates") or []:
         if not isinstance(entry, dict):
             continue
@@ -451,7 +481,7 @@ def merge_batch(store, batch, evaluated_at, topics=None):
         previous = items.get(status_id)
         item = _public_item(raw, previous, evaluated_at)
         item["topic"] = resolve_topic(item, topics)
-        # Si ya estaba publicada, no se evicta por cumplir las 2 horas.
+        # Si ya estaba publicada, no se evicta ni se reescribe su texto.
         ok, reason = classify(item, evaluated_at, require_fresh=previous is None)
         if not ok:
             history[status_id] = _archive_stub(item, reason, evaluated_at)
@@ -464,10 +494,22 @@ def merge_batch(store, batch, evaluated_at, topics=None):
         item["reply_blank"] = blank_intent(status_id)
         history.pop(status_id, None)
         items[status_id] = item
+        if previous is None:
+            newly_admitted.append(status_id)
+    if len(newly_admitted) > MAX_NEW_PER_ROUND:
+        newly_admitted.sort(
+            key=lambda sid: (items[sid].get("created_at") or "", sid),
+            reverse=True,
+        )
+        for status_id in newly_admitted[MAX_NEW_PER_ROUND:]:
+            overflow = items.pop(status_id)
+            history[status_id] = _archive_stub(overflow, "over_round_cap", evaluated_at)
     reclassify(store, evaluated_at, topics)
     store["evaluated_at"] = evaluated_at.astimezone(timezone.utc).isoformat()
     store["window_seconds"] = WINDOW_SECONDS
     store["min_followers_exclusive"] = MIN_FOLLOWERS_EXCLUSIVE
+    store["min_followers_custody_exclusive"] = MIN_FOLLOWERS_CUSTODY_EXCLUSIVE
+    store["max_new_per_round"] = MAX_NEW_PER_ROUND
     store["last_batch_searched_at"] = batch.get("searched_at")
     return store
 
@@ -496,6 +538,8 @@ def reclassify(store, evaluated_at, topics=None):
     store["evaluated_at"] = evaluated_at.astimezone(timezone.utc).isoformat()
     store["window_seconds"] = WINDOW_SECONDS
     store["min_followers_exclusive"] = MIN_FOLLOWERS_EXCLUSIVE
+    store["min_followers_custody_exclusive"] = MIN_FOLLOWERS_CUSTODY_EXCLUSIVE
+    store["max_new_per_round"] = MAX_NEW_PER_ROUND
     return store
 
 
@@ -521,9 +565,10 @@ def inbox_path(store_dir):
 def restore_from_inbox(store, inbox_dir, topics=None):
     """Reincorpora tarjetas que ya calificaron en rondas previas y siguen en el inbox.
 
-    No inventa datos: solo usa el JSON original. El filtro de 2 horas y de
-    seguidores se aplica respecto de searched_at del lote, que es cuando
-    entraron a la página. Omite ids en discarded y los que no califican.
+    No inventa datos: solo usa el JSON original. El filtro de seguidores
+    se aplica respecto de searched_at del lote, que es cuando entraron a
+    la página. La antigüedad ya no descarta. Omite ids en discarded y
+    los que no califican.
     """
     topics = load_topics() if topics is None else topics
     if not inbox_dir or not os.path.isdir(inbox_dir):
@@ -613,7 +658,7 @@ def render_card(item, topic, evaluated_at=None):
     count = item.get("followers_count")
     if created is None or checked is None or isinstance(count, bool) or not isinstance(count, int):
         return ""
-    if count <= MIN_FOLLOWERS_EXCLUSIVE:
+    if count <= min_followers_for(item):
         return ""
     text = item["suggested_text"]
     suggestion = suggestion_intent(status_id, text)
@@ -732,13 +777,15 @@ HEAD_HIDE_SCRIPT = (
 def _warn(evaluated_at):
     return (
         '<div class="warn">Nada se publica solo. Un modelo no es una garantía. '
-        "Cada lote nuevo incluye solo posts originales con como máximo 7200 segundos "
-        "de antigüedad, contados desde la creación del post (no desde una cita ni desde "
-        "la búsqueda), y un conteo de seguidores verificado estrictamente mayor que 20.000. "
-        "Si el conteo falta, no entra. Una marca de verificación no sustituye el número. "
-        "La ventana no se amplía para completar cupos. "
-        "Las tarjetas que ya entraron se quedan en esta página hasta que las descartes; "
-        "no se borran al cumplir las 2 horas. "
+        "Cada lote nuevo incluye posts originales con un conteo de seguidores "
+        "verificado estrictamente mayor que 10.000, o mayor que 3.000 si el tema "
+        "es custodia (ciberataques a exchanges, billeteras frías, autocustodia y "
+        "el libro). La antigüedad ya no descarta; se prefieren conversaciones "
+        "recientes y activas. Si el conteo falta, no entra. Una marca de "
+        "verificación no sustituye el número. Hasta 75 tarjetas nuevas por ronda, "
+        "sin relleno. No entran posts a los que @ForecastQuant ya respondió o que "
+        "ya citó. Las tarjetas que ya entraron se quedan en esta página hasta que "
+        "las descartes; no se reescriben. "
         f"Evaluado: {_esc(chile_stamp(evaluated_at))}.</div>"
     )
 
@@ -795,7 +842,7 @@ def render_conversations_page(items, evaluated_at, topics=None):
         f'<p><a href="{HOME_HREF}">Volver a recomendaciones</a></p>',
         "</div></header>",
         f'<div class="chips" id="pl-topics">{"".join(buttons)}</div>',
-        '<p class="hint">Filtra por tema. Las tarjetas se quedan hasta que las descartes. El filtro de 2 horas y de más de 20.000 seguidores solo se usa al agregar posts nuevos.</p>',
+        '<p class="hint">Filtra por tema. Las tarjetas se quedan hasta que las descartes. Los posts nuevos piden más de 10.000 seguidores, o más de 3.000 en custodia. La antigüedad ya no descarta.</p>',
         '<div class="dismiss-bar">',
         '<button type="button" id="pl-show-dismissed" hidden onclick="plToggleDismissed()">Mostrar descartadas (0)</button>',
         '<button type="button" id="pl-restore-all" hidden onclick="plRestoreAll()">Restaurar todas</button>',

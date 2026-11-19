@@ -176,7 +176,14 @@
       "frase semilla",
       "not your keys",
       "garde en propre",
-      "autocustódia"
+      "autocustódia",
+      "ciberataque",
+      "ciberataques",
+      "exchange hack",
+      "exchange hacked",
+      "hackeo de exchange",
+      "hacked exchange",
+      "exchange breach"
     ],
     "references": [
       {
@@ -184,8 +191,12 @@
         "note": "Libro. Nunca decir que es gratis."
       },
       {
-        "url": "https://x.com/forecastquant/status/2119476332635586800",
-        "note": "Post de promoción del libro."
+        "url": "https://x.com/ForecastQuant/status/2123224399151317008",
+        "note": "Post de promoción del libro, para tarjetas nuevas desde 18-nov-2026."
+      },
+      {
+        "url": "https://x.com/ForecastQuant/status/2116083014815924397",
+        "note": "Post sobre firmante air-gapped."
       }
     ]
   },
