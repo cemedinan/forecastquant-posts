@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T19:49:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123904109992431875",
+      "author": "victor__alfa",
+      "url": "https://x.com/victor__alfa/status/2123904109992431875",
+      "created_at": "2026-11-20T22:19:34.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-20 19:19:34 America/Santiago",
+      "context": "Victor (en portugués): calcula a mano en qué precio el RSI semanal de BTC tocaría 30, su gatillo de \"all in\": ~$52.284 para el cierre del domingo 22/11 (BTC a ~$58.271, RSI semanal 33,43, diario ~17). Explica la suavización de Wilder, el Fibo 0,382 en ~$57.593 y que RSI 30 semanal solo ocurrió en 4 episodios desde 2012. Cuenta mediana (~6.600 seguidores), post de ~30 min con 9 likes y 1 respuesta; portugués = menos competencia.",
+      "suggested_text": "Boa conta, e o detalhe da suavização de Wilder é o que quase todo mundo pula: RSI 30 semanal não é um preço, é um ritmo. Por isso o nível \"anda\" conforme a semana fecha, e por isso quem coloca ordem fixa em $52k pode estar mirando um alvo que já se moveu.\n\nO que eu acrescentaria é que um oscilador de momentum, sozinho, mede a velocidade da queda, não quanto excesso já saiu do sistema. No índice de temperatura de mercado que acompanho, o momentum é só 25% do peso; o resto vem do MVRV, da distância até a média de 200 semanas e do drawdown desde a máxima. No último dado que publiquei, esse índice tinha ido de 99,29 a 0,67 em 364 dias.\n\nO RSI diz quão rápido o preço caiu. A pergunta mais difícil é quanto de quem comprou caro ainda não vendeu.",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 460,
+        "like_count": 9,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "followers_count": 6617,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T22:49:00Z",
+      "followers_checked_at": "2026-11-20T22:49:00Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
