@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T07:29:00-03:00",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123719751503315383",
+      "author": "zenkaixbt",
+      "url": "https://x.com/zenkaixbt/status/2123719751503315383",
+      "created_at": "2026-11-20T10:07:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 07:07:00 America/Santiago",
+      "context": "zenkaixbt: el próximo halving es en 507 días; afirma que 'históricamente siempre funcionó' comprar BTC 500 días antes del halving y vender 500 días después. Post de hace ~20 min con 35 likes y 24 respuestas.",
+      "suggested_text": "Four halvings is a small sample, and \"always\" carries a lot of weight in that sentence. The mechanism behind it is real, though: the next halving cuts the block subsidy from 3.125 to 1.5625 BTC, so new supply drops from ~450 to ~225 BTC a day, and by then only 3.125% of the 21M will be left to issue.\n\nWhat changed is who sits on the other side of that trade. In 2012 and 2016, miner selling was a big share of daily flow; today spot ETFs and corporate treasuries can absorb or dump several days' worth of issuance in a single session. The supply shock shrinks every cycle in absolute terms, while demand gets harder to read.\n\nThe calendar still matters. Maybe just not in the way a 500-day rule assumes.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 2159,
+        "like_count": 35,
+        "quote_count": 0,
+        "reply_count": 24,
+        "repost_count": 6
+      },
+      "followers_count": 57149,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T10:27:22Z",
+      "followers_checked_at": "2026-11-20T10:27:22Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
