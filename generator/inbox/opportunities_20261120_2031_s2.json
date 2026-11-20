@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T20:31:00-03:00",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123913798956224752",
+      "author": "LuxWire",
+      "url": "https://x.com/LuxWire/status/2123913798956224752",
+      "created_at": "2026-11-20T22:58:04.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-20 19:58:04 America/Santiago",
+      "context": "LuxWire (en inglés): BTC subió en promedio 4.721% desde 500 días antes de cada halving hasta el techo del ciclo (2012: 8.460%, 2016: 8.144%, 2020: 1.640%, 2024: 641%). 'Cada ciclo más chico; los retornos se encogen a medida que crece la capitalización.' BTC cerró en $58.354, 53,8% bajo su récord. Cuenta mediana (~14.800 seguidores), post de ~30 min sin respuestas; tema que se responde con los datos del power law.",
+      "suggested_text": "Shrinking multiples are what you'd expect if price follows a power law in time rather than repeating a fixed boom-and-bust template. On a log-log chart the trend keeps rising but flattens as the network ages, so every cycle starts from a higher base and the room to overshoot that trend gets smaller. In the original 2013 power-law fit, the 2017 top stretched to about 9.4x the curve; the 2021 and 2025 tops were far tamer relative to their own starting points, as your numbers show.\n\nThat also changes how to read a 53.8% drawdown. The percentage looks like past cycles, but what matters more is where price sits relative to a trend line that keeps climbing underneath it.\n\nThe halving still cuts issuance every 210,000 blocks like clockwork. Whether it still drives the cycle, or just happens to line up with it, is a much less settled question.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 452,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 2
+      },
+      "followers_count": 14759,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T23:30:18Z",
+      "followers_checked_at": "2026-11-20T23:30:18Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
