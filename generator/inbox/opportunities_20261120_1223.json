@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T12:23:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123792965168746535",
+      "author": "CoinbaseMarkets",
+      "url": "https://x.com/CoinbaseMarkets/status/2123792965168746535",
+      "created_at": "2026-11-20T14:57:55.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 11:57:55 America/Santiago",
+      "context": "Coinbase Markets: BTC estuvo bajo su media de 200 semanas otras cinco veces desde 2015. Sin ciclo de alzas de tasas (2015, 2020, 2023) marcó mínimo en unas tres semanas y casi duplicó al día 180; en 2022, con la Fed subiendo rápido, cayó otro ~25%. Pregunta a cuál se parece hoy (con gráfico).",
+      "suggested_text": "The split you show is the key point: the 200-week average tells you price is cheap relative to its own cycle, not what the macro backdrop will allow. In 2022 the discount rate was rising fast, liquidity was being drained, and \"cheap\" simply got cheaper before it turned.\n\nThat's why I track it as one input of four. My Market Temperature index weights MVRV, price vs the 200-week close, drawdown from the high and volatility-adjusted 90-day momentum at 25% each, and it fell from 99.29 to 0.67 in 364 days: https://x.com/ForecastQuant/status/2122727211610542288\n\nValuation can tell you the market is cold. Whether this resembles 2020 or 2022 depends on a variable that doesn't appear anywhere on the chart.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 11422,
+        "like_count": 13,
+        "quote_count": 0,
+        "reply_count": 3,
+        "repost_count": 2
+      },
+      "followers_count": 1467821,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T15:23:59Z",
+      "followers_checked_at": "2026-11-20T15:23:59Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
