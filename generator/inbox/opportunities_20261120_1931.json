@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T19:31:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123889918988726699",
+      "author": "Sykodelic_",
+      "url": "https://x.com/Sykodelic_/status/2123889918988726699",
+      "created_at": "2026-11-20T21:23:11.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 18:23:11 America/Santiago",
+      "context": "Sykodelic (73,5K seguidores), citando a un trader agotado por el año: dice que han sido los 14 meses más duros que ha visto en cripto, 'el ciclo bajista más largo con la caída más corta', y que en octubre de 2025 solo Bitcoin hizo nuevos máximos mientras el resto no se expandió.",
+      "suggested_text": "Shallow drawdown, long duration: that combination is often harder on people than a sharp crash, because there's no capitulation moment to anchor to, just months of grind. Past cycles had the opposite shape: after the 2011 peak BTC fell 92.7% and needed 622 days to reclaim it; after 2013 it dropped 84.5% and took 1,177 days.\n\nDepth hurts once. Time wears conviction down slowly, and most people who leave a cycle don't sell into the crash, they sell somewhere in the middle of the boredom.\n\nIf drawdowns keep getting shallower as the asset matures, the more interesting question is whether the recovery clock stretches in the opposite direction.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 16,
+        "impression_count": 7096,
+        "like_count": 136,
+        "quote_count": 0,
+        "reply_count": 14,
+        "repost_count": 8
+      },
+      "followers_count": 73533,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T22:31:00Z",
+      "followers_checked_at": "2026-11-20T22:31:00Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
