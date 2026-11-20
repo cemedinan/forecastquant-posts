@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T08:06:00-03:00",
+  "topic": "cycles",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123711232276300059",
+      "author": "KookCapitalLLC",
+      "url": "https://x.com/KookCapitalLLC/status/2123711232276300059",
+      "created_at": "2026-11-20T09:33:09.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 06:33:09 America/Santiago",
+      "context": "KookCapitalLLC: el bear market más largo de BTC es también el más débil; día 410, todos los anteriores ya habían terminado y los últimos tres caían más de 75% a esta edad, este solo la mitad. 'El bear muere de viejo'.",
+      "suggested_text": "Worth separating two clocks here: the day the bear bottoms and the day price gets back to the old high. In past cycles they sat very far apart. After the 2013 peak, BTC fell 84.5% and needed 1,177 days to reclaim it; after 2011, it was -92.7% and 622 days.\n\nA shallower drawdown changes the math on the second clock. From -50% you need +100% to get back, not the +500% or more those older cycles required. Less damage, but also less forced selling to wash out, which may be exactly why time is doing the work price couldn't.\n\nEvery cycle's drop and recovery, side by side: https://x.com/ForecastQuant/status/2122375393776951738\n\nOld age can end a bear. Whether what comes next looks anything like the old cycles is a different question.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "cycles",
+      "metrics": {
+        "bookmark_count": 8,
+        "impression_count": 8365,
+        "like_count": 115,
+        "quote_count": 0,
+        "reply_count": 32,
+        "repost_count": 4
+      },
+      "followers_count": 184754,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T11:03:29Z",
+      "followers_checked_at": "2026-11-20T11:03:29Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
