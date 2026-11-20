@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T17:52:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123880466453573694",
+      "author": "Sykodelic_",
+      "url": "https://x.com/Sykodelic_/status/2123880466453573694",
+      "created_at": "2026-11-20T20:45:37.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 17:45:37 America/Santiago",
+      "context": "Sykodelic (con gráfico): Bitcoin marcó un nuevo mínimo hoy y este ya empata como el mercado bajista más largo de la historia junto con 2015, pero con una caída mucho menor: en 2015, a esta altura, BTC caía 86%; hoy cae 54%. Admite que no lo vio venir, que los bajistas esperaban mínimos de octubre en $35K por el ciclo de 4 años y no pasó, y que habrá que ver qué trae el fin de semana.",
+      "suggested_text": "Depth and duration usually move together, which is what makes this one so unusual. In the cycles I track, the 2011 bear took BTC down 92.7% and needed 622 days to reclaim the high; the 2013 cycle bottomed at -84.5% and took 1,177 days. A 54% drawdown stretched over this long looks less like a capitulation and more like a slow grind, with supply changing hands instead of being dumped all at once.\n\nThe trade-off is that a shallow drawdown spares holders the worst, but it also leaves behind more of the forced selling that deep crashes usually flush out in one go. When price doesn't do the cleaning, time usually has to.\n\nWhether that job is already done, or whether time is still doing what price hasn't, is the part no chart answers on its own.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 7,
+        "impression_count": 2559,
+        "like_count": 52,
+        "quote_count": 1,
+        "reply_count": 8,
+        "repost_count": 2
+      },
+      "followers_count": 73524,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T20:51:36Z",
+      "followers_checked_at": "2026-11-20T20:51:36Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
