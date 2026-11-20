@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T10:27:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123762480795250860",
+      "author": "FrankAFetter",
+      "url": "https://x.com/FrankAFetter/status/2123762480795250860",
+      "created_at": "2026-11-20T12:56:47.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 09:56:47 America/Santiago",
+      "context": "Frank (@FrankAFetter): comprar bitcoin bajo la media móvil de 200 semanas es el momento más seguro; el precio puede bajar más y nadie sabe el corto plazo, pero desde US$61k la 'gravedad' apunta al alza. Cita su post del 15-nov ('Bitcoin at the 200-week is a gift').",
+      "suggested_text": "The 200-week average matters because it spans roughly a full four-year halving cycle, so it filters out both the euphoria and the panic. Trading below it means the market is pricing BTC under its own long-run trend, and historically that has been a small fraction of Bitcoin's life.\n\nI don't read it alone, though. My Market Temperature index blends MVRV, price vs the 200-week close, drawdown from the high and volatility-adjusted 90-day momentum, 25% each, and it went from 99.29 to 0.67 in 364 days. Readings that cold tell you where you are in the cycle, not when it turns.\n\nAnd the average itself keeps climbing every week the price sits down here, as the cheap 2022-23 closes roll off. What \"below the 200-week\" means a few months from now may look quite different.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1611,
+        "like_count": 65,
+        "quote_count": 2,
+        "reply_count": 3,
+        "repost_count": 1
+      },
+      "followers_count": 20987,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T13:27:52Z",
+      "followers_checked_at": "2026-11-20T13:27:52Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
