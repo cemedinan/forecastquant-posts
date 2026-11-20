@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T20:03:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123885594543583447",
+      "author": "QuintenFrancois",
+      "url": "https://x.com/QuintenFrancois/status/2123885594543583447",
+      "created_at": "2026-11-20T21:06:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 18:06:00 America/Santiago",
+      "context": "Quinten Francois (205,6K seguidores): estar infravalorado y estar listo para subir son cosas distintas. CryptoQuant marca a Bitcoin en zona de valor, pero la demanda sigue contrayéndose con fuerza; él ve precios atractivos para acumular a largo plazo sin esperar que el mercado lo premie de inmediato, y dice que la paciencia rendirá más que otra predicción perfecta de piso.",
+      "suggested_text": "Valuation tells you where price sits relative to history; it says nothing about when buyers show up. That's the gap between \"cheap\" and \"ready to rally\", and it's why no single metric settles it.\n\nMy Market Temperature index blends four inputs at 25% each: MVRV, price vs the 200-week average, drawdown from the high, and volatility-adjusted 90-day momentum. It went from 99.29 to 0.67 in 364 days, which says a lot about how far the market has swung and very little about timing: https://x.com/ForecastQuant/status/2122727211610542288\n\nCold readings have historically lined up with good accumulation zones, but they've also lasted longer than most people's patience. The more telling part is which of those four components turns first.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 5617,
+        "like_count": 49,
+        "quote_count": 0,
+        "reply_count": 6,
+        "repost_count": 4
+      },
+      "followers_count": 205615,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T23:03:00Z",
+      "followers_checked_at": "2026-11-20T23:03:00Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
