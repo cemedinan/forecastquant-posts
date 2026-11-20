@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T17:28:00-03:00",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123870827976196235",
+      "author": "cointradernik",
+      "url": "https://x.com/cointradernik/status/2123870827976196235",
+      "created_at": "2026-11-20T20:07:19.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 17:07:19 America/Santiago",
+      "context": "Nik (en inglés, con gráfico): dice que Bitcoin acaba de hacer historia con el precio más bajo de siempre en relación con su power law \"cruda\" y con su power law ajustada por volatilidad, superando el 24 de agosto de 2015. Post de hace ~20 min, 23 likes, 4 guardados y solo 5 respuestas.",
+      "suggested_text": "Worth remembering what a power law fit actually is: a straight line through log price vs. log time, fitted on past data. When $BTC prints its lowest ratio ever against it, two readings are possible, and they aren't mutually exclusive: either price is deeply discounted, or the slope itself is flattening as the asset matures.\n\nHistory gives both sides ammunition. On the original 2013 power law from Dacoinminster, the 2017 top reached 9.4x the curve while the 2018 low already slipped below it. The band around the line has always been wide in both directions, which is why a single extreme reading says more about positioning than about timing.\n\nThe real question a record undershoot raises isn't only \"is it cheap?\" but whether an exponent fitted on the early years still describes a trillion-dollar asset.\n\nhttps://x.com/ForecastQuant/status/2122317683030941979",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 1881,
+        "like_count": 23,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 1
+      },
+      "followers_count": 111999,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T20:25:35Z",
+      "followers_checked_at": "2026-11-20T20:25:35Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
