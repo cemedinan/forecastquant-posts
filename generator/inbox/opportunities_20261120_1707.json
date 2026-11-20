@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T17:07:00-03:00",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123868867453678042",
+      "author": "Cointelegraph",
+      "url": "https://x.com/Cointelegraph/status/2123868867453678042",
+      "created_at": "2026-11-20T19:59:32.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 16:59:32 America/Santiago",
+      "context": "Cointelegraph (JUST IN, con imágenes): según Elliptic, hackers vinculados a Corea del Norte han lavado al menos US$149 millones en bitcoin robados a Binance mediante transacciones coinjoin; el 90% de la actividad ocurrió desde el martes.",
+      "suggested_text": "$149M pushed through coinjoins in a matter of days is the part that matters: every mixing round thins the trail that firms like Elliptic can follow, and the window to freeze anything at an off-ramp closes fast.\n\nIt's also a reminder of where the target sits. Exchanges concentrate thousands of users' coins in hot wallets, which is exactly what state-backed groups are built to attack. Holding your own keys doesn't remove risk, it moves it to you: how the seed is generated, where it's stored, whether the signing device ever touches a network. That's the setup I walk through step by step here: https://x.com/ForecastQuant/status/2123585216740528526\n\nThe uncomfortable part isn't whether another exchange gets hit, but how many users only find out when withdrawals pause.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 13483,
+        "like_count": 21,
+        "quote_count": 2,
+        "reply_count": 9,
+        "repost_count": 4
+      },
+      "followers_count": 2927543,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T20:06:58Z",
+      "followers_checked_at": "2026-11-20T20:06:58Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
