@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T07:55:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123727021389889615",
+      "author": "_adriensapiens",
+      "url": "https://x.com/_adriensapiens/status/2123727021389889615",
+      "created_at": "2026-11-20T10:35:53.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 07:35:53 America/Santiago",
+      "context": "_adriensapiens (le respondió a @ForecastQuant ayer: «Oh sympa ton dashboard !»): dice que BTC está en fase de capitulación y que, en las 16 veces anteriores en que duró tanto, 30 días después BTC estaba más arriba 13 veces. Post en francés de hace ~20 min, 5 likes, 2 citas y 1 respuesta.",
+      "suggested_text": "13 sur 16, c'est encourageant, mais 16 épisodes sur une poignée de cycles, ça veut dire que plusieurs tombent dans les mêmes bear markets : l'échantillon vraiment indépendant est plus petit qu'il n'y paraît.\n\nCe que je regarde en parallèle, c'est la profondeur. Mon indice Market Temperature (MVRV, prix vs moyenne des 200 clôtures hebdo, drawdown depuis l'ATH et momentum 90 j ajusté de la volatilité, 25 % chacun) est passé de 99,29 à 0,67 en 364 jours.\n\nLes capitulations marquent souvent la zone, rarement le jour exact. En 2013, un sommet a été repris en 210 jours, l'autre en 1 177 après -84,5 %.\n\nÊtre plus haut dans 30 jours et être sorti du cycle, ce n'est pas tout à fait la même question.\nhttps://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "fr",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 259,
+        "like_count": 5,
+        "quote_count": 2,
+        "reply_count": 1,
+        "retweet_count": 1
+      },
+      "followers_count": 4584,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T10:53:17Z",
+      "followers_checked_at": "2026-11-20T10:53:17Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
