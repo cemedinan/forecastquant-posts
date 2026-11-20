@@ -88,6 +88,7 @@ _ITEM_FIELDS = (
     "topic",
     "custody_band",
     "forecastquant_replied_or_quoted",
+    "waive_follower_minimum",
 )
 
 
@@ -312,6 +313,11 @@ def min_followers_for(item, topics=None):
     return MIN_FOLLOWERS_EXCLUSIVE
 
 
+def follower_minimum_waived(item):
+    """Excepción puntual de un lote: no aplica el mínimo, pero el conteo sigue siendo obligatorio."""
+    return item.get("waive_follower_minimum") is True
+
+
 def follower_gate(item, evaluated_at, topics=None):
     """Conteo público verificado y estrictamente mayor que el mínimo del tema.
 
@@ -330,6 +336,8 @@ def follower_gate(item, evaluated_at, topics=None):
         return False, "unverifiable_followers_count"
     if checked > evaluated_at.astimezone(timezone.utc) + timedelta(seconds=FUTURE_SKEW_SECONDS):
         return False, "unverifiable_followers_count"
+    if follower_minimum_waived(item):
+        return True, ""
     minimum = min_followers_for(item, topics)
     if count <= minimum:
         return False, "followers_not_above_min"
@@ -349,7 +357,8 @@ def qualification_record(item, evaluated_at, qualified, reason):
         "qualified": qualified,
         "exclude_reason": reason,
         "window_seconds": WINDOW_SECONDS,
-        "min_followers_exclusive": min_followers_for(item),
+        "min_followers_exclusive": 0 if follower_minimum_waived(item) else min_followers_for(item),
+        "waive_follower_minimum": follower_minimum_waived(item),
         "age_seconds": age,
         "followers_count": count,
         "followers_count_verified": item.get("followers_count_verified") is True,
@@ -493,6 +502,8 @@ def merge_batch(store, batch, evaluated_at, topics=None):
         previous = items.get(status_id)
         item = _public_item(raw, previous, evaluated_at)
         item["topic"] = resolve_topic(item, topics)
+        if previous is None and batch.get("waive_follower_minimum") is True:
+            item["waive_follower_minimum"] = True
         # Si ya estaba publicada, no se evicta ni se reescribe su texto.
         ok, reason = classify(item, evaluated_at, require_fresh=previous is None)
         if not ok:
@@ -616,6 +627,8 @@ def restore_from_inbox(store, inbox_dir, topics=None):
                 continue
             item = _public_item(raw, None, evaluated)
             item["topic"] = resolve_topic(item, topics)
+            if batch.get("waive_follower_minimum") is True:
+                item["waive_follower_minimum"] = True
             ok, _reason = classify(item, evaluated, require_fresh=True)
             if not ok:
                 continue
@@ -674,7 +687,7 @@ def render_card(item, topic, evaluated_at=None):
     count = item.get("followers_count")
     if created is None or checked is None or isinstance(count, bool) or not isinstance(count, int):
         return ""
-    if count <= min_followers_for(item):
+    if not follower_minimum_waived(item) and count <= min_followers_for(item):
         return ""
     text = item["suggested_text"]
     suggestion = suggestion_intent(status_id, text)

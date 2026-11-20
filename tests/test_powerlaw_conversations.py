@@ -283,7 +283,38 @@ class FreshnessTests(unittest.TestCase):
         self.assertEqual(store["min_followers_book_exclusive"], 900)
         self.assertNotIn("suggested_text", json.dumps(store["history"]))
 
+    def test_batch_can_waive_follower_minimum_without_changing_defaults(self):
+        now = VALIDATION
+        low = make_item(now - timedelta(seconds=40))
+        low["topic"] = "custody"
+        low["context"] = "Un post sobre autocustodia y una billetera fría."
+        low["followers_count"] = 50
+        store = pl.empty_store()
+        pl.merge_batch(store, {"items": [low]}, now)
+        self.assertNotIn(low["id"], store["items"])
+        self.assertEqual(store["history"][low["id"]]["exclude_reason"], "followers_not_above_min")
+        waived = pl.empty_store()
+        pl.merge_batch(waived, {"waive_follower_minimum": True, "items": [low]}, now)
+        self.assertIn(low["id"], waived["items"])
+        self.assertTrue(waived["items"][low["id"]].get("waive_follower_minimum"))
+        self.assertEqual(waived["items"][low["id"]]["qualification"]["min_followers_exclusive"], 0)
+        self.assertEqual(waived["min_followers_custody_exclusive"], 900)
+        self.assertEqual(waived["min_followers_exclusive"], 2500)
+        later = now + timedelta(hours=2)
+        pl.reclassify(waived, later)
+        self.assertIn(low["id"], waived["items"])
+        with tempfile.TemporaryDirectory() as tmp:
+            pl.save_store(tmp, waived)
+            page_path = os.path.join(tmp, "index.html")
+            pl.write_conversations_page(page_path, tmp, later)
+            page = open(page_path, encoding="utf-8").read()
+            self.assertIn(low["id"], page)
+            self.assertIn("Seguidores: 50", page)
+            self.assertIn("mayor que 2.500", page)
+            self.assertIn("mayor que 900", page)
+
     def test_own_and_already_answered_posts_are_excluded(self):
+
         now = VALIDATION
         own = make_item(now - timedelta(seconds=20))
         own["author"] = "ForecastQuant"
@@ -827,6 +858,33 @@ class RetentionTests(unittest.TestCase):
         self.assertIn(good["suggested_text"], page)
         self.assertIn("hace 6 h", page)
         self.assertNotIn("Nuevo", page)
+
+    def test_restore_from_inbox_honors_batch_follower_waiver(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        inbox = os.path.join(tmp.name, "inbox")
+        os.makedirs(inbox)
+        now = VALIDATION
+        low = make_item(now - timedelta(seconds=40))
+        low["topic"] = "custody"
+        low["context"] = "Un post sobre autocustodia y una billetera fría."
+        low["followers_count"] = 50
+        batch = {
+            "searched_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "waive_follower_minimum": True,
+            "items": [low],
+        }
+        with open(os.path.join(inbox, "opportunities_20261119_2148.json"), "w", encoding="utf-8") as handle:
+            json.dump(batch, handle)
+        store = pl.empty_store()
+        self.assertEqual(pl.restore_from_inbox(store, inbox), 1)
+        self.assertIn(low["id"], store["items"])
+        self.assertTrue(store["items"][low["id"]].get("waive_follower_minimum"))
+        self.assertEqual(store["items"][low["id"]]["qualification"]["min_followers_exclusive"], 0)
+        self.assertEqual(store["min_followers_custody_exclusive"], 900)
+        later = now + timedelta(hours=2)
+        pl.reclassify(store, later)
+        self.assertIn(low["id"], store["items"])
 
     def test_old_posts_are_admitted_when_followers_qualify(self):
         now = VALIDATION + timedelta(hours=6)
