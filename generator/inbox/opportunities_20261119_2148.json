@@ -16,7 +16,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:37:05 America/Santiago",
       "context": "jaouad2d: la seguridad empieza por lo básico: cold storage y 2FA, no hay que subestimarlo.",
-      "suggested_text": "Cold storage and 2FA are the basics that still prevent most losses. I wrote a step-by-step guide to building your own air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Cold storage and 2FA are the basics that still prevent most losses. I wrote a step-by-step guide to building your own air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -36,7 +36,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "cold_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123576330029523133&text=Cold%20storage%20and%202FA%20are%20the%20basics%20that%20still%20prevent%20most%20losses.%20I%20wrote%20a%20step-by-step%20guide%20to%20building%20your%20own%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123576330029523133"
     },
     {
       "id": "2123575989917843673",
@@ -47,7 +49,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:35:44 America/Santiago",
       "context": "techpaul95: el código cerrado es solo otra forma de confianza; not your keys, not your coins.",
-      "suggested_text": "Agreed: if you cannot audit the code, you are trusting someone else with the keys. I wrote a step-by-step guide to air-gapped Bitcoin self-custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Agreed: if you cannot audit the code, you are trusting someone else with the keys. I wrote a step-by-step guide to air-gapped Bitcoin self-custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -67,7 +69,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "self_custody",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123575989917843673&text=Agreed%3A%20if%20you%20cannot%20audit%20the%20code%2C%20you%20are%20trusting%20someone%20else%20with%20the%20keys.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20self-custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123575989917843673"
     },
     {
       "id": "2123575714062680303",
@@ -78,7 +82,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:34:39 America/Santiago",
       "context": "SymplecticFlow: se pregunta si conviene hacer DCA de sats directo a su cold wallet.",
-      "suggested_text": "DCA into a wallet you control is the part that survives an exchange failure. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "DCA into a wallet you control is the part that survives an exchange failure. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -98,7 +102,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "cold_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123575714062680303&text=DCA%20into%20a%20wallet%20you%20control%20is%20the%20part%20that%20survives%20an%20exchange%20failure.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123575714062680303"
     },
     {
       "id": "2123575555199283533",
@@ -109,7 +115,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:34:01 America/Santiago",
       "context": "BudgtStore: nueve años construyendo seguridad de hardware wallets es experiencia real; hace falta más gente en defensa.",
-      "suggested_text": "More people on hardware-wallet defense is needed, especially after supply-chain incidents. I wrote a step-by-step guide to building your own air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "More people on hardware-wallet defense is needed, especially after supply-chain incidents. I wrote a step-by-step guide to building your own air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -129,7 +135,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123575555199283533&text=More%20people%20on%20hardware-wallet%20defense%20is%20needed%2C%20especially%20after%20supply-chain%20incidents.%20I%20wrote%20a%20step-by-step%20guide%20to%20building%20your%20own%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123575555199283533"
     },
     {
       "id": "2123575199585259771",
@@ -140,7 +148,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:32:36 America/Santiago",
       "context": "Khaikhaidao: aprender autocustodia es la única forma de no terminar como otra víctima más de estas 81.000 cuentas.",
-      "suggested_text": "Learning self-custody is how those 81,000 users stop being a statistic. I wrote a step-by-step guide to building your own air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Learning self-custody is how those 81,000 users stop being a statistic. I wrote a step-by-step guide to building your own air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -160,7 +168,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "self_custody",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123575199585259771&text=Learning%20self-custody%20is%20how%20those%2081%2C000%20users%20stop%20being%20a%20statistic.%20I%20wrote%20a%20step-by-step%20guide%20to%20building%20your%20own%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123575199585259771"
     },
     {
       "id": "2123575152709406942",
@@ -171,7 +181,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:32:25 America/Santiago",
       "context": "0xDinz: la frase semilla de bitcoin no tiene botón de recuperar contraseña; eso cambia el cuidado con el papel y el lugar donde se guarda.",
-      "suggested_text": "That's the hard part of a seed: there is no reset button, so the backup has to be treated like the coins themselves. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "That's the hard part of a seed: there is no reset button, so the backup has to be treated like the coins themselves. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -191,7 +201,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "seed_backup",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123575152709406942&text=That%27s%20the%20hard%20part%20of%20a%20seed%3A%20there%20is%20no%20reset%20button%2C%20so%20the%20backup%20has%20to%20be%20treated%20like%20the%20coins%20themselves.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123575152709406942"
     },
     {
       "id": "2123575060111778217",
@@ -202,7 +214,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:32:03 America/Santiago",
       "context": "MicroSeed_io: de poco sirve una hardware wallet y un respaldo de semilla si nunca se prueba la recuperación.",
-      "suggested_text": "Testing the recovery is the only way to know the backup works when you need it. I wrote a step-by-step guide to air-gapped Bitcoin custody, including that verification step: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Testing the recovery is the only way to know the backup works when you need it. I wrote a step-by-step guide to air-gapped Bitcoin custody, including that verification step: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -222,7 +234,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "seed_backup",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123575060111778217&text=Testing%20the%20recovery%20is%20the%20only%20way%20to%20know%20the%20backup%20works%20when%20you%20need%20it.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%2C%20including%20that%20verification%20step%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123575060111778217"
     },
     {
       "id": "2123574655634329956",
@@ -233,7 +247,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:30:26 America/Santiago",
       "context": "alexbuddies: si el exchange quiebra, tu bitcoin es un crédito en la fila de acreedores; si tú tienes las llaves, perder la semilla es perderlo todo.",
-      "suggested_text": "That's the trade-off in one line: on an exchange you hold a claim; with your own seed you hold the keys, so the backup has to be real. I wrote a step-by-step guide to air-gapped self-custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "That's the trade-off in one line: on an exchange you hold a claim; with your own seed you hold the keys, so the backup has to be real. I wrote a step-by-step guide to air-gapped self-custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -253,7 +267,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "exchange_hack",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123574655634329956&text=That%27s%20the%20trade-off%20in%20one%20line%3A%20on%20an%20exchange%20you%20hold%20a%20claim%3B%20with%20your%20own%20seed%20you%20hold%20the%20keys%2C%20so%20the%20backup%20has%20to%20be%20real.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20self-custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123574655634329956"
     },
     {
       "id": "2123574544598548664",
@@ -264,7 +280,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:30:00 America/Santiago",
       "context": "SandyWilli0ux: EE.UU. incautó unos 1.200 millones de dólares en cripto ligados al hack de Binance, atribuidos a actores norcoreanos TraderTraitor.",
-      "suggested_text": "Seizing stolen funds after the fact still leaves the same lesson: coins left on an exchange depend on someone else's security. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Seizing stolen funds after the fact still leaves the same lesson: coins left on an exchange depend on someone else's security. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -284,7 +300,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "exchange_hack",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123574544598548664&text=Seizing%20stolen%20funds%20after%20the%20fact%20still%20leaves%20the%20same%20lesson%3A%20coins%20left%20on%20an%20exchange%20depend%20on%20someone%20else%27s%20security.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123574544598548664"
     },
     {
       "id": "2123574544548114702",
@@ -295,7 +313,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:30:00 America/Santiago",
       "context": "nakamoto_bro: varias wallets air-gapped, Bitcoin Core, multisig y planificación sucesoria; temas poco llamativos y probablemente los más importantes.",
-      "suggested_text": "Air-gapped wallets, multisig and inheritance are unglamorous, and they are exactly the work that protects a stack. I wrote a step-by-step guide to building that kind of Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Air-gapped wallets, multisig and inheritance are unglamorous, and they are exactly the work that protects a stack. I wrote a step-by-step guide to building that kind of Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -315,7 +333,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "airgap_multisig_inheritance",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123574544548114702&text=Air-gapped%20wallets%2C%20multisig%20and%20inheritance%20are%20unglamorous%2C%20and%20they%20are%20exactly%20the%20work%20that%20protects%20a%20stack.%20I%20wrote%20a%20step-by-step%20guide%20to%20building%20that%20kind%20of%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123574544548114702"
     },
     {
       "id": "2123574093907677244",
@@ -326,7 +346,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:28:12 America/Santiago",
       "context": "ArianaJenk1rd2: recomendó Ledger a tres amigos y ahora desconfía de quién tocó la caja antes de que llegara a su puerta.",
-      "suggested_text": "Cold storage is only as cold as the path the device took to your door. Buying direct and setting it up yourself is the boring protection that still works. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Cold storage is only as cold as the path the device took to your door. Buying direct and setting it up yourself is the boring protection that still works. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -346,7 +366,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123574093907677244&text=Cold%20storage%20is%20only%20as%20cold%20as%20the%20path%20the%20device%20took%20to%20your%20door.%20Buying%20direct%20and%20setting%20it%20up%20yourself%20is%20the%20boring%20protection%20that%20still%20works.%20I%20wrote%20a%20step-by-step%20air-gapped%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123574093907677244"
     },
     {
       "id": "2123573812109398170",
@@ -357,7 +379,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:27:05 America/Santiago",
       "context": "OBLIVIONnSOL: lo que quiere entender del proyecto alemán es cómo pretenden congelar wallets de autocustodia sin las llaves privadas.",
-      "suggested_text": "The legal definition matters, but the practical point remains: keys you hold are a different risk than coins sitting at a custodian. I wrote a step-by-step guide to air-gapped self-custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "The legal definition matters, but the practical point remains: keys you hold are a different risk than coins sitting at a custodian. I wrote a step-by-step guide to air-gapped self-custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -377,7 +399,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "legal_custody",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123573812109398170&text=The%20legal%20definition%20matters%2C%20but%20the%20practical%20point%20remains%3A%20keys%20you%20hold%20are%20a%20different%20risk%20than%20coins%20sitting%20at%20a%20custodian.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20self-custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123573812109398170"
     },
     {
       "id": "2123572807644954829",
@@ -388,7 +412,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:23:06 America/Santiago",
       "context": "612ceros: el Bundestag alemán aprobó un proyecto para que aduanas puedan restringir tenencias cripto sospechosas hasta 180 días, incluso en autocustodia y sin llaves privadas.",
-      "suggested_text": "A freeze on self-custody, if it can even be enforced, is another reason to understand exactly how your keys are held. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "A freeze on self-custody, if it can even be enforced, is another reason to understand exactly how your keys are held. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -408,7 +432,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "legal_custody",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123572807644954829&text=A%20freeze%20on%20self-custody%2C%20if%20it%20can%20even%20be%20enforced%2C%20is%20another%20reason%20to%20understand%20exactly%20how%20your%20keys%20are%20held.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123572807644954829"
     },
     {
       "id": "2123572727483174915",
@@ -419,7 +445,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:22:46 America/Santiago",
       "context": "extreemhands: le vaciaron una wallet biométrica tras instalar primero una hot wallet para salir de un exchange; dice que la semilla quedó en el dispositivo.",
-      "suggested_text": "That's a painful pattern: rushing off an exchange into a hot app can leave the seed on a device you thought was clean. An air-gapped setup avoids that step. I wrote a guide here: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "That's a painful pattern: rushing off an exchange into a hot app can leave the seed on a device you thought was clean. An air-gapped setup avoids that step. I wrote a guide here: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -439,7 +465,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "seed_backup",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123572727483174915&text=That%27s%20a%20painful%20pattern%3A%20rushing%20off%20an%20exchange%20into%20a%20hot%20app%20can%20leave%20the%20seed%20on%20a%20device%20you%20thought%20was%20clean.%20An%20air-gapped%20setup%20avoids%20that%20step.%20I%20wrote%20a%20guide%20here%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123572727483174915"
     },
     {
       "id": "2123571973423055049",
@@ -450,7 +478,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:19:47 America/Santiago",
       "context": "BRAVE9790: compró Trezor en el sitio oficial, la entrega no le pareció segura y abrió el dispositivo nuevo para revisar que no estuviera manipulado; lleva una semana sin respuesta de soporte.",
-      "suggested_text": "Even a direct-from-manufacturer delivery is worth inspecting before you type a seed. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Even a direct-from-manufacturer delivery is worth inspecting before you type a seed. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -470,7 +498,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123571973423055049&text=Even%20a%20direct-from-manufacturer%20delivery%20is%20worth%20inspecting%20before%20you%20type%20a%20seed.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123571973423055049"
     },
     {
       "id": "2123571489219977534",
@@ -481,7 +511,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:17:51 America/Santiago",
       "context": "BelisleMichael: dice que le hackearon su Trezor y que la frase semilla no estaba en línea en ningún lado.",
-      "suggested_text": "If the seed was never online, the question becomes how it was entered or stored, not just whether the device looked official. I wrote a step-by-step guide to air-gapped custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "If the seed was never online, the question becomes how it was entered or stored, not just whether the device looked official. I wrote a step-by-step guide to air-gapped custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -501,7 +531,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123571489219977534&text=If%20the%20seed%20was%20never%20online%2C%20the%20question%20becomes%20how%20it%20was%20entered%20or%20stored%2C%20not%20just%20whether%20the%20device%20looked%20official.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123571489219977534"
     },
     {
       "id": "2123571401638506841",
@@ -512,7 +544,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:17:30 America/Santiago",
       "context": "Billge35: tras la alerta de CZ sobre phishing por filtraciones en bancos japoneses, recuerda que Ledger nunca pide las 24 palabras ni hay que escribirlas en un sitio.",
-      "suggested_text": "Exactly: Ledger will never ask for your 24 words, and neither will any real support desk. I wrote a step-by-step guide to keeping those words air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Exactly: Ledger will never ask for your 24 words, and neither will any real support desk. I wrote a step-by-step guide to keeping those words air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -532,7 +564,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123571401638506841&text=Exactly%3A%20Ledger%20will%20never%20ask%20for%20your%2024%20words%2C%20and%20neither%20will%20any%20real%20support%20desk.%20I%20wrote%20a%20step-by-step%20guide%20to%20keeping%20those%20words%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123571401638506841"
     },
     {
       "id": "2123570966647427128",
@@ -543,7 +577,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:15:47 America/Santiago",
       "context": "Billge35: cuando los bancos tambalean, not your keys deja de ser un eslogan; pregunta cuánto del stack sigue en un exchange.",
-      "suggested_text": "When withdrawals can be frozen, 'not your keys' stops being a slogan. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "When withdrawals can be frozen, 'not your keys' stops being a slogan. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -563,7 +597,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "self_custody",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123570966647427128&text=When%20withdrawals%20can%20be%20frozen%2C%20%27not%20your%20keys%27%20stops%20being%20a%20slogan.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123570966647427128"
     },
     {
       "id": "2123570733951643981",
@@ -574,7 +610,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:14:51 America/Santiago",
       "context": "DRNOBODYI: atribuye rotación y salidas al hack de Binance y lo compara, por magnitud, con un ataque a Wall Street.",
-      "suggested_text": "The size of the Binance hack is also a custody story: coins on an exchange move when that platform is hit. I wrote a step-by-step guide to holding your own keys air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "The size of the Binance hack is also a custody story: coins on an exchange move when that platform is hit. I wrote a step-by-step guide to holding your own keys air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -594,7 +630,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "exchange_hack",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123570733951643981&text=The%20size%20of%20the%20Binance%20hack%20is%20also%20a%20custody%20story%3A%20coins%20on%20an%20exchange%20move%20when%20that%20platform%20is%20hit.%20I%20wrote%20a%20step-by-step%20guide%20to%20holding%20your%20own%20keys%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123570733951643981"
     },
     {
       "id": "2123570531802677575",
@@ -605,7 +643,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:14:03 America/Santiago",
       "context": "Colosalbeast: no abre enlaces de correos; solo la app oficial, la misma regla que usa con exchanges y proveedores.",
-      "suggested_text": "Opening only the official app, never the email link, is the right habit for banks and exchanges alike. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Opening only the official app, never the email link, is the right habit for banks and exchanges alike. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -625,7 +663,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123570531802677575&text=Opening%20only%20the%20official%20app%2C%20never%20the%20email%20link%2C%20is%20the%20right%20habit%20for%20banks%20and%20exchanges%20alike.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123570531802677575"
     },
     {
       "id": "2123569827910754686",
@@ -636,7 +676,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:11:15 America/Santiago",
       "context": "michkirby01: si no controlas las llaves privadas, el exchange puede congelar retiros; la autocustodia devuelve ese control.",
-      "suggested_text": "If you don't control the keys, an exchange can freeze withdrawals and you are left waiting. I wrote a step-by-step guide to air-gapped Bitcoin self-custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "If you don't control the keys, an exchange can freeze withdrawals and you are left waiting. I wrote a step-by-step guide to air-gapped Bitcoin self-custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -656,7 +696,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "self_custody",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123569827910754686&text=If%20you%20don%27t%20control%20the%20keys%2C%20an%20exchange%20can%20freeze%20withdrawals%20and%20you%20are%20left%20waiting.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20self-custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123569827910754686"
     },
     {
       "id": "2123569006191976598",
@@ -667,7 +709,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:07:59 America/Santiago",
       "context": "CRIPTO_BITS: regla 1, no pedir precios de memoria; y nunca entregar frase semilla, claves ni contraseñas, porque ninguna herramienta seria las necesita.",
-      "suggested_text": "Exacto: ninguna herramienta seria te pide la frase semilla. Escribí una guía paso a paso para montar una custodia air-gapped de Bitcoin: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Exacto: ninguna herramienta seria te pide la frase semilla. Escribí una guía paso a paso para montar una custodia air-gapped de Bitcoin: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "es",
       "cta": "",
       "source_post_id": null,
@@ -687,7 +729,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "seed_backup",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123569006191976598&text=Exacto%3A%20ninguna%20herramienta%20seria%20te%20pide%20la%20frase%20semilla.%20Escrib%C3%AD%20una%20gu%C3%ADa%20paso%20a%20paso%20para%20montar%20una%20custodia%20air-gapped%20de%20Bitcoin%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123569006191976598"
     },
     {
       "id": "2123568310264668628",
@@ -698,7 +742,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:05:13 America/Santiago",
       "context": "Memyeslf: con el implante pueden restaurar la wallet en otro dispositivo y mover fondos sin tocar el hardware original; distingue el caso confirmado en Ledger Flex.",
-      "suggested_text": "That's why an implant at setup is so dangerous: the attacker can restore the seed on another device without touching yours. I wrote a step-by-step guide to air-gapped custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "That's why an implant at setup is so dangerous: the attacker can restore the seed on another device without touching yours. I wrote a step-by-step guide to air-gapped custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -718,7 +762,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123568310264668628&text=That%27s%20why%20an%20implant%20at%20setup%20is%20so%20dangerous%3A%20the%20attacker%20can%20restore%20the%20seed%20on%20another%20device%20without%20touching%20yours.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123568310264668628"
     },
     {
       "id": "2123568307903332603",
@@ -729,7 +775,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:05:13 America/Santiago",
       "context": "Memyeslf: reporta pérdidas por implantes en Ledger Flex (unos 1.300 SOL) y Stax (507.000 USDT) que capturan la frase de 24 palabras en la configuración.",
-      "suggested_text": "Hidden implants that capture the 24 words during setup are a supply-chain problem, not a reason to leave coins on an exchange. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Hidden implants that capture the 24 words during setup are a supply-chain problem, not a reason to leave coins on an exchange. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -749,7 +795,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123568307903332603&text=Hidden%20implants%20that%20capture%20the%2024%20words%20during%20setup%20are%20a%20supply-chain%20problem%2C%20not%20a%20reason%20to%20leave%20coins%20on%20an%20exchange.%20I%20wrote%20a%20step-by-step%20air-gapped%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123568307903332603"
     },
     {
       "id": "2123568139564929050",
@@ -760,7 +808,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:04:33 America/Santiago",
       "context": "jrowden: qué decirle a la familia sin entregar las llaves: que el bitcoin existe, dónde están las instrucciones, a quién llamar, y que nadie legítimo pedirá las keys.",
-      "suggested_text": "Giving the family the map, not the keys, is the core of inheritance planning. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Giving the family the map, not the keys, is the core of inheritance planning. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -780,7 +828,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "airgap_multisig_inheritance",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123568139564929050&text=Giving%20the%20family%20the%20map%2C%20not%20the%20keys%2C%20is%20the%20core%20of%20inheritance%20planning.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123568139564929050"
     },
     {
       "id": "2123568045188587563",
@@ -791,7 +841,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:04:10 America/Santiago",
       "context": "zemeonc: alerta de phishing: promesa de XRP gratis, un sitio de claim desconocido y una petición de firma; no conectar la wallet principal.",
-      "suggested_text": "A 'free' claim site plus a signature request is a classic drain. Keep the main seed offline. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "A 'free' claim site plus a signature request is a classic drain. Keep the main seed offline. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -811,7 +861,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123568045188587563&text=A%20%27free%27%20claim%20site%20plus%20a%20signature%20request%20is%20a%20classic%20drain.%20Keep%20the%20main%20seed%20offline.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123568045188587563"
     },
     {
       "id": "2123567879752683621",
@@ -822,7 +874,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:03:31 America/Santiago",
       "context": "cryptoliamhq: conectar solo entrega la dirección; el vaciado ocurre al aprobar o firmar. Hay que leer cada prompt y revocar permisos que no se usan.",
-      "suggested_text": "Connect is only an address; the loss happens when you approve or sign. An air-gapped signing flow makes that harder to rush. I wrote a guide here: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Connect is only an address; the loss happens when you approve or sign. An air-gapped signing flow makes that harder to rush. I wrote a guide here: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -842,7 +894,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123567879752683621&text=Connect%20is%20only%20an%20address%3B%20the%20loss%20happens%20when%20you%20approve%20or%20sign.%20An%20air-gapped%20signing%20flow%20makes%20that%20harder%20to%20rush.%20I%20wrote%20a%20guide%20here%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123567879752683621"
     },
     {
       "id": "2123567430995960042",
@@ -853,7 +907,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:01:44 America/Santiago",
       "context": "adolfturing: el CTO de Ledger, Charles Guillemet, deja el cargo tras 9 años y se pregunta qué suele cambiar cuando rota el liderazgo de un lab de seguridad de hardware wallets.",
-      "suggested_text": "Pergantian di tim keamanan hardware wallet mengingatkan bahwa perangkat dan rantai pasok juga bisa jadi titik lemah. Saya menulis panduan langkah demi langkah untuk membangun kustodi Bitcoin air-gapped sendiri: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Pergantian di tim keamanan hardware wallet mengingatkan bahwa perangkat dan rantai pasok juga bisa jadi titik lemah. Saya menulis panduan langkah demi langkah untuk membangun kustodi Bitcoin air-gapped sendiri: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "in",
       "cta": "",
       "source_post_id": null,
@@ -873,7 +927,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123567430995960042&text=Pergantian%20di%20tim%20keamanan%20hardware%20wallet%20mengingatkan%20bahwa%20perangkat%20dan%20rantai%20pasok%20juga%20bisa%20jadi%20titik%20lemah.%20Saya%20menulis%20panduan%20langkah%20demi%20langkah%20untuk%20membangun%20kustodi%20Bitcoin%20air-gapped%20sendiri%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123567430995960042"
     },
     {
       "id": "2123567196555354360",
@@ -884,7 +940,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:00:48 America/Santiago",
       "context": "Rassah: en Rusia, junto con la posibilidad de que los bancos congelen bitcoin, se prohibió operar con wallets de autocustodia; lo ve peor que el caso que comparaban.",
-      "suggested_text": "A ban on self-custody trading pushes people back into banks that can freeze the coins. Knowing how to hold keys yourself still matters. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "A ban on self-custody trading pushes people back into banks that can freeze the coins. Knowing how to hold keys yourself still matters. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -904,7 +960,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "legal_custody",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123567196555354360&text=A%20ban%20on%20self-custody%20trading%20pushes%20people%20back%20into%20banks%20that%20can%20freeze%20the%20coins.%20Knowing%20how%20to%20hold%20keys%20yourself%20still%20matters.%20I%20wrote%20a%20step-by-step%20air-gapped%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123567196555354360"
     },
     {
       "id": "2123567191211823517",
@@ -915,7 +973,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 21:00:47 America/Santiago",
       "context": "Sdy_8: además del argumento fiscal, destaca escasez, autocustodia e independencia del sistema bancario como parte del valor de Bitcoin.",
-      "suggested_text": "Scarcity matters, but self-custody is what makes that scarcity yours instead of a claim on an intermediary. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Scarcity matters, but self-custody is what makes that scarcity yours instead of a claim on an intermediary. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -935,7 +993,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "self_custody",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123567191211823517&text=Scarcity%20matters%2C%20but%20self-custody%20is%20what%20makes%20that%20scarcity%20yours%20instead%20of%20a%20claim%20on%20an%20intermediary.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123567191211823517"
     },
     {
       "id": "2123566832422453446",
@@ -946,7 +1006,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 20:59:21 America/Santiago",
       "context": "Betty8138485714: la autocustodia implica más responsabilidad, pero reduce la necesidad de depender de custodios.",
-      "suggested_text": "The responsibility is real, and it is also the point: once you can hold the keys, you no longer depend on a custodian's promise. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "The responsibility is real, and it is also the point: once you can hold the keys, you no longer depend on a custodian's promise. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -966,7 +1026,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "self_custody",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123566832422453446&text=The%20responsibility%20is%20real%2C%20and%20it%20is%20also%20the%20point%3A%20once%20you%20can%20hold%20the%20keys%2C%20you%20no%20longer%20depend%20on%20a%20custodian%27s%20promise.%20I%20wrote%20a%20step-by-step%20air-gapped%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123566832422453446"
     },
     {
       "id": "2123565426844279120",
@@ -977,7 +1039,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 20:53:46 America/Santiago",
       "context": "TM___D2: una de las claves para proteger activos digitales es reducir su exposición a internet; el cold storage es una capa básica de esa seguridad.",
-      "suggested_text": "صحيح، تقليل تعرّض المفاتيح للإنترنت هو جوهر الحماية. كتبت دليلًا خطوة بخطوة لبناء حل حفظ ذاتي لبيتكوين بمعزل عن الشبكة (air-gapped): https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "صحيح، تقليل تعرّض المفاتيح للإنترنت هو جوهر الحماية. كتبت دليلًا خطوة بخطوة لبناء حل حفظ ذاتي لبيتكوين بمعزل عن الشبكة (air-gapped): https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "ar",
       "cta": "",
       "source_post_id": null,
@@ -997,7 +1059,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "cold_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123565426844279120&text=%D8%B5%D8%AD%D9%8A%D8%AD%D8%8C%20%D8%AA%D9%82%D9%84%D9%8A%D9%84%20%D8%AA%D8%B9%D8%B1%D9%91%D8%B6%20%D8%A7%D9%84%D9%85%D9%81%D8%A7%D8%AA%D9%8A%D8%AD%20%D9%84%D9%84%D8%A5%D9%86%D8%AA%D8%B1%D9%86%D8%AA%20%D9%87%D9%88%20%D8%AC%D9%88%D9%87%D8%B1%20%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9.%20%D9%83%D8%AA%D8%A8%D8%AA%20%D8%AF%D9%84%D9%8A%D9%84%D9%8B%D8%A7%20%D8%AE%D8%B7%D9%88%D8%A9%20%D8%A8%D8%AE%D8%B7%D9%88%D8%A9%20%D9%84%D8%A8%D9%86%D8%A7%D8%A1%20%D8%AD%D9%84%20%D8%AD%D9%81%D8%B8%20%D8%B0%D8%A7%D8%AA%D9%8A%20%D9%84%D8%A8%D9%8A%D8%AA%D9%83%D9%88%D9%8A%D9%86%20%D8%A8%D9%85%D8%B9%D8%B2%D9%84%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A9%20%28air-gapped%29%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123565426844279120"
     },
     {
       "id": "2123559950957920280",
@@ -1008,7 +1072,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 20:32:00 America/Santiago",
       "context": "IssifouIssaka04: una hardware wallet protege los fondos, pero una filtración de Trezor recuerda que nombre y teléfono ligados a la compra también son un riesgo de privacidad.",
-      "suggested_text": "A hardware wallet protects the keys; the purchase record can still be a map to you. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "A hardware wallet protects the keys; the purchase record can still be a map to you. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1028,7 +1092,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123559950957920280&text=A%20hardware%20wallet%20protects%20the%20keys%3B%20the%20purchase%20record%20can%20still%20be%20a%20map%20to%20you.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123559950957920280"
     },
     {
       "id": "2123559566176604443",
@@ -1039,7 +1105,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 20:30:29 America/Santiago",
       "context": "XBitcoinBytes: Trezor permite pedir una hardware wallet de BTC en 18 países europeos sin domicilio, y en la mayoría sin nombre real; la compra no debería ser un mapa a tu puerta.",
-      "suggested_text": "Ordering a device without handing over a home address is a real improvement. Setup still has to stay air-gapped. I wrote a step-by-step guide here: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Ordering a device without handing over a home address is a real improvement. Setup still has to stay air-gapped. I wrote a step-by-step guide here: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1059,7 +1125,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123559566176604443&text=Ordering%20a%20device%20without%20handing%20over%20a%20home%20address%20is%20a%20real%20improvement.%20Setup%20still%20has%20to%20stay%20air-gapped.%20I%20wrote%20a%20step-by-step%20guide%20here%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123559566176604443"
     },
     {
       "id": "2123559403760636243",
@@ -1070,7 +1138,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 20:29:50 America/Santiago",
       "context": "NO_BODYinseyed: denuncia una cuenta que suplanta a Xaman (@XamanWalleitx con I mayúsculas) y aclara cuál es la cuenta oficial.",
-      "suggested_text": "Good catch on the impersonation. Official support will never ask for a seed. I wrote a step-by-step guide to keeping that seed air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Good catch on the impersonation. Official support will never ask for a seed. I wrote a step-by-step guide to keeping that seed air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1090,7 +1158,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123559403760636243&text=Good%20catch%20on%20the%20impersonation.%20Official%20support%20will%20never%20ask%20for%20a%20seed.%20I%20wrote%20a%20step-by-step%20guide%20to%20keeping%20that%20seed%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123559403760636243"
     },
     {
       "id": "2123559000537202964",
@@ -1101,7 +1171,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 20:28:14 America/Santiago",
       "context": "pickup_crypto: tras una filtración bancaria el phishing empieza de inmediato; ya tienen nombre, teléfono y email, y lo siguiente que buscan es la wallet.",
-      "suggested_text": "After a bank leak, the phishing starts with your real name; the next ask is usually the wallet. No real desk wants your seed. I wrote an air-gapped custody guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "After a bank leak, the phishing starts with your real name; the next ask is usually the wallet. No real desk wants your seed. I wrote an air-gapped custody guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1121,7 +1191,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123559000537202964&text=After%20a%20bank%20leak%2C%20the%20phishing%20starts%20with%20your%20real%20name%3B%20the%20next%20ask%20is%20usually%20the%20wallet.%20No%20real%20desk%20wants%20your%20seed.%20I%20wrote%20an%20air-gapped%20custody%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123559000537202964"
     },
     {
       "id": "2123557121086136570",
@@ -1132,7 +1204,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 20:20:46 America/Santiago",
       "context": "antilogin: critica que Ledger no anticipara detección de implantes, pese a promocionarse como la opción más segura.",
-      "suggested_text": "A Genuine Check does not catch an implant that reads the seed at setup, so the supply chain still has to be treated as part of custody. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "A Genuine Check does not catch an implant that reads the seed at setup, so the supply chain still has to be treated as part of custody. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1152,7 +1224,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123557121086136570&text=A%20Genuine%20Check%20does%20not%20catch%20an%20implant%20that%20reads%20the%20seed%20at%20setup%2C%20so%20the%20supply%20chain%20still%20has%20to%20be%20treated%20as%20part%20of%20custody.%20I%20wrote%20a%20step-by-step%20air-gapped%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123557121086136570"
     },
     {
       "id": "2123554995194982897",
@@ -1163,7 +1237,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 20:12:19 America/Santiago",
       "context": "BuilderBakery: agradece la confirmación de casos en Berlín y Dubái; el implante lee la semilla en la configuración, y un sello o Genuine Check no bastan.",
-      "suggested_text": "That's the key point: no Secure Element flaw, but the implant still reads the seed during setup, so a seal is not enough. I wrote a step-by-step guide to air-gapped custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "That's the key point: no Secure Element flaw, but the implant still reads the seed during setup, so a seal is not enough. I wrote a step-by-step guide to air-gapped custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1183,7 +1257,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123554995194982897&text=That%27s%20the%20key%20point%3A%20no%20Secure%20Element%20flaw%2C%20but%20the%20implant%20still%20reads%20the%20seed%20during%20setup%2C%20so%20a%20seal%20is%20not%20enough.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123554995194982897"
     },
     {
       "id": "2123552501400051910",
@@ -1194,7 +1270,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 20:02:24 America/Santiago",
       "context": "RugToRoth: Ledger confirmó, según Decrypt, dispositivos manipulados en Berlín y examina dos sospechosos en Dubái; aconseja a quienes compraron ahí.",
-      "suggested_text": "Confirmed tampered devices in the wild are a reminder to buy direct and inspect before any seed is entered. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Confirmed tampered devices in the wild are a reminder to buy direct and inspect before any seed is entered. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1214,7 +1290,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123552501400051910&text=Confirmed%20tampered%20devices%20in%20the%20wild%20are%20a%20reminder%20to%20buy%20direct%20and%20inspect%20before%20any%20seed%20is%20entered.%20I%20wrote%20a%20step-by-step%20air-gapped%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123552501400051910"
     },
     {
       "id": "2123550955832590629",
@@ -1225,7 +1303,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:56:16 America/Santiago",
       "context": "uslybtc: Ledger confirmó dispositivos alterados fuera del sudeste asiático: unidades modificadas en Berlín y dos casos sospechosos en Dubái; el implante captura la semilla en el setup.",
-      "suggested_text": "If the implant captures the seed at setup, the chip being intact does not save you. Setup has to happen on a device you trust. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "If the implant captures the seed at setup, the chip being intact does not save you. Setup has to happen on a device you trust. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1245,7 +1323,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123550955832590629&text=If%20the%20implant%20captures%20the%20seed%20at%20setup%2C%20the%20chip%20being%20intact%20does%20not%20save%20you.%20Setup%20has%20to%20happen%20on%20a%20device%20you%20trust.%20I%20wrote%20a%20step-by-step%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123550955832590629"
     },
     {
       "id": "2123549539307040822",
@@ -1256,7 +1336,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:50:38 America/Santiago",
       "context": "jamila_go: documentos judiciales revelan que los responsables del hack récord de 6.300 millones a Binance robaron 192 criptomonedas en 11 redes.",
-      "suggested_text": "192 assets across 11 networks is a reminder of how far coins travel once they sit on an exchange. I wrote a step-by-step guide to holding Bitcoin yourself, air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "192 assets across 11 networks is a reminder of how far coins travel once they sit on an exchange. I wrote a step-by-step guide to holding Bitcoin yourself, air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1276,7 +1356,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "exchange_hack",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123549539307040822&text=192%20assets%20across%2011%20networks%20is%20a%20reminder%20of%20how%20far%20coins%20travel%20once%20they%20sit%20on%20an%20exchange.%20I%20wrote%20a%20step-by-step%20guide%20to%20holding%20Bitcoin%20yourself%2C%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123549539307040822"
     },
     {
       "id": "2123548746407412071",
@@ -1287,7 +1369,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:47:29 America/Santiago",
       "context": "Ledger: actualiza la investigación del incidente de implantes del 15 de octubre; dice que no hay falla en el chip ni en el SO, ni casos confirmados en compras en su canal oficial.",
-      "suggested_text": "Good that the chip and OS are not the flaw; the remaining risk is still a tampered device at setup. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Good that the chip and OS are not the flaw; the remaining risk is still a tampered device at setup. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1307,7 +1389,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123548746407412071&text=Good%20that%20the%20chip%20and%20OS%20are%20not%20the%20flaw%3B%20the%20remaining%20risk%20is%20still%20a%20tampered%20device%20at%20setup.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123548746407412071"
     },
     {
       "id": "2123548698038997110",
@@ -1318,7 +1402,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:47:17 America/Santiago",
       "context": "Kebbi_kingjr: la recuperación se hace restaurando en un dispositivo nuevo offline con la semilla; las llaves no deben tocar un teléfono con internet.",
-      "suggested_text": "Restoring on a new offline device, with the seed never touching a phone, is the right recovery path. I wrote a step-by-step guide to that air-gapped flow: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Restoring on a new offline device, with the seed never touching a phone, is the right recovery path. I wrote a step-by-step guide to that air-gapped flow: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1338,7 +1422,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "seed_backup",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123548698038997110&text=Restoring%20on%20a%20new%20offline%20device%2C%20with%20the%20seed%20never%20touching%20a%20phone%2C%20is%20the%20right%20recovery%20path.%20I%20wrote%20a%20step-by-step%20guide%20to%20that%20air-gapped%20flow%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123548698038997110"
     },
     {
       "id": "2123548518891528602",
@@ -1349,7 +1435,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:46:35 America/Santiago",
       "context": "BtcAndres: en su ronda de noticias incluye implantes en Trezor Safe 5, un banco ruso que te custodia y problemas en Ledger de quinta generación.",
-      "suggested_text": "Los implantes en Trezor y la presión sobre Ledger vuelven al mismo punto: la cadena de suministro importa tanto como el chip. Escribí una guía paso a paso de custodia air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Los implantes en Trezor y la presión sobre Ledger vuelven al mismo punto: la cadena de suministro importa tanto como el chip. Escribí una guía paso a paso de custodia air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "es",
       "cta": "",
       "source_post_id": null,
@@ -1369,7 +1455,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123548518891528602&text=Los%20implantes%20en%20Trezor%20y%20la%20presi%C3%B3n%20sobre%20Ledger%20vuelven%20al%20mismo%20punto%3A%20la%20cadena%20de%20suministro%20importa%20tanto%20como%20el%20chip.%20Escrib%C3%AD%20una%20gu%C3%ADa%20paso%20a%20paso%20de%20custodia%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123548518891528602"
     },
     {
       "id": "2123547904694501519",
@@ -1380,7 +1468,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:44:08 America/Santiago",
       "context": "M00NB00TY: las filtraciones hacen más peligroso el phishing porque el estafador ya sabe tu nombre; ningún banco ni exchange real pide la semilla ni el 2FA.",
-      "suggested_text": "Simple and still true: no real bank or exchange asks for a seed or a 2FA code over email. I wrote a step-by-step guide to keeping those words air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Simple and still true: no real bank or exchange asks for a seed or a 2FA code over email. I wrote a step-by-step guide to keeping those words air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1400,7 +1488,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123547904694501519&text=Simple%20and%20still%20true%3A%20no%20real%20bank%20or%20exchange%20asks%20for%20a%20seed%20or%20a%202FA%20code%20over%20email.%20I%20wrote%20a%20step-by-step%20guide%20to%20keeping%20those%20words%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123547904694501519"
     },
     {
       "id": "2123547729486045277",
@@ -1411,7 +1501,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:43:26 America/Santiago",
       "context": "Phnetworkk: opinión impopular: la mayoría de los principiantes aún no debería usar autocustodia; primero aprender, porque perder la semilla es perderlo todo.",
-      "suggested_text": "Learn first, then take custody: that's the right order, not a reason to leave coins on an exchange forever. I wrote a step-by-step guide that starts from that beginning: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Learn first, then take custody: that's the right order, not a reason to leave coins on an exchange forever. I wrote a step-by-step guide that starts from that beginning: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1431,7 +1521,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "self_custody",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123547729486045277&text=Learn%20first%2C%20then%20take%20custody%3A%20that%27s%20the%20right%20order%2C%20not%20a%20reason%20to%20leave%20coins%20on%20an%20exchange%20forever.%20I%20wrote%20a%20step-by-step%20guide%20that%20starts%20from%20that%20beginning%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123547729486045277"
     },
     {
       "id": "2123547313239117924",
@@ -1442,7 +1534,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:41:47 America/Santiago",
       "context": "alefcripto: la frase semilla es como la clave del cajero; no se le pasa a nadie, ni al primo, y quien la pide por DM ya delata la estafa.",
-      "suggested_text": "Tal cual: quien te pide la frase por DM ya te está diciendo que es estafa. Escribí una guía paso a paso para guardar esa semilla en una setup air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Tal cual: quien te pide la frase por DM ya te está diciendo que es estafa. Escribí una guía paso a paso para guardar esa semilla en una setup air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "es",
       "cta": "",
       "source_post_id": null,
@@ -1462,7 +1554,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "seed_backup",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123547313239117924&text=Tal%20cual%3A%20quien%20te%20pide%20la%20frase%20por%20DM%20ya%20te%20est%C3%A1%20diciendo%20que%20es%20estafa.%20Escrib%C3%AD%20una%20gu%C3%ADa%20paso%20a%20paso%20para%20guardar%20esa%20semilla%20en%20una%20setup%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123547313239117924"
     },
     {
       "id": "2123543613577838593",
@@ -1473,7 +1567,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:27:05 America/Santiago",
       "context": "KassimYusujap5: perdió el acceso a su wallet, que no era multisig, por un implante en su Ledger, y comparte una transacción como prueba.",
-      "suggested_text": "Sorry you went through that. An implant at setup can steal a single-sig seed; multisig and an air-gapped flow reduce that single point of failure. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Sorry you went through that. An implant at setup can steal a single-sig seed; multisig and an air-gapped flow reduce that single point of failure. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1493,7 +1587,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123543613577838593&text=Sorry%20you%20went%20through%20that.%20An%20implant%20at%20setup%20can%20steal%20a%20single-sig%20seed%3B%20multisig%20and%20an%20air-gapped%20flow%20reduce%20that%20single%20point%20of%20failure.%20I%20wrote%20a%20step-by-step%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123543613577838593"
     },
     {
       "id": "2123541716179558676",
@@ -1504,7 +1600,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:19:33 America/Santiago",
       "context": "lianshangbiji: el phishing dirigido ya tiene tu nombre y saldos; tras la filtración de Ledger en 2020 llegaron SMS años después. Borra todo lo que finja ser un banco o un fabricante.",
-      "suggested_text": "Targeted phishing after a leak looks cleaner than the real email, which is why a seed should never be typed into a site. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Targeted phishing after a leak looks cleaner than the real email, which is why a seed should never be typed into a site. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1524,7 +1620,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123541716179558676&text=Targeted%20phishing%20after%20a%20leak%20looks%20cleaner%20than%20the%20real%20email%2C%20which%20is%20why%20a%20seed%20should%20never%20be%20typed%20into%20a%20site.%20I%20wrote%20a%20step-by-step%20air-gapped%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123541716179558676"
     },
     {
       "id": "2123541642908951032",
@@ -1535,7 +1633,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:19:15 America/Santiago",
       "context": "TheCrypto_News: alerta de que CZ advirtió sobre estafas de phishing dirigidas tras filtraciones recientes en bancos japoneses.",
-      "suggested_text": "CZ's warning is timely: after a bank leak, fake 'official' messages arrive fast. No exchange will ever need your seed. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "CZ's warning is timely: after a bank leak, fake 'official' messages arrive fast. No exchange will ever need your seed. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1555,7 +1653,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123541642908951032&text=CZ%27s%20warning%20is%20timely%3A%20after%20a%20bank%20leak%2C%20fake%20%27official%27%20messages%20arrive%20fast.%20No%20exchange%20will%20ever%20need%20your%20seed.%20I%20wrote%20a%20step-by-step%20air-gapped%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123541642908951032"
     },
     {
       "id": "2123538312556429660",
@@ -1566,7 +1666,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:06:01 America/Santiago",
       "context": "Wrothparrot0: si en algún momento se escribió la semilla en la hot wallet, varios usuarios vieron esa wallet de la app activa en el menú; solo debería aparecer la biométrica.",
-      "suggested_text": "If the seed was ever typed into a hot app, that app wallet can linger even after you think only the biometric one is active. Offline backups avoid that mix-up. I wrote a guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "If the seed was ever typed into a hot app, that app wallet can linger even after you think only the biometric one is active. Offline backups avoid that mix-up. I wrote a guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1586,7 +1686,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "seed_backup",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123538312556429660&text=If%20the%20seed%20was%20ever%20typed%20into%20a%20hot%20app%2C%20that%20app%20wallet%20can%20linger%20even%20after%20you%20think%20only%20the%20biometric%20one%20is%20active.%20Offline%20backups%20avoid%20that%20mix-up.%20I%20wrote%20a%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123538312556429660"
     },
     {
       "id": "2123538111187546531",
@@ -1597,7 +1699,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 19:05:13 America/Santiago",
       "context": "GoCryptoos: explica el Anti-Phishing Code de Binance para distinguir un correo oficial de uno de suplantación.",
-      "suggested_text": "كود مكافحة التصيد يساعد على تمييز رسائل المنصة، لكن العملات على المنصة تبقى معتمدة على أمانها. كتبت دليلًا لبناء حفظ ذاتي لبيتكوين بمعزل عن الشبكة: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "كود مكافحة التصيد يساعد على تمييز رسائل المنصة، لكن العملات على المنصة تبقى معتمدة على أمانها. كتبت دليلًا لبناء حفظ ذاتي لبيتكوين بمعزل عن الشبكة: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "ar",
       "cta": "",
       "source_post_id": null,
@@ -1617,7 +1719,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123538111187546531&text=%D9%83%D9%88%D8%AF%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B5%D9%8A%D8%AF%20%D9%8A%D8%B3%D8%A7%D8%B9%D8%AF%20%D8%B9%D9%84%D9%89%20%D8%AA%D9%85%D9%8A%D9%8A%D8%B2%20%D8%B1%D8%B3%D8%A7%D8%A6%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A9%D8%8C%20%D9%84%D9%83%D9%86%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%AA%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A9%20%D8%AA%D8%A8%D9%82%D9%89%20%D9%85%D8%B9%D8%AA%D9%85%D8%AF%D8%A9%20%D8%B9%D9%84%D9%89%20%D8%A3%D9%85%D8%A7%D9%86%D9%87%D8%A7.%20%D9%83%D8%AA%D8%A8%D8%AA%20%D8%AF%D9%84%D9%8A%D9%84%D9%8B%D8%A7%20%D9%84%D8%A8%D9%86%D8%A7%D8%A1%20%D8%AD%D9%81%D8%B8%20%D8%B0%D8%A7%D8%AA%D9%8A%20%D9%84%D8%A8%D9%8A%D8%AA%D9%83%D9%88%D9%8A%D9%86%20%D8%A8%D9%85%D8%B9%D8%B2%D9%84%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A9%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123538111187546531"
     },
     {
       "id": "2123536714912117191",
@@ -1628,7 +1732,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 18:59:40 America/Santiago",
       "context": "jaceactual: la aplicación de la ley llega después de que el dinero se mueve; antes, la protección es no compartir la semilla, no mover fondos por un mensaje de 'soporte' y verificar la dirección en la pantalla de la hardware wallet.",
-      "suggested_text": "Exactly: enforcement comes after the money moves. Before that, the protection is never sharing a seed and checking the address on a hardware screen. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Exactly: enforcement comes after the money moves. Before that, the protection is never sharing a seed and checking the address on a hardware screen. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1648,7 +1752,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "seed_backup",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123536714912117191&text=Exactly%3A%20enforcement%20comes%20after%20the%20money%20moves.%20Before%20that%2C%20the%20protection%20is%20never%20sharing%20a%20seed%20and%20checking%20the%20address%20on%20a%20hardware%20screen.%20I%20wrote%20a%20step-by-step%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123536714912117191"
     },
     {
       "id": "2123535657754857598",
@@ -1659,7 +1765,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 18:55:28 America/Santiago",
       "context": "Taosis_com: una wallet sin una clave que te puedan robar va en la dirección correcta, porque la mayoría de las pérdidas vienen del manejo de la semilla y de firmar prompts.",
-      "suggested_text": "Most losses do come from seed handling and rushed signatures. Until a wallet truly has no secret to steal, those two habits still matter. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Most losses do come from seed handling and rushed signatures. Until a wallet truly has no secret to steal, those two habits still matter. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1679,7 +1785,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "seed_backup",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123535657754857598&text=Most%20losses%20do%20come%20from%20seed%20handling%20and%20rushed%20signatures.%20Until%20a%20wallet%20truly%20has%20no%20secret%20to%20steal%2C%20those%20two%20habits%20still%20matter.%20I%20wrote%20a%20step-by-step%20air-gapped%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123535657754857598"
     },
     {
       "id": "2123534551305572751",
@@ -1690,7 +1798,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 18:51:05 America/Santiago",
       "context": "AvishaiY: en un panel sobre el hack STG-3 de Binance sostiene que el problema no es solo la bóveda, sino poner control de políticas en cada punto del flujo de aprobaciones.",
-      "suggested_text": "Policy checkers help a custodian; for coins you don't need to trade, holding the keys yourself removes that whole approval path. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Policy checkers help a custodian; for coins you don't need to trade, holding the keys yourself removes that whole approval path. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1710,7 +1818,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "exchange_hack",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123534551305572751&text=Policy%20checkers%20help%20a%20custodian%3B%20for%20coins%20you%20don%27t%20need%20to%20trade%2C%20holding%20the%20keys%20yourself%20removes%20that%20whole%20approval%20path.%20I%20wrote%20a%20step-by-step%20air-gapped%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123534551305572751"
     },
     {
       "id": "2123532681040277589",
@@ -1721,7 +1831,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 18:43:39 America/Santiago",
       "context": "gasparramon97: le pidieron de nuevo la frase semilla, así lo hackearon, y dice que no caerá una segunda vez.",
-      "suggested_text": "Lamento que te haya pasado. Nadie que sea soporte de verdad te pide la frase semilla, ni la primera vez ni la segunda. Escribí una guía paso a paso de custodia air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Lamento que te haya pasado. Nadie que sea soporte de verdad te pide la frase semilla, ni la primera vez ni la segunda. Escribí una guía paso a paso de custodia air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "es",
       "cta": "",
       "source_post_id": null,
@@ -1741,7 +1851,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123532681040277589&text=Lamento%20que%20te%20haya%20pasado.%20Nadie%20que%20sea%20soporte%20de%20verdad%20te%20pide%20la%20frase%20semilla%2C%20ni%20la%20primera%20vez%20ni%20la%20segunda.%20Escrib%C3%AD%20una%20gu%C3%ADa%20paso%20a%20paso%20de%20custodia%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123532681040277589"
     },
     {
       "id": "2123531898936795634",
@@ -1752,7 +1864,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 18:40:32 America/Santiago",
       "context": "HeyTrustWallet: pide abrir un ticket de soporte y recuerda que Trust Wallet nunca escribe primero por DM ni pide la frase semilla o la llave privada.",
-      "suggested_text": "The reminder is the useful part: real support will never DM first or ask for a seed. I wrote a step-by-step guide to keeping that seed air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "The reminder is the useful part: real support will never DM first or ask for a seed. I wrote a step-by-step guide to keeping that seed air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1772,7 +1884,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123531898936795634&text=The%20reminder%20is%20the%20useful%20part%3A%20real%20support%20will%20never%20DM%20first%20or%20ask%20for%20a%20seed.%20I%20wrote%20a%20step-by-step%20guide%20to%20keeping%20that%20seed%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123531898936795634"
     },
     {
       "id": "2123527550379143422",
@@ -1783,7 +1897,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 18:23:15 America/Santiago",
       "context": "Ding_go200: quien perdió acceso quizá perdió la wallet misma; en un multisig también hace falta el archivo con todas las wallets involucradas.",
-      "suggested_text": "True: a multisig backup is more than one seed, and missing the extra material can lock you out. I wrote a step-by-step guide to building that kind of air-gapped setup: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "True: a multisig backup is more than one seed, and missing the extra material can lock you out. I wrote a step-by-step guide to building that kind of air-gapped setup: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1803,7 +1917,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "airgap_multisig_inheritance",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123527550379143422&text=True%3A%20a%20multisig%20backup%20is%20more%20than%20one%20seed%2C%20and%20missing%20the%20extra%20material%20can%20lock%20you%20out.%20I%20wrote%20a%20step-by-step%20guide%20to%20building%20that%20kind%20of%20air-gapped%20setup%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123527550379143422"
     },
     {
       "id": "2123526513647640831",
@@ -1814,7 +1930,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 18:19:08 America/Santiago",
       "context": "0xzac: una aprobación multisig ayuda a mitigar el vaciado de wallets.",
-      "suggested_text": "Multisig approval is one of the few controls that actually limits a drain, as long as the keys live on separate, offline devices. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Multisig approval is one of the few controls that actually limits a drain, as long as the keys live on separate, offline devices. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1834,7 +1950,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "airgap_multisig_inheritance",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123526513647640831&text=Multisig%20approval%20is%20one%20of%20the%20few%20controls%20that%20actually%20limits%20a%20drain%2C%20as%20long%20as%20the%20keys%20live%20on%20separate%2C%20offline%20devices.%20I%20wrote%20a%20step-by-step%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123526513647640831"
     },
     {
       "id": "2123525698451013884",
@@ -1845,7 +1963,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 18:15:54 America/Santiago",
       "context": "kryptrexapp: antes de transaccionar, revisar plataformas no verificadas, enlaces de phishing, direcciones o redes incorrectas y comisiones inesperadas.",
-      "suggested_text": "Checking the address and ignoring unverified links is the cheap habit that prevents most drains. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Checking the address and ignoring unverified links is the cheap habit that prevents most drains. I wrote a step-by-step guide to air-gapped Bitcoin custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1865,7 +1983,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123525698451013884&text=Checking%20the%20address%20and%20ignoring%20unverified%20links%20is%20the%20cheap%20habit%20that%20prevents%20most%20drains.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20Bitcoin%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123525698451013884"
     },
     {
       "id": "2123517393930707176",
@@ -1876,7 +1996,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 17:42:54 America/Santiago",
       "context": "0xPritom: actualizó la passkey de Binance, añadió lista blanca de retiros y activó el código anti-phishing.",
-      "suggested_text": "Passkeys, a withdrawal whitelist and an anti-phishing code help on an exchange; they still don't replace keys you hold yourself. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Passkeys, a withdrawal whitelist and an anti-phishing code help on an exchange; they still don't replace keys you hold yourself. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1896,7 +2016,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123517393930707176&text=Passkeys%2C%20a%20withdrawal%20whitelist%20and%20an%20anti-phishing%20code%20help%20on%20an%20exchange%3B%20they%20still%20don%27t%20replace%20keys%20you%20hold%20yourself.%20I%20wrote%20a%20step-by-step%20air-gapped%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123517393930707176"
     },
     {
       "id": "2123513752519589981",
@@ -1907,7 +2029,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 17:28:26 America/Santiago",
       "context": "Askeladd_pov: pregunta si al crear una cuenta con Google la frase queda en el celular, y menciona apps que piden guardar parte de la semilla en Drive.",
-      "suggested_text": "Cuidado con guardar trozos de la frase semilla en Drive o en la cuenta de Google: ese respaldo deja de estar solo en tu poder. Escribí una guía de custodia air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Cuidado con guardar trozos de la frase semilla en Drive o en la cuenta de Google: ese respaldo deja de estar solo en tu poder. Escribí una guía de custodia air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "es",
       "cta": "",
       "source_post_id": null,
@@ -1927,7 +2049,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "seed_backup",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123513752519589981&text=Cuidado%20con%20guardar%20trozos%20de%20la%20frase%20semilla%20en%20Drive%20o%20en%20la%20cuenta%20de%20Google%3A%20ese%20respaldo%20deja%20de%20estar%20solo%20en%20tu%20poder.%20Escrib%C3%AD%20una%20gu%C3%ADa%20de%20custodia%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123513752519589981"
     },
     {
       "id": "2123512446921097547",
@@ -1938,7 +2062,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 17:23:14 America/Santiago",
       "context": "CryptoFraudLaw: un tribunal de Abu Dabi concedió a Binance una injunction para congelar cripto tras el hack; se pregunta si hay fondos recuperables o solo direcciones vacías.",
-      "suggested_text": "A freeze order can help after the theft; it still depends on coins sitting in places a court can reach. Keys you hold are a different problem. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "A freeze order can help after the theft; it still depends on coins sitting in places a court can reach. Keys you hold are a different problem. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -1958,7 +2082,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "exchange_hack",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123512446921097547&text=A%20freeze%20order%20can%20help%20after%20the%20theft%3B%20it%20still%20depends%20on%20coins%20sitting%20in%20places%20a%20court%20can%20reach.%20Keys%20you%20hold%20are%20a%20different%20problem.%20I%20wrote%20a%20step-by-step%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123512446921097547"
     },
     {
       "id": "2123510784789533030",
@@ -1969,7 +2095,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 17:16:38 America/Santiago",
       "context": "Askeladd_pov: ve bien p2pme como pasarela de cambio, pero no le deja el dinero en ese tipo de apps; la autocustodia, dice, tiene que ser en cold wallets.",
-      "suggested_text": "Bien visto: una app de P2P puede servir de pasarela, no de lugar para dejar el saldo. La autocustodia en cold wallet es el paso siguiente. Escribí una guía air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Bien visto: una app de P2P puede servir de pasarela, no de lugar para dejar el saldo. La autocustodia en cold wallet es el paso siguiente. Escribí una guía air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "es",
       "cta": "",
       "source_post_id": null,
@@ -1989,7 +2115,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "cold_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123510784789533030&text=Bien%20visto%3A%20una%20app%20de%20P2P%20puede%20servir%20de%20pasarela%2C%20no%20de%20lugar%20para%20dejar%20el%20saldo.%20La%20autocustodia%20en%20cold%20wallet%20es%20el%20paso%20siguiente.%20Escrib%C3%AD%20una%20gu%C3%ADa%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123510784789533030"
     },
     {
       "id": "2123510154054586591",
@@ -2000,7 +2128,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 17:14:08 America/Santiago",
       "context": "Ryan_Ford0: la gente olvida que SAFU cubre emergencias de la plataforma, no caer en un enlace de phishing.",
-      "suggested_text": "Exactly: SAFU is for platform failures, not for a seed typed into a fake link. The second part is holding keys yourself. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Exactly: SAFU is for platform failures, not for a seed typed into a fake link. The second part is holding keys yourself. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -2020,7 +2148,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123510154054586591&text=Exactly%3A%20SAFU%20is%20for%20platform%20failures%2C%20not%20for%20a%20seed%20typed%20into%20a%20fake%20link.%20The%20second%20part%20is%20holding%20keys%20yourself.%20I%20wrote%20a%20step-by-step%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123510154054586591"
     },
     {
       "id": "2123508836875243698",
@@ -2031,7 +2161,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 17:08:54 America/Santiago",
       "context": "ytajy2qo: no todo aviso de seguridad busca protegerte; el phishing se hace pasar por soporte de Binance para robar las claves.",
-      "suggested_text": "صحيح: الدعم الحقيقي لا يطلب العبارة السرية أبدًا، حتى لو بدا التحذير رسميًا. كتبت دليلًا خطوة بخطوة لبناء حفظ ذاتي لبيتكوين بمعزل عن الشبكة: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "صحيح: الدعم الحقيقي لا يطلب العبارة السرية أبدًا، حتى لو بدا التحذير رسميًا. كتبت دليلًا خطوة بخطوة لبناء حفظ ذاتي لبيتكوين بمعزل عن الشبكة: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "ar",
       "cta": "",
       "source_post_id": null,
@@ -2051,7 +2181,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123508836875243698&text=%D8%B5%D8%AD%D9%8A%D8%AD%3A%20%D8%A7%D9%84%D8%AF%D8%B9%D9%85%20%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%82%D9%8A%20%D9%84%D8%A7%20%D9%8A%D8%B7%D9%84%D8%A8%20%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%A9%20%D8%A3%D8%A8%D8%AF%D9%8B%D8%A7%D8%8C%20%D8%AD%D8%AA%D9%89%20%D9%84%D9%88%20%D8%A8%D8%AF%D8%A7%20%D8%A7%D9%84%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%20%D8%B1%D8%B3%D9%85%D9%8A%D9%8B%D8%A7.%20%D9%83%D8%AA%D8%A8%D8%AA%20%D8%AF%D9%84%D9%8A%D9%84%D9%8B%D8%A7%20%D8%AE%D8%B7%D9%88%D8%A9%20%D8%A8%D8%AE%D8%B7%D9%88%D8%A9%20%D9%84%D8%A8%D9%86%D8%A7%D8%A1%20%D8%AD%D9%81%D8%B8%20%D8%B0%D8%A7%D8%AA%D9%8A%20%D9%84%D8%A8%D9%8A%D8%AA%D9%83%D9%88%D9%8A%D9%86%20%D8%A8%D9%85%D8%B9%D8%B2%D9%84%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A9%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123508836875243698"
     },
     {
       "id": "2123507403203186841",
@@ -2062,7 +2194,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 17:03:12 America/Santiago",
       "context": "strz4lkowic: tras la filtración de clientes de Ledger en 2020, años de phishing con nombre y dirección reales, e incluso dispositivos falsos por correo; una filtración no caduca.",
-      "suggested_text": "A customer-list leak does not expire: years later the fake emails, and even fake devices in the mail, still arrive. I wrote a step-by-step guide to air-gapped custody: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "A customer-list leak does not expire: years later the fake emails, and even fake devices in the mail, still arrive. I wrote a step-by-step guide to air-gapped custody: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -2082,7 +2214,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123507403203186841&text=A%20customer-list%20leak%20does%20not%20expire%3A%20years%20later%20the%20fake%20emails%2C%20and%20even%20fake%20devices%20in%20the%20mail%2C%20still%20arrive.%20I%20wrote%20a%20step-by-step%20guide%20to%20air-gapped%20custody%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123507403203186841"
     },
     {
       "id": "2123506776104407326",
@@ -2093,7 +2227,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 17:00:42 America/Santiago",
       "context": "D_digivangelist: un tribunal de Abu Dabi emitió una orden de congelamiento por 6.500 millones tras el robo del 29 de octubre en Binance; unos 2.850 millones ya estarían interceptados.",
-      "suggested_text": "Freezing stolen funds is progress, and it still leaves the original lesson: coins on an exchange can leave in one night. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Freezing stolen funds is progress, and it still leaves the original lesson: coins on an exchange can leave in one night. I wrote a step-by-step air-gapped guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -2113,7 +2247,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "exchange_hack",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123506776104407326&text=Freezing%20stolen%20funds%20is%20progress%2C%20and%20it%20still%20leaves%20the%20original%20lesson%3A%20coins%20on%20an%20exchange%20can%20leave%20in%20one%20night.%20I%20wrote%20a%20step-by-step%20air-gapped%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123506776104407326"
     },
     {
       "id": "2123506606717772235",
@@ -2124,7 +2260,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 17:00:02 America/Santiago",
       "context": "Coin_Scoop: Ledger investiga reportes de dispositivos manipulados en Dubái, tras usuarios que denunciaron el robo de fondos.",
-      "suggested_text": "Si el dispositivo llegó manipulado, el chip intacto no evita que te capten la frase en la configuración. Compra directa y setup propio. Escribí una guía air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Si el dispositivo llegó manipulado, el chip intacto no evita que te capten la frase en la configuración. Compra directa y setup propio. Escribí una guía air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "es",
       "cta": "",
       "source_post_id": null,
@@ -2144,7 +2280,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123506606717772235&text=Si%20el%20dispositivo%20lleg%C3%B3%20manipulado%2C%20el%20chip%20intacto%20no%20evita%20que%20te%20capten%20la%20frase%20en%20la%20configuraci%C3%B3n.%20Compra%20directa%20y%20setup%20propio.%20Escrib%C3%AD%20una%20gu%C3%ADa%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123506606717772235"
     },
     {
       "id": "2123498304420094012",
@@ -2155,7 +2293,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 16:27:03 America/Santiago",
       "context": "Dave_Joe_9377: una alerta falsa de precio en una app grande es un phishing perfecto; hay que mirar el precio en el propio exchange antes de reaccionar a una notificación.",
-      "suggested_text": "A fake price alert is built to make you click first and think later. The same pause belongs to any message that wants a seed or a signature. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "A fake price alert is built to make you click first and think later. The same pause belongs to any message that wants a seed or a signature. I wrote a step-by-step guide: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "en",
       "cta": "",
       "source_post_id": null,
@@ -2175,7 +2313,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123498304420094012&text=A%20fake%20price%20alert%20is%20built%20to%20make%20you%20click%20first%20and%20think%20later.%20The%20same%20pause%20belongs%20to%20any%20message%20that%20wants%20a%20seed%20or%20a%20signature.%20I%20wrote%20a%20step-by-step%20guide%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123498304420094012"
     },
     {
       "id": "2123480716864364933",
@@ -2186,7 +2326,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 15:17:09 America/Santiago",
       "context": "fredusx: la rampa fiat para pasar USDT/USDC a bolívares le funciona, pero no la recomendaría como wallet de almacenamiento mientras no aclaren lo de la supuesta autocustodia.",
-      "suggested_text": "Buena distinción: una rampa fiat no es lo mismo que un lugar para almacenar. Mientras la autocustodia no esté clara, mejor no dejar el saldo ahí. Escribí una guía air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Buena distinción: una rampa fiat no es lo mismo que un lugar para almacenar. Mientras la autocustodia no esté clara, mejor no dejar el saldo ahí. Escribí una guía air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "es",
       "cta": "",
       "source_post_id": null,
@@ -2206,7 +2346,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "self_custody",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123480716864364933&text=Buena%20distinci%C3%B3n%3A%20una%20rampa%20fiat%20no%20es%20lo%20mismo%20que%20un%20lugar%20para%20almacenar.%20Mientras%20la%20autocustodia%20no%20est%C3%A9%20clara%2C%20mejor%20no%20dejar%20el%20saldo%20ah%C3%AD.%20Escrib%C3%AD%20una%20gu%C3%ADa%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123480716864364933"
     },
     {
       "id": "2123477689336012820",
@@ -2217,7 +2359,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 15:05:08 America/Santiago",
       "context": "p2pmevenezuela: nunca compartir la frase semilla ni contraseñas, ni con quien diga ser soporte; P2Pme no las pide ni llama. Si alguien las pide, es estafa.",
-      "suggested_text": "Ojo pelao es la regla correcta: el soporte real nunca pide la frase semilla ni llama para pedirla. Escribí una guía paso a paso de custodia air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Ojo pelao es la regla correcta: el soporte real nunca pide la frase semilla ni llama para pedirla. Escribí una guía paso a paso de custodia air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "es",
       "cta": "",
       "source_post_id": null,
@@ -2237,7 +2379,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "phishing",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123477689336012820&text=Ojo%20pelao%20es%20la%20regla%20correcta%3A%20el%20soporte%20real%20nunca%20pide%20la%20frase%20semilla%20ni%20llama%20para%20pedirla.%20Escrib%C3%AD%20una%20gu%C3%ADa%20paso%20a%20paso%20de%20custodia%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123477689336012820"
     },
     {
       "id": "2123470111667269817",
@@ -2248,7 +2392,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 14:35:01 America/Santiago",
       "context": "gabipuricelli: comprar la wallet en una casa de electrónica y terminar tipeando la frase semilla en un aparato que abrió otro; Ledger, dice, tiene un problema de cadena de suministro, no de chip.",
-      "suggested_text": "Tal cual: el ahorro de comprarla en una casa de electrónica no vale tipear la semilla en un aparato que abrió otro. La cadena de suministro es parte de la custodia. Escribí una guía: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Tal cual: el ahorro de comprarla en una casa de electrónica no vale tipear la semilla en un aparato que abrió otro. La cadena de suministro es parte de la custodia. Escribí una guía: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "es",
       "cta": "",
       "source_post_id": null,
@@ -2268,7 +2412,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123470111667269817&text=Tal%20cual%3A%20el%20ahorro%20de%20comprarla%20en%20una%20casa%20de%20electr%C3%B3nica%20no%20vale%20tipear%20la%20semilla%20en%20un%20aparato%20que%20abri%C3%B3%20otro.%20La%20cadena%20de%20suministro%20es%20parte%20de%20la%20custodia.%20Escrib%C3%AD%20una%20gu%C3%ADa%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123470111667269817"
     },
     {
       "id": "2123454353130324016",
@@ -2279,7 +2425,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 13:32:24 America/Santiago",
       "context": "concodefi: lleva 5 años con Ledger y aun así lo lee con lupa; si el dispositivo trae una frase semilla ya apuntada o la pide al estrenarlo, hay que parar.",
-      "suggested_text": "La regla que no falla: compra directo al fabricante, y si trae una frase ya apuntada o te la pide al estrenarlo, para en seco. Escribí una guía paso a paso de setup air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "La regla que no falla: compra directo al fabricante, y si trae una frase ya apuntada o te la pide al estrenarlo, para en seco. Escribí una guía paso a paso de setup air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "es",
       "cta": "",
       "source_post_id": null,
@@ -2299,7 +2445,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123454353130324016&text=La%20regla%20que%20no%20falla%3A%20compra%20directo%20al%20fabricante%2C%20y%20si%20trae%20una%20frase%20ya%20apuntada%20o%20te%20la%20pide%20al%20estrenarlo%2C%20para%20en%20seco.%20Escrib%C3%AD%20una%20gu%C3%ADa%20paso%20a%20paso%20de%20setup%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123454353130324016"
     },
     {
       "id": "2123423964537987290",
@@ -2310,7 +2458,7 @@
       "timestamp_source": "x.search_posts_all + x.get_posts_by_ids",
       "created_at_chile": "2026-11-19 11:31:39 America/Santiago",
       "context": "abramiaquino: Ledger confirma dispositivos manipulados en Berlín e investiga otros en Dubái; los implantes buscan capturar la frase de recuperación durante la configuración.",
-      "suggested_text": "Los implantes buscan la frase durante la configuración; por eso la compra directa y un setup que no dependa de un dispositivo dudoso importan tanto. Escribí una guía air-gapped: https://x.com/ForecastQuant/status/2123224399151317008",
+      "suggested_text": "Los implantes buscan la frase durante la configuración; por eso la compra directa y un setup que no dependa de un dispositivo dudoso importan tanto. Escribí una guía air-gapped: https://x.com/ForecastQuant/status/2123585216740528526",
       "language": "es",
       "cta": "",
       "source_post_id": null,
@@ -2330,7 +2478,9 @@
       "followers_checked_at": "2026-11-20T00:46:00Z",
       "forecastquant_replied_or_quoted": false,
       "subtopic": "hardware_wallet",
-      "waive_follower_minimum": true
+      "waive_follower_minimum": true,
+      "reply_with_suggestion": "https://x.com/intent/post?in_reply_to=2123423964537987290&text=Los%20implantes%20buscan%20la%20frase%20durante%20la%20configuraci%C3%B3n%3B%20por%20eso%20la%20compra%20directa%20y%20un%20setup%20que%20no%20dependa%20de%20un%20dispositivo%20dudoso%20importan%20tanto.%20Escrib%C3%AD%20una%20gu%C3%ADa%20air-gapped%3A%20https%3A%2F%2Fx.com%2FForecastQuant%2Fstatus%2F2123585216740528526",
+      "reply_blank": "https://x.com/intent/post?in_reply_to=2123423964537987290"
     }
   ]
 }

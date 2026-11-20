@@ -627,6 +627,16 @@ class TopicTests(unittest.TestCase):
         self.assertIn("autocustodia", blob)
         self.assertIn("direcciones con saldo", blob)
 
+    def test_custody_primary_book_link_is_the_current_promo_post(self):
+        raw = json.load(open(pl.topics_path(), encoding="utf-8"))
+        custody = next(topic for topic in raw if topic["id"] == "custody")
+        self.assertEqual(
+            custody["references"][0]["url"],
+            "https://x.com/ForecastQuant/status/2123585216740528526",
+        )
+        blob = json.dumps(custody)
+        self.assertNotIn("2123224399151317008", blob)
+
     def test_keywords_and_explicit_topic_assign_the_card(self):
         now = VALIDATION
         power = make_item(now - timedelta(seconds=30))
