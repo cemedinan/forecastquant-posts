@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T12:15:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123781173461578163",
+      "author": "thebillions_es",
+      "url": "https://x.com/thebillions_es/status/2123781173461578163",
+      "created_at": "2026-11-20T14:11:04.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 11:11:04 America/Santiago",
+      "context": "thebillions_es (en español): «¿El mercado bajista más largo o el más corto?». Hoy se cumplen 410 días desde el máximo del 6-oct-2025 y lo compara con 2013–2015 (410 días), 2017–2018 (363) y 2021–2022 (376). Post de hace ~1 h, cuenta mediana, 10 likes y 1 respuesta.",
+      "suggested_text": "Lo llamativo de tu comparación es que los ciclos anteriores tocaron fondo en una ventana muy parecida, entre 363 y 410 días desde el máximo. El tiempo pesa tanto como el porcentaje: el mercado no solo tiene que bajar, tiene que cansar a quienes compraron arriba.\n\nPero el piso es solo la mitad de la historia. Lo que de verdad separa un ciclo de otro es cuánto tarda en recuperar el récord. En 2011, $BTC cayó 92,7% y necesitó 622 días para volver al máximo; tras el techo de 2013 (-84,5%) fueron 1.177 días. Y ese mismo 2013 tuvo dos máximos: uno se recuperó en 210 días y el otro en 1.177.\n\nCon BTC cerca de los US$62.000, esta caída está lejos de aquellas profundidades, pero ocurre en un mercado lleno de ETF y compradores institucionales. Si el reloj sigue marcando el mismo ritmo o si esa estructura nueva lo cambia es justo lo que estos 410 días todavía no responden.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 642,
+        "like_count": 10,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "followers_count": 14251,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T15:13:27Z",
+      "followers_checked_at": "2026-11-20T15:13:27Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
