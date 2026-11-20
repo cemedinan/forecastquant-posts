@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T15:12:00-03:00",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123838797116834081",
+      "author": "TheMoonShow",
+      "url": "https://x.com/TheMoonShow/status/2123838797116834081",
+      "created_at": "2026-11-20T18:00:02.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 15:00:02 America/Santiago",
+      "context": "TheMoonShow: faltan 508 días para el próximo halving de Bitcoin y pregunta cuál es el plan antes de que llegue: acumular sats, HODL o quedarse mirando. Pregunta abierta de hace ~10 min, cuenta mediana, 1 respuesta.",
+      "suggested_text": "Worth knowing what the next halving actually changes. The block subsidy drops from 3.125 to 1.5625 BTC, so new issuance goes from roughly 450 to about 225 $BTC a day. By then only 3.125% of the 21M will still be left to issue.\n\nThat's also why each halving weighs less on its own than the one before. The supply cut keeps shrinking in absolute terms, while flows from ETFs, treasuries and long-term holders can move several times 225 BTC in a single session.\n\nThe countdown is real, but the halving is slowly turning from the event into a background condition. What moves price around it may have less to do with miners every cycle.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 345,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "followers_count": 21409,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T18:09:35Z",
+      "followers_checked_at": "2026-11-20T18:09:35Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
