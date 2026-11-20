@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T14:46:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123817842051027142",
+      "author": "BitcoinArchive",
+      "url": "https://x.com/BitcoinArchive/status/2123817842051027142",
+      "created_at": "2026-11-20T16:36:46.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 13:36:46 America/Santiago",
+      "context": "Bitcoin Archive: BTC tocó por última vez su precio realizado (precio promedio al que los holders movieron sus monedas por última vez) en 2022; hoy está en US$53.400 (con gráfico). Publicado con BTC cerca de US$59.000 tras la caída del día.",
+      "suggested_text": "Realized price is the denominator of MVRV, which is why this level matters more than any round number. With BTC near $59K and realized price at $53.4K, the ratio sits around 1.1: the average coin is still in profit, but only by roughly 10%.\n\nPast bear markets have tended to bottom with price trading below that line, with the average holder underwater, and 2022 was the last time it happened. That's also why I read market temperature with MVRV as just one of four inputs, next to the 200-week average, the drawdown from the high and momentum, which don't always agree. Whether that 10% gap closes through price or through time is a different question entirely.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 19992,
+        "like_count": 81,
+        "quote_count": 0,
+        "reply_count": 14,
+        "repost_count": 5
+      },
+      "followers_count": 1796724,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T17:46:36Z",
+      "followers_checked_at": "2026-11-20T17:46:36Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
