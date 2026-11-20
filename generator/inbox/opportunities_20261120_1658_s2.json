@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T16:58:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123859360564785608",
+      "author": "DBATTAGLIAYtube",
+      "url": "https://x.com/DBATTAGLIAYtube/status/2123859360564785608",
+      "created_at": "2026-11-20T19:21:45.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 16:21:45 America/Santiago",
+      "context": "David Battaglia (en español): dice que es la cuarta capitulación forzada de Bitcoin que ve en 11 años; recuerda que desde 2016 lo vio subir de poco menos de 600 USD a 20 mil en 2017, caer a 3.800 en 2018, subir a 14 mil en 2019 y volver a caer (el texto sigue en el enlace del post). Post de hace ~35 min, 117 likes, 10 reposts, 11 guardados y solo 13 respuestas.",
+      "suggested_text": "Lo que más cambia de un ciclo a otro no es la profundidad de la caída, sino el tiempo que el mercado tarda en volver. En el Cycle Clock que armé con toda la historia de $BTC: en 2011 la caída fue de 92,7% y tomó 622 días recuperar el máximo; en 2013 fue de 84,5% y necesitó 1.177 días.\n\nLas capitulaciones forzadas suelen nacer del apalancamiento que se liquida en cascada, no de holders que cambian de opinión sobre el activo. Por eso quien tiene spot y entiende su custodia vive estas semanas muy distinto a quien opera con margen: en pantalla el precio castiga a los dos igual, pero solo uno sigue en pie para ver la recuperación.\n\nY hay un dato que casi nunca llega al titular: en los 12 meses de la curva de adopción que publiqué, BTC cayó 32% y aun así se sumaron 2,5 millones de direcciones con saldo. Quién vende y quién compra en estas semanas dice bastante más que el precio.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 11,
+        "impression_count": 4469,
+        "like_count": 117,
+        "quote_count": 1,
+        "reply_count": 13,
+        "retweet_count": 10
+      },
+      "followers_count": 127393,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T19:56:01Z",
+      "followers_checked_at": "2026-11-20T19:56:01Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
