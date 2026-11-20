@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T13:00:00-03:00",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123804845526102103",
+      "author": "thepowerfulHRV",
+      "url": "https://x.com/thepowerfulHRV/status/2123804845526102103",
+      "created_at": "2026-11-20T15:45:08.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 12:45:08 America/Santiago",
+      "context": "thepowerfulHRV: Bitcoin cotiza a solo 0,39× del precio proyectado por la power law (US$155.127), por debajo de lo visto tras FTX (2022) y el crash del COVID (2020); dice que es la mayor desviación bajo la curva desde 2015 (post Mt. Gox). Post de hace ~15 min, cuenta mediana, 8 likes y 3 respuestas.",
+      "suggested_text": "Worth separating two things: the power law is a trend line, not a price target, and the useful information is in how far price strays from it on both sides. On Dacoinminster's original 2013 fit, the 2017 top printed at roughly 9.4x the curve, and the 2018 low slipped below it. The band has always been wide; what changes is which side of the line sentiment lives on.\n\nA 0.39x reading also has a quiet mechanism behind it: the curve keeps rising every single day on time alone, so a $BTC that just goes sideways drifts further under it without needing a new crash.\n\nThe 2015, 2020 and 2022 deviations all ended with price climbing back toward the line, not the line coming down to price. How long that takes when the gap is this wide is the part no multiple tells you.\nhttps://x.com/ForecastQuant/status/2122317683030941979",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 444,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 0
+      },
+      "followers_count": 23927,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T15:59:38Z",
+      "followers_checked_at": "2026-11-20T15:59:38Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
