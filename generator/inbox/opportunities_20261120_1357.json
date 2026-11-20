@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T13:57:00-03:00",
+  "topic": "adoption",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123820521896935894",
+      "author": "BitcoinMagazine",
+      "url": "https://x.com/BitcoinMagazine/status/2123820521896935894",
+      "created_at": "2026-11-20T16:47:25.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 13:47:25 America/Santiago",
+      "context": "Bitcoin Magazine (con video): la economista Tracy Shuchart dice que la tesis de largo plazo de Bitcoin \"no ha cambiado\" y que espera adopción continua; pide distinguir la acción de precio actual de la tesis de largo plazo. Publicado en plena caída de BTC bajo US$60.000.",
+      "suggested_text": "That distinction shows up clearly in on-chain data. Over the past year BTC fell about 32%, yet the network added roughly 2.5 million addresses holding a balance. The count went from about 1M in 2012 to 10M in 2016 and 50M in 2023: https://x.com/ForecastQuant/status/2122675621704941640\n\nAddresses aren't people, but the direction is hard to dismiss. Price reflects marginal flows and leverage, which is why a day like today can wipe out $1B+ in positions; adoption runs on a slower clock, driven by people who decide to hold rather than trade. When the two diverge this much, the open question is which one ends up catching up to the other.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122675621704941640",
+      "topic": "adoption",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 14541,
+        "like_count": 54,
+        "quote_count": 1,
+        "reply_count": 19,
+        "repost_count": 10
+      },
+      "followers_count": 4492940,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T16:58:01Z",
+      "followers_checked_at": "2026-11-20T16:58:01Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
