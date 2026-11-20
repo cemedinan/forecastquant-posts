@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T08:35:00-03:00",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123724492396794150",
+      "author": "WuBlockchain",
+      "url": "https://x.com/WuBlockchain/status/2123724492396794150",
+      "created_at": "2026-11-20T10:25:50.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 07:25:50 America/Santiago",
+      "context": "WuBlockchain: Ledger confirma hardware wallets alteradas físicamente (ataque a la cadena de suministro) en Berlín; dos equipos sospechosos en Dubái siguen en investigación. Noticia fresca de custodia con 24 likes y solo 16 respuestas, sin respuesta de @ForecastQuant.",
+      "suggested_text": "The uncomfortable part of this story isn't Ledger specifically. It's that \"bought from an authorized retailer\" is no longer a guarantee. A supply-chain attack doesn't need to break the secure element; it only needs to sit between the factory and you long enough to modify the hardware or plant a seed you didn't generate.\n\nThat's why the setup ritual matters more than the brand: create the seed yourself on the device, never accept a pre-printed one, run the genuine/attestation check, and test a recovery before sending real funds. Keeping the signing device air-gapped adds another layer, because a compromised unit with no path to the network has a much harder time leaking anything.\n\nMost of these losses are decided in the first minutes of setup, not years later. Few people treat those minutes as the part that actually matters.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 10172,
+        "like_count": 24,
+        "quote_count": 0,
+        "reply_count": 16,
+        "retweet_count": 5
+      },
+      "followers_count": 559056,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T11:32:21Z",
+      "followers_checked_at": "2026-11-20T11:32:21Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
