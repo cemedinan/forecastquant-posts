@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T10:52:00-03:00",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123764023866839146",
+      "author": "visionario_btc",
+      "url": "https://x.com/visionario_btc/status/2123764023866839146",
+      "created_at": "2026-11-20T13:02:55.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 10:02:55 America/Santiago",
+      "context": "visionario_btc pregunta «¿Cómo perder el miedo a la autocustodia de Bitcoin?» y responde que con conocimiento, dejando de pedir direcciones y aprendiendo a usar un mapa (promociona su Módulo Génesis). @ForecastQuant ya le respondió en otra conversación el 18-nov. Post en español de hace ~46 min con 9 likes, 4 guardados y 1 respuesta.",
+      "suggested_text": "Buena imagen la del mapa. El miedo a la autocustodia casi nunca es a la tecnología. Es a no saber qué pasa si algo falla, y eso se resuelve entendiendo tres piezas: qué es realmente la semilla (las llaves, no una contraseña), dónde se genera y cómo se recupera sin el dispositivo original.\n\nLo que más confianza da es ensayar la pérdida antes de que ocurra: crear la semilla uno mismo, mandar un monto chico, borrar el equipo y recuperar los fondos desde cero. El que hizo ese ejercicio una vez ya no depende de que algo «funcione»; sabe por qué funciona.\n\nY esta semana sumó un matiz: Ledger confirmó equipos alterados físicamente en Berlín. El riesgo se está corriendo hacia el momento de la configuración, justo la parte del mapa que casi nadie mira con calma.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 375,
+        "like_count": 9,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1
+      },
+      "followers_count": 11066,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T13:49:04Z",
+      "followers_checked_at": "2026-11-20T13:49:04Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
