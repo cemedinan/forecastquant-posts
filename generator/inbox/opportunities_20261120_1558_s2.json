@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T15:58:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123848337392869732",
+      "author": "jpmayall",
+      "url": "https://x.com/jpmayall/status/2123848337392869732",
+      "created_at": "2026-11-20T18:37:57.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 15:37:57 America/Santiago",
+      "context": "jpmayall (en portugués): Bitcoin está 13% bajo la media móvil de 200 semanas, el segundo mayor descuento en 12 años y por debajo de los fondos de 2015, 2018 y el COVID; la única vez más lejos fue entre junio de 2022 y marzo de 2023, y cada día de esa ventana terminó con alza un año después. Post de hace ~20 min, cuenta mediana, 35 likes, 4 reposts y 3 respuestas.",
+      "suggested_text": "Vale entender por que essa média funciona como régua: 200 fechamentos semanais são quase quatro anos de preço, praticamente um ciclo inteiro entre halvings. Ficar 13% abaixo dela significa que o $BTC está sendo negociado abaixo do nível médio de um ciclo completo, algo que só aconteceu em poucos momentos de estresse extremo.\n\nAinda assim, o desconto sozinho não marca o dia. No índice de temperatura de mercado que publiquei, essa distância é só uma de quatro peças, ao lado do MVRV, do drawdown desde o recorde e do momentum de 90 dias ajustado por volatilidade. O índice foi de 99,29 a 0,67 em 364 dias.\n\nO detalhe da janela de 2022–2023 é que ela durou meses. Comprar no desconto funcionou; atravessar o desconto foi outra história.",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 1041,
+        "like_count": 35,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 4
+      },
+      "followers_count": 19359,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T18:56:25Z",
+      "followers_checked_at": "2026-11-20T18:56:25Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
