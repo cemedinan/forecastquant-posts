@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T13:28:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123807775054590046",
+      "author": "CoinDesk",
+      "url": "https://x.com/CoinDesk/status/2123807775054590046",
+      "created_at": "2026-11-20T15:56:46.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 12:56:46 America/Santiago",
+      "context": "CoinDesk: BTC cae bajo US$60.000, su nivel más bajo desde julio y 52% bajo su máximo histórico (con gráfico). Contexto del momento: más de US$1.000 millones liquidados en 24 h según CoinGlass (Cointelegraph).",
+      "suggested_text": "A 52% drawdown sounds brutal until you set it against Bitcoin's own history. The 2011 cycle bottomed at -92.7% and took 622 days to reclaim its high; the 2013 cycle fell 84.5% and needed 1,177 days. The depth has tended to shrink cycle by cycle as the holder base widens, while flushes like today's $1B+ in liquidations clear out leverage in hours.\n\nThe headline percentage matters less than who is doing the selling. Forced sellers on leverage disappear quickly; long-term holders capitulating is a different story, and historically that's what has set how long the recovery clock runs.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 13684,
+        "like_count": 25,
+        "quote_count": 2,
+        "reply_count": 15,
+        "repost_count": 6
+      },
+      "followers_count": 4073946,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T16:29:04Z",
+      "followers_checked_at": "2026-11-20T16:29:04Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
