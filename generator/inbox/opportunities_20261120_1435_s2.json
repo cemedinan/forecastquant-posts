@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T14:35:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123823187322642478",
+      "author": "david_eng_mba",
+      "url": "https://x.com/david_eng_mba/status/2123823187322642478",
+      "created_at": "2026-11-20T16:58:01.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 13:58:01 America/Santiago",
+      "context": "david_eng_mba: BTC bajo US$60K, Fear & Greed en 12/100 y salida récord de US$541M de IBIT. Dice que tres caídas semanales previas de 12% o más llevaron a BTC bajo la media de 200 semanas y que las tres veces estaba más alto 3 meses después (mediana de +156% a 1 año); compró más. Post de hace ~35 min, cuenta mediana, 28 likes, 6 bookmarks y 1 respuesta.",
+      "suggested_text": "Three out of three is a strong pattern, but it's still a sample of three. What tends to matter at these moments is less any single signal than several of them stretched at the same time.\n\nThat's the idea behind the Market Temperature index: four equal pieces, MVRV, price vs the 200-week average of weekly closes, drawdown from the record and volatility-adjusted 90-day momentum. It went from 99.29 to 0.67 in 364 days. A reading that cold says most of the excess has been washed out; it doesn't say the low printed this week.\n\nThe part a 1-year median hides is the path. Of the two 2013 tops, one was reclaimed in 210 days and the other took 1,177. Same asset, similar setup, very different amounts of patience required.\nhttps://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 1280,
+        "like_count": 28,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 2
+      },
+      "followers_count": 26513,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T17:33:36Z",
+      "followers_checked_at": "2026-11-20T17:33:36Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
