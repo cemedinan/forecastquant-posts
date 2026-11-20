@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T18:16:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123870142195224919",
+      "author": "JohnNakamoto_",
+      "url": "https://x.com/JohnNakamoto_/status/2123870142195224919",
+      "created_at": "2026-11-20T20:04:36.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 17:04:36 America/Santiago",
+      "context": "JohnNakamoto (en español): \"¿Y si todavía no hemos visto el suelo?\". Recuerda las caídas de los tres últimos mercados bajistas (2014: -84,5%, 2018: -83,8%, 2022: -76,7%) y las compara con la del ciclo actual (el texto sigue en el enlace del post). Cuenta mediana, post de hace ~70 min con 24 likes, 8 guardados y 7 respuestas.",
+      "suggested_text": "Ese -84,5% de 2014 es el mismo ciclo que en mi Cycle Clock aparece como el máximo de 2013, y tomó 1.177 días volver a ese techo. Si se suma 2011, la caída fue de 92,7% con 622 días de recuperación. La secuencia va de caídas más profundas a menos profundas, algo coherente con un $BTC con más liquidez y holders más diversos, aunque cuatro puntos son una muestra muy chica para tratarla como regla.\n\nPor eso la profundidad sola dice poco sobre dónde está el suelo. El índice de temperatura de mercado que publiqué combina cuatro piezas en partes iguales: MVRV, precio vs. la media de 200 cierres semanales, drawdown desde el récord y momentum de 90 días ajustado por volatilidad. Ese índice pasó de 99,29 a 0,67 en 364 días.\n\nQue el termómetro ya esté casi en cero mientras la caída sigue lejos de los -77% a -84% de otros ciclos es justamente la tensión interesante de este mercado.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 8,
+        "impression_count": 1614,
+        "like_count": 24,
+        "quote_count": 1,
+        "reply_count": 7,
+        "retweet_count": 2
+      },
+      "followers_count": 36795,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T21:12:46Z",
+      "followers_checked_at": "2026-11-20T21:12:46Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
