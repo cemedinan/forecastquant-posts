@@ -462,6 +462,22 @@ def _public_item(raw, previous, evaluated_at):
     return item
 
 
+
+def batch_max_new(batch):
+    """Cupo de tarjetas nuevas de un lote. El default permanente es 75.
+
+    Un lote puede subir el tope solo para esa ronda con
+    `max_new_per_round` (entero > 0). El store sigue guardando 75,
+    que es el límite de las rondas automáticas.
+    """
+    if not isinstance(batch, dict):
+        return MAX_NEW_PER_ROUND
+    raw = batch.get("max_new_per_round")
+    if isinstance(raw, bool) or not isinstance(raw, int) or raw <= 0:
+        return MAX_NEW_PER_ROUND
+    return raw
+
+
 def merge_batch(store, batch, evaluated_at, topics=None):
     """Incorpora un lote. Dedup por id. No guarda texto de lo que no califica."""
     if not isinstance(batch, dict):
@@ -519,12 +535,13 @@ def merge_batch(store, batch, evaluated_at, topics=None):
         items[status_id] = item
         if previous is None:
             newly_admitted.append(status_id)
-    if len(newly_admitted) > MAX_NEW_PER_ROUND:
+    cap = batch_max_new(batch)
+    if len(newly_admitted) > cap:
         newly_admitted.sort(
             key=lambda sid: (items[sid].get("created_at") or "", sid),
             reverse=True,
         )
-        for status_id in newly_admitted[MAX_NEW_PER_ROUND:]:
+        for status_id in newly_admitted[cap:]:
             overflow = items.pop(status_id)
             history[status_id] = _archive_stub(overflow, "over_round_cap", evaluated_at)
     reclassify(store, evaluated_at, topics)

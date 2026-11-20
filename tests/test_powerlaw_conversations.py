@@ -341,6 +341,34 @@ class FreshnessTests(unittest.TestCase):
         newest = items[0]
         self.assertIn(newest["id"], store["items"])
 
+
+    def test_batch_can_raise_new_card_cap_without_changing_defaults(self):
+        now = VALIDATION
+        items = [make_item(now - timedelta(seconds=i + 1)) for i in range(100)]
+        raised = pl.empty_store()
+        pl.merge_batch(raised, {"max_new_per_round": 150, "items": items}, now)
+        self.assertEqual(len(pl.qualified_items(raised, now)), 100)
+        self.assertEqual(raised["max_new_per_round"], 75)
+        for item in items:
+            self.assertIn(item["id"], raised["items"])
+
+        capped = pl.empty_store()
+        pl.merge_batch(capped, {"items": items}, now)
+        self.assertEqual(len(pl.qualified_items(capped, now)), 75)
+        self.assertEqual(capped["max_new_per_round"], 75)
+        self.assertNotIn(items[-1]["id"], capped["items"])
+        self.assertEqual(capped["history"][items[-1]["id"]]["exclude_reason"], "over_round_cap")
+
+    def test_invalid_batch_cap_override_keeps_the_default_of_75(self):
+        now = VALIDATION
+        items = [make_item(now - timedelta(seconds=i + 1)) for i in range(76)]
+        for raw in (0, -1, True, "150", 150.0, None):
+            store = pl.empty_store()
+            pl.merge_batch(store, {"max_new_per_round": raw, "items": items}, now)
+            self.assertEqual(len(pl.qualified_items(store, now)), 75, msg=repr(raw))
+            self.assertEqual(store["max_new_per_round"], 75)
+
+
     def test_snowflake_mismatch_is_unverifiable_even_if_the_clock_looks_fresh(self):
         now = VALIDATION
         forged = make_item(now - timedelta(hours=6))
