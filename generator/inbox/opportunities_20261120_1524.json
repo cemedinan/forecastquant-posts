@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T15:24:00-03:00",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123834675021926515",
+      "author": "CorySwan",
+      "url": "https://x.com/CorySwan/status/2123834675021926515",
+      "created_at": "2026-11-20T17:43:40.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 14:43:40 America/Santiago",
+      "context": "Cory Swan (con video, programa OUTSIDE MONEY): pregunta si Wall Street puede saltarse el límite de 21 millones de Bitcoin vendiendo \"paper Bitcoin\" y si eso está frenando el precio.",
+      "suggested_text": "The protocol side of this is simple: issuance is fixed in code. At the next halving only 3.125% of the 21M will be left to mine, and the subsidy drops from 3.125 to 1.5625 BTC per block, from roughly 450 to 225 BTC a day: https://x.com/ForecastQuant/status/2122747344701501622\n\nPaper claims can't touch that schedule. What they can change is the effective float that price discovery sees, for as long as buyers accept an IOU instead of coins they control. Gold went through the same thing with unallocated accounts. The cap holds on-chain; how much of the demand ever reaches the chain is the part no one can audit from outside.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 27,
+        "impression_count": 3363,
+        "like_count": 53,
+        "quote_count": 2,
+        "reply_count": 9,
+        "repost_count": 9
+      },
+      "followers_count": 306017,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T18:25:12Z",
+      "followers_checked_at": "2026-11-20T18:25:12Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
