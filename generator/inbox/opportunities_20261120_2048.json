@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T20:48:00-03:00",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123907059443782024",
+      "author": "JJChagerben357",
+      "url": "https://x.com/JJChagerben357/status/2123907059443782024",
+      "created_at": "2026-11-20T22:31:17.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 19:31:17 America/Santiago",
+      "context": "JJChagerben (17,5K seguidores): dice que el halving será en 508 días, que hoy BTC tocó US$57.000, que según él es el costo de producir un bitcoin, y que tras el halving ese costo mínimo pasaría a US$114.000; invita a aprovechar y comprar.",
+      "suggested_text": "El halving sí corta la oferta nueva a la mitad: el subsidio pasa de 3,125 a 1,5625 BTC por bloque, de unos 450 a unos 225 BTC al día, y para entonces solo quedará por emitir el 3,125% de los 21 millones. Esa parte es pura matemática del protocolo.\n\nLo del costo de producción tiene más matices. El costo por BTC no se duplica de forma automática: cuando el ingreso cae a la mitad, los mineros menos eficientes apagan máquinas, el hashrate baja, la dificultad se ajusta y el costo de los que quedan se reacomoda. Funciona más como una zona de presión sobre los mineros que como un piso garantizado.\n\nLo que sí cambia con cada halving es quién se ve obligado a vender para pagar la luz, y eso suele pesar más que cualquier número redondo.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1028,
+        "like_count": 32,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 2
+      },
+      "followers_count": 17464,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T23:48:00Z",
+      "followers_checked_at": "2026-11-20T23:48:00Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
