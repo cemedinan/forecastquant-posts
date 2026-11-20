@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T11:01:00-03:00",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123755743736365215",
+      "author": "CryptoPatel",
+      "url": "https://x.com/CryptoPatel/status/2123755743736365215",
+      "created_at": "2026-11-20T12:30:01.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 09:30:01 America/Santiago",
+      "context": "CryptoPatel: dos usuarios de Ledger en Dubái habrían perdido US$604K (1.300 SOL + 507.000 USDT) porque dispositivos presuntamente comprometidos robaron sus frases de recuperación durante la configuración; plantea un posible ataque de cadena de suministro, no un hackeo de blockchain.",
+      "suggested_text": "The uncomfortable part of this case is where the failure sits: not in the chip, not on-chain, but in the moment the seed phrase is created. If the device generating your words is compromised, every security feature after that is protecting a secret someone else already has.\n\n\"Genuine device, authorized retailer\" is a trust chain with many links: factory, logistics, reseller, firmware. You can't audit most of them yourself, which is why the safer setups move key generation onto something you can verify: offline, air-gapped, with entropy you produce and check.\n\nThat is the approach I lay out step by step here: https://x.com/ForecastQuant/status/2123585216740528526\n\nA sealed box proves the box wasn't opened. It says nothing about what was put inside before it was sealed.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 7,
+        "impression_count": 2013,
+        "like_count": 99,
+        "quote_count": 0,
+        "reply_count": 9,
+        "repost_count": 7
+      },
+      "followers_count": 64870,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T14:03:37Z",
+      "followers_checked_at": "2026-11-20T14:03:37Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
