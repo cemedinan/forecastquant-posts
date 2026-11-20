@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T09:23:00-03:00",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123742749845291312",
+      "author": "Cointelegraph",
+      "url": "https://x.com/Cointelegraph/status/2123742749845291312",
+      "created_at": "2026-11-20T11:38:23.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 08:38:23 America/Santiago",
+      "context": "Cointelegraph: wallets ligadas al hackeo de Binance movieron US$594M en ETH en dos días, incluidos 197.460 ETH (US$346M) el viernes, según Onchain Lens.",
+      "suggested_text": "$594M moving in two days is the part of a hack that never makes the headline: the theft is one event, the laundering is a slow process, and every hop to a fresh wallet makes a freeze or a recovery harder. Once funds start leaving through cross-chain routes, the window to claw them back narrows fast.\n\nFor anyone with coins sitting on an exchange, the lesson isn't about one platform. A custodial balance is a claim on someone else's security, and when their keys fail you're a creditor waiting on courts and compensation policies, not an owner.\n\nSelf-custody has risks of its own, but at least they're risks you can see and control: https://x.com/ForecastQuant/status/2123585216740528526\n\nThe coins on the move are ETH. The question they raise applies just the same to every BTC left on a platform.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 22801,
+        "like_count": 35,
+        "quote_count": 0,
+        "reply_count": 24,
+        "repost_count": 2
+      },
+      "followers_count": 2927675,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T12:20:02Z",
+      "followers_checked_at": "2026-11-20T12:20:02Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
