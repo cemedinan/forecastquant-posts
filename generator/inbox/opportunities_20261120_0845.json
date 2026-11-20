@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T08:45:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123729671921799551",
+      "author": "glassnode",
+      "url": "https://x.com/glassnode/status/2123729671921799551",
+      "created_at": "2026-11-20T10:46:25.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 07:46:25 America/Santiago",
+      "context": "glassnode: el holder promedio de Bitcoin sigue en ganancia; BTC cotiza sobre su precio realizado, pero el margen es mínimo (MVRV apenas sobre 1). Perforarlo dejaría a los holders en pérdida por primera vez desde inicios de 2023.",
+      "suggested_text": "MVRV near 1 is one of the few spots where the market's psychology and its math line up. Above 1, the average coin is a gain someone can protect; below it, the average holder is underwater and the question shifts from who takes profit to who capitulates first. Historically, that zone has worked less like a precise bottom and more like a range where time and patience get priced in.\n\nThat's also why I don't read MVRV alone. My market temperature index blends it with price vs the 200-week average, drawdown from the high and volatility-adjusted 90-day momentum, and it went from 99.29 to 0.67 in 364 days. Almost every input is now pointing the same way.\n\n\"Cold\" and \"cheap\" aren't quite the same thing, though, and the gap between them is usually measured in months.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 12,
+        "impression_count": 13057,
+        "like_count": 99,
+        "quote_count": 3,
+        "reply_count": 13,
+        "repost_count": 10
+      },
+      "followers_count": 610944,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T11:41:54Z",
+      "followers_checked_at": "2026-11-20T11:41:54Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
