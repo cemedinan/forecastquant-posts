@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T11:32:00-03:00",
+  "topic": "adoption",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123783110118576623",
+      "author": "QTRResearch",
+      "url": "https://x.com/QTRResearch/status/2123783110118576623",
+      "created_at": "2026-11-20T14:18:46.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 11:18:46 America/Santiago",
+      "context": "QTRResearch: «La power law no es lo que hace valioso a Bitcoin, lo hace la adopción», y ningún modelo o ecuación cambia eso. Post de hace ~11 min con 16 likes y 0 respuestas; toca a la vez la power law y la adopción.",
+      "suggested_text": "Agreed on the direction of causality, and I'd take it one step further: the power law is arguably adoption seen through a price lens. The curve doesn't create value; it summarizes how a network that keeps adding holders has been priced over time.\n\nWhere it gets useful is when the two diverge. $BTC fell 32% over the past year and the network still added 2.5M funded addresses. 1M in 2012, 10M in 2016, 50M in 2023. Price wandered far from trend; the base of holders kept compounding.\n\nA model breaks when the adoption underneath it changes shape, not when price drifts away from the line. Which one is actually slowing right now is the part worth watching.\nhttps://x.com/ForecastQuant/status/2122675621704941640",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "adoption",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 2134,
+        "like_count": 16,
+        "quote_count": 2,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "followers_count": 300735,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T14:30:03Z",
+      "followers_checked_at": "2026-11-20T14:30:03Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
