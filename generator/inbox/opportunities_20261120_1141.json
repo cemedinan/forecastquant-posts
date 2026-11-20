@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T11:41:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123780581414825992",
+      "author": "Cryptollica",
+      "url": "https://x.com/Cryptollica/status/2123780581414825992",
+      "created_at": "2026-11-20T14:08:43.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-20 11:08:43 America/Santiago",
+      "context": "Cryptollica: la cantidad de BTC mantenida en pérdida acaba de marcar un máximo histórico; lo llama la señal de piso más fuerte de la historia de Bitcoin y una oportunidad de compra generacional (con gráfico).",
+      "suggested_text": "What this metric really measures is pressure. Every coin held at a loss is someone whose cost basis sits above today's price, and each of them faces the same choice: sell into weakness or wait it out. Historically, bottoms have formed when enough of those coins changed hands, moving from underwater holders to buyers with a much lower cost basis.\n\nThere's a nuance with an all-time high in absolute terms, though. A big part of this cycle's supply was bought in the ETF era at six-figure prices, so with BTC near $61K-62K a record amount underwater is partly arithmetic. The percentage of supply at a loss, and how fast it's being redistributed, says more than the raw number.\n\nPain this concentrated tends to resolve one of two ways. Which one usually shows up in who is still holding six months later.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 1825,
+        "like_count": 30,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 2
+      },
+      "followers_count": 39378,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T14:41:30Z",
+      "followers_checked_at": "2026-11-20T14:41:30Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
