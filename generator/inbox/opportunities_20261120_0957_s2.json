@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T09:57:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123750096940495095",
+      "author": "CdeCriptoz",
+      "url": "https://x.com/CdeCriptoz/status/2123750096940495095",
+      "created_at": "2026-11-20T12:07:35.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-20 09:07:35 America/Santiago",
+      "context": "CdeCriptoz: el Percent Supply in Profit (PSIP) cayó a 45,48 %, o sea, más del 54 % de la oferta de BTC está en pérdida no realizada. Lo llama una zona históricamente interesante para acumular y lo compara con ciclos anteriores. Post en español de hace ~48 min con 56 likes, 7 reposts y solo 4 respuestas.",
+      "suggested_text": "El PSIP es primo cercano del MVRV: los dos miran el precio al que se movió cada moneda por última vez, no solo el precio de hoy. Con más de la mitad de la oferta en pérdida, el que queda vendiendo ya no es el que toma ganancias, sino el que decide realizar la pérdida. Ese tipo de vendedor se agota, pero a su propio ritmo.\n\nPor eso me gusta cruzarlo con otras señales. En el índice Market Temperature combino MVRV, precio frente a la media de 200 cierres semanales, drawdown desde el récord y momentum de 90 días ajustado por volatilidad, 25 % cada uno, y pasó de 99,29 a 0,67 en 364 días.\n\nUna zona de acumulación describe dónde está el precio respecto del costo de los holders. Cuánto tiempo se queda ahí es otra variable, y suele ser la que más pesa.\nhttps://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 3585,
+        "like_count": 56,
+        "quote_count": 1,
+        "reply_count": 4,
+        "retweet_count": 7
+      },
+      "followers_count": 34973,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-20T12:55:29Z",
+      "followers_checked_at": "2026-11-20T12:55:29Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
