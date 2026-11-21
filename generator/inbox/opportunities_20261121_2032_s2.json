@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T23:31:58Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124272197069885713",
+      "author": "thebtcfrontierX",
+      "url": "https://x.com/thebtcfrontierX/status/2124272197069885713",
+      "created_at": "2026-11-21T22:42:13.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 19:42:13 America/Santiago",
+      "context": "At the Bitcoin Frontier (@thebtcfrontierX, 5.070 seguidores, en inglés): afirma que la fase de piso del ciclo está terminando, que estamos en la etapa final del mercado bajista y que viene un cambio de régimen en $BTC (dice que el 29 de junio predijo el piso). ~50 min, 2K vistas, 24 likes, 7 bookmarks y 10 respuestas: cuenta mediana con un post que despega, y se responde con datos del Drawdown Atlas sobre los tiempos de recuperación.",
+      "suggested_text": "Bottoms are the one call that can only be confirmed in hindsight, which is why thinking in phases beats anchoring on a single price. What history does show is that the end of a bear and the start of a recovery are not the same event.\n\nIn 2013 Bitcoin set two peaks months apart: one was reclaimed in 210 days, the other took 1,177. Same asset, same cycle, very different waits depending on where you entered. A regime change in trend can coexist with a long stretch of chop below the old high.\n\nMaybe the more useful question isn't whether the $BTC bottom is in, but whether a position is built to survive the 1,177-day version of the story.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 7,
+        "impression_count": 2066,
+        "like_count": 24,
+        "quote_count": 1,
+        "reply_count": 10,
+        "repost_count": 7
+      },
+      "followers_count": 5070,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T23:31:58Z",
+      "followers_checked_at": "2026-11-21T23:31:58Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
