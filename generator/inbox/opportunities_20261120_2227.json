@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T22:27:00-03:00",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123946495997333593",
+      "author": "TimmerFidelity",
+      "url": "https://x.com/TimmerFidelity/status/2123946495997333593",
+      "created_at": "2026-11-21T01:08:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 22:08:00 America/Santiago",
+      "context": "Jurrien Timmer (Director de Macro Global de Fidelity, 233K seguidores), con un gráfico: sigue alcista por el ciclo de 4 años y la matemática del power law, pero le desanima que BTC vuelva a estar sobre la curva de soporte del power law (hoy en $62k y subiendo). Si el precio cayera muy por debajo, dice, pondría en duda todo su marco.",
+      "suggested_text": "Worth remembering this line has been tested before. On Dacoinminster's original 2013 power law, the 2017 peak ran to 9.4× the curve, and the 2018 low actually slipped below it before the trend reasserted itself.\n\nThat's the nuance with power-law \"support\": it's a long-run regression on time, not a floor anyone guarantees. Price trading under it for a stretch doesn't automatically break the model; what matters is how deep the deviation goes and how long it lasts.\n\nThe real test isn't touching the line, it's where \"temporary deviation\" quietly turns into \"wrong framework\".\n\nFull 2013 curve vs. daily price, extended to 2060: https://x.com/ForecastQuant/status/2122317683030941979",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 16,
+        "impression_count": 5864,
+        "like_count": 76,
+        "quote_count": 1,
+        "reply_count": 16,
+        "repost_count": 9
+      },
+      "followers_count": 232650,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T01:24:13.390Z",
+      "followers_checked_at": "2026-11-21T01:24:13.390Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
