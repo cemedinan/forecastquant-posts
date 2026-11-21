@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T17:06:27.198Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124186922050314616",
+      "author": "healthy_pockets",
+      "url": "https://x.com/healthy_pockets/status/2124186922050314616",
+      "created_at": "2026-11-21T17:03:22.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 14:03:22 America/Santiago",
+      "context": "@healthy_pockets (311.334 seguidores): \"YA ES OFICIAL: Bitcoin está en el mercado bajista más largo de su historia\". Dice que cada bajista anterior terminó dentro de 13 meses desde el máximo (2014: -85% en 406 días; 2018: -83% en 364; 2022: -77% en 378) y que hoy va en el día 411. Post de ~3 min con 6 likes, 0 respuestas y 1628 vistas, creciendo rápido.",
+      "suggested_text": "Contar días hasta el piso es solo la mitad de la historia. El reloj que más pesa es el de la recuperación del máximo: tras el pico de 2011 la caída fue de -92,7% y tomó 622 días volver arriba; tras el de 2013, -84,5% y 1.177 días.\n\nY 2013 tuvo dos techos: uno se recuperó en 210 días y el otro en 1.177. Mismo año, mismo activo y una experiencia completamente distinta según en qué pico compraste.\n\nLo dejé dibujado en el Bitcoin Drawdown Atlas: https://x.com/ForecastQuant/status/2122676377011069293\n\nQue este bajista sea el más largo todavía no dice cuán profundo terminará, y esa suele ser la variable que de verdad separa un ciclo de otro.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122676377011069293",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1628,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 1
+      },
+      "followers_count": 311334,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T17:06:27.198Z",
+      "followers_checked_at": "2026-11-21T17:06:27.198Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
