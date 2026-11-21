@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T09:21:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124110073345544568",
+      "author": "KillaXBT",
+      "url": "https://x.com/KillaXBT/status/2124110073345544568",
+      "created_at": "2026-11-21T11:58:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 08:58:00 America/Santiago",
+      "context": "Killa (@KillaXBT, 243K seguidores), con un gráfico: \"seguimos en el ciclo de 4 años aunque este ciclo sea más largo; el 81% de las métricas históricas de ciclo señalan que $BTC está cerca de un piso macro. Ya barrido el mínimo de 57K, el piso podría estar entre 40K y 55K\". Post de ~20 min con 227 likes, 33 respuestas y 28 guardados, creciendo rápido.",
+      "suggested_text": "Composite readings are where this gets interesting. My Market Temperature index blends MVRV, price vs the 200-week average, distance from the high and volatility-adjusted 90-day momentum, 25% each. It went from 99.29 to 0.67 in 364 days, so on valuation alone the market has already gone from overheated to about as cold as it gets.\n\nThe catch is that \"cold\" describes where price sits relative to its own history, not when buyers come back. Readings can stay pinned near the floor for months, and a 40K–55K range shows how wide the uncertainty still is.\n\nCheap and finished are two different statements, and cycle metrics only really answer the first.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 28,
+        "impression_count": 21634,
+        "like_count": 227,
+        "quote_count": 0,
+        "reply_count": 33,
+        "repost_count": 8
+      },
+      "followers_count": 243064,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T12:20:54.673Z",
+      "followers_checked_at": "2026-11-21T12:20:54.673Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
