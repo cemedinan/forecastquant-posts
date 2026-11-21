@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T17:25:58Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124191291948863886",
+      "author": "TanitoNft",
+      "url": "https://x.com/TanitoNft/status/2124191291948863886",
+      "created_at": "2026-11-21T17:20:44.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-21 14:20:44 America/Santiago",
+      "context": "TanitoNft (@TanitoNft, 3.119 seguidores, en español rioplatense, creador de contenido con +34K en YouTube): \"faltan 508 días para el próximo halving\"; BTC tocó $57.000, zona que muchos relacionan con el costo de producción de los mineros, y tras el halving la presión sobre ellos podría aumentar. Cierra con un llamado a acumular con paciencia. Recién publicado (~6 min), 0 respuestas: poca competencia en español.",
+      "suggested_text": "El dato que más pesa del próximo halving no es la fecha, es la proporción: cuando llegue, solo quedará por emitir el 3,125% de los 21 millones. El subsidio baja de 3,125 a 1,5625 BTC por bloque, es decir, de unos 450 a unos 225 $BTC nuevos por día.\n\nAhí está la tensión con el costo de producción que mencionás: si el precio no acompaña, los mineros menos eficientes tienen que vender reservas o apagar equipos, y la dificultad se ajusta hasta que el resto vuelve a ser rentable. Por eso el costo de producción no es un piso fijo; se mueve con el hashrate.\n\nCada halving pesa menos en la emisión y más en quién sobrevive minando. Cuál de esos dos efectos termina importando más en este ciclo es otra historia.\nhttps://x.com/ForecastQuant/status/2122747344701501622",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 25,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 3119,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T17:25:58Z",
+      "followers_checked_at": "2026-11-21T17:25:58Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
