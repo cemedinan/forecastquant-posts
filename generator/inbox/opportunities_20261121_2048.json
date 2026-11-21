@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T23:46:41.505Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124284280423473195",
+      "author": "Cointelegraph",
+      "url": "https://x.com/Cointelegraph/status/2124284280423473195",
+      "created_at": "2026-11-21T23:30:14.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 20:30:14 America/Santiago",
+      "context": "@Cointelegraph (2.926.319 seguidores): \"REGULATION: Coins ph just shut the door on self-custody wallets, so users can now only send crypto to other regulated exchanges and have to hand over the counterparty's details on every transfer, no matter how small.\" Post de ~17 min con 15 likes, 13 respuestas y 14.823 vistas, creciendo rápido. Ángulo: exchanges que cierran la salida a autocustodia.",
+      "suggested_text": "This is the part of \"your coins on an exchange\" that rarely gets priced in. The balance looks like bitcoin, but where it can go is decided by the platform and its regulator, and that decision can change overnight with a policy update.\n\nOnce withdrawals to self-custody are closed, the only exits left are other regulated venues, each with the same reporting and the same ability to freeze. The asset was built to move peer to peer; the account holding it doesn't have to let it.\n\nThose who moved their keys before the rule changed barely noticed today. The ones still deciding are learning that custody is less a technical choice than a question of who gets the last word: https://x.com/ForecastQuant/status/2123585216740528526",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 14823,
+        "like_count": 15,
+        "quote_count": 1,
+        "reply_count": 13,
+        "retweet_count": 3
+      },
+      "followers_count": 2926319,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T23:46:41.505Z",
+      "followers_checked_at": "2026-11-21T23:46:41.505Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
