@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T08:47:00-03:00",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124069074171040048",
+      "author": "jbondwagon",
+      "url": "https://x.com/jbondwagon/status/2124069074171040048",
+      "created_at": "2026-11-21T09:15:05.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 06:15:05 America/Santiago",
+      "context": "@jbondwagon (85K seguidores): \"Wow @coinsph just disallowed transfers to and from self-custody wallets to Coins. Only transfers from centralized exchanges are allowed, in compliance with Philippine Central Bank regulations. Lol so Philippine Government just wants Filipinos to deal with centralized crypto?\". La noticia se está moviendo en varias cuentas. Post de ~2,5 h con 81 likes y 36 respuestas.",
+      "suggested_text": "This is the part of custody people treat as theoretical until it isn't. When coins sit on a platform, what you hold is a claim, and the rules on that claim can be rewritten overnight by the platform or the regulator above it. Withdrawing to your own wallet is the one feature that turns the claim back into bitcoin.\n\nRules like this usually arrive framed as compliance, and on paper they're about tracing flows. In practice they make the exchange the only door in and out, which also makes it the single point where a freeze, a hack or a policy change hits everyone at once.\n\nThe keys were never just a security choice. They're the only setting nobody else can change for you.\nhttps://x.com/ForecastQuant/status/2123585216740528526",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 3439,
+        "like_count": 81,
+        "quote_count": 2,
+        "reply_count": 36,
+        "repost_count": 7
+      },
+      "followers_count": 85417,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T11:47:02.454Z",
+      "followers_checked_at": "2026-11-21T11:47:02.454Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
