@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T23:06:00-03:00",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123957640950677877",
+      "author": "fluffycrypt",
+      "url": "https://x.com/fluffycrypt/status/2123957640950677877",
+      "created_at": "2026-11-21T01:52:17.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 22:52:17 America/Santiago",
+      "context": "Fluffy (157K seguidores), con un video de 46 s: \"Este millonario cripto filtró la frase semilla de su wallet durante un livestream. Sus espectadores le robaron $2,5M en segundos\". La cifra y el caso son lo que afirma el post; no están verificados.",
+      "suggested_text": "A seed phrase isn't a password you can reset; it is the wallet. Whoever sees those 12 or 24 words has exactly the same authority as the owner, and a sweep script can move everything before anyone realizes what happened. No support line, no chargeback.\n\nThat's why the core rule of self-custody is that the words never touch anything with a camera, a screen or an internet connection: not a photo, not a notes app, not a stream. A hardware wallet protects the signing, but it can't protect a phrase that has already been shown.\n\nMost losses like this aren't a failure of Bitcoin's cryptography. They're a failure of the few seconds when the secret leaves the paper.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 1854,
+        "like_count": 17,
+        "quote_count": 0,
+        "reply_count": 15,
+        "repost_count": 6
+      },
+      "followers_count": 156597,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T02:01:24.813Z",
+      "followers_checked_at": "2026-11-21T02:01:24.813Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
