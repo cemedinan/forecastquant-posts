@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T21:18:00-03:00",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123929977783460188",
+      "author": "JRamirezChacon1",
+      "url": "https://x.com/JRamirezChacon1/status/2123929977783460188",
+      "created_at": "2026-11-21T00:02:22.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-20 21:02:22 America/Santiago",
+      "context": "Inversiones CHILE-USA (en español): hilo largo que conecta el hackeo de $6.340M a Binance (29 oct) con el crash de hoy. Cita on-chain post-hackeo: reservas de BTC en Binance -56.000 BTC, stablecoins -$9.000M, retiros netos de -$3.640M en 9,5 h ('la gente no volvió, sacó su plata'). BTC a $58.275 (techo de $126K en oct 2025), Nasdaq -4,76%, S&P -3,11%; lo atribuye a una Fed hawkish y plantea 3 escenarios. Cuenta mediana chilena (~11.400 seguidores), post de ~15 min con 1 respuesta, en español.",
+      "suggested_text": "El dato que más me llama la atención de toda la secuencia es el de las reservas: 56.000 BTC saliendo de Binance después del hackeo. Eso no es pánico de precio, es gente que entendió que \"lo cubrimos todo\" es una promesa respaldada por el balance de un exchange, no una llave que uno controla. Esta vez funcionó porque había tesorería para tapar el hoyo; la pregunta incómoda es qué pasa con el próximo exchange que no la tenga.\n\nEn un crash de liquidez como el que describes, eso pesa doble: cuando todos necesitan cash al mismo tiempo, los retiros pasan a ser la parte frágil del sistema. Quien ya tenía sus $BTC en autocustodia no depende de que nadie le apruebe la salida, aunque a cambio el respaldo, la herencia y la cadena de suministro del dispositivo pasan a ser responsabilidad suya. Sobre ese trade-off escribí acá: https://x.com/ForecastQuant/status/2123585216740528526\n\nCaídas de más de 50% Bitcoin ya vivió varias y las recuperó. Perder las llaves, en cambio, no tiene ciclo de recuperación.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 499,
+        "like_count": 7,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 3
+      },
+      "followers_count": 11439,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T00:17:11Z",
+      "followers_checked_at": "2026-11-21T00:17:11Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
