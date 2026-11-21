@@ -1,0 +1,38 @@
+{
+  "searched_at": "2026-11-21T10:54:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124124428833534236",
+      "author": "david_eng_mba",
+      "url": "https://x.com/david_eng_mba/status/2124124428833534236",
+      "created_at": "2026-11-21T12:55:02.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-21 09:55:02 America/Santiago",
+      "context": "@david_eng_mba (26.504 seguidores, en inglés): BTC rebotó de $55.130 a $58.545 en horas tras $2.200M en longs liquidados en 24 h; dice que sigue 16% bajo su banda P10 de $70K y 14% bajo la media de 200 semanas ($68,1K), y que compró. Post de ~1 h con 54 likes y 9 respuestas, despegando.",
+      "suggested_text": "The liquidation number is the real story. $2.2B in longs wiped out, then a 6% bounce within hours: that's what a forced-seller flush looks like. Those coins didn't change hands because holders changed their minds; margin decided for them. Spot never gets that call.\n\nPrice vs. the 200-week average is one of four inputs in the market temperature index I track, alongside MVRV, drawdown from the ATH and volatility-adjusted 90-day momentum. That reading went from 99.29 to 0.67 in 364 days, about as cold as the scale gets.\n\nCold readings have marked good zones before. They've never said much about how long the cold lasts.\nhttps://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 2056,
+        "like_count": 54,
+        "quote_count": 0,
+        "reply_count": 9,
+        "repost_count": 2,
+        "retweet_count": 2
+      },
+      "followers_count": 26504,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T13:51:37Z",
+      "followers_checked_at": "2026-11-21T13:51:37Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
