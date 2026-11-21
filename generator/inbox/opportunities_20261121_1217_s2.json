@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T15:17:17Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124148830073483282",
+      "author": "SantinoCripto",
+      "url": "https://x.com/SantinoCripto/status/2124148830073483282",
+      "created_at": "2026-11-21T14:32:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-21 11:32:00 America/Santiago",
+      "context": "SantinoCripto® (@SantinoCripto, 69.475 seguidores, en español), post con gráfico: sostiene que \"falta caída en BTC\", como mínimo hasta 45K$, donde está la métrica on-chain de costo de producción de Capriole, que según él el precio fue a buscar en cada ciclo; y que mientras más tarde en llegar, más se alargará el mercado bajista. ~50 min, 21 likes, 14 guardados, 0 respuestas, 1,5K vistas.",
+      "suggested_text": "El costo de producción ha funcionado como imán en ciclos anteriores, pero conviene separar dos cosas: cuánto cae $BTC y cuánto tarda en recuperarse. En 2011 la caída fue de -92,7% y el precio tardó 622 días en volver al máximo; en 2013 fue menor, -84,5%, y aun así la recuperación tomó 1.177 días. La profundidad asusta, pero lo que de verdad desgasta es el tiempo.\n\nPor eso el punto que haces sobre la duración es el más importante del post. Un piso rápido y violento y uno lento y lateral exigen cosas muy distintas a quien acumula en spot y sin apalancamiento. Y ninguna métrica aislada marca el fondo: en el índice Market Temperature que publiqué (MVRV, precio frente a la media de 200 semanas, drawdown desde el récord y momentum), la lectura pasó de 99,29 a 0,67 en 364 días.\n\nLa pregunta incómoda quizás no sea si llega a 45K, sino cuánto tiempo estaría dispuesto cada uno a quedarse ahí.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 14,
+        "impression_count": 1535,
+        "like_count": 21,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 69475,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T15:17:17Z",
+      "followers_checked_at": "2026-11-21T15:17:17Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
