@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T21:21:19.468Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124248599769039119",
+      "author": "WatcherGuru",
+      "url": "https://x.com/WatcherGuru/status/2124248599769039119",
+      "created_at": "2026-11-21T21:08:27.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 18:08:27 America/Santiago",
+      "context": "@WatcherGuru (4.929.839 seguidores): \"JUST IN: 🇷🇺 Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.\" Post de ~14 min con 784 likes, 130 reposts, 90 respuestas y 80840 vistas, creciendo muy rápido. Ángulo: exchanges regulados y custodia.",
+      "suggested_text": "Licensed exchanges under central bank approval will make buying a lot easier for millions of people. They also bring the usual package: full KYC, reporting, and an operator that can freeze, delay or hand over balances when the regulator asks.\n\nThat's the trade-off with any regulated on-ramp. Access improves, but what you hold there is a claim on the exchange's books, not bitcoin you control. The keys, and with them the final say over the coins, stay with the platform and whoever supervises it.\n\nBuying through the front door is one decision. Where the coins live afterwards is a separate one, and it's the one that matters on the day the rules change: https://x.com/ForecastQuant/status/2123585216740528526",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 35,
+        "impression_count": 80840,
+        "like_count": 784,
+        "quote_count": 27,
+        "reply_count": 90,
+        "retweet_count": 130
+      },
+      "followers_count": 4929839,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T21:21:19.468Z",
+      "followers_checked_at": "2026-11-21T21:21:19.468Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
