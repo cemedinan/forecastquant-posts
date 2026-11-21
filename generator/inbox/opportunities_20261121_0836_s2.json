@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T08:36:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124101187914076434",
+      "author": "nachofdezic",
+      "url": "https://x.com/nachofdezic/status/2124101187914076434",
+      "created_at": "2026-11-21T11:22:41.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 08:22:41 America/Santiago",
+      "context": "Nacho IC (@nachofdezic, 13.207 seguidores, en español): \"al final sí que bitcoin ha visto cotas más bajas de 57K y el suelo no fue en agosto\". Destaca que ayer cayeron S&P 500, oro y Bitcoin casi dos dígitos y se destruyeron \"trillones\" en 24 h. Post de ~10 min con 15 likes y 3 respuestas, despegando.",
+      "suggested_text": "Lo que más llama la atención es la sincronía. Cuando el S&P, el oro y Bitcoin caen casi dos dígitos a la vez, no es un problema específico de Bitcoin: es liquidez saliendo de todo lo que tiene mercado abierto. En esos días se vende lo que se puede vender, no lo que está caro.\n\nEn perspectiva de ciclo, la caída desde los 126K ronda el 55%. Duele, pero en 2013 el drawdown llegó a -84,5% y en 2011 a -92,7%. Por eso el piso de un ciclo rara vez se define con un solo nivel de precio: suele aparecer cuando la valoración (MVRV), la distancia a la media de 200 semanas y el tiempo desde el máximo empiezan a coincidir.\n\nLos suelos casi nunca se sienten como suelos el día en que ocurren.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 767,
+        "like_count": 15,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 1
+      },
+      "followers_count": 13207,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T11:32:57Z",
+      "followers_checked_at": "2026-11-21T11:32:57Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
