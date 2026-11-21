@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T07:52:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124073010189517142",
+      "author": "bpascowitch",
+      "url": "https://x.com/bpascowitch/status/2124073010189517142",
+      "created_at": "2026-11-21T09:30:43.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 06:30:43 America/Santiago",
+      "context": "Bernardo Pascowitch (@bpascowitch, 6.889 seguidores, en portugués): BTC cayó a $55 mil de madrugada y entró en la \"região de fundo de fibonacci\"; dice que está \"em processo de formação do fundo\" y pregunta \"Fundo chegou? Ainda sem sinais\". Post de ~80 min con 13 likes y 3 respuestas, creciendo.",
+      "suggested_text": "Fibonacci marca uma região, mas fundo de ciclo no Bitcoin costuma se confirmar por tempo e valuation, não por um nível só. Nos ciclos anteriores a queda foi bem mais funda que a atual: -92,7% em 2011 e -84,5% em 2013, contra cerca de -56% do topo de US$ 126 mil até a mínima desta madrugada. E retomar a máxima levou 622 e 1.177 dias.\n\nPor isso vale cruzar sinais: MVRV, preço contra a média de 200 semanas, profundidade do drawdown e momentum ajustado por volatilidade. Quando todos apontam para o mesmo lado, a \"formação de fundo\" deixa de ser só leitura gráfica.\n\nUm fundo raramente é um dia. Costuma ser uma faixa onde o tempo cansa quem vendeu por último.\nhttps://x.com/ForecastQuant/status/2122375393776951738",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 449,
+        "like_count": 13,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 0
+      },
+      "followers_count": 6889,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T10:50:09Z",
+      "followers_checked_at": "2026-11-21T10:50:09Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
