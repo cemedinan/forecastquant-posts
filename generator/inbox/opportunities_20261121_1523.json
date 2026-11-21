@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T18:23:09.790Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124204948489465938",
+      "author": "BitcoinNews",
+      "url": "https://x.com/BitcoinNews/status/2124204948489465938",
+      "created_at": "2026-11-21T18:15:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 15:15:00 America/Santiago",
+      "context": "@BitcoinNews (3.254.244 seguidores): \"Despite a 51% drawdown from ATH, Glassnode data shows $BTC is still trading above its realized price, the average cost basis of every coin on the network. A dip below MVRV would put the average #Bitcoin holder at a loss for the first time since 2023.\" Post de ~6 min con 8 likes, 2 respuestas y 6635 vistas, creciendo rápido.",
+      "suggested_text": "Realized price is one of the cleanest floors on-chain data offers, because it's the market's own cost basis rather than a line someone drew on a chart. Historically, the stretches with MVRV below 1 have lined up with some of the best long-term entries, and also with the most uncomfortable months to hold.\n\nOn its own it's still one lens. I track it inside a composite Market Temperature index: MVRV, price vs the 200-week average, drawdown from the high and volatility-adjusted 90-day momentum, 25% each. It went from 99.29 to 0.67 in 364 days: https://x.com/ForecastQuant/status/2122727211610542288\n\nA 51% drawdown with the average holder still in profit says a lot about how high that cost basis climbed this cycle.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6635,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 2,
+        "repost_count": 0
+      },
+      "followers_count": 3254244,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T18:23:09.790Z",
+      "followers_checked_at": "2026-11-21T18:23:09.790Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
