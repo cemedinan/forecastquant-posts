@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T17:50:13.991Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124183498223129066",
+      "author": "DocumentingBTC",
+      "url": "https://x.com/DocumentingBTC/status/2124183498223129066",
+      "created_at": "2026-11-21T16:49:46.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 13:49:46 America/Santiago",
+      "context": "Documenting ₿itcoin (@DocumentingBTC, 1.121.921 seguidores) pregunta \"Who pays the Bitcoin miners?\" con un adjunto multimedia. Lleva ~1 h con 31 likes, 12 reposts, 12 respuestas y 6973 vistas, creciendo. Encaja con el tema de halving y emisión: subsidio por bloque y comisiones.",
+      "suggested_text": "Two sources, and the mix between them is the real story: newly issued coins plus transaction fees. Today the larger share typically comes from issuance, 3.125 BTC per block, roughly 450 BTC a day.\n\nThat subsidy halves every 210,000 blocks. At the next halving it drops to 1.5625 BTC, about 225 a day, and only 3.125% of the 21M will be left to issue. Every cut shifts more of the security budget onto fees, meaning onto the people actually using the chain.\n\nThe long-run question isn't whether miners get paid. It's whether demand for blockspace grows fast enough to replace a subsidy that keeps halving toward zero.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 8,
+        "impression_count": 6973,
+        "like_count": 31,
+        "quote_count": 0,
+        "reply_count": 12,
+        "repost_count": 12
+      },
+      "followers_count": 1121921,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T17:50:13.991Z",
+      "followers_checked_at": "2026-11-21T17:50:13.991Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
