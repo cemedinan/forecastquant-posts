@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T21:13:28Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124246478839599356",
+      "author": "crypto_varo",
+      "url": "https://x.com/crypto_varo/status/2124246478839599356",
+      "created_at": "2026-11-21T21:00:01.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 18:00:01 America/Santiago",
+      "context": "Crypto Varo (@crypto_varo, 37.423 seguidores, en inglés): el mínimo de la semana, $55.106, quedó 19% bajo la media de 200 semanas; marzo 2020 llegó 30% bajo y el fondo de 2022, 36%. \"Por esos estándares, esta limpieza es de tamaño medio\". ~13 min, 21 likes, 9 reposts y solo 3 respuestas: cuenta mediana con un post que está despegando sobre la media de 200 semanas.",
+      "suggested_text": "Depth is only half of that comparison; the other half is time. A 30% wick that reclaims the average within weeks and a 36% grind that lives below it for months are very different markets, even if the lows look similar on a chart.\n\nThat's also why this signal is risky to read alone. Distance to the 200-week average is one of the four inputs in our Market Temperature index, next to MVRV, drawdown from the high and volatility-adjusted momentum, and the read changes a lot depending on whether the other three confirm it.\n\n\"Mid-sized\" by depth is fair. Whether it stays mid-sized is mostly a question of how many weekly closes $BTC spends down there.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 293,
+        "like_count": 21,
+        "quote_count": 0,
+        "reply_count": 3,
+        "repost_count": 9
+      },
+      "followers_count": 37423,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T21:13:28Z",
+      "followers_checked_at": "2026-11-21T21:13:28Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
