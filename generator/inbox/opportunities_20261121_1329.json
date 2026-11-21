@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T16:29:07.225Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124171031300419957",
+      "author": "Thebitcoinway_",
+      "url": "https://x.com/Thebitcoinway_/status/2124171031300419957",
+      "created_at": "2026-11-21T16:00:13.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 13:00:13 America/Santiago",
+      "context": "The Bitcoin Way (@Thebitcoinway_, 17.514 seguidores) publicó un hilo irónico: \"Bitcoin on exchange is better than self-custody. Let me explain why holding your #bitcoin on an exchange is safer than holding your own keys (1/7)\", y cada una de las 7 partes dice solo \"It's not\", cerrando con \"Any questions?\". Defensa humorística de la autocustodia. Post de ~30 min con 5 likes, 2 respuestas y 430 vistas, creciendo.",
+      "suggested_text": "Seven \"it's not\"s might be the most efficient custody thread of the year. The pattern behind the joke is real: Mt. Gox in 2014, QuadrigaCX in 2019, FTX in 2022. Different exchanges, same outcome for depositors: a balance they couldn't audit, frozen the day it mattered.\n\nWhat the joke leaves out is that self-custody moves the risk rather than erasing it. Counterparty risk becomes personal risk: a seed phrase stored badly, a device nobody verified, an inheritance plan no one else can follow.\n\nHolding your own keys is the easy half. Holding them well, for decades, is a different discipline.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 430,
+        "like_count": 5,
+        "quote_count": 0,
+        "reply_count": 2,
+        "repost_count": 1
+      },
+      "followers_count": 17514,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T16:29:07.225Z",
+      "followers_checked_at": "2026-11-21T16:29:07.225Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
