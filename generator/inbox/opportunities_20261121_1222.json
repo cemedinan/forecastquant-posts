@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T12:22:00-03:00",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124157755057721783",
+      "author": "sminston_with",
+      "url": "https://x.com/sminston_with/status/2124157755057721783",
+      "created_at": "2026-11-21T15:07:28.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 12:07:28 America/Santiago",
+      "context": "Sminston With (@sminston_with, 49,6K seguidores, PhD en ingeniería, datos y herramientas de Bitcoin), con un gráfico: \"Bitcoin nunca ha estado más bajo que su precio actual un año después cuando cotizaba con este descuento frente a su tendencia power law\"; y cuando se abarató coincidiendo con caídas del Nasdaq (como ahora), un año después estaba entre 2x y 11,6x más alto. Post de ~15 min con 17 likes, 6 guardados, 1 respuesta y 1,3K vistas, creciendo.",
+      "suggested_text": "Deep discounts to the trend have been rare, which is exactly why the forward returns look so lopsided. On the original 2013 power law, the same curve that the 2017 top overshot by about 9.4x was undercut at the 2018 low, and in hindsight that undercut was one of the better entries of the cycle.\n\nThe caveat is sample size: a handful of episodes is a pattern, not a law. \"Cheap vs. trend\" tells you about asymmetry, not timing, and the path from cheap back to fair can still include another leg down first.\n\nI put the original 2013 curve against daily price, extended to 2060, here: https://x.com/ForecastQuant/status/2122317683030941979\n\nThe part no model captures well is how long cheap can stay cheap.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 1256,
+        "like_count": 17,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 3
+      },
+      "followers_count": 49632,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T15:21:40.494Z",
+      "followers_checked_at": "2026-11-21T15:21:40.494Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
