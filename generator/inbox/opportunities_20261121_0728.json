@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T07:28:00-03:00",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124064600593518731",
+      "author": "noBScrypto",
+      "url": "https://x.com/noBScrypto/status/2124064600593518731",
+      "created_at": "2026-11-21T08:57:18.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 05:57:18 America/Santiago",
+      "context": "Kyren (@noBScrypto, 45K seguidores), en tono irónico y con un gráfico: \"We've officially BROKEN the Bitcoin Power Law... 2015's mega crash, COVID, FTX... Nothing compares to this. We broke Bitcoin. All it took was institutional adoption. Nice!\". Contexto: BTC cayó bajo $57.000 por primera vez en más de 2 años. Post de ~1,5 h con 64 likes y 13 respuestas, creciendo.",
+      "suggested_text": "Worth asking which power law. On Dacoinminster's original 2013 curve, price has been under the line before: the 2018 low dipped below it, a year after the 2017 peak ran to 9.4x the curve. A power law in time describes a long-run trend, not a floor, so a break says more about how wide the bands around it really are than about the model being dead.\n\nWhat institutional money may be changing is the shape of the swings. If the tops keep compressing toward the line, it would be strange for the dips to stay politely above it.\n\nDeviation or regime change is something only the next few years of closes can settle.\nhttps://x.com/ForecastQuant/status/2122317683030941979",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 3857,
+        "like_count": 64,
+        "quote_count": 2,
+        "reply_count": 13,
+        "repost_count": 6
+      },
+      "followers_count": 45250,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T10:28:58.752Z",
+      "followers_checked_at": "2026-11-21T10:28:58.752Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
