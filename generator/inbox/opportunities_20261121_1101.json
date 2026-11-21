@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T11:01:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124123663016526020",
+      "author": "cryptorover",
+      "url": "https://x.com/cryptorover/status/2124123663016526020",
+      "created_at": "2026-11-21T12:52:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 09:52:00 America/Santiago",
+      "context": "Crypto Rover (@cryptorover, 1,6M seguidores), con un video corto: \"Bitcoin 4-Year Cycle Continues\", lista cada ciclo como Buy / Hold / Sell / Bear Market (2011–2014, 2015–2018, 2019–2022) y deja abierto el Cycle 4 (2023–2026). Post de ~1 h con 153 likes, 27 respuestas, 23 reposts, 35 guardados y 31K vistas, creciendo.",
+      "suggested_text": "The calendar version is clean; the tape never was. 2013 alone had two tops: the first was reclaimed in 210 days, the second took 1,177 days to recover after an 84.5% drawdown. The 2011 top fell 92.7% and needed 622 days to come back.\n\nSo \"Sell\" in the peak year was never one obvious moment, and \"Hold\" usually meant sitting through drawdowns most people can't stomach. The rhythm rhymes from halving to halving; the length of each phase doesn't.\n\nFunny how the cycles that look most textbook on a yearly grid were the hardest to read while they were happening.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122676377011069293",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 35,
+        "impression_count": 31458,
+        "like_count": 153,
+        "quote_count": 0,
+        "reply_count": 27,
+        "repost_count": 23
+      },
+      "followers_count": 1623808,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T14:01:24.877Z",
+      "followers_checked_at": "2026-11-21T14:01:24.877Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
