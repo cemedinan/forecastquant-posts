@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T08:06:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124072634967339388",
+      "author": "coinglass_com",
+      "url": "https://x.com/coinglass_com/status/2124072634967339388",
+      "created_at": "2026-11-21T09:29:14.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 06:29:14 America/Santiago",
+      "context": "CoinGlass (122K seguidores) lista los niveles de caída de $BTC desde el máximo de $126.080: -70% → $37.824, -75% → $31.520, -77% → $28.998, -80% → $25.216, -85% → $18.912, y pregunta \"Where do you think the bottom is?\". Cita su gráfico de drawdowns. Contexto: BTC bajo $56.000 tras liquidaciones. Post de ~1,6 h, 153 likes, 35 respuestas, 24 guardados.",
+      "suggested_text": "Useful levels, but depth has been shrinking cycle after cycle: roughly -92.7% after 2011, -84.5% after the 2013 peak, about -77% into the 2022 low. Below $56K, this one sits near -55% from $126,080. Mapping an old cycle's percentage onto today's market assumes the same buyers, the same leverage and the same holder base, which is exactly what has changed.\n\nThe column most people skip is time. The 2011 drawdown took 622 days to get back to the high; the 2013 one took 1,177. A shallower bottom that takes longer to climb out of can be harder on holders than a fast -80%.\n\nThe bottom gets the attention. The calendar usually decides who's still holding.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 24,
+        "impression_count": 16621,
+        "like_count": 153,
+        "quote_count": 7,
+        "reply_count": 35,
+        "repost_count": 12
+      },
+      "followers_count": 122751,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T11:06:45.581Z",
+      "followers_checked_at": "2026-11-21T11:06:45.581Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
