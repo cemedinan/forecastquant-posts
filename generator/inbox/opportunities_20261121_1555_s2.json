@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T18:55:02Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124205067095990775",
+      "author": "360_trader",
+      "url": "https://x.com/360_trader/status/2124205067095990775",
+      "created_at": "2026-11-21T18:15:28.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-21 15:15:28 America/Santiago",
+      "context": "360Trader (@360_trader, 191.273 seguidores, en inglés): Netflix convertirá el colapso de FTX en un drama; la lección real no es quién fue el villano, sino que la gente lo perdió todo por confiar en un exchange. \"NOT YOUR KEYS. NOT YOUR COINS. $BTC in cold storage doesn't need a script writer.\" ~40 min, 3,7K vistas, 13 likes y solo 1 respuesta: tema de custodia con muy poca competencia.",
+      "suggested_text": "The part that rarely makes it into the drama: the real loss didn't happen the day FTX collapsed. It happened earlier, the moment a balance became a claim on someone else's books. The screen kept showing a number; what stood behind it was a promise, not $BTC.\n\nCold storage fixes that, but it doesn't remove risk, it moves it. Instead of trusting a company's solvency, you're trusting your own process: how the seed was generated, where it's kept, whether the device that signs ever touches the internet, and whether you can actually verify what you're signing.\n\nAn exchange fails once and loudly. A sloppy setup fails quietly, usually on the day you finally need it.\nhttps://x.com/ForecastQuant/status/2123585216740528526",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 3681,
+        "like_count": 13,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 0
+      },
+      "followers_count": 191273,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T18:55:02Z",
+      "followers_checked_at": "2026-11-21T18:55:02Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
