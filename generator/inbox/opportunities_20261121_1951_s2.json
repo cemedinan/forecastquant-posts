@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T22:49:55Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124266411803754994",
+      "author": "michaelterpin",
+      "url": "https://x.com/michaelterpin/status/2124266411803754994",
+      "created_at": "2026-11-21T22:19:14.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 19:19:14 America/Santiago",
+      "context": "Michael Terpin (@michaelterpin, 43.798 seguidores, en inglés): \"Playing Bitcoin by the Book – Where are We Now?\", repasa su tesis de 2015 de las \"Cuatro estaciones de Bitcoin\" ligadas al ciclo de cuatro años y al halving (la primavera empieza en el halving). ~30 min, 574 vistas, 6 bookmarks y 4 respuestas: cuenta mediana, tema halving que se responde con los datos de emisión del próximo halving.",
+      "suggested_text": "The four-season framing has held up surprisingly well, but the engine behind it keeps shrinking. At the next halving the subsidy drops from 3.125 to 1.5625 BTC per block, roughly 450 to 225 BTC a day, and only 3.125% of the 21M will still be left to issue.\n\nThat's what makes this cycle interesting to watch. Early on, a halving cut new supply in a way that dominated the market; today daily issuance is small next to ETF flows, treasury buying and liquidation waves that move billions in a single session. The calendar can survive even as the mechanism behind it changes.\n\nMaybe the seasons persist less because of the supply shock itself and more because enough capital now trades $BTC expecting them.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 574,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 4,
+        "repost_count": 0
+      },
+      "followers_count": 43798,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T22:49:55Z",
+      "followers_checked_at": "2026-11-21T22:49:55Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
