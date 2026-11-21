@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T09:20:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124107151312380009",
+      "author": "cryptokakarot",
+      "url": "https://x.com/cryptokakarot/status/2124107151312380009",
+      "created_at": "2026-11-21T11:46:23.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 08:46:23 America/Santiago",
+      "context": "Crypto Kakarot (@cryptokakarot, 48.031 seguidores, en español): \"Hace exactamente 4 años que vimos el suelo del pasado bear market. El 21 de noviembre de 2022, Bitcoin tocó los 15.500$, en medio del pánico tras el colapso de FTX\". Post de ~30 min con 42 likes y solo 5 respuestas, despegando.",
+      "suggested_text": "La simetría impresiona, pero el dato que más dice es otro: incluso después de esta caída, el precio sigue unas 3,5 veces por encima de aquel piso de 15.500 dólares. De 15.500 a 126.000 hubo más de 8x. Ceder más de la mitad desde el máximo es parte del mismo ciclo, no su negación.\n\nY mientras el precio corrige, la red no se detiene: en un año en que BTC cayó 32%, se sumaron 2,5 millones de direcciones con saldo. El pánico se mide en velas; la adopción, en años.\n\nEn noviembre de 2022 tampoco nadie sabía que ese era el suelo.\nhttps://x.com/ForecastQuant/status/2122675621704941640",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 21,
+        "impression_count": 878,
+        "like_count": 42,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 3
+      },
+      "followers_count": 48031,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T12:17:03Z",
+      "followers_checked_at": "2026-11-21T12:17:03Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
