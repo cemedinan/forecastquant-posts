@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T20:33:40Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124231621213835716",
+      "author": "ParadigmaEdu",
+      "url": "https://x.com/ParadigmaEdu/status/2124231621213835716",
+      "created_at": "2026-11-21T20:00:59.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 17:00:59 America/Santiago",
+      "context": "Paradigma Education (@ParadigmaEdu, 89.462 seguidores, en portugués): \"Hace 4 años, en este mismo día, Bitcoin hizo fondo. 21 de noviembre de 2022 ➔ US$ 15.479\". ~33 min, 1,5K vistas, 52 likes y 0 respuestas: post en portugués que está despegando, sobre caídas y ciclos, y se responde con los datos del Cycle Clock.",
+      "suggested_text": "E o detalhe que quase ninguém lembra: naquele dia ninguém sabia que era o fundo. O preço vinha de uma queda de mais de 75% desde a máxima, a FTX tinha acabado de quebrar e o consenso era que ainda havia mais para cair. Fundo só fica óbvio no gráfico, nunca no momento.\n\nOs ciclos anteriores mostram outra coisa que pesa mais do que o preço exato: o tempo. Em 2011 a queda foi de 92,7% e o $BTC levou 622 dias para recuperar a máxima; em 2013 foram 84,5% e 1.177 dias. A profundidade da queda diz pouco sobre quanto tempo o mercado vai exigir de paciência.\n\nTalvez a pergunta útil hoje não seja se o fundo deste ciclo já ficou para trás, e sim quantos dias ele ainda vai cobrar de quem segue posicionado.\nhttps://x.com/ForecastQuant/status/2122375393776951738",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 1469,
+        "like_count": 52,
+        "quote_count": 1,
+        "reply_count": 0,
+        "repost_count": 2
+      },
+      "followers_count": 89462,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T20:33:40Z",
+      "followers_checked_at": "2026-11-21T20:33:40Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
