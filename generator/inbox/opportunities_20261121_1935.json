@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T22:32:48.061Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124233040255942909",
+      "author": "pete_rizzo_",
+      "url": "https://x.com/pete_rizzo_/status/2124233040255942909",
+      "created_at": "2026-11-21T20:06:37.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 17:06:37 America/Santiago",
+      "context": "@pete_rizzo_ (The Bitcoin Historian, 224.405 seguidores): \"Billionaire Michael Saylor says the #Bitcoin bottom is in and that 3 years of bull market are coming. 'BTC has traded above the 200-week moving average for 78% of its entire history' ... BTC is below this level as we speak.\" Post de ~2,4 h con 140 likes, 18 reposts, 17 respuestas y 8.748 vistas, con video de 35 s. Ángulo: media de 200 semanas y si BTC está barato/frío.",
+      "suggested_text": "Below the 200-week average is exactly where this gets interesting, and also where it gets misread. The 200WMA is a slow line: it smooths four years of weekly closes, so price slipping under it tells you more about how fast sentiment cooled than about where the floor sits.\n\nThat's why it works better as one input than as a verdict. In my Market Temperature index it weighs 25%, next to MVRV, the drawdown from the high and volatility-adjusted 90-day momentum, and the reading went from 99.29 to 0.67 in 364 days. That's about as cold as the gauge gets.\n\nStill, \"cold\" and \"bottom is in\" are two different claims. One describes valuation; the other needs time, and past cycles never agreed on how much of it.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 8748,
+        "like_count": 140,
+        "quote_count": 0,
+        "reply_count": 17,
+        "retweet_count": 18
+      },
+      "followers_count": 224405,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T22:32:48.061Z",
+      "followers_checked_at": "2026-11-21T22:32:48.061Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
