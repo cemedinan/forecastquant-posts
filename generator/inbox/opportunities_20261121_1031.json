@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T10:31:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124123884219973654",
+      "author": "therationalroot",
+      "url": "https://x.com/therationalroot/status/2124123884219973654",
+      "created_at": "2026-11-21T12:52:52.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 09:52:52 America/Santiago",
+      "context": "Root (@therationalroot, 212K seguidores, analista on-chain y de ciclos), con su gráfico \"Bitcoin Spiral\" (precio en escala log en espiral de 4 años con ATHs, mínimos y halvings marcados): \"The 4-year cycle: A new bottom dot. #Bitcoin\". Post de ~40 min con 338 likes, 36 respuestas, 36 reposts y 38 guardados, creciendo rápido.",
+      "suggested_text": "The spiral makes the rhythm look clean, but each red dot hides how different the lap felt from the inside. After the 2011 top, BTC fell 92.7% and needed 622 days to reclaim the high. After the late-2013 top it fell 84.5% and took 1,177 days, almost twice as long, even though the first 2013 peak had been recovered in just 210.\n\nSame 4-year geometry, very different recovery clocks. A bottom only marks where the drawdown stops, not how long the climb back takes.\n\nI mapped every cycle's drop and recovery time here: https://x.com/ForecastQuant/status/2122375393776951738\n\nThe second number is usually the one that tests conviction more than the first.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 38,
+        "impression_count": 10580,
+        "like_count": 338,
+        "quote_count": 8,
+        "reply_count": 36,
+        "repost_count": 36
+      },
+      "followers_count": 211995,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T13:31:48.760Z",
+      "followers_checked_at": "2026-11-21T13:31:48.760Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
