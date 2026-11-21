@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T22:51:00-03:00",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123956581578707439",
+      "author": "ZynxBTC",
+      "url": "https://x.com/ZynxBTC/status/2123956581578707439",
+      "created_at": "2026-11-21T01:48:04.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-20 22:48:04 America/Santiago",
+      "context": "Zynx (en inglés), justo cuando BTC perdió los $60K: 'Compré más Bitcoin hoy. Comprarlo cuando cotiza bajo su media móvil de 200 semanas nunca ha fallado en el largo plazo. Así es como te haces rico.' Con gráfico. Cuenta mediana (~22.400 seguidores), post de ~3 min con 1 respuesta; menciona la media de 200 semanas, uno de los componentes del índice Market Temperature.",
+      "suggested_text": "Below the 200-week average has historically been one of the better zones to accumulate $BTC, but \"never failed long term\" hides how long the long term can feel. In 2013 the drawdown reached -84.5% and it took 1,177 days to reclaim the prior high. Buying cheap and being able to hold through that are two different skills.\n\nThat's why I don't read the 200-week average alone. In the Market Temperature index it's one of four inputs, 25% each, next to MVRV, the drawdown from the record and volatility-adjusted 90-day momentum. In 364 days the reading went from 99.29 to 0.67: https://x.com/ForecastQuant/status/2122727211610542288\n\nWhen price, on-chain cost basis and momentum all sit in the same cold zone, the signal gets interesting. When only one of them does, the real question is which one is misleading you.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 241,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "followers_count": 22437,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T01:51:09Z",
+      "followers_checked_at": "2026-11-21T01:51:09Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
