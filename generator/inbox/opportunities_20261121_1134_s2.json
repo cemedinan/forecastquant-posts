@@ -1,0 +1,38 @@
+{
+  "searched_at": "2026-11-21T11:34:00-03:00",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124123677260226952",
+      "author": "invierte_joven",
+      "url": "https://x.com/invierte_joven/status/2124123677260226952",
+      "created_at": "2026-11-21T12:52:03.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-21 09:52:03 America/Santiago",
+      "context": "Invierte Joven | Víctor (@invierte_joven, 70.271 seguidores, en español), inicio de hilo: cuando compró Bitcoin a $16K lo dejó en el exchange (Coinbase), \"como hace casi todo el mundo al principio... Te cuento el problema de esto\". Hilo de custodia con 2 respuestas; tema de autocustodia en pleno desplome, con poca competencia de respuestas.",
+      "suggested_text": "El problema de fondo es que el número que ves en la plataforma no es bitcoin: es una promesa del exchange de devolvértelo cuando lo pidas. Mientras todo funciona, la diferencia no se nota. Se nota cuando pausan retiros, cambian las reglas o, como en el hackeo reciente de Binance, los usuarios quedan cubiertos solo porque la empresa tenía reservas para absorber la pérdida.\n\nTener tus llaves cambia el riesgo, no lo elimina: pasas de depender de un tercero a depender de tu propio proceso. Semilla bien guardada, firma sin conexión y saber verificar lo que firmas.\n\nLa mayoría descubre cuál de los dos riesgos prefiere justo cuando ya no puede elegir.\nhttps://x.com/ForecastQuant/status/2123585216740528526",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 587,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 2,
+        "repost_count": 0,
+        "retweet_count": 0
+      },
+      "followers_count": 70271,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T14:30:57Z",
+      "followers_checked_at": "2026-11-21T14:30:57Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
