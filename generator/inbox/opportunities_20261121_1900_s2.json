@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T21:59:45Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124250263011951059",
+      "author": "AndyBTCAdviser",
+      "url": "https://x.com/AndyBTCAdviser/status/2124250263011951059",
+      "created_at": "2026-11-21T21:15:04.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 18:15:04 America/Santiago",
+      "context": "Andy ₿ Adviser (@AndyBTCAdviser, 3.649 seguidores, en inglés): advierte que hay que tener cuidado con quién da consejos de seguridad en Bitcoin, \"incluidos nosotros\", y critica la confianza absoluta con que algunos los reparten (a raíz de un intercambio en LinkedIn). ~45 min, 3 likes, 2 reposts y 0 respuestas: tema de custodia sin competencia, ideal para responder con verificabilidad y modelo de amenazas.",
+      "suggested_text": "Confidence is cheap in security; verifiability isn't. The advice worth trusting usually comes with a way to check it: open code you can read, a process you can reproduce, a test you can run yourself before real $BTC sits behind it.\n\nMost bad setups don't fail because of one dramatic mistake. They fail because someone copied a recipe built for a different threat model. Someone worried about exchange insolvency, someone worried about physical theft and someone worried about a compromised device need very different answers, and the same \"best practice\" can become the weak point in the wrong context.\n\nThe uncomfortable part is that the only setup you can really vouch for is one you understand well enough to rebuild from scratch.\nhttps://x.com/ForecastQuant/status/2123585216740528526",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 163,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 2
+      },
+      "followers_count": 3649,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T21:59:45Z",
+      "followers_checked_at": "2026-11-21T21:59:45Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
