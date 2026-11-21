@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-20T21:22:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123932647047196877",
+      "author": "TylerDurden",
+      "url": "https://x.com/TylerDurden/status/2123932647047196877",
+      "created_at": "2026-11-21T00:12:58.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-20 21:12:58 America/Santiago",
+      "context": "Tyler (227K seguidores), con un gráfico: \"Noviembre de 2018: Bitcoin cae 37% y termina el mercado bajista. Noviembre de 2026: Bitcoin cae 29% (por ahora)…\". Compara la caída actual con la capitulación de 2018.",
+      "suggested_text": "Same month, similar-sized flush, very different setup. By November 2018 BTC had already been bleeding for almost a year from its December 2017 peak; that 37% drop was the last leg of a long decline, not the start of one.\n\nThat's the trap with pattern-matching single moves: a crash only \"ends\" a bear market in hindsight, once you see how long the repair took. After the 2013 peak BTC fell 84.5% and needed 1,177 days to reclaim it; in 2011 it was 92.7% and 622 days. Depth and duration rarely rhyme the same way twice.\n\nThe more useful question isn't whether this candle looks like 2018's, but how much of the cycle's time has really been spent.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 2513,
+        "like_count": 24,
+        "quote_count": 0,
+        "reply_count": 5,
+        "repost_count": 2
+      },
+      "followers_count": 227264,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T00:22:00Z",
+      "followers_checked_at": "2026-11-21T00:22:00Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
