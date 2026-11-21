@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T11:48:00-03:00",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124135479595434209",
+      "author": "MarylandHODL21",
+      "url": "https://x.com/MarylandHODL21/status/2124135479595434209",
+      "created_at": "2026-11-21T13:38:57.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 10:38:57 America/Santiago",
+      "context": "MarylandHODL (@MarylandHODL21, 16,8K seguidores), post largo con imagen: sostiene que \"ellos\" iban a romper el power law de Bitcoin a la baja para posicionarse antes de la próxima subida; que el modelo luego se usará como marco institucional y que el catalizador será Bitcoin como contrapeso a la IA centralizada. Cierra: \"The power law may be breaking. Bitcoin's scarcity is not.\" ~1 h, 68 likes, 14 respuestas, 14 reposts, 18 guardados, 4,4K vistas.",
+      "suggested_text": "Worth remembering this isn't the first time price has traded under the curve. On the original 2013 Dacoinminster power law, the 2017 top reached about 9.4x the trend line, and the 2018 low still fell below it. The model survived that because it's a long-run fit of log price against log time, not a floor that has to hold every week.\n\nWhat a move below the curve really tests is the slope, not the scarcity thesis. A few months under the line is noise on a regression that spans more than a decade; years under it would start to bend the fitted curve itself.\n\nAnd the less comfortable question is how much of the \"premium\" being compressed was ever part of the trend to begin with.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 18,
+        "impression_count": 4415,
+        "like_count": 68,
+        "quote_count": 3,
+        "reply_count": 14,
+        "repost_count": 14
+      },
+      "followers_count": 16759,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T14:47:32.834Z",
+      "followers_checked_at": "2026-11-21T14:47:32.834Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
