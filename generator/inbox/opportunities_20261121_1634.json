@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T19:33:08.298Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124220952598675883",
+      "author": "BitcoinArchive",
+      "url": "https://x.com/BitcoinArchive/status/2124220952598675883",
+      "created_at": "2026-11-21T19:18:35.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 16:18:35 America/Santiago",
+      "context": "@BitcoinArchive (1.796.043 seguidores): \"MARKET MAKER BUYS $600M IN BITCOIN AT $58,650 AVG • Abraxas Capital tracked by Lookonchain • Moved BTC off multiple exchanges 👉 They seem confident the bottom is in!\" (con video). Post de ~15 min con 74 likes, 14 reposts, 9 respuestas y 11462 vistas, creciendo rápido.",
+      "suggested_text": "Moving $600M off exchanges at a $58,650 average is a statement of intent, but one buyer's conviction isn't the same thing as a confirmed floor. Bottoms tend to show up in the aggregate, not in a single wallet.\n\nThe cleaner read is cost basis: when price trades near or below the realized price, MVRV approaches 1 and the average holder is roughly at breakeven. Those zones have historically been where long-term holders absorb supply from the ones capitulating. Add price vs the 200-week average, drawdown from the high and momentum, and the market already reads ice cold: my Market Temperature index went from 99.29 to 0.67 in 364 days.\n\nCold doesn't mean finished, though. The lowest readings usually last longer than anyone buying the first dip expects.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 11462,
+        "like_count": 74,
+        "quote_count": 0,
+        "reply_count": 9,
+        "retweet_count": 14
+      },
+      "followers_count": 1796043,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T19:33:08.298Z",
+      "followers_checked_at": "2026-11-21T19:33:08.298Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
