@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T18:09:35Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124202844756775019",
+      "author": "Axel_bitblaze69",
+      "url": "https://x.com/Axel_bitblaze69/status/2124202844756775019",
+      "created_at": "2026-11-21T18:06:38.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-21 15:06:38 America/Santiago",
+      "context": "Axel 💎🙌 (@Axel_bitblaze69, 128.509 seguidores, en inglés): \"$BTC runs on a clock and the clock says the low should already be in\". Mide los ciclos: alcistas de ~1.050 a 1.068 días, bajistas de 363 a 410 días y ~1.431 a 1.437 días entre pisos, lo que apuntaba al piso para el 22 al 28 de octubre de 2026. Hoy va en el día 411, el bajista más largo, con nuevos mínimos en $55K: o el piso viene atrasado o el ciclo de 4 años se está rompiendo. ~3 min, 1,4K vistas y 0 respuestas (despegando rápido).",
+      "suggested_text": "The clock is useful as long as you remember how few data points sit behind it: three bottoms, two intervals, and the anchors themselves are choices. 2013 actually had two tops. The April one was reclaimed in 210 days, the November one took 1,177. Start the count from a different peak and the \"schedule\" moves by months.\n\nGo back one more cycle and the rhythm changes again: 2011 fell -92.7% and needed 622 days just to get back to its prior high. Same asset, very different timing, in a market that was a fraction of today's size and had no ETFs absorbing flows.\n\nFrom the inside, a cycle running a few weeks late and a cycle quietly changing shape look exactly the same.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1360,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 128509,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T18:09:35Z",
+      "followers_checked_at": "2026-11-21T18:09:35Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
