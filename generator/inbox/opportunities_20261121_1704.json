@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T20:02:24.833Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124227597982892340",
+      "author": "MartiniGuyYT",
+      "url": "https://x.com/MartiniGuyYT/status/2124227597982892340",
+      "created_at": "2026-11-21T19:45:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 16:45:00 America/Santiago",
+      "context": "@MartiniGuyYT (699.515 seguidores): \"Bitcoin may be in a bear market but we've seen this playbook before\" (con imagen). Post de ~20 min con 24 likes, 3 reposts, 5 respuestas y 3870 vistas, creciendo.",
+      "suggested_text": "The playbook rhymes, but the chapters keep changing length. In 2011 the drawdown was -92.7% and it took 622 days to get back to the old high. After the 2013 peak it was -84.5%, and recovery took 1,177 days, almost twice as long with a shallower fall.\n\nThat's the part people tend to skip when they say \"we've seen this before.\" Depth and duration don't move together, and the pain of a bear market usually comes more from the calendar than from the percentage. I mapped every cycle's drawdown and recovery time here: https://x.com/ForecastQuant/status/2122375393776951738\n\nSo the real question is less how far $BTC falls this time and more how long the market is willing to wait.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 3870,
+        "like_count": 24,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 3
+      },
+      "followers_count": 699515,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T20:02:24.833Z",
+      "followers_checked_at": "2026-11-21T20:02:24.833Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
