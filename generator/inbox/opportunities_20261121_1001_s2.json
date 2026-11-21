@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T10:01:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124120290368143747",
+      "author": "PunkChainer",
+      "url": "https://x.com/PunkChainer/status/2124120290368143747",
+      "created_at": "2026-11-21T12:38:36.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 09:38:36 America/Santiago",
+      "context": "Punkchainer (@PunkChainer, 5.888 seguidores, en español; cuenta que interactuó hace poco con @ForecastQuant): \"$BTC está un 53% bajo su máximo de 126.199. En 2018 la caída tocó fondo en -84%. En 2022, en -78%. Si el ciclo rima, falta otra pata. Si los ETF cambiaron el juego, el suelo está cerca. ¿Suelo o otra pata?\". Post de ~20 min con 0 respuestas.",
+      "suggested_text": "Hay un patrón dentro de tu propia serie que suele pasarse por alto: los drawdowns máximos se vienen comprimiendo. 2011 llegó a -92,7%, 2013 a -84,5%, 2018 a -84% y 2022 a -78%. Cada ciclo, con más capital y más holders de largo plazo, absorbió mejor la venta.\n\nEso no dice que el suelo sea hoy, pero usar el -84% como referencia puede ser medir este ciclo con la regla de otro. El -53% actual queda corto frente a la historia, aunque la propia serie apunta a pisos cada vez menos profundos.\n\nLo que separa otra pata de un suelo rara vez es el porcentaje. Suele ser cuánto tiempo aguanta el mercado en zona de valoración barata.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 238,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "followers_count": 5888,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T12:58:06Z",
+      "followers_checked_at": "2026-11-21T12:58:06Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
