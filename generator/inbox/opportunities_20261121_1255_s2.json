@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T15:55:29Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124166737570549914",
+      "author": "WhaleNoName",
+      "url": "https://x.com/WhaleNoName/status/2124166737570549914",
+      "created_at": "2026-11-21T15:43:10.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-21 12:43:10 America/Santiago",
+      "context": "WhaleNoName (@WhaleNoName, 52.603 seguidores, en inglés), post con gráfico/video: sostiene que cada ciclo tuvo su \"cisne negro\" (2020 COVID, 2022 FTX) y que ahora se repite el patrón de doble golpe: primera caída a $57.800, rebote a $87.300 que parece piso, y segundo golpe a $55.000, esta vez con la caída de ~50% de Nvidia como catalizador. Cierra: no confundir el primer rebote con el fin del mercado bajista. ~12 min, 23 likes, 10 guardados, 4 respuestas, 1,6K vistas (despegando).",
+      "suggested_text": "The double punch is real, but the data says the bigger trap is usually time, not the second low. In 2013 Bitcoin printed two peaks: one was reclaimed in 210 days, the other took 1,177. Same year, same asset, a completely different experience depending on which \"bottom\" you trusted.\n\nThat's why the first bounce fools people. A relief rally after capitulation feels like confirmation, but the drawdowns that hurt most are the ones that grind sideways long enough for conviction to run out. The 2011 cycle fell -92.7% and still needed 622 days just to get back to the prior high.\n\nCOVID, FTX, now Nvidia: the catalyst decides when the flush happens. What decides when it ends is a different question.\nhttps://x.com/ForecastQuant/status/2122676377011069293",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 10,
+        "impression_count": 1625,
+        "like_count": 23,
+        "quote_count": 0,
+        "reply_count": 4,
+        "repost_count": 2
+      },
+      "followers_count": 52603,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T15:55:29Z",
+      "followers_checked_at": "2026-11-21T15:55:29Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
