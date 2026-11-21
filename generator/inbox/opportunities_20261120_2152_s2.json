@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T21:52:00-03:00",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123936312692510938",
+      "author": "precisox",
+      "url": "https://x.com/precisox/status/2123936312692510938",
+      "created_at": "2026-11-21T00:27:32.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-20 21:27:32 America/Santiago",
+      "context": "Precis0x (en español): 'BTC cae como si lo hubieran hackeado, pero los que antes compraban ahora tienen que vender'. Enumera vendedores: ETF -$3.500M en noviembre (peor día del ETF de BlackRock), MARA vendió 13.597 BTC en seis semanas para su giro a IA, $1.500M liquidados en 24 h (90% largos), 96% de probabilidad de alza de tasas en diciembre, Nvidia -14%; costo promedio de Strategy $75.452 con BTC en $58.000. Cuenta mediana (~35.700 seguidores), post de ~23 min con 7 respuestas, en español.",
+      "suggested_text": "Buen desglose, y el punto de fondo es el que más pesa: cuando el comprador marginal pasa a ser vendedor forzado, el precio deja de reflejar convicción y empieza a reflejar balances. ETF con rescates, mineras financiando otro negocio y largos liquidados no venden porque cambiaron de opinión sobre Bitcoin; venden porque tienen algo que cubrir.\n\nLo que no siempre se ve en el precio es lo que pasa en la red. En el año en que $BTC cayó 32%, igual se sumaron unos 2,5 millones de direcciones con saldo. Y caídas más profundas que esta ya ocurrieron: -84,5% en 2013, con 1.177 días para recuperar el máximo.\n\nLas ventas forzadas tienen fecha de término, porque las deudas se pagan o se liquidan. Lo más difícil de ver es quién está del otro lado, comprando con calma lo que ellos sueltan.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 390,
+        "like_count": 10,
+        "quote_count": 0,
+        "reply_count": 7,
+        "retweet_count": 6
+      },
+      "followers_count": 35697,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T00:50:37Z",
+      "followers_checked_at": "2026-11-21T00:50:37Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
