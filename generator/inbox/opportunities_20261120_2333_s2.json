@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-20T23:33:00-03:00",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2123966442647490639",
+      "author": "OldmanScalping",
+      "url": "https://x.com/OldmanScalping/status/2123966442647490639",
+      "created_at": "2026-11-21T02:27:15.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-20 23:27:15 America/Santiago",
+      "context": "Oldman Crypto (en inglés), tres semanas después del hackeo de Binance por $6.400M: solo se recuperaron $32M, $2.820M están congelados y $2.670M siguen en manos de los atacantes (según SomaXBT), que movieron ~$594M en ETH vía THORChain el 19 y 20-nov. Los 18.270 BTC robados no se han movido. Binance cubrió las pérdidas con reservas propias ($6.340M+). Termina con una pregunta abierta. Post de ~5 min con 0 respuestas.",
+      "suggested_text": "The number that stands out to me is the 18,270 BTC that hasn't moved. Stolen ETH can be pushed through THORChain in days, but a BTC pile that size is watched by every chain-analysis desk, so moving it means choosing between speed and getting flagged. Sitting still is also a strategy.\n\nThe other lesson is on the customer side. Users were made whole only because Binance had $6.34B+ in reserves to absorb the hit. That's a solvency decision by one company, not a property of keeping coins on an exchange. A platform without that cushion would be having a very different conversation with its users.\n\nRecovery figures measure how good the investigators are. Whether your coins were ever part of the loss was decided long before the hack.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1398,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "followers_count": 157657,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T02:32:27Z",
+      "followers_checked_at": "2026-11-21T02:32:27Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
