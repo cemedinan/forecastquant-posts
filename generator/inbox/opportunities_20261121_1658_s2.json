@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T19:54:43Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124223927572447504",
+      "author": "CoinGiggleMoe",
+      "url": "https://x.com/CoinGiggleMoe/status/2124223927572447504",
+      "created_at": "2026-11-21T19:30:25.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-21 16:30:25 America/Santiago",
+      "context": "MoeTrading (@CoinGiggleMoe, 3.104 seguidores, en inglés) pregunta abiertamente si de verdad se puede confiar en la media de 200 o 300 semanas como soporte de $BTC con solo ~850 semanas de historia, comparando con QQQ, SPX y NQ que rompieron sus medias largas con caídas de 30-40%. Pregunta abierta sobre la media de 200 semanas, ~25 min de antigüedad, 248 vistas, 5 likes y 1 sola respuesta: se responde con los datos del índice Market Temperature.",
+      "suggested_text": "Fair question, and sample size is the real issue. 850 weeks of history means the 200-week average has only been tested in a handful of bear markets, so each touch is closer to an anecdote than a statistic. Any single line drawn on that little data will eventually break.\n\nThat's why it works better as one input than as a floor. Price vs. the 200-week average tells you how stretched the market is, but it reads very differently when MVRV, the drawdown from the high and volatility-adjusted momentum point the same way. Our Market Temperature index weights those four at 25% each, and it went from 99.29 to 0.67 in 364 days.\n\nThe QQQ/SPX comparison is the interesting part: decades of data, and those averages still gave way. Maybe the question was never whether a level holds, but how long price can live below it.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 248,
+        "like_count": 5,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 0
+      },
+      "followers_count": 3104,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T19:54:43Z",
+      "followers_checked_at": "2026-11-21T19:54:43Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
