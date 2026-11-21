@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-21T16:46:30Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124180781098488277",
+      "author": "HODL15Capital",
+      "url": "https://x.com/HODL15Capital/status/2124180781098488277",
+      "created_at": "2026-11-21T16:38:58.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-21 13:38:58 America/Santiago",
+      "context": "HODL15Capital (@HODL15Capital, 85.015 seguidores, en inglés), post con imagen del dashboard de Bitcoin del sitio de Strategy: BTC está 12% bajo la media de 200 semanas y 52,5% bajo el máximo histórico; dice que solo unos pocos días ofrecieron mejores puntos de entrada en los últimos 10 años. \"Bullish\". ~8 min, 11 likes, 0 respuestas, 1,2K vistas.",
+      "suggested_text": "Those two numbers are worth reading together. Distance below the 200-week average tells you how stretched $BTC is against its long-term trend; drawdown from the high tells you how much of the cycle's excess has already been flushed. Neither one marks a bottom on its own, but together they describe a market that has given back most of its froth.\n\nThat's the logic behind the Market Temperature index I track: MVRV, price vs. the 200-week average, drawdown from the record and volatility-adjusted 90-day momentum, 25% each. It went from 99.29 to 0.67 in 364 days, close to the very bottom of its range.\n\nThe hard part was never spotting the zone. It's that \"only a few days offered better entries\" is something you only get to say looking back.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1248,
+        "like_count": 11,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 85015,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T16:46:30Z",
+      "followers_checked_at": "2026-11-21T16:46:30Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
