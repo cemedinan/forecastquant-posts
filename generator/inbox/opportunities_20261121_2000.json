@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-21T22:58:21.617Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124270864195842361",
+      "author": "BritishHodl",
+      "url": "https://x.com/BritishHodl/status/2124270864195842361",
+      "created_at": "2026-11-21T22:36:55.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 19:36:55 America/Santiago",
+      "context": "@BritishHodl (106.845 seguidores): \"DCA-in Bitcoin is for the un-convicted or mentally weak. Professionals stack cash and deploy at key moments. Like the 200WMA.\" (cita otro post). Post de ~20 min con 26 likes, 4 respuestas y 2.228 vistas, creciendo rápido. Ángulo: media de 200 semanas como zona de compra frente al DCA.",
+      "suggested_text": "The 200WMA is a solid zone to deploy into, but \"key moment\" hides the hard part. The line keeps moving while you wait, and price doesn't touch it and bounce on schedule: it can sit below it for weeks while the average itself drifts. Waiting in cash is a timing bet with its own cost, and most people only measure it in hindsight.\n\nThat's why I treat the 200WMA as one input, not a trigger. In my Market Temperature index it's a quarter of the reading, next to MVRV, drawdown from the high and volatility-adjusted momentum, because any single line can stay \"cheap\" longer than conviction lasts.\n\nDCA and a cash reserve aren't really opposites either. The interesting question is how much of each, and that answer says more about the person holding the cash than about the chart.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 2228,
+        "like_count": 26,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 1
+      },
+      "followers_count": 106845,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-21T22:58:21.617Z",
+      "followers_checked_at": "2026-11-21T22:58:21.617Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
