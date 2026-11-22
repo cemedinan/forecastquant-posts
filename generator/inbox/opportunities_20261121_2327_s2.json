@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T02:27:32.978Z",
+  "topic": "price",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124322453178728877",
+      "author": "JavierCrespoDM",
+      "url": "https://x.com/JavierCrespoDM/status/2124322453178728877",
+      "created_at": "2026-11-22T02:01:55.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-21 23:01:55 America/Santiago",
+      "context": "@JavierCrespoDM (22.524 seguidores, en español, trader macro): cita un comentario que se burlaba de su postura y dice que $BTC bajó a 55k e hizo un nuevo mínimo de ciclo, como venía advirtiendo hace meses. ~26 min, 400 vistas y todavía 0 respuestas: post fresco en español de una cuenta mediana con la que @ForecastQuant ya interactuó, que se responde con los datos de caídas de ciclo y el índice de temperatura de mercado.",
+      "suggested_text": "Lo interesante de este mínimo no es tanto el número como la forma. Desde el máximo la caída ronda el 56%, bastante menos profunda que el -92,7% de 2011 o el -84,5% de 2013, y en un activo mucho más grande y líquido.\n\nEl índice de temperatura de mercado que armé (MVRV, precio frente a la media de 200 cierres semanales, caída desde el récord y momentum de 90 días, 25% cada uno) pasó de 99,29 a 0,67 en 364 días. Lecturas así de frías históricamente se parecen más a zonas de acumulación que a euforia: https://x.com/ForecastQuant/status/2122727211610542288\n\nUn nuevo mínimo de ciclo dice dónde estamos. Cuánto tarde en recuperar el máximo es otra historia, y ahí los ciclos anteriores no se ponen de acuerdo.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "price",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 400,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 22524,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T02:27:32.978Z",
+      "followers_checked_at": "2026-11-22T02:27:32.978Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
