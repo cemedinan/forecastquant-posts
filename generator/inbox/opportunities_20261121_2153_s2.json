@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T00:51:11.194Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124277948496634334",
+      "author": "CdeCriptoz",
+      "url": "https://x.com/CdeCriptoz/status/2124277948496634334",
+      "created_at": "2026-11-21T23:05:04.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-21 20:05:04 America/Santiago",
+      "context": "@CdeCriptoz (34.968 seguidores, en español): dice que, como en febrero y junio de 2026, Bitcoin cayó temporalmente bajo el Precio Promedio de Producción y rebotó con fuerza; que ninguna media móvil ha sostenido al precio como esa banda; que terminan 7 semanas de caída y empieza otro período de acumulación, sin rebote en V, en un 2026 de rango entre los 80 y los 60 mil. ~1 h 45 min, 6.518 vistas, 145 likes, 8 bookmarks y solo 15 respuestas: cuenta mediana en español con un post que despega, y se responde con el índice de temperatura de mercado (MVRV, media de 200 semanas).",
+      "suggested_text": "El costo de producción funciona como piso blando por un mecanismo concreto: cuando el precio queda bajo lo que cuesta minar, los mineros menos eficientes venden reservas o apagan equipos, la dificultad se ajusta y el costo promedio baja. El precio puede perforarlo un tiempo, pero el desequilibrio termina corrigiéndose por el lado de la oferta.\n\nVale la pena cruzarlo con otras medidas de valoración. En el índice de temperatura de mercado que armé, que combina MVRV, precio frente a la media de 200 cierres semanales, caída desde el récord y momentum de 90 días (25% cada uno), la lectura pasó de 99,29 a 0,67 en 364 días. Eso describe un mercado frío, más coherente con acumulación que con euforia.\n\nLa pregunta de fondo quizá no sea si hay rango, sino cuánto tiempo aguanta la gente un mercado aburrido antes de dejar de mirarlo: https://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 8,
+        "impression_count": 6518,
+        "like_count": 145,
+        "quote_count": 0,
+        "reply_count": 15,
+        "repost_count": 3
+      },
+      "followers_count": 34968,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T00:51:11.194Z",
+      "followers_checked_at": "2026-11-22T00:51:11.194Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
