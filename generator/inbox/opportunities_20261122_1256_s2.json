@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T15:56:35.814Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124527322871329212",
+      "author": "cryptogoos",
+      "url": "https://x.com/cryptogoos/status/2124527322871329212",
+      "created_at": "2026-11-22T15:36:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-22 12:36:00 America/Santiago",
+      "context": "@cryptogoos (121.023 seguidores, en inglés): 'la historia se repite: compra $BTC 500 días antes del halving, vende 500 días después, repite', con video. Post de ~20 minutos, 3.334 vistas, 34 likes, 5 guardados y solo 4 respuestas: tema halving, respondible con el post de emisión (3,125% restante, subsidio de 3,125 a 1,5625 BTC por bloque).",
+      "suggested_text": "The rhythm has held so far, but the engine behind it gets weaker every cycle. A halving works by cutting new supply that miners have to sell. At the next one, the subsidy drops from 3.125 to 1.5625 BTC per block, roughly from ~450 to ~225 BTC a day, and only 3.125% of the 21M will be left to issue.\n\nIn 2012, halving the subsidy was a real shock to the float. Today, a single week of ETF flows can move more coins than miners produce in months. So the calendar can keep working for a different reason: not because supply gets scarcer, but because millions of people now trade the expectation itself.\n\nA pattern that survives because everyone believes in it is a different animal from one that survives because of supply.\n\nhttps://x.com/ForecastQuant/status/2122747344701501622",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 3334,
+        "like_count": 34,
+        "quote_count": 0,
+        "reply_count": 4,
+        "repost_count": 2
+      },
+      "followers_count": 121023,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T15:56:35.814Z",
+      "followers_checked_at": "2026-11-22T15:56:35.814Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
