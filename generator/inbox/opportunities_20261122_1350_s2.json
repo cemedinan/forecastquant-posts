@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T16:50:33.859Z",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124537129607090459",
+      "author": "Andre_Dragosch",
+      "url": "https://x.com/Andre_Dragosch/status/2124537129607090459",
+      "created_at": "2026-11-22T16:14:58.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-22 13:14:58 America/Santiago",
+      "context": "@Andre_Dragosch (20.333 seguidores, en inglés): hilo con pruebas estadísticas sobre la power law con datos diarios de Glassnode (exponente ~5,63, R² 0,96; ADF p=0,048 pero Phillips-Perron p=0,239; precio ~0,41× la tendencia de ~$147k). Concluye que el modelo sigue intacto, aunque la estacionariedad es el punto débil. Cuenta mediana, ~35 min, 1.505 vistas, 6 reposts y solo 2 respuestas: respondible con la power law original de Dacoinminster.",
+      "suggested_text": "Solid battery. One out-of-sample check worth adding sits even further back than an end-2022 freeze: Dacoinminster's original 2013 power law, untouched since then and plotted against daily price. On that curve, the 2017 top reached 9.4× trend and the 2018 low actually closed below it. So the \"floor\" has already been pierced once, by a model nobody refitted, and the long-run relationship still held.\n\nThat's why I read the Phillips-Perron result as the interesting part rather than a red flag. Mean reversion looks strong when deviations are short and violent. As the asset matures, the swings narrow and the time spent away from trend can stretch, which is exactly the kind of regime where stationarity tests start to lose power.\n\nA model can stay right on the slope and still be wrong on how long it takes to get back to it.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1505,
+        "like_count": 19,
+        "quote_count": 1,
+        "reply_count": 2,
+        "repost_count": 6
+      },
+      "followers_count": 20333,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T16:50:33.859Z",
+      "followers_checked_at": "2026-11-22T16:50:33.859Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
