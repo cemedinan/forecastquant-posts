@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-22T17:44:47.971Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124553703483174979",
+      "author": "BSCGemsAlert",
+      "url": "https://x.com/BSCGemsAlert/status/2124553703483174979",
+      "created_at": "2026-11-22T17:20:49.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-22 14:20:49 America/Santiago",
+      "context": "@BSCGemsAlert (460.480 seguidores), en inglés: \"BULL MARKET STARTS NEXT WEEK?!\" Afirma que los mercados bajistas de 2014, 2018 y 2022 duraron 58 semanas (406 días) y que 2026 llega a la misma marca, con imagen. Post de ~23 min con 25 likes, 2 respuestas y 4161 vistas. Ángulo: caídas y días de recuperación por ciclo (Cycle Clock y Drawdown Atlas).",
+      "suggested_text": "The symmetry is striking, but it's worth separating two clocks that often get mixed up: peak to trough, and trough back to the old high.\n\nEven if the trough lands on schedule, the second clock has been far less regular. After 2011 Bitcoin fell 92.7% and took 622 days to reclaim its high; after 2013 it fell 84.5% and needed 1,177. Within 2013 itself, one peak was recovered in 210 days and the other in 1,177.\n\nSo a bottom forming on time and a bull market starting next week aren't quite the same claim. Four data points make a pattern, but they also make a very small sample, and the market has a habit of punishing whatever everyone is counting the days to.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 4161,
+        "like_count": 25,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 3
+      },
+      "followers_count": 460480,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T17:44:47.971Z",
+      "followers_checked_at": "2026-11-22T17:44:47.971Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
