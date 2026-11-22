@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T13:49:52.850Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124466010308673670",
+      "author": "InversorNovato_",
+      "url": "https://x.com/InversorNovato_/status/2124466010308673670",
+      "created_at": "2026-11-22T11:32:22.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-22 08:32:22 America/Santiago",
+      "context": "@InversorNovato_ (31.957 seguidores, en español): compara la duración de los mercados bajistas (2014: -85% en 406 días; 2018: -83% en 364; 2022: -77% en 378; 2026: -53% en 412) y dice que el suelo podría estar cerca. Cuenta mediana, ~1.900 vistas, 25 likes y solo 2 respuestas: tema de caídas y ciclos, respondible con el Cycle Clock y el índice de temperatura.",
+      "suggested_text": "Ojo con una diferencia que cambia la lectura: esos días miden cuánto tardó el precio en tocar fondo, no cuánto le costó volver al máximo anterior, y la parte dura del ciclo suele estar en lo segundo. En el Cycle Clock que armé, la caída de 2011 fue de -92,7% y tardó 622 días en recuperar el máximo; la de 2013, -84,5% y 1.177 días.\n\nQue esta caída sea la más larga pero bastante menos profunda (-53% frente a -77% y -85%) puede ser señal de un activo más grande y con más compradores estructurales: menos profundidad, más tiempo. Por valoración, el índice de temperatura de mercado que sigo (MVRV, media de 200 semanas, caída desde el récord y momentum) pasó de 99,29 a 0,67 en 364 días, así que buena parte del exceso ya salió del precio.\n\nLo que pocos miran es si un suelo menos profundo también trae una recuperación más corta, o si el tiempo se cobra por otro lado.\n\nhttps://x.com/ForecastQuant/status/2122375393776951738",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1919,
+        "like_count": 25,
+        "quote_count": 0,
+        "reply_count": 2,
+        "repost_count": 1
+      },
+      "followers_count": 31957,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T13:49:52.850Z",
+      "followers_checked_at": "2026-11-22T13:49:52.850Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
