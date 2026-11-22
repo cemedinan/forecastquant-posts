@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-22T18:21:12.808Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124558270178234591",
+      "author": "ZynxBTC",
+      "url": "https://x.com/ZynxBTC/status/2124558270178234591",
+      "created_at": "2026-11-22T17:38:58.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-22 14:38:58 America/Santiago",
+      "context": "@ZynxBTC (22.433 seguidores), en inglés: Bitcoin podría haber tocado fondo el mismo día con cuatro años de diferencia (21 nov 2022 ~$15,5k y 21 nov 2026 ~$55k); dice que el piso de este ciclo fue 3,5x el anterior y que si se sostiene empieza un nuevo ciclo. Post de ~42 min con 83 likes, 17 respuestas y 2257 vistas. Ángulo: temperatura de mercado y señales de piso (índice de 99,29 a 0,67 en 364 días).",
+      "suggested_text": "The date match is a fun coincidence, but the higher low is the part with real signal. A cycle bottom roughly 3.5x above the previous one says the floor keeps rising even when sentiment hits zero.\n\nValuation tells a similar story. My Market Temperature index, which weighs MVRV, price vs the 200-week average, distance from the all-time high and volatility-adjusted 90-day momentum at 25% each, went from 99.29 to 0.67 in 364 days. Euphoria to frost in a single year.\n\nA cold reading doesn't confirm the low; it only says how much optimism has already been flushed out. Bottoms usually get recognized long after the fact, once nobody is looking at the calendar anymore.\nhttps://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 2257,
+        "like_count": 83,
+        "quote_count": 0,
+        "reply_count": 17,
+        "retweet_count": 4
+      },
+      "followers_count": 22433,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T18:21:12.808Z",
+      "followers_checked_at": "2026-11-22T18:21:12.808Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
