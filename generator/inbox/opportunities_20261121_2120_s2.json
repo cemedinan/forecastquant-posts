@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T00:18:25.064Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124256278360826353",
+      "author": "lontra_insights",
+      "url": "https://x.com/lontra_insights/status/2124256278360826353",
+      "created_at": "2026-11-21T21:38:58.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-21 18:38:58 America/Santiago",
+      "context": "Lontra (@lontra_insights, 2.681 seguidores, en portugués): \"O Bitcoin fez fundo há exatos 4 anos. E adivinha? No mesmo dia 21. 21/11/2022: US$ 15.479 / 21/11/2026: US$ 55.127. Sério, qual a chance de uma coincidência dessas?\" ~40 min, 1.005 vistas, 43 likes y 9 respuestas: post en portugués que despega (mucha interacción para su edad, pocas respuestas) y se responde con los datos del Cycle Clock sobre caídas y días en recuperar.",
+      "suggested_text": "A coincidência de data é divertida, mas o número que fica é outro: de US$ 15.479 para US$ 55.127 são cerca de 3,6x em quatro anos para quem comprou exatamente no fundo de 2022. E quase ninguém compra no dia exato.\n\nFundos de Bitcoin raramente são um dia; costumam ser uma região de meses. Em 2011, depois de uma queda de 92,7%, o preço levou 622 dias para recuperar o máximo; em 2013, depois de -84,5%, foram 1.177 dias. O que separa um ciclo do outro é menos a data do piso e mais quanto tempo o preço passa na zona barata e quem ainda está posicionado quando ela termina.\n\nTalvez a parte mais interessante dessa história não seja o dia 21, e sim o que aconteceu com quem estava no mercado nos meses ao redor dele.",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": null,
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1005,
+        "like_count": 43,
+        "quote_count": 0,
+        "reply_count": 9,
+        "repost_count": 0
+      },
+      "followers_count": 2681,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T00:18:25.064Z",
+      "followers_checked_at": "2026-11-22T00:18:25.064Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
