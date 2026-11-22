@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T18:12:56.370Z",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124558446502850993",
+      "author": "BitMasterK",
+      "url": "https://x.com/BitMasterK/status/2124558446502850993",
+      "created_at": "2026-11-22T17:39:40.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-22 14:39:40 America/Santiago",
+      "context": "@BitMasterK (7.245 seguidores, en inglés): pregunta abierta sobre si la ruptura de $BTC bajo el \"Power Law Bottom\" se debe a Bitcoin de papel o manipulación, ya que la adopción ha sido más alcista de lo que esperaba. Post de ~35 min con 233 vistas y solo 4 respuestas: cuenta mediana, pregunta abierta y tema power law, respondible con el dato propio de que el mínimo de 2018 también quedó bajo la curva.",
+      "suggested_text": "Worth remembering this isn't the first time price has slipped under a power-law line. On the original Dacoinminster fit, the 2017 top ran to 9.4x the curve and the 2018 low ended up below it. The model describes a long-run trend with wide swings around it; it was never a floor the market had to respect.\n\nWhat usually drives those dips has less to do with adoption and more to do with positioning. Leverage built up in the good months gets unwound all at once, and derivatives let that selling pressure hit price without a single coin leaving cold storage. Fundamentals move slowly; forced liquidations don't.\n\nSo you can be right about adoption and still watch price undercut the curve. What the chart doesn't tell you on its own is how long it can stay there, and that's usually where conviction gets tested.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 233,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 4,
+        "repost_count": 0
+      },
+      "followers_count": 7245,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T18:12:56.370Z",
+      "followers_checked_at": "2026-11-22T18:12:56.370Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
