@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-22T15:26:05.611Z",
+  "topic": "rainbow",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124520780201374013",
+      "author": "cryptorover",
+      "url": "https://x.com/cryptorover/status/2124520780201374013",
+      "created_at": "2026-11-22T15:10:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-22 12:10:00 America/Santiago",
+      "context": "@cryptorover (1.623.373 seguidores), en inglés: \"BREAKING: Bitcoin falls BELOW to rainbow chart\", con imagen. Post de ~15 min con 120 likes, 32 respuestas y 20806 vistas. Ángulo: toda la historia de precio en el arcoíris (14 años, 4 halvings, de $12 a más de $100.000); tono optimista de largo plazo.",
+      "suggested_text": "Worth remembering what the rainbow actually is: a fitted log curve with color bands drawn around Bitcoin's own history, not a law the price owes anything to.\n\nThat history covers 14 years and 4 halvings, from around $12 to above $100,000. Over that span the lower bands have been where long-term holders found their best entries, while the hot bands were where the euphoria lived.\n\nPrice slipping below the bands says more about how stretched the pessimism is than about where Bitcoin goes over the next decade. The curve gets refit when reality moves away from it, so maybe the more interesting question is what that says about the model, not about Bitcoin.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122106525854401008",
+      "topic": "rainbow",
+      "metrics": {
+        "bookmark_count": 8,
+        "impression_count": 20806,
+        "like_count": 120,
+        "quote_count": 2,
+        "reply_count": 32,
+        "retweet_count": 9
+      },
+      "followers_count": 1623373,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T15:26:05.611Z",
+      "followers_checked_at": "2026-11-22T15:26:05.611Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
