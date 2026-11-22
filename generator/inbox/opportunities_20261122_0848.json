@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-22T11:48:35.636Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124466377347969348",
+      "author": "athantonios",
+      "url": "https://x.com/athantonios/status/2124466377347969348",
+      "created_at": "2026-11-22T11:33:49.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-22 08:33:49 America/Santiago",
+      "context": "@athantonios (8.947 seguidores): \"A year ago, I posted saying we'd probably topped and were on the cusp of a bear market. Now I'm posting to tell you we're in the process of finding a bottom. Depending on how this structure plays out, I'll decide whether to treat it as the 2026 bear market bottom (accumulation) or the 2009-2027 BTC Super-Cycle top (distribution).\" Cita su post de nov-2025. Post de ~15 min con 922 vistas y 2 respuestas. Ángulo: caídas y tiempo de recuperación por ciclo.",
+      "suggested_text": "Accumulation vs distribution is the right fork to frame it, and history shows the two can look identical for months. What separates them usually isn't the low itself but how long price needs to get back above the old high.\n\nThe spread there is wide. After the 2011 top, Bitcoin fell 92.7% and took 622 days to reclaim the high. After the late-2013 top, a shallower 84.5% drop took 1,177 days, almost twice as long. A smaller drawdown didn't mean a faster recovery.\n\nSo even if this structure resolves as a bottom, the depth of the fall says surprisingly little about the length of the wait that follows.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 922,
+        "like_count": 7,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 1
+      },
+      "followers_count": 8947,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T11:48:35.636Z",
+      "followers_checked_at": "2026-11-22T11:48:35.636Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
