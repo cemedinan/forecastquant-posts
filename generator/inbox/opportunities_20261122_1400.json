@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-22T16:58:39.384Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124540799266222506",
+      "author": "ArdiNSC",
+      "url": "https://x.com/ArdiNSC/status/2124540799266222506",
+      "created_at": "2026-11-22T16:29:33.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-22 13:29:33 America/Santiago",
+      "context": "@ArdiNSC (38.516 seguidores), en inglés: reflexiona que su tesis de BTC buscando los mínimos del rango previo ($48K-$54K) podría cumplirse, admite que el breakout de $83K lo engañó, cuenta que en 2019 compró 280% sobre el mínimo por negar el piso y concluye que ser bajista macro tarde en el ciclo le hizo más daño que ser alcista. Post de ~30 min con 142 likes, 34 respuestas y 12047 vistas. Ángulo: caídas y recuperación por ciclo (Cycle Clock y Drawdown Atlas).",
+      "suggested_text": "The 2019 story is the part most people skip. Buying higher than the low isn't the failure; refusing to buy at all because the \"real\" bottom hasn't printed yet is.\n\nThe drawdown history backs that up. 2011 fell 92.7% and took 622 days to reclaim its high; 2013 fell 84.5% and needed 1,177. Even inside 2013 there were two peaks: one recovered in 210 days, the other in 1,177. Same asset, same year, completely different patience required.\n\nNobody times those exactly. What separates outcomes over a full cycle is usually position size, no leverage and a plan that survives being early. The price level matters less than whether you're still holding when the long trend reasserts itself, and that one rarely announces itself in advance.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 7,
+        "impression_count": 12047,
+        "like_count": 142,
+        "quote_count": 1,
+        "reply_count": 34,
+        "retweet_count": 26
+      },
+      "followers_count": 38516,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T16:58:39.384Z",
+      "followers_checked_at": "2026-11-22T16:58:39.384Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
