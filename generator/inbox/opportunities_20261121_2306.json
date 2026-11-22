@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-22T02:03:00.618Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124321507979706741",
+      "author": "AdamBLiv",
+      "url": "https://x.com/AdamBLiv/status/2124321507979706741",
+      "created_at": "2026-11-22T01:58:10.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 22:58:10 America/Santiago",
+      "context": "@AdamBLiv (Adam Livingston, 89.273 seguidores): \"Bitcoin just closed a week below its 200-week moving average again. From 2015 to 2023, it did this 7 times. Median return after each break: 6 months +80% (higher 6 of 7), 12 months +155% (7 of 7), 18 months +290%, 24 months +337%.\" Post de minutos con 11 likes, 929 vistas y aún sin respuestas. Ángulo: media de 200 semanas y temperatura de mercado.",
+      "suggested_text": "Seven breaks is a strong record but a small sample, and the path between the break and those 12-24 month numbers was rarely clean. In 2022 price lost the 200-week average in June, spent months under it and still set a lower low in November before the trend turned.\n\nThat's why I don't read the 200W on its own. My Market Temperature index gives it 25%, next to MVRV, the drawdown from the ATH and volatility-adjusted 90-day momentum. Over 364 days it went from 99.29 to 0.67: https://x.com/ForecastQuant/status/2122727211610542288\n\nThe base rates lean one way. What they can't tell you is how long the time under the line lasts this round.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 929,
+        "like_count": 11,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "followers_count": 89273,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T02:03:00.618Z",
+      "followers_checked_at": "2026-11-22T02:03:00.618Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
