@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-22T12:28:16.082Z",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124469011002126714",
+      "author": "CryptoPainter",
+      "url": "https://x.com/CryptoPainter/status/2124469011002126714",
+      "created_at": "2026-11-22T11:44:17.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-22 08:44:17 America/Santiago",
+      "context": "@CryptoPainter (82.265 seguidores), en chino: el precio semanal dejó una mecha sobre su canal de ley de potencia, igual que el 12 de marzo (2020); su canal se diferencia del PowerLaw popular porque considera rendimientos decrecientes por el aumento de capital y de nodos, y ajusta con decaimiento el índice de burbuja de los mercados alcistas. Post de ~45 min con 21 likes, 7 respuestas y 3943 vistas. Ángulo: power law original y sus desvíos (pico 2017 a 9,4× la curva, mínimo 2018 bajo ella).",
+      "suggested_text": "周线在通道下沿收针，正是幂律模型最值得看的位置：它对底部的解释力一直比对顶部强。拿 Dacoinminster 2013 年最初的 power law 对照日线价格，2017 年高点冲到曲线的 9.4 倍，而 2018 年的低点却跌破了曲线本身。\n\n所以对泡沫指数做衰减拟合是有数据支撑的，每一轮顶部离曲线的倍数都在缩小。但下沿不是硬底，2018 年已经证明价格可以在线下停留一段时间。我把原版曲线延伸到 2060 年做过对照：https://x.com/ForecastQuant/status/2122317683030941979\n\n真正难判断的不是有没有碰到通道，而是这一次会在线下待多久。",
+      "language": "zh",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 3943,
+        "like_count": 21,
+        "quote_count": 0,
+        "reply_count": 7,
+        "retweet_count": 2
+      },
+      "followers_count": 82265,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T12:28:16.082Z",
+      "followers_checked_at": "2026-11-22T12:28:16.082Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
