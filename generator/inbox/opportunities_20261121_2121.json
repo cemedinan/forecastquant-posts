@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-22T00:19:36.564Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124265359192539159",
+      "author": "3orovik",
+      "url": "https://x.com/3orovik/status/2124265359192539159",
+      "created_at": "2026-11-21T22:15:03.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-21 19:15:03 America/Santiago",
+      "context": "@3orovik (borovik, 222.220 seguidores): \"We're in the longest Bitcoin bear market in history. But guess what, I AM BULLISH!!\" Post de ~2 h con 139 likes, 33 respuestas y 4.138 vistas, con mucha conversación. Ángulo: caídas y tiempo de recuperación entre ciclos.",
+      "suggested_text": "Long bear markets feel endless from the inside, but the recovery side of the history is just as uneven. After the 2011 peak, Bitcoin fell 92.7% and took 622 days to get back to the high. After 2013 it dropped 84.5% and needed 1,177 days, almost twice as long, from a smaller loss.\n\nSo the duration of a drawdown never told you much about how deep it was, or when it would end. What changed between those cycles was who was holding through them, and how much of the supply stopped moving.\n\nBeing bullish in a long bear isn't really a contradiction. It's mostly a bet on time rather than on price, and that's a bet the calendar rarely settles when people expect it to.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 4138,
+        "like_count": 139,
+        "quote_count": 3,
+        "reply_count": 33,
+        "retweet_count": 2
+      },
+      "followers_count": 222220,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T00:19:36.564Z",
+      "followers_checked_at": "2026-11-22T00:19:36.564Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
