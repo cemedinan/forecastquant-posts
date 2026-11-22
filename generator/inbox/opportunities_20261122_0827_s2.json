@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T11:25:17.457Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124451716091597178",
+      "author": "Marvionex",
+      "url": "https://x.com/Marvionex/status/2124451716091597178",
+      "created_at": "2026-11-22T10:35:34.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-22 07:35:34 America/Santiago",
+      "context": "@Marvionex (Alpha Whale, 31.816 seguidores, en inglés): \"Where does your crypto actually live on @Binance?\". Explica el almacenamiento en frío, las aprobaciones múltiples, el fondo SAFU y Proof of Reserves, y termina con un checklist de seguridad y \"Don't just trust. Verify.\". ~49 min, 5.935 vistas, 33 likes y 18 respuestas: cuenta mediana con un post que despega y plantea la pregunta de dónde viven tus cripto, respondible con el ángulo de custodia propia y riesgo de contraparte.",
+      "suggested_text": "Solid checklist, and \"don't trust, verify\" is the right instinct. It's worth being precise about what Proof of Reserves verifies, though: it's a snapshot showing the exchange held assets against the customer balances included at that moment. It says little about what happens between snapshots, and it doesn't change the fact that coins on an exchange are a claim on the exchange, not coins you control.\n\nCold storage, multi-approval transfers and an emergency fund lower the risk of a hack. They don't remove counterparty risk: paused withdrawals, frozen accounts, insolvency. For coins you plan to hold for years, the strongest form of \"verify\" is holding the keys yourself, ideally on a device that never touches the internet. I laid out the full air-gapped setup here: https://x.com/ForecastQuant/status/2123585216740528526\n\nMost people only find out which kind of risk they were carrying on the day withdrawals stop.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5935,
+        "like_count": 33,
+        "quote_count": 0,
+        "reply_count": 18,
+        "repost_count": 0
+      },
+      "followers_count": 31816,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T11:25:17.457Z",
+      "followers_checked_at": "2026-11-22T11:25:17.457Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
