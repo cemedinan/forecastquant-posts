@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T12:52:57.656Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124480923915669957",
+      "author": "SantinoCripto",
+      "url": "https://x.com/SantinoCripto/status/2124480923915669957",
+      "created_at": "2026-11-22T12:31:37.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-22 09:31:37 America/Santiago",
+      "context": "@SantinoCripto (69.497 seguidores, en español): análisis en el que cree que todavía queda caída hasta mínimo 45K (LTH realized price, coste de producción de Capriole, Fibonacci 0,5 en 44K, liquidez en 50K), aunque con horizonte de 2 años considera que los niveles actuales ya son buenos para comprar. ~21 min, 833 vistas, 10 likes, 7 guardados y solo 1 respuesta: post en español con métricas de largo plazo, respondible con el índice de temperatura de mercado y la curva de adopción.",
+      "suggested_text": "Buen punto separar las dos preguntas: dónde puede estar el mínimo y si el nivel ya sirve con un horizonte de dos años. Son cosas distintas y casi siempre se mezclan.\n\nPor el lado de la valoración, el índice de temperatura de mercado que armé (MVRV, precio frente a la media de 200 cierres semanales, caída desde el récord y momentum de 90 días, 25% cada uno) pasó de 99,29 a 0,67 en 364 días. Eso no descarta unos 45K, pero sí indica que buena parte del exceso ya salió del precio. Y en la red pasa algo que el gráfico de precio no muestra: en un año en que BTC cayó 32%, se sumaron 2,5 millones de direcciones con saldo.\n\nEn estas zonas, lo que separa a quien compra bien de quien compra demasiado pronto rara vez es acertar el nivel exacto. Suele ser cuánto tiempo puede sostener la posición sin verse obligado a vender.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 7,
+        "impression_count": 833,
+        "like_count": 10,
+        "quote_count": 1,
+        "reply_count": 1,
+        "repost_count": 0
+      },
+      "followers_count": 69497,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T12:52:57.656Z",
+      "followers_checked_at": "2026-11-22T12:52:57.656Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
