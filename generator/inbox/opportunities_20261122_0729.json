@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-22T10:29:37.376Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124435808392556895",
+      "author": "CryptoGerla",
+      "url": "https://x.com/CryptoGerla/status/2124435808392556895",
+      "created_at": "2026-11-22T09:32:21.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-22 06:32:21 America/Santiago",
+      "context": "@CryptoGerla (33.485 seguidores): \"$BTC bear market has now lasted 58 weeks, matching the 2013–2015 cycle. Last time, this marked the cycle bottom. The timing is lining up again, and I'm leaning toward a major recovery from here.\" Post de ~1 hora con 79 likes, 24 respuestas y 3257 vistas. Ángulo: duración de las caídas y tiempo de recuperación por ciclo (Cycle Clock / Drawdown Atlas).",
+      "suggested_text": "Time-based analogs are worth tracking, but 2013 is also a reminder of how long the road after a bottom can be. From the late-2013 peak, the drawdown reached -84.5% and price needed 1,177 days to reclaim that high. The low was closer to the middle of the wait than to the end of it.\n\nThe same year had an earlier peak that was recovered in only 210 days. Same cycle, same asset, and the recovery clock ran almost six times faster depending on which top you measure from.\n\nMatching the length of a bear market says something about exhaustion. What comes after it, a fast reclaim or a long sideways grind, is a separate question the calendar doesn't answer.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122676377011069293",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 3257,
+        "like_count": 79,
+        "quote_count": 1,
+        "reply_count": 24,
+        "retweet_count": 2
+      },
+      "followers_count": 33485,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T10:29:37.376Z",
+      "followers_checked_at": "2026-11-22T10:29:37.376Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
