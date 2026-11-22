@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T14:34:37.133Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124504074334658696",
+      "author": "ParadigmaEdu",
+      "url": "https://x.com/ParadigmaEdu/status/2124504074334658696",
+      "created_at": "2026-11-22T14:03:37.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-22 11:03:37 America/Santiago",
+      "context": "@ParadigmaEdu (89.483 seguidores, en portugués): dice que el MVRV de Bitcoin llegó a 1,01 en la madrugada de ayer, exactamente 4 años después del fondo del ciclo anterior (21/11/2022), y que hay buena chance de que haya sido el mínimo del ciclo actual. ~31 min, 1.131 vistas, 35 likes, 5 guardados y 0 respuestas: post fresco en portugués sobre MVRV, respondible con el índice de temperatura de mercado.",
+      "suggested_text": "O MVRV perto de 1 diz algo simples e poderoso: o preço de mercado encostou no custo médio em que as moedas se moveram pela última vez na rede. Na média, quem detém BTC hoje está perto do zero a zero, e é nessa zona que a pressão de venda para realizar lucro praticamente some.\n\nMas o MVRV sozinho costuma enganar no timing. No índice de temperatura de mercado que acompanho, ele pesa só 25%, ao lado do preço frente à média de 200 fechamentos semanais, da queda desde o recorde e do momentum de 90 dias ajustado pela volatilidade. Esse índice saiu de 99,29 para 0,67 em 364 dias, então boa parte do excesso já saiu do preço.\n\nA coincidência de datas é curiosa, mas o que costuma definir um fundo não é o dia em que ele acontece, e sim quanto tempo o mercado aceita ficar ali.",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 1131,
+        "like_count": 35,
+        "quote_count": 1,
+        "reply_count": 0,
+        "repost_count": 2
+      },
+      "followers_count": 89483,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T14:34:37.133Z",
+      "followers_checked_at": "2026-11-22T14:34:37.133Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
