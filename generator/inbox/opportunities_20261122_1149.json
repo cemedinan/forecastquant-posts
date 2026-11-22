@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-22T14:47:13.627Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124512999704830073",
+      "author": "CryptoGerla",
+      "url": "https://x.com/CryptoGerla/status/2124512999704830073",
+      "created_at": "2026-11-22T14:39:05.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-22 11:39:05 America/Santiago",
+      "context": "@CryptoGerla (33.488 seguidores), en inglés: cada ciclo de halving llevó a una fase de acumulación antes del siguiente gran rally y el ciclo actual sigue el mismo patrón; con imagen. Post de ~10 min con 6 likes, 2 respuestas y 1147 vistas. Ángulo: emisión tras el próximo halving (queda 3,125% de los 21M; subsidio de 3,125 a 1,5625 BTC; ~450 a ~225 BTC al día).",
+      "suggested_text": "The mechanism behind that pattern is easy to underestimate: each halving cuts new supply in half while demand doesn't have to change at all.\n\nAt the next halving only 3.125% of the 21M will be left to issue. The block subsidy drops from 3.125 to 1.5625 BTC, so daily issuance goes from ~450 to ~225 BTC. I broke down those numbers here: https://x.com/ForecastQuant/status/2122747344701501622\n\nThe catch is that every halving matters less in absolute terms than the one before it. At some point the cycle has to be driven more by demand than by the supply shock itself.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1147,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 1
+      },
+      "followers_count": 33488,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T14:47:13.627Z",
+      "followers_checked_at": "2026-11-22T14:47:13.627Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
