@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T15:10:23.977Z",
+  "topic": "rainbow",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124518273655898622",
+      "author": "MerlijnTrader",
+      "url": "https://x.com/MerlijnTrader/status/2124518273655898622",
+      "created_at": "2026-11-22T15:00:02.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-22 12:00:02 America/Santiago",
+      "context": "@MerlijnTrader (424.171 seguidores, en inglés): dice que $BTC acaba de romper por debajo del Rainbow Chart por primera vez y que si los $55K aguantan empieza a comprar, y si se rompen viene más dolor. Post de ~10 minutos, 2.417 vistas, 17 likes y solo 3 respuestas: noticia fresca de precio sobre el arcoíris, respondible con el post del Rainbow Chart y el índice de temperatura.",
+      "suggested_text": "Worth separating two things here. The Rainbow Chart isn't a law: it's a log regression fitted to past prices, with bands drawn around it. A close below the lowest band means either BTC is historically cheap, or the curve was fitted to a younger, far more volatile asset and the bands need redrawing. Probably a bit of both.\n\nI mapped the full price history on it: 14 years, 4 halvings, from $12 to over $100,000. Valuation points the same way from a different angle: my market temperature index (MVRV, price vs. the 200-week average, drawdown from the ATH and 90-day momentum) went from 99.29 to 0.67 in 364 days.\n\nThe bigger question isn't whether $55K holds. It's whether a maturing asset should still be judged by the bands of its childhood.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122106525854401008",
+      "topic": "rainbow",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2417,
+        "like_count": 17,
+        "quote_count": 0,
+        "reply_count": 3,
+        "repost_count": 2
+      },
+      "followers_count": 424171,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T15:10:23.977Z",
+      "followers_checked_at": "2026-11-22T15:10:23.977Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
