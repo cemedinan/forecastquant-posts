@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-22T13:28:29.648Z",
+  "topic": "cycles",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124481810696482882",
+      "author": "JefferyCrypt",
+      "url": "https://x.com/JefferyCrypt/status/2124481810696482882",
+      "created_at": "2026-11-22T12:35:09.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-22 09:35:09 America/Santiago",
+      "context": "@JefferyCrypt (30.500 seguidores), en inglés: Bitcoin cayó 56% desde el máximo el sábado; todos los mercados bajistas anteriores pasaron de -75%, así que o este es el más suave o no ha terminado. Post de ~1 h con 38 likes, 9 respuestas y 1441 vistas. Ángulo: Bitcoin Cycle Clock (caídas y días de recuperación por ciclo: 2011 -92,7% y 622 días; 2013 -84,5% y 1.177 días).",
+      "suggested_text": "Depth is only half of the pattern. Time is the other half.\n\nIn my Bitcoin Cycle Clock, the 2011 bear went -92.7% and took 622 days to reclaim the prior high; 2013 went -84.5% and took 1,177 days. Drawdowns have tended to get shallower as the asset grows, because each cycle needs far more capital to move price by the same percentage.\n\nSo -56% doesn't settle it either way. A milder bear can still be a long one, and the grind after the low has often hurt more than the drop itself.\n\nMaybe the real question isn't how deep, but how long.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "cycles",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1441,
+        "like_count": 38,
+        "quote_count": 0,
+        "reply_count": 9,
+        "retweet_count": 2
+      },
+      "followers_count": 30500,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T13:28:29.648Z",
+      "followers_checked_at": "2026-11-22T13:28:29.648Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
