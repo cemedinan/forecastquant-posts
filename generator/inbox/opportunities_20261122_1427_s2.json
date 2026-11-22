@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T17:27:07.923Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124544581836693968",
+      "author": "Axel_bitblaze69",
+      "url": "https://x.com/Axel_bitblaze69/status/2124544581836693968",
+      "created_at": "2026-11-22T16:44:35.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-22 13:44:35 America/Santiago",
+      "context": "@Axel_bitblaze69 (128.492 seguidores, en inglés): sostiene que Bitcoin no hace piso en una sola vela. En 2022 cayó 78% y luego hizo 11 meses de rango entre $15,5k y $31,8k; ahora va -56% y la base ni siquiera empieza, y espera meses de lateral entre $55k y $75k. ~42 min, 2.963 vistas, 5 guardados y solo 6 respuestas: tema caídas y ciclos, respondible con el Drawdown Atlas y el Cycle Clock.",
+      "suggested_text": "Agree the base is where the real work happens, and the history backs it up in an even harsher way. The 2013 cycle had two highs: one was reclaimed in 210 days, the other took 1,177. Same year, same asset, a completely different test of patience depending on which top you bought.\n\nEven earlier, the 2011 drawdown hit -92.7% and needed 622 days to get back to the high. The wick gets the headlines, but the months of chop are what flush out the people who were early but impatient.\n\nValuation has already reset fast this time: my market temperature index went from 99.29 to 0.67 in 364 days. Cheap and finished aren't the same thing, though, and the market usually takes its time to tell them apart.\n\nhttps://x.com/ForecastQuant/status/2122676377011069293",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122676377011069293",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 2963,
+        "like_count": 19,
+        "quote_count": 0,
+        "reply_count": 6,
+        "repost_count": 0
+      },
+      "followers_count": 128492,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T17:27:07.923Z",
+      "followers_checked_at": "2026-11-22T17:27:07.923Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
