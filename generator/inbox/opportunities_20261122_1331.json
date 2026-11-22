@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T16:31:23.279Z",
+  "topic": "price",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124540509288911174",
+      "author": "WatcherGuru",
+      "url": "https://x.com/WatcherGuru/status/2124540509288911174",
+      "created_at": "2026-11-22T16:28:24.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-22 13:28:24 America/Santiago",
+      "context": "@WatcherGuru (4.929.987 seguidores), en inglés: \"JUST IN: Bitcoin reclaims $61,000 and ETH reclaims $1,715\", con imagen. Post de ~5 min con 115 likes, 34 respuestas y 46859 vistas. Tema: debate del precio de BTC; ángulo: Market Temperature de 99,29 a 0,67 en 364 días y recuperación tras máximos (Drawdown Atlas 2013: 210 vs 1.177 días).",
+      "suggested_text": "A bounce back to $61K feels good, but the more useful read is where price sits in the cycle, not the round number.\n\nMy Market Temperature index blends four inputs at 25% each: MVRV, price vs the 200-week average, distance from the all-time high and volatility-adjusted 90-day momentum. It went from 99.29 to 0.67 in 364 days, a full swing from euphoria to frost in about a year.\n\nA cold reading describes where the market is, not when it turns. In 2013 one peak was recovered in 210 days and the other took 1,177. Reclaiming a level is the headline; whether those cold readings start warming up is the quieter part of the story.\nhttps://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "price",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 46859,
+        "like_count": 115,
+        "quote_count": 2,
+        "reply_count": 34,
+        "repost_count": 15,
+        "retweet_count": 15
+      },
+      "followers_count": 4929987,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T16:31:23.279Z",
+      "followers_checked_at": "2026-11-22T16:31:23.279Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
