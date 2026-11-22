@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-22T12:11:04.279Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124474313977819421",
+      "author": "fecoxa",
+      "url": "https://x.com/fecoxa/status/2124474313977819421",
+      "created_at": "2026-11-22T12:05:21.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-22 09:05:21 America/Santiago",
+      "context": "@fecoxa (7.248 seguidores, en portugués, cuenta de noticias cripto): el protocolo Chainflip confirmó un ataque con robo de ~US$12 millones en Bitcoin, Ethereum y stablecoins; ofrece 10% al hacker si devuelve el 90% antes del 23 de noviembre, y el token FLIP cayó 42,9% en 24 horas. Noticia fresca (~5 min, 0 respuestas) en portugués, donde hay menos competencia: hackeo en su primera hora, respondible con el ángulo de custodia propia y riesgo de contraparte.",
+      "suggested_text": "O detalhe que mais pesa aqui não é o valor, é onde o dinheiro estava. Protocolos de swap entre redes precisam manter liquidez em cofres controlados pelo próprio protocolo, e todo cofre compartilhado vira um alvo único: quem encontra a falha não precisa atacar milhares de carteiras, só uma.\n\nPara quem só passa BTC por ali durante uma troca, a exposição tende a ser curta. Para quem deixa saldo parado em pools, bridges ou exchanges, ela é permanente. E a oferta de 10% ao hacker mostra o limite do modelo: quando as chaves não são suas, a recuperação depende da boa vontade de quem as levou.\n\nAutocustódia não elimina o risco, só muda ele de lugar: sai do código de terceiros e vai para a forma como você guarda a sua seed. Qual dos dois a maioria realmente sabe medir?",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 32,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 7248,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-22T12:11:04.279Z",
+      "followers_checked_at": "2026-11-22T12:11:04.279Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
