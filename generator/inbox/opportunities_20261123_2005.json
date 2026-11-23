@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T23:05:01.101Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124996655703298085",
+      "author": "Cointelegraph",
+      "url": "https://x.com/Cointelegraph/status/2124996655703298085",
+      "created_at": "2026-11-23T22:40:57.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 19:40:57 America/Santiago",
+      "context": "@Cointelegraph (2.925.559 seguidores), en inglés, con imagen: «🚨 INSIGHT: Chainalysis says its AI-powered investigation tool helped trace billions in crypto stolen in the Binance hack across nearly a dozen blockchains as attackers used automated transfers and bridges to move funds.» Post de ~25 min con 24 likes, 2 reposts, 11 respuestas y 15.992 vistas (creciendo). Ángulo: rastrear no es recuperar; riesgo de custodia concentrada en exchanges vs autocustodia air-gapped (libro).",
+      "suggested_text": "Tracing is the part that gets the headlines, but tracing isn't recovering. Once funds are split across a dozen chains through automated transfers and bridges, every hop adds a new jurisdiction, a new protocol and a new delay, and the attacker only needs one exit that doesn't freeze in time.\n\nThe deeper point is structural: an exchange concentrates thousands of users' keys behind one set of hot wallets and one security team, which makes it the most valuable target in the room. Analytics firms work after the fact. Custody decisions work before it.\n\nIf the keys never touched an online device, there's nothing for an attacker to bridge in the first place.\nhttps://x.com/ForecastQuant/status/2123585216740528526",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 15992,
+        "like_count": 24,
+        "quote_count": 0,
+        "reply_count": 11,
+        "retweet_count": 2
+      },
+      "followers_count": 2925559,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T23:05:01.101Z",
+      "followers_checked_at": "2026-11-23T23:05:01.101Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
