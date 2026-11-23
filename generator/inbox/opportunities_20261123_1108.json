@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T14:06:31.401Z",
+  "topic": "price",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124866754430255196",
+      "author": "WatcherGuru",
+      "url": "https://x.com/WatcherGuru/status/2124866754430255196",
+      "created_at": "2026-11-23T14:04:47.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 11:04:47 America/Santiago",
+      "context": "@WatcherGuru (4.928.800 seguidores), en inglés: Bitcoin sube a $63.000 mientras se liquidan $250 millones en shorts en 10 minutos. Post de ~3 min con 182 likes, 32 respuestas y 44.568 vistas. Ángulo: squeeze por liquidaciones vs. demanda spot, con su índice Market Temperature (99,29 → 0,67 en 364 días).",
+      "suggested_text": "A move like this says more about positioning than about new buyers. When shorts get liquidated, their positions are closed with market buys, and that forced buying pushes price into the next cluster of stops. $250M in ten minutes is that feedback loop running at full speed.\n\nThe harder part is what comes after. Liquidation-driven squeezes often fade once the forced buying is exhausted, unless spot demand shows up to hold the level. Context matters too: the Market Temperature index I track went from 99.29 to 0.67 in 364 days, a measure of how cold the market had become before bounces like this one.\n\nA squeeze tells you where the crowd was leaning. Whether it changes where the market is heading is a different question.\nhttps://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "price",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 44568,
+        "like_count": 182,
+        "quote_count": 7,
+        "reply_count": 32,
+        "retweet_count": 23
+      },
+      "followers_count": 4928800,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T14:06:31.401Z",
+      "followers_checked_at": "2026-11-23T14:06:31.401Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
