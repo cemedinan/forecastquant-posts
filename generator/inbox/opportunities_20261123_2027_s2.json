@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T23:25:55.428Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124987549835776301",
+      "author": "BayardXBT",
+      "url": "https://x.com/BayardXBT/status/2124987549835776301",
+      "created_at": "2026-11-23T22:04:46.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 19:04:46 America/Santiago",
+      "context": "@BayardXBT (16.975 seguidores), en inglés: «Bitcoin is trading below its 2024 halving price. 947 days after the halving… At day 947, the 2012 halving cycle was sitting at 20.8x the halving price. The 2016 cycle was at 5.5x. The 2020 cycle was at 2.1x… This cycle is at 0.94x… The halving used to be the floor. Now it's the ceiling, and it sits at $64.9K.» Post de ~80 min con 10 likes, 5 respuestas y 3 guardados: cuenta mediana con datos de halving que se pueden complementar con los del post propio sobre la emisión.",
+      "suggested_text": "Those multiples (20.8x, 5.5x, 2.1x, 0.94x) also track how much each halving actually removed. In 2012 the cut took daily issuance from ~7,200 to ~3,600 BTC when only ~10.5M coins existed. Today about 96% of the 21M is already out, so each halving is a smaller shock relative to the supply that's already trading.\n\nThe next one makes it even clearer: the subsidy goes from 3.125 to 1.5625 BTC per block, ~450 to ~225 BTC a day, with only 3.125% of the 21M left to issue. Numbers here: https://x.com/ForecastQuant/status/2122747344701501622\n\nSo the halving price acting as a ceiling may say less about Bitcoin breaking and more about what drives the cycle now. If issuance is no longer the main lever, the real question is which one replaced it.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 1205,
+        "like_count": 10,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 0
+      },
+      "followers_count": 16975,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T23:25:55.428Z",
+      "followers_checked_at": "2026-11-23T23:25:55.428Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
