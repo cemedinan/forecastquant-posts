@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T18:54:08.104Z",
+  "topic": "adoption",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124912218575630619",
+      "author": "david_eng_mba",
+      "url": "https://x.com/david_eng_mba/status/2124912218575630619",
+      "created_at": "2026-11-23T17:05:26.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 14:05:26 America/Santiago",
+      "context": "@david_eng_mba (26.485 seguidores, en inglés): dice que en el corto plazo $BTC responde a liquidez, tasas y apetito por riesgo, pero en el largo plazo lo que importa es qué parte del ahorro mundial se guarda en Bitcoin: 'el tope de 21M fija el límite, la adopción impulsa el alza'. Cuenta mediana con un post que despega (37 likes, 1.913 impresiones en ~1h50) y solo 2 respuestas; calza con adopción.",
+      "suggested_text": "The two timeframes even show up in different data. Price lives on flows, but adoption lives on-chain, and the two can move in opposite directions for a long time: over the last year $BTC fell about 32% and the network still added roughly 2.5M addresses holding a balance.\n\nThe long arc is the clearer signal: about 1M funded addresses in 2012, 10M in 2016 and 50M in 2023. Addresses aren't people (one person can hold many, exchanges pool thousands into a few), so the absolute number overstates and understates at the same time, but the slope is hard to fake.\n\nThat's the quiet part of \"adoption drives the upside\": with a fixed 21M supply, it's not just how many people show up, but how many of them end up holding their coins instead of renting exposure through someone else.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122675621704941640",
+      "topic": "adoption",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1913,
+        "like_count": 37,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 2
+      },
+      "followers_count": 26485,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T18:54:08.104Z",
+      "followers_checked_at": "2026-11-23T18:54:08.104Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
