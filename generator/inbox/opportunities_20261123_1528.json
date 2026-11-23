@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T18:25:17.581Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124926704749789351",
+      "author": "cryptorover",
+      "url": "https://x.com/cryptorover/status/2124926704749789351",
+      "created_at": "2026-11-23T18:03:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 15:03:00 America/Santiago",
+      "context": "@cryptorover (1.622.890 seguidores), en inglés, con video: «Bitcoin Halving Progress: 65%. Historically, Bitcoin had ALWAYS already bottomed by this point in the cycle...» Post de ~25 min con 104 likes, 10 reposts, 24 respuestas y 20.797 vistas. Ángulo: el reloj del halving mide oferta, no sentimiento (próximo halving: subsidio 3,125→1,5625 BTC, ~450→~225 BTC/día, queda 3,125% de los 21M).",
+      "suggested_text": "Halving progress is a useful clock, but it measures supply, not sentiment. At the next halving the block subsidy drops from 3.125 to 1.5625 BTC, cutting new issuance from roughly 450 to about 225 BTC a day, and only 3.125% of the 21M will be left to issue.\n\nWhat has historically lined up with bottoms isn't the calendar itself but the point where forced sellers run out: leverage gets flushed, recent buyers capitulate, and the shrinking flow of new coins keeps working quietly in the background.\n\nA pattern that held for three cycles is evidence, not a law. The real question is what this cycle has that the others didn't.\nhttps://x.com/ForecastQuant/status/2122747344701501622",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 9,
+        "impression_count": 20797,
+        "like_count": 104,
+        "quote_count": 1,
+        "reply_count": 24,
+        "retweet_count": 10
+      },
+      "followers_count": 1622890,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T18:25:17.581Z",
+      "followers_checked_at": "2026-11-23T18:25:17.581Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
