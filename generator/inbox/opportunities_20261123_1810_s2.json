@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T21:10:54.465Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124967613469991345",
+      "author": "ProfitCircle_",
+      "url": "https://x.com/ProfitCircle_/status/2124967613469991345",
+      "created_at": "2026-11-23T20:45:33.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 17:45:33 America/Santiago",
+      "context": "@ProfitCircle_ (6.071 seguidores), en inglés, gráfico del Realized Price de $BTC: el precio está cerca del costo base on-chain agregado; en bear markets anteriores BTC casi siempre cayó bajo el realized price antes del alza. Pregunta si este es el primer ciclo con un piso 'más bajo' sin cerrar bajo esa línea y vigila 53K-55K como zona de capitulación. Cuenta mediana con un post que despega (17 likes, 4 reposts y 4 guardados en ~25 min) y solo 2 respuestas; calza con temperatura/MVRV.",
+      "suggested_text": "Price sitting on realized price is the same thing as MVRV sitting near 1: the market as a whole is valued at roughly what holders paid on-chain. That's why past bottoms tended to print below it. Capitulation means coins change hands under their cost, and that drags the realized price itself down as the line resets.\n\nThe catch is that realized price isn't a fixed floor, it moves with every coin that changes hands. If older holders sell to new buyers above the line, it drifts up toward price instead of price falling to it, so a \"shallower\" bottom and a \"never closed below\" bottom can be the same event seen from two angles.\n\nIt's also why one metric alone is thin. Combining MVRV with distance from the 200-week average, drawdown from the high and volatility-adjusted momentum, my composite went from 99.29 to 0.67 in 364 days. Whether price has to break the line, or time can do the same job, is the part this cycle hasn't answered yet.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 826,
+        "like_count": 17,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 4
+      },
+      "followers_count": 6071,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T21:10:54.465Z",
+      "followers_checked_at": "2026-11-23T21:10:54.465Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
