@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T21:52:15.024Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124970829868118292",
+      "author": "bpascowitch",
+      "url": "https://x.com/bpascowitch/status/2124970829868118292",
+      "created_at": "2026-11-23T20:58:20.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 17:58:20 America/Santiago",
+      "context": "@bpascowitch (6.926 seguidores), en portugués, con video: «Quem falar que o #bitcoin chegou ao fundo está mentindo. Não temos reteste dos $55 mil e não temos confirmação nenhuma. Historicamente, o bitcoin precisa voltar aos $55 mil.» Cuenta mediana con buen ritmo (17 likes en ~55 min) y solo 3 respuestas; en portugués hay menos competencia. Calza con caídas y ciclos (Cycle Clock / Drawdown Atlas).",
+      "suggested_text": "O ponto do reteste faz sentido, mas vale separar fundo de preço de fundo de ciclo. Nos ciclos antigos, o fundo não foi um número, foi um processo: em 2011 a queda chegou a -92,7% e o preço levou 622 dias para recuperar o topo; em 2013 foram -84,5% e 1.177 dias.\n\nE o histórico não é tão uniforme quanto parece. Em 2013 houve dois topos: um recuperado em 210 dias, o outro em 1.177. Mesmo ativo, mesmo ano, comportamentos completamente diferentes depois do pico. Montei esse mapa aqui: https://x.com/ForecastQuant/status/2122676377011069293\n\nPor isso olho mais para valuation do que para um nível isolado: o índice de temperatura que acompanho foi de 99,29 a 0,67 em 364 dias. Se os $55 mil ainda precisam ser retestados, ou se o tempo já fez parte do trabalho que antes só o preço fazia, é justamente o que pode separar este ciclo dos anteriores.",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": "2122676377011069293",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 452,
+        "like_count": 17,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 0
+      },
+      "followers_count": 6926,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T21:52:15.024Z",
+      "followers_checked_at": "2026-11-23T21:52:15.024Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
