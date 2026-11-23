@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T10:49:38.676Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124804944746496473",
+      "author": "TheMoonShow",
+      "url": "https://x.com/TheMoonShow/status/2124804944746496473",
+      "created_at": "2026-11-23T09:59:10.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 06:59:10 America/Santiago",
+      "context": "@TheMoonShow (21.460 seguidores, en inglés): dice que solo el 46% de la oferta de $BTC está en ganancia y que el MVRV Z-Score bajó a 0,24, ambos cerca de mínimos de cuatro años, y pregunta si Bitcoin se acerca a un piso importante. Post de ~50 min con 583 vistas y 0 respuestas: cuenta mediana, pregunta abierta y MVRV, respondible con el índice Market Temperature.",
+      "suggested_text": "An MVRV Z-Score of 0.24 means price is sitting only slightly above the network's aggregate cost basis, its realized value. That's the zone where selling increasingly comes from holders at a loss rather than from profit-taking, which is why readings like this tend to appear late in a drawdown, not early.\n\nOne metric on its own is noisy, though. The Market Temperature index I track blends MVRV with price vs. the 200-week average, the drawdown from the all-time high and volatility-adjusted 90-day momentum, 25% each. It went from 99.29 to 0.67 in 364 days: https://x.com/ForecastQuant/status/2122727211610542288\n\nCold readings have historically lined up with better long-term entries than hot ones. What they have never told anyone is how long the market stays cold, and that part usually ends up mattering more than the exact low.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 583,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 1
+      },
+      "followers_count": 21460,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T10:49:38.676Z",
+      "followers_checked_at": "2026-11-23T10:49:38.676Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
