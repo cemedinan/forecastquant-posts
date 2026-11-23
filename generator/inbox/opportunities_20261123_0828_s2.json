@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T11:27:03.455Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124820267654393906",
+      "author": "StockmoneyL",
+      "url": "https://x.com/StockmoneyL/status/2124820267654393906",
+      "created_at": "2026-11-23T11:00:03.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 08:00:03 America/Santiago",
+      "context": "@StockmoneyL (167.712 seguidores, en inglés): recuerda que la SMMA semanal de 200 se tocó 4 veces en la historia de Bitcoin y cada vez marcó el piso (2014, 2015 y 2022, con ~2 meses ~10% por debajo tras FTX); hoy está en 52,9k y concluye que $BTC está barato. Post de ~27 min con 3.401 vistas, 6 bookmarks y solo 3 respuestas: despegando rápido y respondible con los datos de la media de 200 semanas y del Cycle Clock.",
+      "suggested_text": "Worth being precise about what that line measures. A 200-week average smooths roughly four years of price, about one full halving cycle, so a touch means price has fallen back to what the market paid on average across the whole cycle. That's why it has behaved more like a floor zone than an exact price.\n\nThe 2022 case is the instructive one: price spent about two months below it after FTX, so touching it and holding it aren't the same thing. It also fits the pattern of drawdowns getting shallower as the asset matures. 2011 fell 92.7% from its high and 2013 fell 84.5%, while the 2022 low came in milder than both.\n\nCheap and finished are two different things, and historically the 200-week line has only ever answered the first.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 3401,
+        "like_count": 18,
+        "quote_count": 0,
+        "reply_count": 3,
+        "repost_count": 3
+      },
+      "followers_count": 167712,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T11:27:03.455Z",
+      "followers_checked_at": "2026-11-23T11:27:03.455Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
