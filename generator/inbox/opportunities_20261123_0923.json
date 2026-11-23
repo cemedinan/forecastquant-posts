@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T12:23:39.913Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124838875843440665",
+      "author": "cryptogoos",
+      "url": "https://x.com/cryptogoos/status/2124838875843440665",
+      "created_at": "2026-11-23T12:14:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-23 09:14:00 America/Santiago",
+      "context": "@cryptogoos (121.085 seguidores), en inglés: más del 50% de los holders de Bitcoin están en pérdida y, históricamente, es cuando empiezan a formarse los pisos. Post de ~15 min con 16 likes, 0 respuestas y 2142 vistas. Ángulo: señales de piso y caídas/recuperación por ciclo (2011: -92,7% y 622 días; 2013: -84,5% y 1.177 días).",
+      "suggested_text": "The reason this metric tends to show up near lows is mechanical, not mystical. When most holders are below their cost basis, the people still selling are mostly those forced to: leverage getting closed, miners covering costs, holders who simply can't wait. Once that supply is exhausted, there's less left to push price lower.\n\nWhat it doesn't do is time the turn. Earlier cycles stayed underwater for a long stretch before anything resembled a recovery: after 2011 Bitcoin fell 92.7% and needed 622 days to reclaim its high, and after 2013 it fell 84.5% and needed 1,177.\n\nSo \"a bottom starts to form\" and \"the bottom is in\" can be very different points on the calendar. The pain of being underwater tends to do its real work in the months nobody wants to talk about.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 2142,
+        "like_count": 16,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 2
+      },
+      "followers_count": 121085,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T12:23:39.913Z",
+      "followers_checked_at": "2026-11-23T12:23:39.913Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
