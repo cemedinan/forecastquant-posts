@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T11:06:30.146Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124809273003663548",
+      "author": "randgroup",
+      "url": "https://x.com/randgroup/status/2124809273003663548",
+      "created_at": "2026-11-23T10:16:22.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-23 07:16:22 America/Santiago",
+      "context": "@randgroup (358.844 seguidores), en inglés: dice que cada vez que el MVRV ajustado por ciclo de $BTC bajó a este nivel (2015, 2018, 2020, 2022) pareció el fin de cripto y nunca lo fue. Post de ~50 min con 114 likes, 15 respuestas y 11392 vistas. Ángulo: temperatura de mercado (índice de 99,29 a 0,67 en 364 días).",
+      "suggested_text": "What makes those readings line up isn't sentiment, it's cost basis. MVRV compares market cap to the average price every coin last moved at, so when it sinks this low the typical holder is close to underwater and the people left selling are mostly the ones who can't wait.\n\nI track something similar with a broader Market Temperature index: MVRV, price vs the 200-week average, distance from the all-time high and volatility-adjusted 90-day momentum, 25% each. It went from 99.29 to 0.67 in 364 days, euphoria to frost in a single year.\n\nCold readings have marked good long-term zones every cycle so far. They've just never said much about how long price stays cold, and that part has usually been the hardest one to sit through.\nhttps://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 11392,
+        "like_count": 114,
+        "quote_count": 2,
+        "reply_count": 15,
+        "retweet_count": 9
+      },
+      "followers_count": 358844,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T11:06:30.146Z",
+      "followers_checked_at": "2026-11-23T11:06:30.146Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
