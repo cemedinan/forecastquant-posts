@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T20:34:12.457Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124958233030803912",
+      "author": "0xLegendman",
+      "url": "https://x.com/0xLegendman/status/2124958233030803912",
+      "created_at": "2026-11-23T20:08:17.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 17:08:17 America/Santiago",
+      "context": "@0xLegendman (957 seguidores), en inglés, con imagen: un inversionista habría perdido más de $613K sin aprobar transacciones: $580K en USDT (TRON) y $23,4K en USDC (Solana) desde una Trezor Safe 7, y $9,5K desde Exodus, todo usado en el mismo iPhone; seed en papel offline. Pregunta abierta: ¿iPhone comprometido, falla de firmware/firma o seed expuesta? Noticia fresca (~27 min al elegirlo), 5 bookmarks y 0 respuestas; @ForecastQuant no ha respondido ni citado.",
+      "suggested_text": "Worth separating the pieces, because they probably don't share one explanation. The $9,500 in Exodus sat in a hot wallet: the keys live on the phone, so a compromised iPhone is enough. The Trezor part is different, since a hardware wallet only moves funds after a signature confirmed on the device itself.\n\nThat leaves a short list. Either the seed was exposed at some point (photographed, typed into an app \"to verify\", or created somewhere other than the device), or a signature was given earlier that the owner never read as a transfer. On TRON and Solana, tokens can be pulled through a previously granted allowance or delegate permission: one blind-signed approval weeks ago is enough, and it never looks like sending money.\n\nAlso telling: almost all of it was USDT and USDC, assets whose issuers can freeze addresses, a very different setup from $BTC kept on a signer that never touches a phone. The real question isn't whether the hardware failed, but which assumption around it did.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2116083014815924397",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 123,
+        "like_count": 9,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "followers_count": 957,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T20:34:12.457Z",
+      "followers_checked_at": "2026-11-23T20:34:12.457Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
