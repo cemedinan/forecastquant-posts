@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T18:16:58.369Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124901994330542389",
+      "author": "JonnyMoeTrades",
+      "url": "https://x.com/JonnyMoeTrades/status/2124901994330542389",
+      "created_at": "2026-11-23T16:24:48.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 13:24:48 America/Santiago",
+      "context": "@JonnyMoeTrades (23.003 seguidores, en inglés): recuerda que el ciclo del halving no esperaba el piso de $BTC antes de octubre de 2026, y que si el barrido de mínimos del sábado fue el piso, un mínimo el 21-nov-2026 queda 'suficientemente cerca' de esa proyección. Cuenta mediana, 9 likes y 0 respuestas; calza con halving: comparar el desfase halving-piso de ciclos anteriores y explicar por qué el subsidio pesa cada vez menos.",
+      "suggested_text": "The timing lines up better than most people expect. The 2018 low came in December, about 29 months after the July 2016 halving, and the 2022 low on Nov 21 came roughly 30 months after the May 2020 halving. Count 30 months from April 2024 and you land in October 2026, so a Nov 21, 2026 low would sit on the same rhythm, almost to the day of the last one.\n\nThe mechanism behind it is getting weaker with each cycle, though. In the next halving the subsidy drops from 3.125 to 1.5625 BTC per block, from ~450 to ~225 new $BTC a day, and only 3.125% of the 21M will be left to issue: https://x.com/ForecastQuant/status/2122747344701501622\n\nWhen the supply shock shrinks that much, the question is whether the four-year clock keeps ticking out of habit, or because of what it once actually measured.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 684,
+        "like_count": 9,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "followers_count": 23003,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T18:16:58.369Z",
+      "followers_checked_at": "2026-11-23T18:16:58.369Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
