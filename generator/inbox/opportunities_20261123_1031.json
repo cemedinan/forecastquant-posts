@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T13:26:16.634Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124848800540045467",
+      "author": "sircryptotips",
+      "url": "https://x.com/sircryptotips/status/2124848800540045467",
+      "created_at": "2026-11-23T12:53:26.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 09:53:26 America/Santiago",
+      "context": "@sircryptotips (37.014 seguidores), en inglés: si el piso de Bitcoin fue $55k, sería una caída de 56% desde el máximo de $126.200, el bear market más suave de la historia por lejos; según él, el segundo más suave fue de 78%. Post de ~35 min con 42 likes, 9 respuestas y 1.491 vistas. Ángulo: profundidad vs. duración de las caídas por ciclo (2011: -92,7% y 622 días; 2013: -84,5% y 1.177 días).",
+      "suggested_text": "If $55k holds, a 56% drawdown would break one of the most consistent patterns in Bitcoin's history. The 2011 cycle fell 92.7% from its high and needed 622 days to reclaim it; the 2013 cycle fell 84.5% and needed 1,177 days. The direction has been toward shallower bottoms as the market gets deeper and the holder base broader.\n\nBut depth and duration are two different measures. Depth tells you how much leverage and weak conviction got flushed; duration tells you how long it takes new demand to absorb everything bought near the top. A shallow drop doesn't guarantee a quick recovery.\n\nMaybe the real test isn't whether $55k was the low, but how long the market can sit near it before anyone believes it.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1491,
+        "like_count": 42,
+        "quote_count": 0,
+        "reply_count": 9,
+        "retweet_count": 3
+      },
+      "followers_count": 37014,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T13:26:16.634Z",
+      "followers_checked_at": "2026-11-23T13:26:16.634Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
