@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T21:26:20.495Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124976505428025683",
+      "author": "Cointelegraph",
+      "url": "https://x.com/Cointelegraph/status/2124976505428025683",
+      "created_at": "2026-11-23T21:20:53.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 18:20:53 America/Santiago",
+      "context": "@Cointelegraph (2.925.601 seguidores), en inglés, con imagen: «ALERT: Citadel Securities warns that current market conditions resemble 2018, citing a hawkish Fed, weakening growth outlook and rising risks surrounding AI stocks that could lead to a deeper equity market correction.» Post de ~6 min con 13 likes, 2 reposts, 6 respuestas y 12.510 vistas (creciendo rápido). Ángulo: qué significó 2018 para BTC y la historia de caídas y recuperaciones por ciclo (Bitcoin Cycle Clock).",
+      "suggested_text": "2018 is the comparison worth taking seriously: a hawkish Fed tightening into slowing growth while risk assets were still priced for more. For Bitcoin that year meant a drawdown of roughly 84% from the December 2017 high, and about three years before that high was reclaimed.\n\nThe part that gets forgotten is that BTC had been there before: -92.7% in 2011 with 622 days to recover, -84.5% in 2013 with 1,177 days. Every cycle the drawdowns went deep, and every cycle the recovery came from the same place: forced sellers exhausted, leverage flushed, and new supply shrinking after each halving.\n\nIf this really rhymes with 2018, the question isn't whether it hurts, it's which part of that year we're actually in.\nhttps://x.com/ForecastQuant/status/2122375393776951738",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 12510,
+        "like_count": 13,
+        "quote_count": 0,
+        "reply_count": 6,
+        "retweet_count": 2
+      },
+      "followers_count": 2925601,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T21:26:20.495Z",
+      "followers_checked_at": "2026-11-23T21:26:20.495Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
