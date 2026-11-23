@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T14:30:20.972Z",
+  "topic": "price",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124868922528723159",
+      "author": "juanbiter",
+      "url": "https://x.com/juanbiter/status/2124868922528723159",
+      "created_at": "2026-11-23T14:13:23.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 11:13:23 America/Santiago",
+      "context": "@juanbiter (132.848 seguidores, en español): cita la noticia de que Nvidia restituye a Jensen Huang como CEO, dice que es buena señal de corto plazo porque #bitcoin reacciona, y pregunta abiertamente \"¿rebote o piso?\". Post de ~17 min con 3.150 vistas, 45 likes y solo 1 respuesta: despegando, en español, pregunta abierta y respondible con el índice Market Temperature.",
+      "suggested_text": "Que $BTC reaccione a una noticia de Nvidia dice mucho del momento: hoy se mueve como un activo de riesgo tecnológico, atado a la liquidez y al apetito por riesgo más que a sus propios fundamentos. Por eso los rebotes por titulares son rápidos, pero también frágiles.\n\nLa diferencia entre rebote y piso casi nunca se ve en una vela. Los pisos de ciclo suelen ser procesos: el precio vuelve a testear la zona, se limpia el apalancamiento y las métricas de valoración se quedan frías un buen tiempo. El índice de temperatura de mercado que sigo, que combina MVRV, precio frente a la media de 200 semanas, drawdown y momentum, pasó de 99,29 a 0,67 en 364 días.\n\nUn mercado así de frío históricamente ha ofrecido mejores entradas de largo plazo que uno caliente. Lo que nunca dice es cuántas veces va a hacer dudar a todos antes de confirmarlo.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "price",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3150,
+        "like_count": 45,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 3
+      },
+      "followers_count": 132848,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T14:30:20.972Z",
+      "followers_checked_at": "2026-11-23T14:30:20.972Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
