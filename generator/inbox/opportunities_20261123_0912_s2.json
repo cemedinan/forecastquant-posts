@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T12:11:06.571Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124835101263446395",
+      "author": "CryptoPatel",
+      "url": "https://x.com/CryptoPatel/status/2124835101263446395",
+      "created_at": "2026-11-23T11:59:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 08:59:00 America/Santiago",
+      "context": "@CryptoPatel (64.971 seguidores, en inglés): análisis largo de ciclos de $BTC. Las caídas desde el máximo se achican (-93,76%, -86,60%, -84,20%, -77,57%), proyecta un piso de 34k a 37k, una ventana de piso entre octubre de 2026 y el primer trimestre de 2027 y un próximo máximo de 150k a 200k en 2029. Post de ~12 min con 1.302 vistas, 5 bookmarks y 5 respuestas: despegando y respondible con el Cycle Clock y el Drawdown Atlas (días de recuperación).",
+      "suggested_text": "The depth trend is real, but the more underrated variable is time. In the Cycle Clock data, the 2011 crash took 622 days to get back to its prior high, while 2013 needed 1,177 days. Even within 2013 the two highs behaved completely differently: one was recovered in 210 days, the other in 1,177. https://x.com/ForecastQuant/status/2122375393776951738\n\nThat's also why a line fitted through four drawdowns deserves some humility. Each one happened in a very different market structure: no ETFs and almost no derivatives in 2011, versus a market today where much of the selling comes from leverage being unwound rather than holders exiting.\n\nA shallower bottom and a shorter recovery don't have to come together, and the gap between those two is where most of the pain of a cycle actually lives.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 1302,
+        "like_count": 10,
+        "quote_count": 0,
+        "reply_count": 5,
+        "repost_count": 6
+      },
+      "followers_count": 64971,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T12:11:06.571Z",
+      "followers_checked_at": "2026-11-23T12:11:06.571Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
