@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T22:53:48.654Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124998351850438769",
+      "author": "eldaminato",
+      "url": "https://x.com/eldaminato/status/2124998351850438769",
+      "created_at": "2026-11-23T22:47:42.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 19:47:42 America/Santiago",
+      "context": "@eldaminato (54.614 seguidores), en español: «El viernes mi estómago sentía que el piso del mercado no estaba muy lejos. Hoy el oro subió 2.7%, Bitcoin tuvo una recuperación del 9.6% desde los mínimos del viernes… el Nasdaq tuvo un alza del 6.5% impulsados por la… reincorporación de Jensen Huang como CEO de Nvidia.» Post de ~10 min con 16 likes, 2 reposts y 1 respuesta: cuenta mediana, fresco y en español (menos competencia). Ángulo: piso del ciclo vs. rebote, con el índice Market Temperature y la media de 200 semanas.",
+      "suggested_text": "Un rebote de casi 10% en un día dice mucho del exceso de pesimismo, pero poco sobre si el piso ya quedó atrás. En Bitcoin los pisos de ciclo rara vez se confirman con una vela: se confirman cuando valoración, tiempo y precio empiezan a coincidir.\n\nEl índice de temperatura que sigo combina MVRV, precio frente a la media de 200 semanas, caída desde el máximo y momentum ajustado por volatilidad. Pasó de 99,29 a 0,67 en 364 días. Es una lectura de frío extremo; lo que no dice es en qué semana exacta termina la caída.\n\nY un detalle: el precio sigue bajo la media de 200 semanas, y en 2022 el mercado pasó meses ahí antes de dar la vuelta. Que hoy BTC haya rebotado al ritmo del Nasdaq también dice algo sobre qué tan atado sigue al apetito por riesgo, y eso no siempre juega a favor.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1038,
+        "like_count": 16,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 2
+      },
+      "followers_count": 54614,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T22:53:48.654Z",
+      "followers_checked_at": "2026-11-23T22:53:48.654Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
