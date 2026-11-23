@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T19:26:05.349Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124933751721386239",
+      "author": "Cointelegraph",
+      "url": "https://x.com/Cointelegraph/status/2124933751721386239",
+      "created_at": "2026-11-23T18:31:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 15:31:00 America/Santiago",
+      "context": "@Cointelegraph (2.925.584 seguidores), en inglés, con imagen: «JUST IN: US DOJ files to recover over $1.1 billion in USDC stolen by North Korean hackers in the $6 billion Binance hack, with nearly $3 billion in crypto already frozen, seized or returned.» Post de ~55 min con 75 likes, 15 reposts, 32 respuestas y 23.334 vistas. Ángulo: lo que se recupera tras un hackeo depende de emisores que pueden congelar (USDC) y de exchanges; custodia propia = nadie congela, nadie recupera.",
+      "suggested_text": "Notice where the recovery actually comes from. Most of what gets \"frozen, seized or returned\" after a hack is stablecoins with an issuer that can blacklist addresses, plus exchanges that cooperate. USDC can be frozen because Circle controls the contract: the same switch that helps victims here can lock anyone else out tomorrow.\n\nCoins sitting on an exchange are a claim on that exchange, and the wallets pooling everyone's funds are exactly what state-backed groups like North Korea's go after. Bitcoin in keys you control works the other way: nobody can freeze it on you, and nobody can claw it back for you either.\n\nThat trade-off is the whole custody question, and most people only think it through after a headline like this one.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 23334,
+        "like_count": 75,
+        "quote_count": 3,
+        "reply_count": 32,
+        "retweet_count": 15
+      },
+      "followers_count": 2925584,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T19:26:05.349Z",
+      "followers_checked_at": "2026-11-23T19:26:05.349Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
