@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T13:52:10.301Z",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124854961372615039",
+      "author": "MarylandHODL21",
+      "url": "https://x.com/MarylandHODL21/status/2124854961372615039",
+      "created_at": "2026-11-23T13:17:55.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 10:17:55 America/Santiago",
+      "context": "@MarylandHODL21 (16.823 seguidores, en inglés): cita un post que dice que el precio de largo plazo de Bitcoin sigue una power law y responde que Bitcoin necesita dos ecuaciones separadas porque se confunde la medición del valor con su fuente subyacente (el resto del texto va en un enlace). Post de ~34 min con 615 vistas, 4 bookmarks y 0 respuestas: cuenta mediana, tema power law y respondible con el dato propio de Dacoinminster (2017 a 9,4× la curva, mínimo de 2018 por debajo).",
+      "suggested_text": "That distinction matters more than it looks. A power law in time describes the price trend; it doesn't explain it. Time is really standing in for other variables, like adoption, hash rate and liquidity, each growing on its own curve.\n\nIt also explains why the fit is so loose around the line. On the original 2013 Dacoinminster power law, the 2017 top ran to 9.4x the curve and the 2018 low ended up below it. A model that misses by that much in both directions is tracing the trend through the noise, not measuring the forces that produce it.\n\nSeparate the two and the question shifts: if the underlying source of value keeps compounding while price doesn't, which of the two curves is the one that's wrong?",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 615,
+        "like_count": 5,
+        "quote_count": 1,
+        "reply_count": 0,
+        "repost_count": 1
+      },
+      "followers_count": 16823,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T13:52:10.301Z",
+      "followers_checked_at": "2026-11-23T13:52:10.301Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
