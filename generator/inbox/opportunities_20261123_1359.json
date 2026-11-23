@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T16:58:59.033Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124904558673682690",
+      "author": "cryptorover",
+      "url": "https://x.com/cryptorover/status/2124904558673682690",
+      "created_at": "2026-11-23T16:35:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 13:35:00 America/Santiago",
+      "context": "@cryptorover (1.622.872 seguidores), en inglés, con imagen: «Congratulations, you're about to survive the longest #Bitcoin bear market ever. It could end any moment now. Fasten your seatbelt.» Post de ~24 min con 184 likes, 21 reposts, 42 respuestas y 22.237 vistas. Ángulo: el piso y la recuperación del máximo son eventos distintos (Cycle Clock: 2011 -92,7% y 622 días; 2013 -84,5% y 1.177 días).",
+      "suggested_text": "\"Longest\" depends on what you measure: time spent below the prior high, or how deep the fall goes. History gives a wide range for both. The 2011 crash took Bitcoin down 92.7% and it needed 622 days to reclaim the peak. After the late-2013 top the drop was 84.5% and the recovery took 1,177 days, more than three years.\n\nThat's the uncomfortable part of bear markets: the bottom and the recovery are two separate events. The low usually comes with forced selling and leverage getting flushed. Getting back to the old high has historically depended on new demand slowly absorbing the coins of everyone who bought near the top.\n\nSo \"it could end any moment\" may well be right about the low. The clock that matters for most holders tends to start after it.\nhttps://x.com/ForecastQuant/status/2122375393776951738",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 22237,
+        "like_count": 184,
+        "quote_count": 0,
+        "reply_count": 42,
+        "retweet_count": 21
+      },
+      "followers_count": 1622872,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T16:58:59.033Z",
+      "followers_checked_at": "2026-11-23T16:58:59.033Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
