@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T15:22:23.987Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124885867193860104",
+      "author": "BitcoinArchive",
+      "url": "https://x.com/BitcoinArchive/status/2124885867193860104",
+      "created_at": "2026-11-23T15:20:43.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 12:20:43 America/Santiago",
+      "context": "@BitcoinArchive (1.795.570 seguidores), en inglés: el 21-nov-2022 fue el piso del bear market tras caer 28% en 15 días; el 21-nov-2026 BTC también cayó 28% en 15 días. «¿Piso?». Post de ~2 min con 8 likes, 1 respuesta y 5.978 vistas. Ángulo: la forma de la caída no define la duración de la recuperación (Drawdown Atlas: los dos picos de 2013, recuperados en 210 y 1.177 días).",
+      "suggested_text": "Matching the shape of a capitulation is the easy part; matching what comes after is where analogies usually break. A fast 28% drop in two weeks is what forced selling looks like: leverage unwinding, stop clusters getting hit, holders who can't wait any longer. That flush can mark a low, but it can also be the first leg of a longer process.\n\nHistory shows how wide the range is. In 2013 Bitcoin had two peaks only months apart: the first was recovered in 210 days, the second took 1,177. Same year, similar euphoria, completely different timelines.\n\nThe calendar rhymes nicely with 2022. Whether the supply that got shaken out this time is the same kind of supply is the part a date can't tell you.\nhttps://x.com/ForecastQuant/status/2122676377011069293",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122676377011069293",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 5978,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 3
+      },
+      "followers_count": 1795570,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T15:22:23.987Z",
+      "followers_checked_at": "2026-11-23T15:22:23.987Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
