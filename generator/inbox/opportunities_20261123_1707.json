@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T20:04:55.984Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124953213426106412",
+      "author": "AshCrypto",
+      "url": "https://x.com/AshCrypto/status/2124953213426106412",
+      "created_at": "2026-11-23T19:48:20.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 16:48:20 America/Santiago",
+      "context": "@AshCrypto (2.148.691 seguidores), en inglés, con imagen: «Bitcoin Weekly Update: 7 consecutive red weekly candles... BTC dumped to a new low of $55,130... Resistance: 200-week MA near $68,363 and 50-week MA near $74,000. Is the bottom in? It's still too early to say.» Post de ~16 min con 93 likes, 10 reposts, 22 respuestas y 25.056 vistas. Ángulo: precio bajo la media de 200 semanas = lectura fría; su Market Temperature combina MVRV, 200W, caída desde el máximo y momentum (99,29→0,67 en 364 días).",
+      "suggested_text": "Seven straight red weekly candles with price still under the 200-week MA is a stretch that reads cold, not hot. Price vs the 200W is a slow gauge: it doesn't call the exact bottom, it tells you how stretched the market is against its multi-year average.\n\nThat's why it works better next to MVRV, the drawdown from the high and volatility-adjusted momentum than on its own. My Market Temperature index blends those four at 25% each, and it went from 99.29 to 0.67 in 364 days.\n\nA cold reading has never been a timing signal by itself. What it changes is the asymmetry, and that's where most of the \"is the bottom in\" debate actually lives.\nhttps://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 25056,
+        "like_count": 93,
+        "quote_count": 1,
+        "reply_count": 22,
+        "retweet_count": 10
+      },
+      "followers_count": 2148691,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T20:04:55.984Z",
+      "followers_checked_at": "2026-11-23T20:04:55.984Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
