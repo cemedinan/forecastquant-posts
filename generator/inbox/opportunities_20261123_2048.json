@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T23:47:45.385Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125011009773638063",
+      "author": "GoingParabolic",
+      "url": "https://x.com/GoingParabolic/status/2125011009773638063",
+      "created_at": "2026-11-23T23:38:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 20:38:00 America/Santiago",
+      "context": "@GoingParabolic (283.594 seguidores), en inglés: «btc at 61k — where's it at on halving day? 👀» Post de ~10 min con 7 likes, 2 respuestas y 1.417 vistas (recién publicado, pocas respuestas). Ángulo: lo mecánico del próximo halving (subsidio de 3,125 a 1,5625 BTC, ~450 a ~225 BTC/día, solo 3,125% de los 21M por emitir) frente a la demanda, sin predecir precio.",
+      "suggested_text": "Price on halving day is the less interesting number. The mechanical part is already known: the subsidy drops from 3.125 to 1.5625 BTC per block, so new issuance goes from roughly 450 to roughly 225 BTC a day, and by then only about 3.125% of the 21M will still be left to mine.\n\nWhat the market does with that is a different story. Each halving has cut the flow of new coins miners need to sell, but the price reaction has come in the months after, not on the day itself, and it has depended on how much demand was already sitting there.\n\nWith the halving still roughly a year and a half away, the supply side is basically written. The demand side is the part nobody can schedule.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1417,
+        "like_count": 7,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      },
+      "followers_count": 283594,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T23:47:45.385Z",
+      "followers_checked_at": "2026-11-23T23:47:45.385Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
