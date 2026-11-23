@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T20:51:05.863Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124960412924027067",
+      "author": "Cointelegraph",
+      "url": "https://x.com/Cointelegraph/status/2124960412924027067",
+      "created_at": "2026-11-23T20:16:56.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 17:16:56 America/Santiago",
+      "context": "@Cointelegraph (2.925.580 seguidores), en inglés, con imagen: «ALERT: Over $600,000 in crypto was reportedly stolen from Trezor and Exodus wallets used on the same iPhone 17 Pro Max, according to an investigation by Onchain Lens.» Post de ~35 min con 69 likes, 10 reposts, 22 respuestas, 9 guardados y 22.213 vistas. Ángulo: el denominador común es el teléfono, no la marca; la hardware wallet no protege si la semilla o la verificación pasan por un dispositivo conectado (la causa exacta no está confirmada).",
+      "suggested_text": "The detail that matters is \"used on the same iPhone.\" A hardware wallet's job is to keep the keys off the internet-connected device, but a compromised phone can still show you a fake address or a fake transaction to approve, and a recovery phrase that was ever typed, photographed or backed up on that phone is no longer cold. The investigation should show which path it was here.\n\nMost losses like this don't come from breaking the device's cryptography. They come from the phone or computer around it, which is why the setup matters more than the brand: where the seed was generated, whether it ever touched a connected screen, and whether every address gets verified on the device itself.\n\nTwo different wallets drained from one phone points to the common denominator, not to either brand.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 9,
+        "impression_count": 22213,
+        "like_count": 69,
+        "quote_count": 2,
+        "reply_count": 22,
+        "retweet_count": 10
+      },
+      "followers_count": 2925580,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T20:51:05.863Z",
+      "followers_checked_at": "2026-11-23T20:51:05.863Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
