@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T17:47:03.650Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124903304660676903",
+      "author": "GoingParabolic",
+      "url": "https://x.com/GoingParabolic/status/2124903304660676903",
+      "created_at": "2026-11-23T16:30:01.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 13:30:01 America/Santiago",
+      "context": "@GoingParabolic (283.591 seguidores), en inglés: explica por qué no usa apalancamiento en bitcoin tras la mecha del sábado a $55k (mínimo desde septiembre de 2024), liquidaciones masivas y vuelta sobre $61k el lunes; «Down 37% from the top feels terrible if you bought the top… Same 21 million cap. Same halving in 2028.» Post de ~1 h 20 min con 30 likes, 2 reposts, 5 respuestas y 3.353 vistas. Ángulo: spot vs apalancamiento con datos del Drawdown Atlas / Cycle Clock (picos de 2013: 210 y 1.177 días; 2011: -92,7%).",
+      "suggested_text": "A 37% drawdown feels brutal until you put it next to Bitcoin's own history. The 2013 cycle had two peaks: buyers of the first were back at the high in 210 days, buyers of the second waited 1,177. The 2011 crash went 92.7% deep. Spot holders sat through all of that; leveraged positions didn't need anything close to it to get wiped.\n\nThat's the asymmetry people underestimate. At 10x, a move of roughly 10% against you ends the trade, and wicks like Saturday's are often driven by the liquidations themselves: forced sellers hitting thin order books, which is also why price can snap back just as fast.\n\nTime is the one variable leverage takes away from you. And in this market, time has been doing most of the work.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3353,
+        "like_count": 30,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 2
+      },
+      "followers_count": 283591,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T17:47:03.650Z",
+      "followers_checked_at": "2026-11-23T17:47:03.650Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
