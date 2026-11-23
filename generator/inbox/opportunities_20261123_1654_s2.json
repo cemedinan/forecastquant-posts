@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T19:54:28.408Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124952374036897838",
+      "author": "CriptoNoticias",
+      "url": "https://x.com/CriptoNoticias/status/2124952374036897838",
+      "created_at": "2026-11-23T19:45:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 16:45:00 America/Santiago",
+      "context": "@CriptoNoticias (266.869 seguidores), en español, promoción del Ep. 56 de 'Separando el Dinero y el Estado' con la cita: «¿Qué impide que hackeen a Coinbase, que custodia la mayoría del dinero de los ETF? Siento que estamos en un momento en el que no hay piso.» Foco en riesgos de concentración y en cómo proteger tu bitcoin. Pregunta abierta sobre custodia, en español, con ~12 minutos al elegirlo y todavía 0 respuestas; @ForecastQuant no ha respondido ni citado.",
+      "suggested_text": "La pregunta apunta al lugar correcto, aunque el riesgo no es solo un hackeo. Cuando un mismo custodio guarda la mayor parte de los BTC de los ETF, el punto débil es la concentración: claves, procesos internos, personal con acceso y la posibilidad de que un regulador congele o un tribunal ordene. Un ETF te da exposición al precio, pero lo que tienes es un derecho frente a una cadena de intermediarios, no las monedas.\n\nLa autocustodia tampoco es mágica: traslada el riesgo a ti. Una semilla mal respaldada, firmar en un equipo conectado o no probar nunca una restauración son las formas más comunes de perder BTC sin que nadie te hackee. Por eso importa más el diseño que el dispositivo: generar las claves y firmar en un equipo que nunca toca internet. Lo dejé por escrito paso a paso: https://x.com/ForecastQuant/status/2123585216740528526\n\nY queda la parte que casi nadie se plantea: si el custodio fallara mañana, ¿cuánto de lo que crees tener en BTC podrías mover tú mismo?",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1159,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "followers_count": 266869,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T19:54:28.408Z",
+      "followers_checked_at": "2026-11-23T19:54:28.408Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
