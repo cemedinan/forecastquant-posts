@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T22:25:30.749Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124977539370176570",
+      "author": "QuintenFrancois",
+      "url": "https://x.com/QuintenFrancois/status/2124977539370176570",
+      "created_at": "2026-11-23T21:25:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 18:25:00 America/Santiago",
+      "context": "@QuintenFrancois (205.529 seguidores), en inglés, cita su propio post del 18-nov («Bitcoin is at $64.9k, below its $68k 200-week average. Prices around or below this line offered long-term opportunities in 2015, 2020 and 2022.») y escribe: «Buy as much crypto as you can below the 200WMA. That has been a great strategy over the past decade.» Post de ~1 h con 54 likes, 4 reposts, 4 respuestas, 3 guardados y 4.036 vistas (creciendo, pocas respuestas). Ángulo: la media de 200 semanas como uno de los cuatro componentes del índice Market Temperature.",
+      "suggested_text": "The 200-week average works because it's slow on purpose: almost four years of weekly closes, roughly one full halving cycle, so it reflects where long-term holders have been accumulating rather than what the market feels this week.\n\n2015, 2020 and 2022 all traded around or below it, and in each case the hard part wasn't spotting the line, it was sitting through the weeks (in 2022, months) when price kept drifting lower anyway.\n\nThat's why I treat it as one input, a quarter of a temperature reading alongside MVRV, drawdown from the high and volatility-adjusted momentum. Most of the time they agree. The interesting moments are when they don't.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 4036,
+        "like_count": 54,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 4
+      },
+      "followers_count": 205529,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T22:25:30.749Z",
+      "followers_checked_at": "2026-11-23T22:25:30.749Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
