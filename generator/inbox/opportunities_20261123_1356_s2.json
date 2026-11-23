@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T16:52:56.834Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124905906206884192",
+      "author": "criptonizando",
+      "url": "https://x.com/criptonizando/status/2124905906206884192",
+      "created_at": "2026-11-23T16:40:21.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 13:40:21 America/Santiago",
+      "context": "@criptonizando (25.226 seguidores, en portugués): citando a Elliptic, dice que cerca de US$ 247 millones en BTC ligados al ataque a Binance ya entraron en CoinJoins, lo que dificulta el rastreo. Noticia fresca (~15 min al revisar), cuenta mediana, 0 respuestas y en portugués (menos competencia); calza con custodia: explicar cómo CoinJoin complica el rastreo y por qué el saldo en exchange depende de claves ajenas.",
+      "suggested_text": "CoinJoin não apaga o rastro, mas quebra a heurística que a análise on-chain mais usa: a de que todas as entradas de uma transação pertencem ao mesmo dono. Quando várias pessoas juntam moedas numa só transação com saídas de valor igual, cada saída passa a ter dezenas de origens possíveis, e rastrear deixa de ser seguir uma linha para virar estimar probabilidades.\n\nPor isso a recuperação costuma depender menos da blockchain e mais dos pontos de saída: o momento em que esse dinheiro precisa voltar a uma exchange com KYC para virar moeda fiduciária.\n\nPara quem deixa $BTC em exchange, a lição é outra: o saldo na tela é um direito contra a custódia de alguém, protegido por chaves que você nunca viu. Escrevi sobre como montar uma custódia air-gapped por conta própria: https://x.com/ForecastQuant/status/2123585216740528526\n\nA pergunta incômoda talvez não seja se os fundos serão recuperados, e sim quantas pessoas sabem de fato onde estão as próprias chaves.",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 40,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "followers_count": 25226,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T16:52:56.834Z",
+      "followers_checked_at": "2026-11-23T16:52:56.834Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
