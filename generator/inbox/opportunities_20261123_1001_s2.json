@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-23T13:00:36.442Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124841637666832854",
+      "author": "BitcoinExplica",
+      "url": "https://x.com/BitcoinExplica/status/2124841637666832854",
+      "created_at": "2026-11-23T12:24:58.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 09:24:58 America/Santiago",
+      "context": "@BitcoinExplica (16.438 seguidores, en portugués): cuenta que $BTC llegó a valer menos de la mitad que en el pico de octubre y que, ahora que tiene una hija, le preocupa menos la caída que si su familia sabría qué hacer con sus sats si él faltara. Pregunta abierta sobre herencia y custodia. Post de ~35 min con 444 vistas, 23 likes y solo 2 respuestas: cuenta mediana, portugués y tema custodia, donde encaja el libro.",
+      "suggested_text": "Esse é o ponto que quase todo mundo deixa pra depois. A autocustódia elimina a dependência de terceiros, mas cria outra: a de que só você sabe como tudo funciona. Seed sem contexto não é plano. Quem herda precisa saber o que é aquilo, onde está, se existe passphrase e com qual carteira se abre.\n\nO difícil é deixar instruções claras sem enfraquecer a segurança. Separar as peças (a seed num lugar, a passphrase e as instruções em outro) ou usar multisig com alguém de confiança evita que um único ponto de falha decida tudo, seja um ladrão, seja um esquecimento.\n\nEscrevi um livro sobre montar uma custódia air-gapped sem depender de ninguém: https://x.com/ForecastQuant/status/2123585216740528526\n\nNo fundo, um esquema que só funciona com você presente pra explicá-lo ainda não é bem um plano.",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 444,
+        "like_count": 23,
+        "quote_count": 0,
+        "reply_count": 2,
+        "repost_count": 2
+      },
+      "followers_count": 16438,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T13:00:36.442Z",
+      "followers_checked_at": "2026-11-23T13:00:36.442Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
