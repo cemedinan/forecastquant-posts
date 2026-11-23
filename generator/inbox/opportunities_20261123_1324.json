@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-23T16:24:31.938Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2124898189203636295",
+      "author": "Tanaka_L2",
+      "url": "https://x.com/Tanaka_L2/status/2124898189203636295",
+      "created_at": "2026-11-23T16:09:41.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 13:09:41 America/Santiago",
+      "context": "@Tanaka_L2 (35.781 seguidores), en inglés: tras rebotar 13% desde $55K, cree que el piso local podría estar marcado; cita MVRV 1,149, precio realizado ~$53,2K, costo base de holders de corto plazo ~$72,6K, SOPR 7D 0,983 y ~$2,27B en liquidaciones de futuros (14-20 nov), aunque admite que un retest de $55K sigue posible. Post de ~15 min con 14 likes, 11 respuestas y 1.301 vistas. Ángulo: su índice Market Temperature (MVRV, 200 semanas, caída desde el máximo y momentum, 25% cada uno) pasó de 99,29 a 0,67 en 364 días; frío no es timing.",
+      "suggested_text": "MVRV around 1.15 means the average coin is barely in profit, and that is usually the zone where forced selling starts to run out of sellers. On its own, though, it's a thin signal. I track a composite that weights four inputs equally: MVRV, price vs the 200-week average, depth of the drawdown from the high, and volatility-adjusted 90-day momentum. In 364 days it went from 99.29 to 0.67, from the top of the scale to almost the floor.\n\nCold readings have historically lined up with better long-term entries than hot ones. What they don't give you is timing: a market can stay cold for months, and the ~$72.6K short-term holder cost basis you mention is the line that usually separates a relief bounce from a change in regime.\n\nThe first bounce off realized price rarely settles it. How long price can hold there once the leverage is gone says a lot more.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 1301,
+        "like_count": 14,
+        "quote_count": 0,
+        "reply_count": 11,
+        "retweet_count": 1
+      },
+      "followers_count": 35781,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-23T16:24:31.938Z",
+      "followers_checked_at": "2026-11-23T16:24:31.938Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
