@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T20:47:51.913Z",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125326589541880198",
+      "author": "TheCryptoSquire",
+      "url": "https://x.com/TheCryptoSquire/status/2125326589541880198",
+      "created_at": "2026-11-24T20:32:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 17:32:00 America/Santiago",
+      "context": "@TheCryptoSquire (552.240 seguidores), en inglés, con video: \"More Crypto Online on the classic Bitcoin power law, broken since November 14. 'The classic formula has failed.' The long-term model people treated as unbreakable is already broken. If that floor can snap this fast, what else is everyone still treating as solid ground?\" Publicado hace ~16 min: 1.438 vistas y 1 respuesta; recién empieza, conversación casi vacía. Ángulo: el power law original nunca fue un piso (el mínimo de 2018 ya cayó bajo la curva).",
+      "suggested_text": "Worth separating which power law \"broke.\" The original 2013 Dacoinminster fit was never a floor: plotted against daily price, the 2017 peak reached about 9.4x the curve and the 2018 low dipped below it. Price trading under that line has happened before, so a cross alone doesn't invalidate the long-run fit; it says the band around it is wider than most charts imply.\n\nA power law describes the slope of growth on a log-log scale across decades, not a support level that has to hold every week. Treating the central line as a floor was always a misreading of what the model says.\n\nThe more telling test isn't whether price sits below the curve, but how long it stays there and whether the fitted slope itself ends up needing revision.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1438,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "followers_count": 552240,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T20:47:37.516Z",
+      "followers_checked_at": "2026-11-24T20:47:37.516Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
