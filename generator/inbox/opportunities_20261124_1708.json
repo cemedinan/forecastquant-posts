@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T20:07:31.893Z",
+  "topic": "price",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125316650471653841",
+      "author": "ChentoTrades",
+      "url": "https://x.com/ChentoTrades/status/2125316650471653841",
+      "created_at": "2026-11-24T19:52:30.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 16:52:30 America/Santiago",
+      "context": "@ChentoTrades (101.025 seguidores), en inglés: \"Why I still think Bitcoin goes to $48K, and why it could be max pain for a lot of people.\" Argumenta que se perdieron los niveles de $81,4K, $74,4K y $62,5K, que los rebotes vienen de apalancamiento (perps) y no de spot, que es un sangrado lento sin capitulación y que las instituciones esperan comprar cerca de $48K. Publicado hace ~15 min: 5.055 vistas, 84 likes y 29 respuestas, creciendo. Ángulo: debate del precio con la temperatura de mercado.",
+      "suggested_text": "The leverage point is the one worth underlining. Bounces driven by perps squeezing shorts fade because nobody is left holding the coins once funding resets; a floor that lasts needs spot absorbing supply while open interest gets flushed, not rebuilt.\n\nThe nuance I'd add is how stretched the market already is. A composite of MVRV, price vs the 200-week average, distance from the high and volatility-adjusted 90-day momentum went from 99.29 to 0.67 in 364 days. That's about as cold as that index gets, which changes the risk math of every extra leg down even if it doesn't mark the low.\n\nNone of that rules out $48K. It does mean much of the pain is already in the positioning, and the open question is whether the last leg comes from forced sellers or simply from time.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "price",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 5055,
+        "like_count": 84,
+        "quote_count": 2,
+        "reply_count": 29,
+        "retweet_count": 8
+      },
+      "followers_count": 101025,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T20:07:16.280Z",
+      "followers_checked_at": "2026-11-24T20:07:16.280Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
