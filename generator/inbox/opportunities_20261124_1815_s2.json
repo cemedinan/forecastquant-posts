@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T21:14:23.913Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125323460700233930",
+      "author": "larutadelprecio",
+      "url": "https://x.com/larutadelprecio/status/2125323460700233930",
+      "created_at": "2026-11-24T20:19:34.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 17:19:34 America/Santiago",
+      "context": "@larutadelprecio (6.709 seguidores), en español: «¿Llegó el piso de #Bitcoin? Cinco días pegado a su costo de producción. Y tres herramientas, tres respuestas: reloj de bloques (59.000 bloques del techo al piso), ventana de posible piso (el ciclo 2022 marcaba 55.510, la mecha llegó a 55.081), desde ahí ningún mínimo nuevo. Algunos datos dicen piso. Otros, todavía no.» (con video). Pregunta abierta en español de una cuenta mediana: ~55 min, 880 vistas, 16 likes, 3 reposts y solo 2 respuestas. Ángulo: temperatura de mercado y caídas de ciclos.",
+      "suggested_text": "Lo interesante es que cada herramienta mide algo distinto: el reloj de bloques mide tiempo y el costo de producción mide lo que le cuesta al minero. Ninguna de las dos mide cuánto exceso queda todavía en el mercado.\n\nPara eso sirve mirar valoración y momentum juntos. El índice de temperatura que sigo combina MVRV, precio frente a la media de 200 semanas, caída desde el máximo y momentum de 90 días ajustado por volatilidad, 25% cada uno, y pasó de 99,29 a 0,67 en 364 días. Es de las lecturas más frías que puede dar.\n\nPero frío no es lo mismo que piso. En 2011 la caída llegó a -92,7% y tras el techo de 2013 a -84,5%, y recuperar esos máximos tomó 622 y 1.177 días. El piso casi nunca se reconoce el día en que ocurre.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 880,
+        "like_count": 16,
+        "quote_count": 0,
+        "reply_count": 2,
+        "repost_count": 3
+      },
+      "followers_count": 6709,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T21:14:23.913Z",
+      "followers_checked_at": "2026-11-24T21:14:23.913Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
