@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T21:55:53.965Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125321435484946801",
+      "author": "XRPathologist",
+      "url": "https://x.com/XRPathologist/status/2125321435484946801",
+      "created_at": "2026-11-24T20:11:31.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 17:11:31 America/Santiago",
+      "context": "@XRPathologist (8.126 seguidores), en inglés: post largo sobre «diminishing returns, diminishing drawdowns and shorter bottoming phases». Caídas por ciclo: 87% (2013–2015), 84% (2017–2018), 77% (2021–2022), 56% (2025–2026, si el mínimo se sostiene); días en rango de piso: 252 (2015), 112 (2018/19), 63 (2022/23). Termina con «Why shouldn't we be examining both?». Cuenta mediana con post despegando: ~1 h 45 min, 1.478 vistas, 34 likes y solo 4 respuestas. Calza con Drawdown Atlas, Cycle Clock y la curva de adopción.",
+      "suggested_text": "The series gets even cleaner if you add 2011: a -92.7% drawdown, then roughly mid-80s twice, then 77%. The base behind it moved just as much: about 1M funded addresses in 2012, 10M in 2016, 50M in 2023. A wider holder base absorbs selling differently than a few thousand early miners did.\n\nOne nuance worth separating, though: time in the bottoming range and time to reclaim the old high are different clocks. After the 2011 top it took 622 days to get back to the peak, and the late-2013 high took 1,177. Even the two 2013 tops behaved differently, one recovered in 210 days and the other in 1,177. https://x.com/ForecastQuant/status/2122676377011069293\n\nShallower bottoms don't automatically mean faster recoveries. Which of the two clocks is shrinking faster may be the more interesting question.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122676377011069293",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 1478,
+        "like_count": 34,
+        "quote_count": 0,
+        "reply_count": 4,
+        "repost_count": 1
+      },
+      "followers_count": 8126,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T21:55:53.965Z",
+      "followers_checked_at": "2026-11-24T21:55:53.965Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
