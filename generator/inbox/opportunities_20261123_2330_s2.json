@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T02:27:53.298Z",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125046752776454320",
+      "author": "BitcoinNewsCom",
+      "url": "https://x.com/BitcoinNewsCom/status/2125046752776454320",
+      "created_at": "2026-11-24T02:00:01.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 23:00:01 America/Santiago",
+      "context": "@BitcoinNewsCom (266.421 seguidores), en inglés, con imagen: «Lots of debate lately about whether the Bitcoin Power Law is technically \"broken\" or not. One thing is for certain: the Rainbow Chart surely is.» Post de ~28 min con 2.651 vistas y solo 1 respuesta. Toca dos temas propios a la vez (power law y arcoíris); ángulo: distinguir regresión de largo plazo vs. bandas fijas, con los datos del power law original de 2013.",
+      "suggested_text": "Worth separating the two, because they fail in different ways. The power law is a regression of log price on log time, and it has always lived with big misses: on Dacoinminster's original 2013 fit, the 2017 top reached 9.4x the curve and the 2018 low went under it, and the trend still held. Original curve vs price here: https://x.com/ForecastQuant/status/2122317683030941979\n\nThe Rainbow Chart is a different animal: fixed color bands drawn around a curve, so when the slope assumptions age, the bands stop meaning what their labels say. Price slipping out of the bottom band says as much about the calibration as about Bitcoin.\n\nBoth were trying to capture the same thing over 14 years and four halvings: a long-run trend with brutal deviations around it. The real question is whether the deviations are shrinking, or the trend itself is bending.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 2651,
+        "like_count": 12,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1
+      },
+      "followers_count": 266421,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T02:27:53.298Z",
+      "followers_checked_at": "2026-11-24T02:27:53.298Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
