@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T11:24:46.224Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125185122937020823",
+      "author": "Straya_",
+      "url": "https://x.com/Straya_/status/2125185122937020823",
+      "created_at": "2026-11-24T11:09:51.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-24 08:09:51 America/Santiago",
+      "context": "@Straya_ (44.387 seguidores), en inglés, con video: «The next $BTC halving is officially 500 days away. If you bought 500 days before each of the last 3, held 500 days after: 2015: $238 → $8,095 (34x); 2018: $3,885 → $44,904 (11.6x); 2022: $16,836 → $111,238 (6.6x). Smaller returns…» Cuenta mediana con un post que está despegando: ~15 min, 6.284 vistas, 63 likes, 15 reposts y 45 respuestas. Ángulo: halving y emisión (por qué cada halving pesa menos), con los datos propios del próximo halving.",
+      "suggested_text": "The shrinking multiple is the most honest part of that table, and the halving itself explains part of it. Each cut matters less in absolute terms: next time the subsidy goes from 3.125 to 1.5625 BTC per block, roughly 450 → 225 BTC a day, and only 3.125% of the 21M will be left to issue at all. Breakdown here: https://x.com/ForecastQuant/status/2122747344701501622\n\nMeanwhile the same 50% cut now lands on a market many times larger than in 2016 or 2020, with ETFs, treasuries and derivatives setting price far more than new miner supply does. 34x → 11.6x → 6.6x is roughly what you'd expect if the halving is becoming a smaller share of the story.\n\nThe more interesting question for the next 500 days is what takes its place as the driver, if anything does.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 6284,
+        "like_count": 63,
+        "quote_count": 1,
+        "reply_count": 45,
+        "retweet_count": 15
+      },
+      "followers_count": 44387,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T11:24:46.224Z",
+      "followers_checked_at": "2026-11-24T11:24:46.224Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
