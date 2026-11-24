@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T12:17:00.019Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125201158192951326",
+      "author": "OmarLopezBTC",
+      "url": "https://x.com/OmarLopezBTC/status/2125201158192951326",
+      "created_at": "2026-11-24T12:13:35.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-24 09:13:35 America/Santiago",
+      "context": "@OmarLopezBTC (9.831 seguidores), en español: «Bitcoin está hecho para que no te fíes de nadie, tampoco de una plataforma. Si dejas tus bitcoin en una plataforma, confías en un tercero y pueden bloquearlos. Si los tienes en tu propio monedero, solo tú tienes acceso.» Recién publicado (~3 min, 1 respuesta). Cuenta mediana, en español y con menos competencia. Ángulo: custodia, conectado con la noticia fresca de hoy (Ansem dice que le vaciaron una wallet tras importar su clave privada en una plataforma), para mostrar por qué importa dónde se firma.",
+      "suggested_text": "Totalmente, aunque tener tu propio monedero es el primer paso, no el último. «Solo tú tienes acceso» se cumple mientras la clave privada nunca haya pasado por un dispositivo o una app conectada. Hoy mismo hay un ejemplo: Ansem dice que le vaciaron una wallet y sospecha que entraron por una plataforma donde había importado su clave privada de Solana.\n\nPor eso la diferencia real está en dónde se firma: un firmante air-gapped genera y guarda la clave sin tocar internet, y lo único que viaja es la transacción ya firmada, nunca el secreto. Lo explico paso a paso en el libro: https://x.com/ForecastQuant/status/2123585216740528526\n\nSalir del exchange resuelve el riesgo de contraparte. El riesgo que queda en casa es otra conversación.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 62,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "followers_count": 9831,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T12:17:00.019Z",
+      "followers_checked_at": "2026-11-24T12:17:00.019Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
