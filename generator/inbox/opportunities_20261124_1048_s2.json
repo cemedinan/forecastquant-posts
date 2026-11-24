@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T13:45:52.960Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125224150125965526",
+      "author": "criptonizando",
+      "url": "https://x.com/criptonizando/status/2125224150125965526",
+      "created_at": "2026-11-24T13:44:56.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-24 10:44:56 America/Santiago",
+      "context": "@criptonizando (25.223 seguidores), en portugués, con imagen: «Os mineradores de bitcoin estão desligando as máquinas. Segundo a Glassnode, o hashrate está 8% abaixo do nível do ano passado, a primeira queda anual desde a proibição da China em 2021. Dessa vez ninguém baniu nada: quem pesou foi o preço.» Dato fresco, con ~1 min de publicado y 0 respuestas. Está en portugués, donde hay menos competencia. Ángulo: halving y emisión (subsidio de 3,125 BTC por bloco, ajuste de dificultad, capitulación minera).",
+      "suggested_text": "E faz sentido que seja o preço. Desde o halving de 2024, cada bloco paga só 3,125 BTC de subsídio, cerca de 450 BTC por dia para toda a rede. Com o preço em queda, a receita em dólares por terahash encolhe, e as máquinas menos eficientes deixam de cobrir a conta de energia antes das outras.\n\nO detalhe é que o sistema foi desenhado para isso: a cada 2.016 blocos, mais ou menos duas semanas, a dificuldade se ajusta ao hashrate que sobrou. Quem fica passa a ganhar uma fatia maior dos mesmos blocos, e a rede segue produzindo um bloco a cada ~10 minutos.\n\nCapitulação de mineradores costuma ser lida como sinal de pânico. Em ciclos anteriores, ela apareceu mais perto do fim da dor do que do começo, mas isso é história, não garantia.",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 17,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "followers_count": 25223,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T13:45:52.960Z",
+      "followers_checked_at": "2026-11-24T13:45:52.960Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
