@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T22:50:56.609Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125358382810812925",
+      "author": "AnyelaRios7",
+      "url": "https://x.com/AnyelaRios7/status/2125358382810812925",
+      "created_at": "2026-11-24T22:38:20.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 19:38:20 America/Santiago",
+      "context": "@AnyelaRios7 (9.601 seguidores), en español: «¿Y si #Bitcoin no llega al ATH para este Halving? 👀». Pregunta abierta y fresca de una cuenta mediana: ~12 min, 202 vistas, 4 likes y todavía 0 respuestas. Calza con halving y emisión, y con los tiempos de recuperación de máximos del Cycle Clock.",
+      "suggested_text": "Ya pasó una vez. El máximo de fines de 2013 tardó 1.177 días en recuperarse, así que el halving de 2016 llegó antes que el nuevo récord. Ese ciclo no se rompió por eso: el récord llegó igual, solo que más tarde de lo que el calendario prometía.\n\nLo que sí cambia con cada halving es el peso del shock de oferta. En el próximo, el subsidio baja de 3,125 a 1,5625 BTC por bloque, de unos 450 a unos 225 BTC por día, y quedará por emitir apenas el 3,125% de los 21 millones. Es un recorte real, pero cada vez más chico frente a todo lo que ya circula.\n\nPor eso el halving explica cada vez menos del precio por sí solo. Lo que llene ese espacio es la parte del ciclo que todavía no tiene nombre.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 202,
+        "like_count": 4,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 9601,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T22:50:56.609Z",
+      "followers_checked_at": "2026-11-24T22:50:56.609Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
