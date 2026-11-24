@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T16:32:19.805Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125259397077078131",
+      "author": "cryptorover",
+      "url": "https://x.com/cryptorover/status/2125259397077078131",
+      "created_at": "2026-11-24T16:05:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 13:05:00 America/Santiago",
+      "context": "@cryptorover (1.622.905 seguidores), en inglés: \"The LONGER the Bitcoin bear market... The BIGGER the bull market!\" Publicado hace ~30 min: 22.057 vistas, 209 likes, 13 reposts, 8 bookmarks y 50 respuestas. Ángulo: caídas y recuperación / ciclos.",
+      "suggested_text": "The data only half agrees. After the 2011 peak BTC fell 92.7% and needed 622 days to reclaim the high. After 2013 the fall was shallower, 84.5%, yet the recovery took 1,177 days, almost twice as long. The longer bear didn't come from a deeper crash; it came from the market grinding sentiment down over time.\n\nWhat the length really buys is a reset: leverage gets flushed, weak hands leave, and coins drift to holders with longer horizons. That's the fuel a bull needs, but the size of the next leg has also depended on liquidity and fresh demand, not on the calendar alone.\n\nSo maybe the better question isn't how long this bear lasts, but who is still holding when it ends.\n\nCycle by cycle, drawdowns and days to recover: https://x.com/ForecastQuant/status/2122375393776951738",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 8,
+        "impression_count": 22057,
+        "like_count": 209,
+        "quote_count": 2,
+        "reply_count": 50,
+        "retweet_count": 13
+      },
+      "followers_count": 1622905,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T16:31:58.571Z",
+      "followers_checked_at": "2026-11-24T16:31:58.571Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
