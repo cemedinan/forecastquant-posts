@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T15:11:40.601Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125231465629716657",
+      "author": "JohnNakamoto_",
+      "url": "https://x.com/JohnNakamoto_/status/2125231465629716657",
+      "created_at": "2026-11-24T14:14:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 11:14:00 America/Santiago",
+      "context": "@JohnNakamoto_ (36.834 seguidores), en español: «Si hubiera invertido $10.000 en $BTC en 2016, hoy tendría más de $800.000». Recorre las caídas que habría que aguantar ($265k → $42k, $932k → $209k, ~$1,7M → <$750k) y cierra con que a veces no hacer nada es lo mejor. ¿No crees?. Cuenta mediana con post despegando: ~1 h, 899 vistas, 25 likes, 5 guardados, 8 respuestas. Ángulo: caídas y tiempos de recuperación de ciclos.",
+      "suggested_text": "Tu secuencia muestra algo que el «habría tenido $800.000» esconde: el retorno de Bitcoin se paga por adelantado, en caídas. Con tus propios números, de $265k a $42k es un -84%, de $932k a $209k un -78% y de casi $1,7M a menos de $750k, más de un -55%.\n\nY lo más duro no es la profundidad sino el tiempo. Tras el máximo de 2013, el precio tardó 1.177 días en recuperarlo; en 2011, después de un -92,7%, fueron 622. Más de tres años viendo la posición en rojo es lo que de verdad filtra quién llega al final.\n\nLo interesante es que las caídas de ciclo se han ido moderando (-92,7%, -84,5%, -84%, -77%). Si esa compresión sigue, lo que se pone a prueba deja de ser el estómago y pasa a ser la paciencia.",
+      "language": "es",
+      "cta": "",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 899,
+        "like_count": 25,
+        "quote_count": 1,
+        "reply_count": 8,
+        "repost_count": 3
+      },
+      "followers_count": 36834,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T15:11:40.601Z",
+      "followers_checked_at": "2026-11-24T15:11:40.601Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
