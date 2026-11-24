@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T14:00:08.210Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125222150831296847",
+      "author": "DocumentingBTC",
+      "url": "https://x.com/DocumentingBTC/status/2125222150831296847",
+      "created_at": "2026-11-24T13:37:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 10:37:00 America/Santiago",
+      "context": "@DocumentingBTC (1.121.590 seguidores), en inglés: \"How rare is an entire Bitcoin?\" (con video de 98 s). Publicado hace ~23 min: 5.233 vistas, 31 likes, 12 reposts, 10 bookmarks, 13 respuestas (creciendo). Ángulo: escasez / emisión restante de los 21M.",
+      "suggested_text": "Simple math makes the point better than any narrative: 21 million coins against roughly 8 billion people works out to about 0.0026 BTC each, around 260,000 sats. Holding one full coin means holding the equal share of roughly 380 people.\n\nAnd the remaining supply keeps shrinking on a fixed schedule. By the next halving only 3.125% of the 21M will still be left to issue, and the block subsidy drops from 3.125 to 1.5625 BTC, from about 450 to about 225 new coins a day for the entire planet.\n\nWhat rarely gets counted is that circulating supply isn't the same as available supply. Coins tied to lost keys never come back, so the real denominator is smaller than 21 million, and nobody can say by exactly how much.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 10,
+        "impression_count": 5233,
+        "like_count": 31,
+        "quote_count": 1,
+        "reply_count": 13,
+        "retweet_count": 12
+      },
+      "followers_count": 1121590,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T13:59:52.958Z",
+      "followers_checked_at": "2026-11-24T13:59:52.958Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
