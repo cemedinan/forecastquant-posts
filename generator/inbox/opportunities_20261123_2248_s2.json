@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T01:46:25.414Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125015826289856655",
+      "author": "mikewmunz",
+      "url": "https://x.com/mikewmunz/status/2125015826289856655",
+      "created_at": "2026-11-23T23:57:08.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 20:57:08 America/Santiago",
+      "context": "@mikewmunz (6.289 seguidores), en inglés: «The talk for 2.5 years has been Bitcoin bear markets would not see the 70%+ drawdowns from peak to trough going forward. The anticipated cycle was 30%-50% drawdown. We've extended a little further to mid 50% but it's right in line with the speculation. It is right on track» (cita otro post). Cuenta mediana, 7 likes y 0 respuestas: espacio libre y tema exacto de caídas y ciclos (Cycle Clock: profundidad y días de recuperación).",
+      "suggested_text": "The shrinking-drawdown idea has a real basis: 2011 was -92.7%, 2013 -84.5%, then roughly -84% in 2018 and -77% in 2022. Each cycle a bit shallower, as more supply sits with holders who don't sell into panic and liquidity deepens.\n\nBut depth is only half of a drawdown. The 2011 top took 622 days to reclaim, the 2013 one 1,177. A shallower fall can still be a long one, and time underwater tends to wear people down more than the percentage does.\n\nMid-50% fits the trend line. Whether this cycle also compresses the recovery time, or only the depth, is the part the chart can't show yet.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 518,
+        "like_count": 7,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "followers_count": 6289,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T01:46:25.414Z",
+      "followers_checked_at": "2026-11-24T01:46:25.414Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
