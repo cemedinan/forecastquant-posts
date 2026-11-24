@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T17:04:42.797Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125265860755378472",
+      "author": "glassnode",
+      "url": "https://x.com/glassnode/status/2125265860755378472",
+      "created_at": "2026-11-24T16:30:41.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 13:30:41 America/Santiago",
+      "context": "@glassnode (611.545 seguidores), en inglés: \"Bitcoin is back at its summer lows near $60K, and stocks are also in a downtrend. BTC gave back the whole NVIDIA rally in less than six hours, an indication of severe relative weakness.\" Enlaza su Week On-chain: capitulación, pérdidas realizadas más altas desde FTX, Realized Price en $53,2K (todo mercado bajista previo cerró bajo él). Publicado hace ~35 min: 13.573 vistas, 43 likes, 13 respuestas. Ángulo: temperatura de mercado / piso.",
+      "suggested_text": "The relative weakness is the part worth sitting with. When BTC gives back a risk-on bounce in hours while the Nasdaq keeps most of it, the bid isn't coming from macro; it depends on whoever is still willing to absorb supply.\n\nValuation is already deep in the cold zone. The market temperature index I track, 25% each of MVRV, price vs the 200-week average, drawdown from the high and volatility-adjusted 90-day momentum, went from 99.29 to 0.67 in 364 days. A reading that low says most of the excess is already gone; it doesn't say the selling is over.\n\nThat's where your Realized Price point bites: every past bear closed below it, and $53.2K still sits under spot. Cold can stay cold longer than it feels like it should, and the final flush is rarely the one everyone is positioned for.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 7,
+        "impression_count": 13573,
+        "like_count": 43,
+        "quote_count": 2,
+        "reply_count": 13,
+        "retweet_count": 5
+      },
+      "followers_count": 611545,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T17:04:24.900Z",
+      "followers_checked_at": "2026-11-24T17:04:24.900Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
