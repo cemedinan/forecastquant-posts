@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T12:25:11.577Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125198033256067263",
+      "author": "Cointelegraph",
+      "url": "https://x.com/Cointelegraph/status/2125198033256067263",
+      "created_at": "2026-11-24T12:01:10.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 09:01:10 America/Santiago",
+      "context": "@Cointelegraph (2.925.562 seguidores), en inglés: \"El mercado bajista de Bitcoin ya es el más largo registrado, con más de 411 días, pero también el menos profundo, según Grayscale\" (con gráfico). Publicado hace ~25 min: 19.975 vistas, 47 likes, 10 reposts, 26 respuestas (creciendo). Ángulo: caídas y recuperación / comparación de ciclos.",
+      "suggested_text": "Duration and depth are two different ways a bear market extracts its cost, and they don't always show up together. Earlier cycles did it through depth: after the 2011 peak BTC fell 92.7%, after 2013 it fell 84.5%. A capitulation that deep forces sellers out fast and resets positioning violently.\n\nA shallower but longer decline works differently. It wears holders down through time and opportunity cost rather than panic, and supply changes hands gradually instead of all at once. The holder base now includes spot ETFs and corporate treasuries, which changes who sells, and when.\n\nWhat isn't settled yet is whether a shallow bear also means a shallower recovery, or whether time is simply doing the work that depth used to do.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 19975,
+        "like_count": 47,
+        "quote_count": 1,
+        "reply_count": 26,
+        "retweet_count": 10
+      },
+      "followers_count": 2925562,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T12:25:11.577Z",
+      "followers_checked_at": "2026-11-24T12:25:11.577Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
