@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T20:26:09.791Z",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125294939575832841",
+      "author": "thepowerfulHRV",
+      "url": "https://x.com/thepowerfulHRV/status/2125294939575832841",
+      "created_at": "2026-11-24T18:26:14.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 15:26:14 America/Santiago",
+      "context": "@thepowerfulHRV (23.928 seguidores), en inglés: «A return to the power law trend would put Bitcoin at $614K in five years. That's a 59% CAGR. Bitcoin is criminally underpriced.» (con gráfico). Cuenta mediana con post despegando: ~2 h, 1.928 vistas, 72 likes, 11 reposts y solo 8 respuestas. Tema power law, que se responde con el post propio sobre la curva original de Dacoinminster.",
+      "suggested_text": "Worth splitting that 59% in two: part is the trend itself, part is closing today's gap below it. A power law is a straight line on log-log axes, so the trend's own annual growth keeps slowing as time passes. The catch-up piece is what does the heavy lifting in a five-year window.\n\nThe history cuts both ways, too. Against Dacoinminster's original 2013 curve, the 2017 top printed at 9.4x the line and the 2018 low fell below it. https://x.com/ForecastQuant/status/2122317683030941979\n\nThe curve has been a decent gravity line for over a decade. How long price can stay on the wrong side of it is the part the model doesn't answer.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 1928,
+        "like_count": 72,
+        "quote_count": 1,
+        "reply_count": 8,
+        "repost_count": 11
+      },
+      "followers_count": 23928,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T20:26:09.791Z",
+      "followers_checked_at": "2026-11-24T20:26:09.791Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
