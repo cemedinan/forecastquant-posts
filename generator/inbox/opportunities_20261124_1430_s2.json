@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T17:27:51.200Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125275818993582409",
+      "author": "thebillions_es",
+      "url": "https://x.com/thebillions_es/status/2125275818993582409",
+      "created_at": "2026-11-24T17:10:15.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 14:10:15 America/Santiago",
+      "context": "@thebillions_es (14.303 seguidores), en español: «Bitcoin: pérdidas no vistas desde FTX (2022). Según Glassnode, las pérdidas relativas al capital ingresado en el último año casi se duplicaron en solo 7 días. Históricamente, estas señales aparecieron cerca de mínimos de mercado… pero no siempre marcaron el piso.» Cuenta mediana, en español, ~17 min, 358 vistas y 1 respuesta. Ángulo: temperatura de mercado (cruzar señales on-chain).",
+      "suggested_text": "Ese dato mide algo concreto: cuánto pierden, frente al capital que pusieron, quienes compraron durante el último año. Que se duplique en una semana dice que la capitulación la están haciendo sobre todo los que llegaron tarde, no los holders de largo plazo.\n\nUna sola métrica on-chain se queda corta, por eso sirve cruzarla con otras: MVRV, precio frente a la media de 200 semanas, caída desde el máximo y momentum. Combinando esas cuatro, un índice de temperatura de mercado pasó de 99,29 a 0,67 en 364 días. https://x.com/ForecastQuant/status/2122727211610542288\n\nQue todas marquen frío extremo no fija el día del piso. La duda de fondo es si lo que falta es precio o solo tiempo.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 358,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 0
+      },
+      "followers_count": 14303,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T17:27:51.200Z",
+      "followers_checked_at": "2026-11-24T17:27:51.200Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
