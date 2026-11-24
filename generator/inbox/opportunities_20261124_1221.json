@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T15:21:23.903Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125230718552867117",
+      "author": "CorySwan",
+      "url": "https://x.com/CorySwan/status/2125230718552867117",
+      "created_at": "2026-11-24T14:11:02.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 11:11:02 America/Santiago",
+      "context": "@CorySwan (305.992 seguidores), en inglés: \"In a bear market, you pay in PRICE or you pay in TIME. I think there's more than a 50% chance Bitcoin makes a new all-time high in 2027.\" (video de su programa OUTSIDE MONEY: HIGHER LOWS). Publicado hace ~70 min: 2.726 vistas, 52 likes, 7 bookmarks, solo 4 respuestas. Ángulo: caídas y recuperación / ciclos.",
+      "suggested_text": "History backs the framing, and the two costs don't scale together. After the 2011 peak BTC fell 92.7% and took 622 days to reclaim the high. After 2013 the drop was smaller, 84.5%, yet the recovery took 1,177 days, almost twice as long. Shallower didn't mean faster.\n\nThis cycle is leaning hard on the time side: the downtrend is already past 411 days, the longest on record, with a drawdown milder than in earlier bears. That's a market wearing holders down through patience rather than panic.\n\nThe open question for any 2027 call is whether time can fully substitute for depth, or whether the market still asks for a bit of both before it moves on.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 7,
+        "impression_count": 2726,
+        "like_count": 52,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 3
+      },
+      "followers_count": 305992,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T15:21:08.546Z",
+      "followers_checked_at": "2026-11-24T15:21:08.546Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
