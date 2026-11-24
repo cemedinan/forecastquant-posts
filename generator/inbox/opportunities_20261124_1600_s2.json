@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T18:55:19.209Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125292503033426391",
+      "author": "CriptoGemas_R4H",
+      "url": "https://x.com/CriptoGemas_R4H/status/2125292503033426391",
+      "created_at": "2026-11-24T18:16:33.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 15:16:33 America/Santiago",
+      "context": "@CriptoGemas_R4H (45.911 seguidores), en español: «#Bitcoin lleva 414 días sin superar su máximo histórico de $126.000. Los ETF, las compras corporativas y la adopción institucional ya están incorporados al mercado. ¿De dónde saldrá la próxima ola de demanda capaz de impulsar a BTC hacia nuevos máximos?» Pregunta abierta de una cuenta mediana con post despegando: ~38 min, 1.321 vistas, 15 likes, 7 reposts y 3 respuestas. Ángulo: caídas y tiempos de recuperación, más adopción.",
+      "suggested_text": "414 días suena a mucho, pero a escala de ciclo todavía es poco. Tras el máximo de 2011 y una caída de -92,7%, el precio tardó 622 días en recuperarlo; tras el de fines de 2013 fueron 1.177. Esperar más de tres años por un nuevo máximo ya pasó, y con un activo mucho más chico. https://x.com/ForecastQuant/status/2122375393776951738\n\nSobre la demanda, el dato que menos se mira es la base: aun con BTC cayendo 32% en un año, se sumaron 2,5 millones de direcciones con saldo. De 1 millón en 2012 a 10 millones en 2016 y 50 millones en 2023, la adopción nunca dependió de un solo motor.\n\nLos ETF fueron la ola visible. La que sigue quizás no traiga titular.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1321,
+        "like_count": 15,
+        "quote_count": 0,
+        "reply_count": 3,
+        "repost_count": 7
+      },
+      "followers_count": 45911,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T18:55:19.209Z",
+      "followers_checked_at": "2026-11-24T18:55:19.209Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
