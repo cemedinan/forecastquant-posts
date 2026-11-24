@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T22:26:54.695Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125353957770113146",
+      "author": "Nebraskangooner",
+      "url": "https://x.com/Nebraskangooner/status/2125353957770113146",
+      "created_at": "2026-11-24T22:20:45.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 19:20:45 America/Santiago",
+      "context": "@Nebraskangooner (407.282 seguidores), en inglés: \"Current #Bitcoin bear market is now the longest ever and the shallowest. 411+ days from the ~$125k peak, 56% drawdown vs 77-84% in past cycles. Hashrate down 8% YoY as miners unplug. Slow grinds wear people out.\" Publicado hace ~6 min, 32 likes, 4 respuestas y 4.154 vistas, creciendo rápido. Ángulo: caída vs. tiempo de recuperación por ciclo (Bitcoin Cycle Clock).",
+      "suggested_text": "Worth separating two clocks here. 411 days is long measured peak to bottom, but recovery is the clock that really wears people out: after the 2011 top BTC fell 92.7% and needed 622 days to reclaim its high, and after the second 2013 peak it fell 84.5% and needed 1,177 days.\n\nA 56% drawdown fits the pattern of each cycle cutting less deep than the last (77-84% in the prior ones) as the asset gets bigger and the holder base broadens. Shallower cycles tend to be slower and flatter, so duration replaces depth as the thing that tests conviction.\n\nThe hashrate line is the more interesting tell. Past bottoms have usually formed when the highest-cost miners capitulate and the marginal forced seller disappears, and that process has never finished on a schedule anyone liked.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 4154,
+        "like_count": 32,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 2
+      },
+      "followers_count": 407282,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T22:26:54.695Z",
+      "followers_checked_at": "2026-11-24T22:26:54.695Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
