@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T15:58:16.613Z",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125251737267396948",
+      "author": "sminston_with",
+      "url": "https://x.com/sminston_with/status/2125251737267396948",
+      "created_at": "2026-11-24T15:34:34.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 12:34:34 America/Santiago",
+      "context": "@sminston_with (49.617 seguidores), en inglés: midió los días que BTC cerró bajo el piso de la power law recalculado en tiempo real en cada bear market: 2015: 210, 2022: 193, 2026: 153 hasta ahora; en 2015 y 2022 el precio volvió sobre el piso y luego hizo máximos. Cuenta mediana con post despegando: ~23 min, 1.581 vistas, 20 likes, 5 guardados, 4 respuestas. Ángulo: power law (ajuste en tiempo real vs. ajuste original de 2013).",
+      "suggested_text": "The real-time detail is what makes this worth looking at. Most power law charts are fitted with hindsight, so every past bear market seems to respect a floor that, at the time, sat somewhere else. Measured the way it was revealed day by day, 153 days vs 210 and 193 is a much fairer comparison.\n\nA useful cross-check runs the other way: freeze an old fit and see how it aged. Dacoinminster's original 2013 power law, never refitted, had the 2017 top at 9.4× the curve and the 2018 low below it. Put next to a refitted floor, it shows how much of \"the floor\" depends on when you draw it. https://x.com/ForecastQuant/status/2122317683030941979\n\nAnd if each cycle's excess above the curve keeps shrinking, it's fair to wonder whether the time spent below it will shrink the same way.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 1581,
+        "like_count": 20,
+        "quote_count": 0,
+        "reply_count": 4,
+        "repost_count": 1
+      },
+      "followers_count": 49617,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T15:58:16.613Z",
+      "followers_checked_at": "2026-11-24T15:58:16.613Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
