@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T16:50:56.361Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125256840120279337",
+      "author": "CriptoMonedasTV",
+      "url": "https://x.com/CriptoMonedasTV/status/2125256840120279337",
+      "created_at": "2026-11-24T15:54:50.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 12:54:50 America/Santiago",
+      "context": "@CriptoMonedasTV (23.387 seguidores), en español: «¿Tienes tu semilla en una foto en el teléfono? Bórrala de inmediato. Ni tu semilla ni tus llaves privadas deben tocar nada digital. Tampoco un chatbot con acceso a tus fotos. Papel o metal.» (con video y guía). Pregunta abierta de custodia, en español, ~1 h y aún 0 respuestas. Ángulo: custodia (la semilla fuera de lo digital y la firma).",
+      "suggested_text": "Totalmente. Y vale la pena entender por qué la foto es tan peligrosa: en muchos teléfonos la galería se sincroniza sola con la nube, así que la semilla termina en servidores de terceros, en cada respaldo y al alcance de cualquier app con permiso para ver fotos. Ya no es una copia, son varias que no controlas.\n\nEl robo de $282M que circula hoy ni siquiera necesitó un exploit: bastó con que la víctima le entregara sus 12 palabras a un falso soporte. La semilla tiene un solo uso legítimo, restaurar una billetera tuya en un dispositivo que configuraste tú.\n\nPapel o metal resuelve dónde guardarla. Lo que pocos se preguntan es en qué dispositivo se generó y dónde se firma cada transacción.",
+      "language": "es",
+      "cta": "",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 119,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 1
+      },
+      "followers_count": 23387,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T16:50:56.361Z",
+      "followers_checked_at": "2026-11-24T16:50:56.361Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
