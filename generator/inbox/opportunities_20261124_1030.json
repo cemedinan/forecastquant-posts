@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T13:30:56.875Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125218381205024780",
+      "author": "w_s_bitcoin",
+      "url": "https://x.com/w_s_bitcoin/status/2125218381205024780",
+      "created_at": "2026-11-24T13:22:01.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 10:22:01 America/Santiago",
+      "context": "@w_s_bitcoin (94.397 seguidores), en inglés: \"We’re at the 'Bitcoin is dead' stage of the bear market.\" citando su propio post idéntico del 19-09-2022. Publicado hace ~8 min: 657 vistas, 22 likes, 3 reposts, 5 respuestas (creciendo rápido). Ángulo: temperatura de mercado / sentimiento en el piso del ciclo.",
+      "suggested_text": "The interesting detail is that this quote is from September 2022, roughly two months before the final flush around the FTX collapse. \"Bitcoin is dead\" sentiment usually peaks after price has already done most of the damage, not at the start of it.\n\nValuation data points the same way today. My Market Temperature index, which weighs MVRV, price vs the 200-week average, drawdown from the high and volatility-adjusted 90-day momentum at 25% each, went from 99.29 to 0.67 in 364 days. A reading that low means all four components sit at the cold end of their range at the same time.\n\nNone of that pins a bottom to a date. But when sentiment and valuation are both this washed out, the more useful question isn't whether Bitcoin is dead, it's who is actually left to sell. https://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 657,
+        "like_count": 22,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 3
+      },
+      "followers_count": 94397,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T13:30:36.910Z",
+      "followers_checked_at": "2026-11-24T13:30:36.910Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
