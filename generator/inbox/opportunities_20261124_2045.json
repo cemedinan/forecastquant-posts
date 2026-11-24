@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T23:43:49.811Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125364724993044595",
+      "author": "yourfriendSOMMI",
+      "url": "https://x.com/yourfriendSOMMI/status/2125364724993044595",
+      "created_at": "2026-11-24T23:03:32.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 20:03:32 America/Santiago",
+      "context": "@yourfriendSOMMI (42.820 seguidores), en inglés: \"This is the first time in Bitcoin history where it has a negative return from its Previous Halvening Price. In every single cycle, Bitcoin was always higher in the years ahead of its Halvening, even at its lowest crash. Until now. Bitcoin is -18% below its…\" (con gráfico). Publicado hace ~40 min: 19 likes, 6 respuestas, 1.192 vistas. Ángulo: el halving pierde peso como shock de oferta frente a la demanda.",
+      "suggested_text": "That break is less strange once you look at what each halving actually removes. The cut that matters is relative to the supply already out there: after the next halving only 3.125% of the 21M will be left to issue, and the block subsidy drops from 3.125 to 1.5625 BTC, roughly 450 to 225 new coins a day.\n\nIn 2012 a halving cut new supply that was a big share of the float, so the shock almost forced the price higher. Today the daily issuance is small next to what ETFs, treasuries and long-term holders move in a single session, so the halving has stopped being the engine and become background.\n\nThat doesn't break the scarcity thesis, it moves it. The price is now set by demand meeting a supply that barely changes anymore, and that's a very different market from the one the old halving charts were drawn in.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1192,
+        "like_count": 19,
+        "quote_count": 0,
+        "reply_count": 6,
+        "retweet_count": 1
+      },
+      "followers_count": 42820,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T23:43:49.811Z",
+      "followers_checked_at": "2026-11-24T23:43:49.811Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
