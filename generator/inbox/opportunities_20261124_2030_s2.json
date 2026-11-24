@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T23:26:17.155Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125366088720318826",
+      "author": "BitcoinNewsCom",
+      "url": "https://x.com/BitcoinNewsCom/status/2125366088720318826",
+      "created_at": "2026-11-24T23:08:57.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 20:08:57 America/Santiago",
+      "context": "@BitcoinNewsCom (266.460 seguidores), en inglés: noticia fresca sobre Cypher Box, que lanzó un modo «Offline Seed-Signer» para convertir un Android viejo en firmante Bitcoin offline: dos teléfonos, comunicación solo por QR, semilla generada con dados, firma sin estado vía SeedQR, builds reproducibles y multisig con Sparrow y Nunchuk. Menciona el riesgo de privacidad de comprar una hardware wallet y los ataques a la cadena de suministro. Noticia de ~18 min con solo 2 respuestas (2.478 vistas). Calza directo con custodia air-gapped y con el incidente de generación de semillas de Coldcard de hoy.",
+      "suggested_text": "The dice part is the most underrated line here, and the timing makes it obvious why. Today's Coldcard postmortem traced 1,778.84 BTC stolen from over 8,600 addresses to a seed-generation flaw that security reviews missed for years. If the entropy is weak, every layer you add after it protects a key someone else can already rebuild.\n\nAn air-gapped signer with QR-only communication and a watch-only wallet online is the right architecture. It also flips the trust question: instead of trusting a vendor's chip and supply chain, you trust hardware you already own plus code and seeds you can verify yourself. Not zero trust, but trust you can audit.\n\nI wrote up how to build that kind of setup from scratch: https://x.com/ForecastQuant/status/2123585216740528526\n\nThe harder part is rarely the device. It's what happens to the seed backup over the next ten years.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 2478,
+        "like_count": 6,
+        "quote_count": 1,
+        "reply_count": 2,
+        "repost_count": 2
+      },
+      "followers_count": 266460,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T23:26:17.155Z",
+      "followers_checked_at": "2026-11-24T23:26:17.155Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
