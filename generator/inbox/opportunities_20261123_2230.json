@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T01:25:10.521Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125012243787956330",
+      "author": "AdamBLiv",
+      "url": "https://x.com/AdamBLiv/status/2125012243787956330",
+      "created_at": "2026-11-23T23:42:54.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 20:42:54 America/Santiago",
+      "context": "@AdamBLiv (Adam Livingston, 89.253 seguidores), en inglés: crecimiento interanual de la media de 200 semanas de Bitcoin medida en oro (foto del 23 de noviembre de cada año): 2020 +36%, 2021 +110%, 2022 +29%, 2023 +16%, 2024 +31%, 2025 +6,6%, 2026 +3,0%; BTC/oro spot está 24% bajo su 200WMA. «One more flat year and the trend goes…» con gráfico. Post de ~1,7 h con 64 likes, 3 reposts, 15 respuestas, 3 guardados y 4.435 vistas. Ángulo: media de 200 semanas como indicador de valoración/piso (Market Temperature).",
+      "suggested_text": "Pricing the 200-week average in gold strips out dollar debasement and leaves a cleaner read on real trend growth. Seen that way, the deceleration is hard to miss: +110% in 2021, then +29%, +16%, +31%, and now +6.6% and +3.0% in the last two snapshots.\n\nThe 200WMA is slow by design, roughly four years of weekly closes, so a flattening slope says the whole last cycle added very little in gold terms, not just the past few months. And with spot BTC/gold 24% below that line, the discount is wider than the dollar chart alone would suggest.\n\nA slope near zero is exactly where a long average either gets rebuilt from below or starts rolling over, and the two paths look the same until one week they don't.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 4435,
+        "like_count": 64,
+        "quote_count": 0,
+        "reply_count": 15,
+        "retweet_count": 3
+      },
+      "followers_count": 89253,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T01:25:10.521Z",
+      "followers_checked_at": "2026-11-24T01:25:10.521Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
