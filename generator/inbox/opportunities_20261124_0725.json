@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T10:25:20.438Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125157654867710295",
+      "author": "Cointelegraph",
+      "url": "https://x.com/Cointelegraph/status/2125157654867710295",
+      "created_at": "2026-11-24T09:20:43.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 06:20:43 America/Santiago",
+      "context": "@Cointelegraph (2.925.560 seguidores), en inglés: \"BULLISH: Grayscale dice que $BTC y las principales cripto están sobrevendidas, con valoraciones atractivas para inversores de largo plazo pese a los riesgos de la IA\" (con dos imágenes). Publicado hace ~1 h: 23.627 vistas, 129 likes, 10 reposts y 32 respuestas (creciendo). Ángulo: temperatura de mercado / indicadores de valoración (MVRV, media de 200 semanas, caída desde el máximo).",
+      "suggested_text": "\"Oversold\" gets used loosely, so it helps to be precise about what's being measured. The cleaner valuation gauges compare price to something slower-moving: MVRV (market value vs. the average on-chain cost basis of all coins), price vs. the 200-week moving average, and how deep the drawdown from the last high has gone. When several of them cool at the same time, a lot of the speculative excess has usually been flushed out.\n\nWhat those gauges don't give you is timing. In past cycles they sat in the \"cheap\" zone for weeks, sometimes months, before price confirmed it, and drawdowns kept extending while the readings already looked attractive.\n\nCheap and bottomed aren't the same thing, and the gap between the two is where most of a cycle's pain actually lives.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 23627,
+        "like_count": 129,
+        "quote_count": 2,
+        "reply_count": 32,
+        "retweet_count": 10
+      },
+      "followers_count": 2925560,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T10:25:20.438Z",
+      "followers_checked_at": "2026-11-24T10:25:20.438Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
