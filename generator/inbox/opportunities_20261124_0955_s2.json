@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T12:52:51.298Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125207052142219662",
+      "author": "QuintenFrancois",
+      "url": "https://x.com/QuintenFrancois/status/2125207052142219662",
+      "created_at": "2026-11-24T12:37:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.search_posts_all",
+      "created_at_chile": "2026-11-24 09:37:00 America/Santiago",
+      "context": "@QuintenFrancois (205.545 seguidores), en inglés, con gráfico: «Bitcoin is trading nearly 11% below its 200-week moving average. Historically, Bitcoin has been this cheap or cheaper in just 4% of weeks.» A los ~16 min llevaba 2.867 vistas, 24 likes y solo 5 respuestas: está despegando y todavía tiene pocas respuestas. Menciona la media de 200 semanas, que se responde directo con el índice Market Temperature (99,29 → 0,67 en 364 días).",
+      "suggested_text": "The 4% figure is what makes this level stand out. The 200-week average spans roughly one full halving cycle, so trading below it means price sits under its own four-year average, a zone Bitcoin has only visited at the deepest points of past bear markets.\n\nIt gets more telling when you stack it with other slow gauges. A composite of MVRV, price vs. the 200-week MA, drawdown from the high and volatility-adjusted 90-day momentum went from 99.29 to 0.67 in 364 days, from about as hot as it reads to about as cold.\n\nWhat that history doesn't settle is timing. Cheap is a description of where price is, not a promise about how long it stays there.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2867,
+        "like_count": 24,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 3
+      },
+      "followers_count": 205545,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T12:52:51.298Z",
+      "followers_checked_at": "2026-11-24T12:52:51.298Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
