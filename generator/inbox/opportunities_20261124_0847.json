@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T11:45:35.820Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125186675194380571",
+      "author": "DamiDefi",
+      "url": "https://x.com/DamiDefi/status/2125186675194380571",
+      "created_at": "2026-11-24T11:16:02.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 08:16:02 America/Santiago",
+      "context": "@DamiDefi (97.958 seguidores), en inglés: según investigadores de Confiant, la operación de publicidad maliciosa MoldyRoost apunta a iPhones vulnerables en más de 47 países con más de 480 dominios; basta cargar la página del anuncio. Busca frases semilla en Notas y códigos QR en imágenes guardadas y ataca apps de wallets. Recomienda hardware cold wallet para la mayoría de los fondos, nunca guardar la semilla en el teléfono o el computador, semillas distintas para trading y largo plazo, y actualizar iOS (Confiant habla de DarkSword en iOS 18.4–18.7 y no recuperó exploit confirmado de iOS 26). Publicado hace ~30 min: 1.580 vistas, 64 likes, 7 respuestas (creciendo). Ángulo: custodia / frases semilla / phishing (libro).",
+      "suggested_text": "The key line is the last one. A phone isn't just a place where a seed can leak; it's an always-online general-purpose computer that runs code from ad networks you never chose. That's the opposite of what key material needs.\n\nOne layer worth adding: a BIP39 passphrase. With it, a seed found in a photo or a Notes entry restores a different, empty wallet, so a thief needs two secrets kept in two places. It has a cost too: lose the passphrase and the funds are gone, so it needs a backup as careful as the seed's.\n\nAnd the threat model doesn't end with the phone. Where the seed was generated, which computers the wallet was ever paired with and what software signs the transactions are all links in the same chain, and the weakest one is rarely the one people are watching.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1580,
+        "like_count": 64,
+        "quote_count": 0,
+        "reply_count": 7,
+        "retweet_count": 0
+      },
+      "followers_count": 97958,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T11:45:35.820Z",
+      "followers_checked_at": "2026-11-24T11:45:35.820Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
