@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T19:24:02.481Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125301478680363204",
+      "author": "coinbureau",
+      "url": "https://x.com/coinbureau/status/2125301478680363204",
+      "created_at": "2026-11-24T18:52:13.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 15:52:13 America/Santiago",
+      "context": "@coinbureau (1.135.280 seguidores), en inglés: \"TODAY: Gold and silver shed over $800,000,000,000 in combined market value within 2 hours of trading today. Here's how far each asset has fallen from its all-time high: Silver -64%, Bitcoin -52%, Gold -36%. Gold has held up better than $BTC since their respective…\" (la API devuelve el texto cortado ahí; leer el resto en el post). Publicado hace ~31 min: 13.968 vistas, 82 likes, 22 reposts y 15 respuestas, creciendo. Ángulo: caídas desde máximos y recuperación por ciclo.",
+      "suggested_text": "A -52% drawdown looks brutal next to gold's -36%, but measured against Bitcoin's own history it sits on the shallow end. The 2011 cycle fell 92.7% and took 622 days to reclaim its high; the 2013 peak fell 84.5% and needed 1,177 days. The drops have tended to get shallower as the asset grew, not deeper.\n\nThe comparison also puts two very different markets side by side: gold is a mature asset held by central banks for centuries, while $BTC still carries the volatility of something whose holder base is widening every cycle.\n\nEvery cycle's drop and recovery time, mapped: https://x.com/ForecastQuant/status/2122375393776951738\n\nDepth is only half of it. How long the market takes to get back to the high says far more about who is actually holding through it.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 13968,
+        "like_count": 82,
+        "quote_count": 0,
+        "reply_count": 15,
+        "retweet_count": 22
+      },
+      "followers_count": 1135280,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T19:23:46.203Z",
+      "followers_checked_at": "2026-11-24T19:23:46.203Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
