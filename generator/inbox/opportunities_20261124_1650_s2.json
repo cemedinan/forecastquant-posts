@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T19:47:34.188Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125287603683385628",
+      "author": "FrankAFetter",
+      "url": "https://x.com/FrankAFetter/status/2125287603683385628",
+      "created_at": "2026-11-24T17:57:05.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 14:57:05 America/Santiago",
+      "context": "@FrankAFetter (21.145 seguidores), en inglés: «Bottom 3% quantile on the 200-week moving average. At $59k, the asymmetry is to the upside. $BTC» (con gráfico). Cuenta mediana con post despegando: ~1 h 50 min, 5.669 vistas, 188 likes, 22 guardados, 17 reposts y solo 10 respuestas. Menciona la media de 200 semanas, que es uno de los cuatro componentes del índice Market Temperature.",
+      "suggested_text": "Part of why the 200-week average works as a floor signal is that it's slow: about 3.8 years of weekly closes, close to a full halving cycle. Being in its bottom 3% quantile means price is cheap against almost the entire last cycle, not just against last month.\n\nIt's one of the four inputs in the Market Temperature index I track, alongside MVRV, drawdown from the record and volatility-adjusted 90-day momentum, 25% each. That reading went from 99.29 to 0.67 in 364 days, about as cold as the model gets.\n\nStill, asymmetry describes the odds, not the timing. After the late-2013 top the drawdown reached -84.5% and the old high took 1,177 days to come back. Cold can stay cold longer than it feels.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 22,
+        "impression_count": 5669,
+        "like_count": 188,
+        "quote_count": 3,
+        "reply_count": 10,
+        "repost_count": 17
+      },
+      "followers_count": 21145,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T19:47:34.188Z",
+      "followers_checked_at": "2026-11-24T19:47:34.188Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
