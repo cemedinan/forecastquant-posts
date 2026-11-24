@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T00:20:36.776Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125014708633608613",
+      "author": "intangiblecoins",
+      "url": "https://x.com/intangiblecoins/status/2125014708633608613",
+      "created_at": "2026-11-23T23:52:42.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-23 20:52:42 America/Santiago",
+      "context": "@intangiblecoins (Alex Thorn, 63.424 seguidores), en inglés: «bitcoin bear market comparisons» con gráfico de Galaxy Research «Four Bear Markets Against Their 50-Week And 200-Week Averages: This One Has Been The Shallowest»: 2013-15 -85% (5 cierres semanales bajo la de 200 semanas), 2017-18 -84% (1), 2021-22 -77% (47, la más profunda -32%), 2025-26 -53% hasta ahora (5, la más profunda -10%). Post de ~28 min con 38 likes, 5 reposts, 6 respuestas, 8 guardados y 3.051 vistas (creciendo). Ángulo: caídas cada vez menos profundas por ciclo (Cycle Clock).",
+      "suggested_text": "What stands out to me is the trend across cycles, not just this one. Peak-to-trough went -85%, -84%, -77% and, so far, -53%: each bear shallower than the last, a pattern usually tied to a bigger, more liquid market with a different holder base.\n\nThe 200-week line tells a similar story. 2013-15 spent only 5 weekly closes below it and 2017-18 just 1, then 2021-22 spent 47 and went 32% under. This cycle has 5 closes below so far, the deepest at -10%.\n\nShallower drawdowns can mean less forced selling, or simply that the flush isn't finished. Which one this is only shows up in hindsight, and the right panel still has a lot of empty weeks.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 8,
+        "impression_count": 3051,
+        "like_count": 38,
+        "quote_count": 2,
+        "reply_count": 6,
+        "retweet_count": 5
+      },
+      "followers_count": 63424,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T00:20:36.776Z",
+      "followers_checked_at": "2026-11-24T00:20:36.776Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
