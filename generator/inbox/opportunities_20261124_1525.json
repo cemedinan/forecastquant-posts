@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T18:21:20.235Z",
+  "topic": "adoption",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125290778742174148",
+      "author": "VinnyLingham",
+      "url": "https://x.com/VinnyLingham/status/2125290778742174148",
+      "created_at": "2026-11-24T18:09:42.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 15:09:42 America/Santiago",
+      "context": "@VinnyLingham (230.639 seguidores), en inglés: \"Help me understand the bull case for Bitcoin over the next 5 years, looking back at the 2021 narrative with a $66k all-time high. BTC right now is trading at less than it was 5 years ago, yet all this already happened: • Governments printing trillions in COVID/QE stimulus…\" (la API devuelve el texto cortado ahí; leer el resto en el post). Publicado hace ~12 min: 1.617 vistas y 9 respuestas, creciendo. Ángulo: adopción y escasez frente al debate del precio.",
+      "suggested_text": "The price comparison hides what the network did in those five years. Over a 12-month stretch in which BTC fell 32%, the number of addresses holding a balance still grew by about 2.5 million. That curve went from 1M in 2012 to 10M in 2016 to 50M in 2023, and price drawdowns haven't bent it.\n\nSupply is the other half. After the next halving only 3.125% of the 21M will be left to issue, and the block subsidy drops from ~450 to ~225 BTC a day. The 2021 narrative leaned on stimulus, a demand shock that came and went. The case from here is more structural: a slowly widening holder base meeting issuance that keeps getting cut in half.\n\nWhat none of that settles is timing, and the market has a habit of testing conviction precisely when the structural data looks strongest.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122675621704941640",
+      "topic": "adoption",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 1617,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 9,
+        "retweet_count": 0
+      },
+      "followers_count": 230639,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T18:21:01.988Z",
+      "followers_checked_at": "2026-11-24T18:21:01.988Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
