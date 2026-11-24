@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T00:18:17.491Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125000878000345450",
+      "author": "MylesGinvest",
+      "url": "https://x.com/MylesGinvest/status/2125000878000345450",
+      "created_at": "2026-11-23T22:57:44.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 19:57:44 America/Santiago",
+      "context": "@MylesGinvest (38.411 seguidores), en inglés: «Bitcoin pumped 17% from the bottom in a couple days there will be a pullback. Any strong fast move will retrace. The bottom is in. Higher soon» (con imagen). Post de ~80 min que está despegando (87 likes, 3.102 vistas) con solo 11 respuestas: cuenta mediana, afirmación cuestionable sobre el piso. Ángulo: caídas y ciclos (Drawdown Atlas) + temperatura y media de 200 semanas.",
+      "suggested_text": "A 17% bounce off a capitulation low is normal, and so is the retrace after it. The harder part is that cycle bottoms rarely show up as a single wick. Even the recoveries don't rhyme: 2013 had two separate tops, one reclaimed in 210 days, the other in 1,177. Same asset, same year, very different paths.\n\nWhat I watch is whether valuation and time agree with price. The market temperature index I track (MVRV, price vs the 200-week average, drawdown from the high, volatility-adjusted momentum) went from 99.29 to 0.67 in 364 days. That's about as cold as it reads, but cold isn't the same as turned.\n\nPrice is also still under the 200-week average. How it behaves on the first real test of that line probably says more than the 17% did.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122676377011069293",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 3102,
+        "like_count": 87,
+        "quote_count": 0,
+        "reply_count": 11,
+        "retweet_count": 2
+      },
+      "followers_count": 38411,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T00:18:17.491Z",
+      "followers_checked_at": "2026-11-24T00:18:17.491Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
