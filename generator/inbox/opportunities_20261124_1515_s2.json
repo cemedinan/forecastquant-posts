@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T18:11:01.557Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125286810527895734",
+      "author": "BitcoinNewsCom",
+      "url": "https://x.com/BitcoinNewsCom/status/2125286810527895734",
+      "created_at": "2026-11-24T17:53:56.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 14:53:56 America/Santiago",
+      "context": "@BitcoinNewsCom (266.446 seguidores), en inglés: Coinkite publicó un postmortem de 18 páginas sobre una falla de firmware de COLDCARD (marzo 2021 a julio 2026): las semillas se generaban con un RNG de software débil (~40 bits de entropía efectiva en Mk2/Mk3, ~72 bits en Mk4/Mk5/Q); se robaron 1.778,84 BTC sin acceso físico ni remoto a los dispositivos; actualizar el firmware no protege semillas ya comprometidas. Noticia fresca (~17 min), 2.522 vistas y solo 2 respuestas. Ángulo: custodia (entropía propia y migración de semilla).",
+      "suggested_text": "The detail that matters most here: the attackers never touched the devices, physically or remotely, and the coins left anyway. At ~40 bits of effective entropy a seed is within reach of a brute-force search, so the attacker didn't need the hardware, only the weak randomness it was born with.\n\nThat shifts the threat model. Isolation protects the signing; it says nothing about whether the seed was strong from day one. That's why user-supplied entropy, like dice rolls you can verify offline, has always been the quiet backstop: it doesn't depend on trusting a vendor's RNG or its audits, which here missed the flaw for five years.\n\nAnd the last line deserves more attention than the headline: a firmware update doesn't fix a seed that was already weak. How many affected holders have updated and think they're done?",
+      "language": "en",
+      "cta": "",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 2522,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 2,
+        "repost_count": 0
+      },
+      "followers_count": 266446,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T18:11:01.557Z",
+      "followers_checked_at": "2026-11-24T18:11:01.557Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
