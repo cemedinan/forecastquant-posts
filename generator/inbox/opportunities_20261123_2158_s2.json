@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-24T00:56:40.045Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125027871144264026",
+      "author": "CryptoReviewing",
+      "url": "https://x.com/CryptoReviewing/status/2125027871144264026",
+      "created_at": "2026-11-24T00:45:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-23 21:45:00 America/Santiago",
+      "context": "@CryptoReviewing (97.093 seguidores), en inglés, noticia fresca: «IF YOU HOLD CRYPTO ON AN IPHONE, ONE TAP ON AN AD CAN NOW DRAIN YOUR ENTIRE WALLET… MoldyRoost… 480+ fake ad domains, 47 countries, running since May, built to steal seed phrases from MetaMask, Phantom and Trust Wallet; it searches your notes and your photos for them… At risk: iPhones on iOS 13 up to iOS 18.7. Apple has patched it.» Post de ~12 min con 1.569 vistas y 1 respuesta. Ángulo: custodia air-gapped y el libro (seed fuera de dispositivos conectados).",
+      "suggested_text": "The detail that matters most here isn't the iOS exploit, it's what it goes looking for: seed phrases sitting in notes and photos, plus hot wallets like MetaMask, Phantom and Trust that keep keys on the same device that opens ads. Patching iOS closes this hole. It doesn't change that design.\n\nA seed that never touches a connected device removes the whole category: no screenshot to scan, no note to search, no app to hook. That's the idea behind air-gapped signing, where the device holding the keys never goes online and only signed transactions cross the gap. I laid out how to build that setup yourself here: https://x.com/ForecastQuant/status/2123585216740528526\n\nUpdating the phone stops this campaign. The next one will simply look for whatever people still keep within reach of a browser.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 1569,
+        "like_count": 4,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "followers_count": 97093,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T00:56:40.045Z",
+      "followers_checked_at": "2026-11-24T00:56:40.045Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
