@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-24T11:06:04.426Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125180517544808959",
+      "author": "xapa03",
+      "url": "https://x.com/xapa03/status/2125180517544808959",
+      "created_at": "2026-11-24T10:51:33.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 07:51:33 America/Santiago",
+      "context": "@xapa03 (34.178 seguidores), en inglés: compara 2017→2020 con 2025→2026. En ambos casos, tras el pico y el mercado bajista, BTC rebotó hasta ~30% bajo el máximo previo y luego tuvo un desplome brusco (COVID en 2020; según él, \"el hack de Binance y otros eventos\" en 2026), con su \"Paranoia Indicator\" en 45 y RSI 33-34, perdiendo y recuperando la EMA semanal de 350. Plantea que, si se repite, BTC podría hacer un mínimo más alto sobre la EMA 350 antes de seguir subiendo (aclara que no es consejo financiero). Publicado hace ~15 min: 1.441 vistas, 26 likes, 13 reposts, 10 respuestas (creciendo). Ángulo: caídas y recuperación / comparación de ciclos.",
+      "suggested_text": "The 2017→2020 parallel is interesting, but the two flush-outs were very different in nature. March 2020 was a global liquidity event: BTC lost roughly half its value in about two days alongside every risk asset, and the recovery rode the largest monetary response in decades. A crypto-native shock like an exchange hack clears leverage too, but it doesn't come with that macro tailwind behind it.\n\nCycle rhythm also isn't as fixed as it looks on a chart. Recovery times have varied a lot: after 2011 BTC fell 92.7% and took 622 days to reclaim its high; after 2013 it fell 84.5% and needed 1,177 days. https://x.com/ForecastQuant/status/2122375393776951738\n\nA higher low above the 350-week EMA would rhyme nicely with 2020. Whether anything is playing the role of the liquidity that came after it is a different question.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 1441,
+        "like_count": 26,
+        "quote_count": 0,
+        "reply_count": 10,
+        "retweet_count": 13
+      },
+      "followers_count": 34178,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-24T11:06:04.426Z",
+      "followers_checked_at": "2026-11-24T11:06:04.426Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
