@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T16:25:26.701Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125610236425691366",
+      "author": "CoinDesk",
+      "url": "https://x.com/CoinDesk/status/2125610236425691366",
+      "created_at": "2026-11-25T15:19:06.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 12:19:06 America/Santiago",
+      "context": "@CoinDesk (4.069.757 seguidores), en inglés, con imagen: actualización de que Bithumb reconoce que su filtración de octubre fue peor de lo informado: quedaron expuestos números de registro de residente, datos de pasaporte, copias de documentos de identidad, cuentas bancarias y direcciones de wallets cripto, con acceso no autorizado por más de dos semanas antes de detectarse. Publicado hace ~1 h: 32 likes, 2 reposts, 24 respuestas, 15.154 vistas. Tema custodia (filtración de datos KYC en exchange).",
+      "suggested_text": "The detail that matters most here isn't the passport scans, it's the wallet addresses stored right next to them. A leak like this links a real name, an ID document and a bank account to specific on-chain addresses, and that link is permanent. You can rotate a password or reissue a card. You can't rewrite who owned which coins on a public ledger.\n\nThat's how a \"KYC breach\" turns into phishing that already knows your balance, or into something far less digital. And with more than two weeks of access before anyone noticed, nobody can really say where that data ends up.\n\nEvery exchange account is a file someone else keeps about your $BTC. The quieter question is how much of your stack you're comfortable having attached to that file.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 15154,
+        "like_count": 32,
+        "quote_count": 0,
+        "reply_count": 24,
+        "retweet_count": 2
+      },
+      "followers_count": 4069757,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T16:25:26.701Z",
+      "followers_checked_at": "2026-11-25T16:25:26.701Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
