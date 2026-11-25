@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T15:14:45.602Z",
+  "topic": "rainbow",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125589998657491373",
+      "author": "hansdallass",
+      "url": "https://x.com/hansdallass/status/2125589998657491373",
+      "created_at": "2026-11-25T13:58:41.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 10:58:41 America/Santiago",
+      "context": "@hansdallass (9.760 seguidores, cuenta mediana), en inglés: dice que $BTC lleva 35 días bajo la banda más baja del Rainbow Chart (zona históricamente infravalorada), pero que su fiabilidad se cuestiona porque sigue rompiendo bajo esa banda. Hoy el arcoíris es tema caliente con BTC cerca de $58k. Pregunta abierta sobre la validez del modelo, respondible con datos del post propio del arcoíris (14 años, 4 halvings). ~77 min, 34 likes, 7 reposts, 15 respuestas.",
+      "suggested_text": "Worth separating two things: the Rainbow Chart isn't a model of why $BTC moves, it's a log regression drawn through past prices with colored bands around it. When price leaves the bands, the honest reading isn't \"the model broke\", it's \"this drawdown is deeper than the ones the curve was fitted on\".\n\nIt has happened before: the late-2022 FTX low pushed price under the lowest band, and the chart was redrawn afterwards. That's the catch with any fitted curve: its bands are only as wide as the history behind them, and every cycle adds a data point that can reshape them.\n\nFrom ~$12 to six figures across 14 years and 4 halvings, the long-term slope has held up far better than any single band. Whether a curve that needs refitting after its worst moments is still a valuation tool, or just a very good description of the past, is the more interesting question.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "rainbow",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 339,
+        "like_count": 34,
+        "quote_count": 0,
+        "reply_count": 15,
+        "repost_count": 7
+      },
+      "followers_count": 9760,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T15:14:45.602Z",
+      "followers_checked_at": "2026-11-25T15:14:45.602Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
