@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T17:27:47.730Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125627163562869019",
+      "author": "jpmayall",
+      "url": "https://x.com/jpmayall/status/2125627163562869019",
+      "created_at": "2026-11-25T16:26:22.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 13:26:22 America/Santiago",
+      "context": "@jpmayall (19.818 seguidores; criador do primeiro ETF de Bitcoin da América Latina), em português: o TJ-SP mandou a BitPay devolver 336 BTC a um usuário da Copay; a 27ª Câmara separou a guarda da chave da segurança do software (2 saques grandes em meia hora sem 2FA nem bloqueio de operação atípica = falha do serviço; ainda cabe recurso). Defende a autocustódia, mas diz que a maioria não tem perfil para estruturá-la com segurança e que há um trade-off entre segurança e agilidade. ~61 min, 41 likes, 2 respostas (despegando). Custódia: aporta a separação hot/cold e a assinatura offline, com link do livro.",
+      "suggested_text": "A separação que a 27ª Câmara fez é a parte mais interessante do caso, porque expõe uma ambiguidade antiga: numa carteira como a Copay, a chave é do usuário, mas ela vive num celular ou computador conectado, dentro de um software que outra pessoa escreveu e atualiza. Na prática, a superfície de ataque é a do dispositivo e do app, não só a da seed. Chamar isso de autocustódia \"pura\" sempre foi generoso.\n\nO trade-off que você aponta é real, mas ele diminui quando se separam as funções: um valor pequeno numa hot wallet para movimentar, e o grosso em uma chave que nunca toca a internet, assinando offline. Um saque grande nunca sai de um clique; ele exige que a pessoa vá fisicamente até a chave. É exatamente o tipo de fricção que teria parado dois saques grandes em meia hora. Escrevi sobre como montar isso sem depender de nenhum fornecedor: https://x.com/ForecastQuant/status/2123585216740528526\n\nCurioso pensar que um eventual recurso pode acabar definindo, juridicamente, onde termina a responsabilidade de quem guarda a chave e começa a de quem escreve o software que a usa.",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1935,
+        "like_count": 41,
+        "quote_count": 0,
+        "reply_count": 2,
+        "repost_count": 2
+      },
+      "followers_count": 19818,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T17:27:47.730Z",
+      "followers_checked_at": "2026-11-25T17:27:47.730Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
