@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T01:48:25.423Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125395029245985254",
+      "author": "teKa088",
+      "url": "https://x.com/teKa088/status/2125395029245985254",
+      "created_at": "2026-11-25T01:03:57.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 22:03:57 America/Santiago",
+      "context": "@teKa088 (10.684 seguidores), en español: según JPMorgan minar un bitcoin cuesta unos USD 86.000 y BTC está cerca de USD 60.000, así que los mineros producen a pérdida; enumera lo que históricamente pasa (capitulación de los débiles, venta forzada, ajuste de dificultad) y cierra con que comprar bajo el costo de producción suele favorecer al contrarian. Post de ~45 min que está despegando (6 likes, 539 vistas) con solo 1 respuesta; cuenta mediana en español. Se responde con la mecánica del subsidio por bloque, la dificultad y el próximo halving.",
+      "suggested_text": "El matiz clave es que ese costo no es un número fijo: se mueve con la dificultad, que se reajusta cada 2.016 bloques (unas dos semanas). Si se apagan máquinas, el hashrate baja, la dificultad se ajusta hacia abajo y el costo por BTC de los que siguen cae. Por eso el costo de producción funciona más como un imán que como un piso.\n\nY hay otra pieza que pesa: hoy los mineros reciben 3,125 BTC por bloque, unos 450 $BTC al día; a cerca de USD 60.000 son unos USD 27 millones diarios en subsidio, más comisiones. Cuando ese flujo deja de cubrir la electricidad, lo que sale a la venta no es solo la producción nueva sino las reservas acumuladas, y ahí está la presión del punto 2.\n\nLo interesante es que el próximo halving corta ese subsidio a 1,5625 BTC por bloque, así que con el mismo parque de máquinas el costo de producir cada bitcoin se duplica de un día para otro.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 539,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 0
+      },
+      "followers_count": 10684,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T01:48:25.423Z",
+      "followers_checked_at": "2026-11-25T01:48:25.423Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
