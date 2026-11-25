@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T11:33:09.161Z",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125549911848472607",
+      "author": "CaffeSatoshi",
+      "url": "https://x.com/CaffeSatoshi/status/2125549911848472607",
+      "created_at": "2026-11-25T11:19:24.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 08:19:24 America/Santiago",
+      "context": "@CaffeSatoshi (10.810 seguidores, cuenta mediana), en inglés: defiende que la power law original de Dacoinminster (feb-2013) nunca se reajustó; con BTC cerca de $59.000 la línea marca ~$100.800 (~0,59×). ~13 min, 0 respuestas, 136 vistas. Power law: calza exacto con el gráfico propio de la curva de 2013 (techo 2017 a 9,4×, mínimo 2018 bajo la curva).",
+      "suggested_text": "Worth adding the other side of that same line, because it shows how wide the orbit really is. Against the untouched 2013 formula, the 2017 top printed about 9.4× the curve, and the 2018 low went below it. So ~0.59× isn't an anomaly for this model; it sits inside a range that has always swung hard in both directions.\n\nThat's also the honest strength of a fit nobody re-touched: it can't be accused of hindsight, and it never claimed to be a floor, only a trend that counts days. I charted the original 2013 curve against the full daily $BTC history, extended to 2060: https://x.com/ForecastQuant/status/2122317683030941979\n\nThe more interesting question may not be whether price returns to the line, but whether the swings around it are quietly narrowing as the asset matures.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122317683030941979",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 136,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 10810,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T11:33:09.161Z",
+      "followers_checked_at": "2026-11-25T11:33:09.161Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
