@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T13:48:09.251Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125584108260643127",
+      "author": "Darkfost_Coc",
+      "url": "https://x.com/Darkfost_Coc/status/2125584108260643127",
+      "created_at": "2026-11-25T13:35:17.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 10:35:17 America/Santiago",
+      "context": "@Darkfost_Coc (12.513 seguidores; autor verificado de CryptoQuant), en inglés: el ratio de UTXOs gastados en pérdida volvió a un umbral extremo, igual que en junio cuando BTC perdió los $60.000; lo ve como capitulación que construye piso. ~12 min, 501 vistas, 1 respuesta. Temperatura de mercado: se complementa con el índice Market Temperature.",
+      "suggested_text": "Realized losses are one leg of the picture; it gets sharper when you line them up with where $BTC sits against its cost basis and its long-term trend. My Market Temperature index blends four of those reads at 25% each: MVRV, price vs. the 200-week average of weekly closes, drawdown from the record, and volatility-adjusted 90-day momentum. It went from 99.29 to 0.67 in 364 days: https://x.com/ForecastQuant/status/2122727211610542288\n\nWhat stands out in episodes like June and today is who is selling, not just how much: coins bought high changing hands at a loss to buyers with a lower cost basis and a longer horizon. That transfer is what eventually rebuilds a floor, and it doesn't usually finish in one wave.\n\nThe tell may be whether this second round comes from the same cohort as June, or from the holders who sat through June and are only now giving up.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 501,
+        "like_count": 4,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 1
+      },
+      "followers_count": 12513,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T13:48:09.251Z",
+      "followers_checked_at": "2026-11-25T13:48:09.251Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
