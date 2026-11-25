@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T16:58:03.226Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125626961338798085",
+      "author": "rektcapital",
+      "url": "https://x.com/rektcapital/status/2125626961338798085",
+      "created_at": "2026-11-25T16:25:34.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 13:25:34 America/Santiago",
+      "context": "@rektcapital (561.954 seguidores), en inglés, con gráfico y citando su post del 14 de noviembre: Bitcoin ya se desvió -19% bajo la media móvil de 200 semanas, más acorde con las desviaciones históricas, que van de -15% (2015) a -31% (2020, 2022). Publicado hace ~32 min: 66 likes, 6 reposts, 10 respuestas, 11.468 vistas. Tema temperatura de mercado / indicadores de valoración y piso.",
+      "suggested_text": "Worth adding context to that range: the 200-week SMA isn't a fixed floor. Over Bitcoin's history it has kept drifting higher as older, cheaper weeks roll out of the window, so a -19% deviation today is measured against a much higher base than the -31% of 2020 or 2022.\n\nThat's why I never read it alone. In my Market Temperature index it's only 25% of the reading, next to MVRV, the drawdown from the high and volatility-adjusted 90-day momentum. That composite went from 99.29 to 0.67 in 364 days.\n\nDeep deviations have historically marked the zone where bottoms get built, not the exact day. What no chart shows is how long $BTC is willing to stay down there. https://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 11468,
+        "like_count": 66,
+        "quote_count": 0,
+        "reply_count": 10,
+        "retweet_count": 6
+      },
+      "followers_count": 561954,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T16:58:03.226Z",
+      "followers_checked_at": "2026-11-25T16:58:03.226Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
