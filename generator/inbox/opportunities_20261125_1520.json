@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T18:20:01.718Z",
+  "topic": "rainbow",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125651550500704647",
+      "author": "AshCrypto",
+      "url": "https://x.com/AshCrypto/status/2125651550500704647",
+      "created_at": "2026-11-25T18:03:16.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 15:03:16 America/Santiago",
+      "context": "@AshCrypto (2.146.473 seguidores), en inglés, con imagen: dice que Bitcoin cayó por debajo de su Rainbow Chart y que las últimas 2 veces fueron en noviembre de 2022 y septiembre de 2015 (\"You know what followed next\"). Publicado hace ~16 min: 196 likes, 18 reposts, 48 respuestas, 27.890 vistas. Tema arcoíris de riesgo (tono optimista).",
+      "suggested_text": "Worth remembering what the Rainbow Chart actually is: a log curve fitted to past price, with color bands on top. When price slips below all of them, the model isn't predicting anything new. It's telling you this move is more extreme than almost anything in its own history.\n\nThat history is the bullish part. Fourteen years, four halvings, from $12 to above $100,000, and the stretches where the bands looked \"broken\" ended up, in hindsight, among the best entries on the whole chart. Nothing guarantees a repeat, but the long-term trend has been remarkably forgiving to anyone who held $BTC through zones like this.\n\nBands can be redrawn. What's harder to redraw is how stretched fear has to get for a chart like this to break. https://x.com/ForecastQuant/status/2122106525854401008",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122106525854401008",
+      "topic": "rainbow",
+      "metrics": {
+        "bookmark_count": 7,
+        "impression_count": 27890,
+        "like_count": 196,
+        "quote_count": 2,
+        "reply_count": 48,
+        "retweet_count": 18
+      },
+      "followers_count": 2146473,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T18:20:01.718Z",
+      "followers_checked_at": "2026-11-25T18:20:01.718Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
