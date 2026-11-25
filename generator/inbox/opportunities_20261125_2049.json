@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T23:49:36.225Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125735238672261605",
+      "author": "FefeDemeny",
+      "url": "https://x.com/FefeDemeny/status/2125735238672261605",
+      "created_at": "2026-11-25T23:35:49.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 20:35:49 America/Santiago",
+      "context": "@FefeDemeny (Fefe Demeny, 70.247 seguidores), en inglés: \"Why the realized price of Bitcoin does not matter\". Argumenta que el realized price (~$54k) es menos confiable este ciclo: el volumen spot en BTC cayó ~72% desde 2022, más del 60% de los coins comprados vía ETF nunca se movieron (costo base ETF ~80K), así que el realized price se actualiza lento; puede seguir siendo piso amplio, pero la regla de \"tocarlo primero\" es menos segura. Publicado hace ~14 min: 26 likes, 2 reposts, 7 respuestas, 2.431 vistas. Tema temperatura de mercado / valoración.",
+      "suggested_text": "Fair point, and it's the best argument for never leaning on a single on-chain anchor. MVRV is just market price over realized price, so if realized price reprices slowly because ETF coins barely move, the ratio inherits the same blind spot.\n\nThat's why I prefer blending independent lenses: MVRV, price against the 200-week average, drawdown from the high, and volatility-adjusted 90-day momentum, 25% each. Even with all four mixed, my Market Temperature reading went from 99.29 to 0.67 in 364 days, about as cold as that scale gets.\n\nWhat a cold reading can't tell you is how long the cold lasts, and that's usually where \"it must tag level X first\" rules quietly break. https://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 2431,
+        "like_count": 26,
+        "quote_count": 0,
+        "reply_count": 7,
+        "retweet_count": 2
+      },
+      "followers_count": 70247,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T23:49:36.225Z",
+      "followers_checked_at": "2026-11-25T23:49:36.225Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
