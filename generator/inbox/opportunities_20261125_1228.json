@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T15:26:58.362Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125605684079112543",
+      "author": "ChentoTrades",
+      "url": "https://x.com/ChentoTrades/status/2125605684079112543",
+      "created_at": "2026-11-25T15:01:01.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-25 12:01:01 America/Santiago",
+      "context": "@ChentoTrades (101.088 seguidores), en inglés, con imagen: lista los bear markets de máximo a piso (2013: −87%; 2017: −84%; 2021: −78%) y dice que este ciclo va $126.208 → $55.156 (−56%); su objetivo es $48K (−62%) y, si las caídas siguen achicándose, la próxima rondaría −70% (~$38K). Cierra: \"Show me the bullish case, and I'll listen.\" Publicado hace ~25 min: 104 likes, 7 reposts, 28 respuestas, 7.250 vistas. Tema caídas y recuperación / ciclos.",
+      "suggested_text": "The shrinking-drawdown pattern is real, but depth is only half of the picture. The other half is time. In my Cycle Clock the 2011 cycle fell −92.7% and took 622 days to reclaim the high; 2013 fell −84.5% and needed 1,177 days. The shallower drop took almost twice as long to recover.\n\nThat's the part most bottom targets skip. A milder bear doesn't have to mean a faster one; in practice, less capitulation often means a longer grind, with price stuck in a range long enough to exhaust both sides.\n\nSo the real question for this cycle may not be whether $BTC sees $48K or $38K, but how long the market is willing to sit below $126K before anyone stops counting. https://x.com/ForecastQuant/status/2122375393776951738",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 7250,
+        "like_count": 104,
+        "quote_count": 1,
+        "reply_count": 28,
+        "retweet_count": 7
+      },
+      "followers_count": 101088,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T15:26:58.362Z",
+      "followers_checked_at": "2026-11-25T15:26:58.362Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
