@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T11:45:12.977Z",
+  "topic": "rainbow",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125555028123615716",
+      "author": "TheMoneyApe",
+      "url": "https://x.com/TheMoneyApe/status/2125555028123615716",
+      "created_at": "2026-11-25T11:39:44.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-25 08:39:44 America/Santiago",
+      "context": "@TheMoneyApe (486.165 seguidores), en inglés, con video: \"🚨 BITCOIN JUST FELL BELOW THE RAINBOW CHART. Bitcoin's Rainbow Chart is flashing a rare buying zone with $BTC dropping below its lowest valuation band. Could this be once in a lifetime opportunity to buy the dip? 🚀\" Publicado hace ~6 min: 2 likes, 1 respuesta, 648 vistas. Tema arcoíris de riesgo (tono optimista).",
+      "suggested_text": "The bottom band was drawn as the \"fire sale\" zone, so price below it means BTC is cheaper relative to its own long-term trend than the model ever expected. That is a valuation signal, not a timing signal: the curve says where price sits, not when it turns.\n\nOther gauges point the same way. My Market Temperature index, which blends MVRV, price vs the 200-week average, drawdown from the high and risk-adjusted momentum, went from 99.29 to 0.67 in 364 days. Readings that cold have historically been closer to accumulation phases than to tops.\n\nThe catch with \"once in a lifetime\" is that cheap can stay cheap longer than most people's patience. Sizing, spot instead of leverage, and how long you can sit through the boring part usually decide more than the exact entry.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "rainbow",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 648,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "followers_count": 486165,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T11:45:12.977Z",
+      "followers_checked_at": "2026-11-25T11:45:12.977Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
