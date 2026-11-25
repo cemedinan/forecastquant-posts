@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T14:06:17.519Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125590969877971111",
+      "author": "BitcoinMagazine",
+      "url": "https://x.com/BitcoinMagazine/status/2125590969877971111",
+      "created_at": "2026-11-25T14:02:33.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-25 11:02:33 America/Santiago",
+      "context": "@BitcoinMagazine (4.487.546 seguidores), en inglés, con imágenes: \"NEW: Michael Saylor says Strategy plans to buy every Bitcoin left to be mined and send the price to $10 million a coin 👀 'There's only 900,000 Bitcoin left to come out between now and 2140. Our plan is to buy it all.' 🚀\" Publicado hace ~5 min: 44 likes, 6 reposts, 5 respuestas, 10.200 vistas. Tema halving y emisión.",
+      "suggested_text": "The interesting part isn't the $10M headline, it's how small the remaining flow already is. After the next halving the block subsidy drops from 3.125 to 1.5625 BTC, so new issuance goes from roughly 450 to roughly 225 BTC a day, and only about 3.125% of the 21M cap will still be left to mine after that point.\n\nThat's why \"buy everything left to be mined\" sounds bigger than it is in flow terms: the real constraint isn't the coins still to come, it's the coins already out that holders refuse to sell. Miners have to sell part of what they mine to cover costs; long-term holders don't.\n\nIssuance stopped being the main driver of $BTC supply a while ago. The question that matters more now is who still has a reason to let go of what they hold.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 10200,
+        "like_count": 44,
+        "quote_count": 3,
+        "reply_count": 5,
+        "retweet_count": 6
+      },
+      "followers_count": 4487546,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T14:06:17.519Z",
+      "followers_checked_at": "2026-11-25T14:06:17.519Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
