@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T01:30:22.898Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125372988602167671",
+      "author": "david_eng_mba",
+      "url": "https://x.com/david_eng_mba/status/2125372988602167671",
+      "created_at": "2026-11-24T23:36:22.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 20:36:22 America/Santiago",
+      "context": "@david_eng_mba (26.490 seguidores), en inglés: \"Cut power prices 90%. A dollar runs an AI chip 10× longer. Once difficulty adjusts, miners still split ~450 new BTC a day. After the next halving, ~225. At $60K a coin, the cap is 21M. At $600K, it’s still 21M. If demand grows, buyers have to make holders a better offer. $BTC\" Publicado hace ~1,9 h: 17 likes, 1 respuesta, 1 cita, 1.427 vistas. Tema halving y emisión; calza con las cifras de tu post (~450 a ~225 BTC al día).",
+      "suggested_text": "The 450 → 225 step matters more than it looks. After the next halving only 3.125% of the 21M will still be left to issue, and the subsidy drops from 3.125 to 1.5625 BTC per block. New coins become a smaller and smaller share of what actually changes hands; the marginal seller is increasingly an existing holder, not a miner.\n\nCheaper power doesn't change that math. It pulls in more hashrate, difficulty adjusts, and issuance stays on schedule: the cost per coin can fall, the number of coins can't. I laid out the issuance numbers here: https://x.com/ForecastQuant/status/2122747344701501622\n\nWhich leaves an odd dynamic: miners compete harder every cycle for a reward that keeps shrinking, and at some point fees have to carry more of the security budget than the subsidy does.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1427,
+        "like_count": 17,
+        "quote_count": 1,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "followers_count": 26490,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T01:30:22.898Z",
+      "followers_checked_at": "2026-11-25T01:30:22.898Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
