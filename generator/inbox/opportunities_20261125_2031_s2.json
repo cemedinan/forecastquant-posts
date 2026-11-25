@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T23:30:23.593Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125729466228068653",
+      "author": "XRPathologist",
+      "url": "https://x.com/XRPathologist/status/2125729466228068653",
+      "created_at": "2026-11-25T23:12:53.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 20:12:53 America/Santiago",
+      "context": "@XRPathologist (8.127 seguidores), en inglés, siguiendo su post anterior (el que ya conversó contigo): las fases de acumulación tras el piso se acortan ~50% cada ciclo (2015: 252 días; 2018/19: 112; 2022/23: 63), así que con 30 días la expansión llegaría hacia el 21 de diciembre; mientras, rango ~$57,7K–$66K. A ~17 min: 10 likes, 2 guardados, 1 respuesta. Cuenta que ya interactúa contigo y aún no le respondes este post.",
+      "suggested_text": "The halving of each accumulation phase is a neat pattern, and there's a plausible mechanism behind it: the base absorbing supply keeps getting wider. Funded addresses went from roughly 1M in 2012 to 10M in 2016 and 50M in 2023, and even over the last year, with $BTC down 32%, the network added about 2.5M addresses with a balance. More holders and deeper markets should, in principle, compress the time it takes to build a base.\n\nThe caution is that it's a trend drawn through three points, and it only holds if the low is really in. Each of those phases also played out in a different market: in 2015 and 2018 there were no US spot ETFs pulling flows in and out every day.\n\nAnd a shorter base doesn't automatically mean a faster trip back to the old high. That has always run on a separate clock.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122675621704941640",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 584,
+        "like_count": 10,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 0
+      },
+      "followers_count": 8127,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T23:30:23.593Z",
+      "followers_checked_at": "2026-11-25T23:30:23.593Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
