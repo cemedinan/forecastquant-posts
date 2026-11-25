@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T18:54:46.952Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125662441736728882",
+      "author": "fernandoulrich",
+      "url": "https://x.com/fernandoulrich/status/2125662441736728882",
+      "created_at": "2026-11-25T18:46:33.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 15:46:33 America/Santiago",
+      "context": "@fernandoulrich (288.281 seguidores; sócio da Liberta Investimentos e cofundador da OranjeBTC), em português, com gráfico: \"Será que este é um bom momento de entrada no Bitcoin?\" Com o preço perto de US$ 60 mil, propõe olhar o MVRV para colocar a queda em perspectiva. ~8 min e 2 respostas ao detectá-lo. Pergunta aberta sobre MVRV, que se responde com o índice Market Temperature próprio.",
+      "suggested_text": "O MVRV é útil justamente porque troca a pergunta \"o preço caiu muito?\" por \"o preço está longe do custo de quem tem?\". Ele divide o valor de mercado pelo valor realizado, que avalia cada moeda pelo preço da última vez que ela se moveu on-chain. Abaixo de 1, o mercado como um todo está no prejuízo, e historicamente essas leituras apareceram perto das capitulações de 2015, 2018, março de 2020 e 2022.\n\nO limite dele é o tempo: diz se $BTC está barato em relação ao próprio custo, não quando a queda acaba. Em 2022 ficou meses na zona baixa antes de virar. Por isso prefiro olhar junto com outras métricas: num índice que combina MVRV, preço vs. média de 200 semanas, drawdown desde o topo e momentum ajustado por volatilidade, a leitura caiu de 99,29 para 0,67 em 364 dias: https://x.com/ForecastQuant/status/2122727211610542288\n\nTalvez \"bom momento de entrada\" seja menos um ponto no gráfico e mais uma faixa, e o que separa quem aproveita essa faixa de quem desiste no meio é outra coisa que nenhum indicador mede.",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1464,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 2,
+        "repost_count": 0
+      },
+      "followers_count": 288281,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T18:54:46.952Z",
+      "followers_checked_at": "2026-11-25T18:54:46.952Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
