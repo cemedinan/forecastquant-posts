@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T19:31:13.221Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125651052556894314",
+      "author": "BitcoinArchive",
+      "url": "https://x.com/BitcoinArchive/status/2125651052556894314",
+      "created_at": "2026-11-25T18:01:18.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 15:01:18 America/Santiago",
+      "context": "@BitcoinArchive (1.795.290 seguidores), en inglés, con imagen: \"~500 days until the 2028 Bitcoin halving. Historically, a prime window to accumulate.\" Publicado hace ~1,5 h: 236 likes, 25 reposts, 18 respuestas, 14 guardados, 17.962 vistas. Tema halving y emisión.",
+      "suggested_text": "Part of why that window has worked is arithmetic, not sentiment. The next halving takes the block subsidy from 3.125 to 1.5625 BTC, roughly 450 to 225 new coins a day, and after it only 3.125% of the 21M will still be left to issue. Accumulating before that cut has historically meant buying while the market is still absorbing the old issuance rate and sentiment sits close to its worst.\n\nThe catch is that 500 days is a long stretch to sit through. Recoveries have often taken longer than anyone expected: after one of the 2013 peaks, $BTC needed 1,177 days to reclaim the high.\n\nThe window is easy to see on a chart. Staying patient through all of it is a very different skill.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 14,
+        "impression_count": 17962,
+        "like_count": 236,
+        "quote_count": 1,
+        "reply_count": 18,
+        "retweet_count": 25
+      },
+      "followers_count": 1795290,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T19:31:13.221Z",
+      "followers_checked_at": "2026-11-25T19:31:13.221Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
