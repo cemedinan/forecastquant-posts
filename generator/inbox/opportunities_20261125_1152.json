@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T14:51:01.107Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125590332515799168",
+      "author": "cryptorover",
+      "url": "https://x.com/cryptorover/status/2125590332515799168",
+      "created_at": "2026-11-25T14:00:01.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-25 11:00:01 America/Santiago",
+      "context": "@cryptorover (1.622.937 seguidores), en inglés, con gráfico: \"Bitcoin supply in profits has collapsed. Less than 50% of all $BTC holders are now in a loss. Capitulation. 🚨\" Publicado hace ~50 min: 317 likes, 23 reposts, 56 respuestas, 28.189 vistas. Tema temperatura de mercado / valoración.",
+      "suggested_text": "Supply in profit is basically MVRV seen from the holder's side: when a large share of coins sits below the price they last moved at, the market's average cost basis is being tested, and that's historically where the forced and emotional selling concentrates.\n\nIt lines up with what a broader composite shows. My Market Temperature index (MVRV, price vs the 200-week average, drawdown from the high and volatility-adjusted 90-day momentum, 25% each) went from 99.29 to 0.67 in 364 days. That's about as cold as the reading gets.\n\nCold isn't the same as the bottom, though. Capitulation is usually confirmed in hindsight, by who stops selling rather than by who starts. The harder question is whether $BTC holders today are weaker hands than the ones who sat through 2018 and 2022.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 28189,
+        "like_count": 317,
+        "quote_count": 2,
+        "reply_count": 56,
+        "retweet_count": 23
+      },
+      "followers_count": 1622937,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T14:51:01.107Z",
+      "followers_checked_at": "2026-11-25T14:51:01.107Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
