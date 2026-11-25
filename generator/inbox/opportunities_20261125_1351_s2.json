@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T16:51:04.965Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125624420978835754",
+      "author": "somosbullmarket",
+      "url": "https://x.com/somosbullmarket/status/2125624420978835754",
+      "created_at": "2026-11-25T16:15:28.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 13:15:28 America/Santiago",
+      "context": "@somosbullmarket (76.692 seguidores), en español: noviembre marca la mayor salida mensual de los ETF de Bitcoin (más de US$4.700 millones); $BTC perdió más de 20% en el mes y el fin de semana se acercó a US$55.000. Cierra con pregunta abierta: \"¿Piso o más caída?\". ~35 min y 0 respuestas al detectarlo. Caídas y ciclos: se responde con los drawdowns históricos del Cycle Clock propio (2011: -92,7%, 622 días; 2013: -84,5%, 1.177 días).",
+      "suggested_text": "La pregunta \"¿piso o más caída?\" suele mirarse en el gráfico de un mes, pero el contexto útil está en los ciclos. Con un mínimo cerca de US$55.000, $BTC llegó a caer alrededor de 56% desde el máximo de US$126.000. Duele, pero es menos que en los ciclos anteriores: en 2011 la caída fue de 92,7% y tardó 622 días en recuperar el máximo; en 2013, de 84,5%, con 1.177 días de espera.\n\nEsa tendencia a caídas cada vez menos profundas tiene una lógica: más liquidez, más tenedores de largo plazo y, ahora, flujos institucionales vía ETF. Ese último factor corre en ambos sentidos, y los US$4.700 millones de salidas de este mes lo muestran: el mismo canal que amortiguó el ciclo también puede acelerar la venta.\n\nEl piso casi nunca se reconoce en el momento; se confirma meses después, cuando el precio deja de reaccionar a las malas noticias. Quizá la mejor pregunta no sea dónde está el piso, sino cuántas noticias como esta hacen falta para que dejen de mover el precio.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 487,
+        "like_count": 4,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 76692,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T16:51:04.965Z",
+      "followers_checked_at": "2026-11-25T16:51:04.965Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
