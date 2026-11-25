@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T00:58:39.395Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125366801689354455",
+      "author": "TwinTowerCity",
+      "url": "https://x.com/TwinTowerCity/status/2125366801689354455",
+      "created_at": "2026-11-24T23:11:47.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 20:11:47 America/Santiago",
+      "context": "@TwinTowerCity (53.949 seguidores), en inglés: \"Bitcoin rebounded 11% to $61,034 from a $55,111 cycle low as stocks slid. Analysts disagree on whether the bottom is in.\" Pregunta abierta sobre si ya se tocó piso: ~1 h 45 min, 0 respuestas, 193 vistas. Cuenta mediana sin competencia de respuestas; se responde con precio realizado, media de 200 semanas y el índice Market Temperature.",
+      "suggested_text": "Two levels frame that debate better than the bounce itself. The $55,111 low came within about 3.5% of the realized price ($53,250 on Nov 22, per 21Shares), the average cost basis of coins last moved on-chain, while $BTC is still below its 200-week average near $68K. The deepest bear-market lows have historically printed around or below realized price, and reclaiming the 200-week line usually came much later.\n\nThe market temperature index I track, which blends MVRV, price vs. the 200-week average, drawdown from the high and 90-day momentum, went from 99.29 to 0.67 in 364 days: https://x.com/ForecastQuant/status/2122727211610542288\n\nA reading that cold says most of the excess is gone. It says nothing about how long price decides to sit in the cold.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 193,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 1
+      },
+      "followers_count": 53949,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T00:58:39.395Z",
+      "followers_checked_at": "2026-11-25T00:58:39.395Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
