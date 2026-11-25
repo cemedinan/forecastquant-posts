@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T00:23:38.667Z",
+  "topic": "price",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125376669255156147",
+      "author": "CoinDesk",
+      "url": "https://x.com/CoinDesk/status/2125376669255156147",
+      "created_at": "2026-11-24T23:51:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 20:51:00 America/Santiago",
+      "context": "@CoinDesk (4.069.886 seguidores), en inglés, con video de 57 s: \"'I would never say never.' Bitcoin dropped to $55K over the weekend. Is that the bottom? Bloomberg's @EricBalchunas says that level brings out the true believers, and that gold's long slump shows survivors can take years to pay off.\" Publicado hace ~32 min: 16 likes, 16 respuestas, 10.676 vistas. Debate del precio de BTC; ángulo: piso vs. tiempo de recuperación (Drawdown Atlas, picos de 2013).",
+      "suggested_text": "The \"years to pay off\" part is the piece most people skip, and Bitcoin's own history backs it up. The two 2013 peaks are the cleanest example: one was reclaimed in 210 days, the other took 1,177 days after an 84.5% drawdown. Same asset, same year, completely different test of patience.\n\nFinding the low and getting paid for it are two separate problems. A bottom only gets a name in hindsight, and the stretch after it tends to be flat and boring enough that the true believers Balchunas mentions are the only ones still around when it turns.\n\nValuation already looks cold by most measures, which says something about risk, not about timing. The harder question is whether people buying at $55K are ready to hold through the version of this cycle that looks like 2013's second peak rather than its first.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "price",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 10676,
+        "like_count": 16,
+        "quote_count": 0,
+        "reply_count": 16,
+        "retweet_count": 1
+      },
+      "followers_count": 4069886,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T00:23:38.667Z",
+      "followers_checked_at": "2026-11-25T00:23:38.667Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
