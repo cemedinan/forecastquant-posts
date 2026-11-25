@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T21:20:15.719Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125698856621056336",
+      "author": "CryptoParadyme",
+      "url": "https://x.com/CryptoParadyme/status/2125698856621056336",
+      "created_at": "2026-11-25T21:11:15.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 18:11:15 America/Santiago",
+      "context": "@CryptoParadyme (Dyme, 77.051 seguidores), en inglés, sin imagen: \"Bitcoin now at $60,128.09. Those of you in the new school who believe this is the bottom simply have not understood the old mathematics of the four-year cycle... Bottoms are mathematically impossible in this new paradigm. So are relief rallies and all else.\" (tono irónico). Publicado hace ~9 min: 26 likes, 1 repost, 3 respuestas, 1.021 vistas. Tema caídas y recuperación / ciclos.",
+      "suggested_text": "The old four-year math is more humbling than either camp admits. Past cycle bottoms came deep and slow: after the 2011 peak BTC fell 92.7% and took 622 days to reclaim its high; the late-2013 peak fell 84.5% and needed 1,177 days. Even 2013 alone had two peaks, one recovered in 210 days, the other in 1,177.\n\nSo a \"bottom\" was never a price anyone called in real time. It's something the chart confirms months later, usually after most people stopped looking. Cycles rhyme in shape, not in depth or duration.\n\nWhich leaves the real question for this one: is the pattern breaking, or are we just in the stretch that always felt the longest? https://x.com/ForecastQuant/status/2122375393776951738",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1021,
+        "like_count": 26,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 1
+      },
+      "followers_count": 77051,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T21:20:15.719Z",
+      "followers_checked_at": "2026-11-25T21:20:15.719Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
