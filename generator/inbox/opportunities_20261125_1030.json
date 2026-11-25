@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T13:28:45.679Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125565334694359533",
+      "author": "Cointelegraph",
+      "url": "https://x.com/Cointelegraph/status/2125565334694359533",
+      "created_at": "2026-11-25T12:20:41.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-25 09:20:41 America/Santiago",
+      "context": "@Cointelegraph (2.925.313 seguidores), en inglés, con imagen: \"🚨 UPDATE: Bithumb confirms additional personal data was exposed in its October breach, including ID documents, bank account details, transaction histories and wallet addresses. Bithumb says its exchange systems and customer database were not directly compromised.\" Publicado hace ~1 h: 49 likes, 7 reposts, 25 respuestas, 25.079 vistas. Tema custodia (filtración de datos KYC en exchange).",
+      "suggested_text": "The detail that matters here isn't whether the exchange database was \"directly compromised\", it's the combination: ID documents + bank details + transaction histories + wallet addresses. That set ties a real name to on-chain balances, which is exactly what turns a phishing target into a physical one. Wrench attacks don't need a hacked exchange, just a leaked file.\n\nAnd unlike a password, none of it can be rotated. Coins already withdrawn to self-custody can still be traced from the KYC'd withdrawal address, so the exposure follows users even after they leave the platform.\n\nThat's the part of custody most people skip: securing the keys is only half of it. The other half is how much of your trail already sits on someone else's server. https://x.com/ForecastQuant/status/2123585216740528526",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 25079,
+        "like_count": 49,
+        "quote_count": 1,
+        "reply_count": 25,
+        "retweet_count": 7
+      },
+      "followers_count": 2925313,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T13:28:45.679Z",
+      "followers_checked_at": "2026-11-25T13:28:45.679Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
