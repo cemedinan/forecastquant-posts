@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T20:04:12.271Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125679467259707558",
+      "author": "MetaMask",
+      "url": "https://x.com/MetaMask/status/2125679467259707558",
+      "created_at": "2026-11-25T19:54:12.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 16:54:12 America/Santiago",
+      "context": "@MetaMask (1.417.122 seguidores), en inglés, sin imagen: \"Self-custody isn't a feature.. it's the point.\" Publicado hace ~10 min: 51 likes, 13 respuestas, 8.089 vistas. Tema custodia (autocustodia).",
+      "suggested_text": "Agreed, and it's worth being precise about what \"the point\" actually means. Self-custody isn't only holding your own keys; it's controlling every place those keys could leak. A browser extension, a phone, even a hardware wallet: each is a layer you're trusting, and each category has had its failures, from fake extensions and wallet drainers to address poisoning and tampered devices.\n\nThe strongest setups remove layers instead of adding them: keys generated offline, never touching a connected machine, plus an inheritance plan your family can actually carry out.\n\nHolding the keys is step one. Knowing everything that could still touch them is where custody really starts. https://x.com/ForecastQuant/status/2123585216740528526",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 8089,
+        "like_count": 51,
+        "quote_count": 0,
+        "reply_count": 13,
+        "retweet_count": 0
+      },
+      "followers_count": 1417122,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T20:04:12.271Z",
+      "followers_checked_at": "2026-11-25T20:04:12.271Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
