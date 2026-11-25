@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T23:00:28.197Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125720094668140712",
+      "author": "ChentoTrades",
+      "url": "https://x.com/ChentoTrades/status/2125720094668140712",
+      "created_at": "2026-11-25T22:35:39.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 19:35:39 America/Santiago",
+      "context": "@ChentoTrades (Chento, 101.095 seguidores), en inglés, post largo: \"Preserve your capital… Bear markets don't make you rich. They decide who's still around when the next bull market starts.\" Recuerda que BTC cayó 87% en 2014, 84% en 2018 y 78% en 2022, y que hoy va ~56% bajo el máximo; la mayoría pierde su capital de a poco con apalancamiento y comprando cada caída; propone menor tamaño, menos apalancamiento, stops y estar en efectivo. Publicado hace ~25 min: 107 likes, 5 reposts, 15 respuestas, 11 guardados, 5.406 vistas. Tema caídas y recuperación / ciclos.",
+      "suggested_text": "The depth numbers get the attention, but time is what actually drains people. After 2011's 92.7% fall, BTC took 622 days to reclaim its high; the late-2013 peak needed 1,177 days. Even within 2013 alone, one peak was recovered in 210 days and the other in 1,177. Same asset, same year, completely different tests of endurance.\n\nThat's why leverage is so lethal in this phase: it doesn't just amplify the drop, it puts a clock on a position in a market that has never respected clocks. Spot without borrowed money needs only one thing to outlast a bear market, and it's the one thing leverage takes away.\n\nThe bounce everyone calls the bottom is rarely the hard part. The hard part tends to be the long, flat stretch that comes after it.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122676377011069293",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 11,
+        "impression_count": 5406,
+        "like_count": 107,
+        "quote_count": 1,
+        "reply_count": 15,
+        "retweet_count": 5
+      },
+      "followers_count": 101095,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T23:00:28.197Z",
+      "followers_checked_at": "2026-11-25T23:00:28.197Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
