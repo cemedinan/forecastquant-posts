@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T11:05:09.722Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125538960940449999",
+      "author": "WatcherGuru",
+      "url": "https://x.com/WatcherGuru/status/2125538960940449999",
+      "created_at": "2026-11-25T10:35:53.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-25 07:35:53 America/Santiago",
+      "context": "@WatcherGuru (4.931.144 seguidores), en inglés: \"JUST IN: 🇫🇷 French Senate rejects proposal requiring citizens to declare crypto holdings of €100,000 or more held in self-custody wallets.\" Publicado hace ~30 min: 738 likes, 58 reposts, 76 respuestas, 105.565 vistas. Tema custodia (autocustodia y regulación).",
+      "suggested_text": "This matters more than it looks. A declaration rule for self-custody above a threshold doesn't just inform the tax office: it creates a list of who holds meaningful amounts outside an exchange, and lists like that leak. KYC databases have leaked before, and France has already seen a run of crypto kidnappings, including the abduction of Ledger's co-founder in early 2025.\n\nSelf-custody exists precisely so the risk sits with the keys, not with a third party's servers. The moment holders' names and amounts are collected in one place, the weakest link stops being the wallet and becomes the database.\n\nRejecting the proposal closes that door for now. Whether the idea comes back in another form, maybe under a lower threshold or an EU-level framework, is a different story.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2123585216740528526",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 35,
+        "impression_count": 105565,
+        "like_count": 738,
+        "quote_count": 17,
+        "reply_count": 76,
+        "retweet_count": 58
+      },
+      "followers_count": 4931144,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T11:05:09.722Z",
+      "followers_checked_at": "2026-11-25T11:05:09.722Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
