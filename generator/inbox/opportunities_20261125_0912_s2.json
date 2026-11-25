@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T12:09:48.491Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125562384274096635",
+      "author": "lucasdcf",
+      "url": "https://x.com/lucasdcf/status/2125562384274096635",
+      "created_at": "2026-11-25T12:08:58.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 09:08:58 America/Santiago",
+      "context": "@lucasdcf (7.174 seguidores; director ejecutivo de Vinteum), en portugués: el TJ-SP condenó a BitPay (carteira open source Copay) a restituir 336,2208 BTC a un usuario; critica que se trate como falla de seguridad no bloquear transacciones que la autocustodia no permite bloquear y que se aplique jurisprudencia bancaria a software de autocustodia. Noticia de minutos, 0 respuestas. Custodia: se aporta la diferencia entre defecto de producto y responsabilidad de custodio.",
+      "suggested_text": "O ponto central é técnico antes de ser jurídico: numa carteira de autocustódia, quem autoriza a transação é a chave privada, e ela fica com o usuário. A desenvolvedora não tem como bloquear, reverter nem \"segurar\" uma transação de $BTC, porque não existe um servidor no meio que aprove nada. Exigir esse mecanismo é, na prática, exigir que o software deixe de ser autocustódia.\n\nIsso não apaga a pergunta legítima sobre o incidente de 2018: se aquela falha podia expor chaves, existe uma discussão real sobre a qualidade da cadeia de software. Mas isso é responsabilidade por defeito de produto, algo bem diferente da responsabilidade de um custodiante. Misturar as duas cria um incentivo perverso: o caminho juridicamente mais seguro para quem desenvolve passaria a ser manter controle sobre os fundos do usuário.\n\nE se a jurisprudência seguir por aí, quem vai querer manter uma carteira open source no Brasil?",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 7174,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T12:09:48.491Z",
+      "followers_checked_at": "2026-11-25T12:09:48.491Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
