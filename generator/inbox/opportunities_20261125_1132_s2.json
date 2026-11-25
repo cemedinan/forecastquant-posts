@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T14:30:43.507Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125596382861955184",
+      "author": "hugomofn",
+      "url": "https://x.com/hugomofn/status/2125596382861955184",
+      "created_at": "2026-11-25T14:24:04.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 11:24:04 America/Santiago",
+      "context": "@hugomofn (15.806 seguidores; fundador de Nunchuk), en inglés: \"Timelocks don't replace multisig\"; tras los ataques de cadena de suministro a Ledger y Trezor, su protocolo de herencia on-chain ahora exige 2 llaves para reclamar y agrega rutas de respaldo con timelock. ~6 min, 139 vistas, 5 guardados, 1 respuesta (despegando). Custodia: se aporta el riesgo del heredero al reclamar y el equilibrio entre seguridad y recuperabilidad.",
+      "suggested_text": "The heir-side point is the one most setups miss: the claim is the moment of maximum exposure, because it's often the first time that seed ever touches a device, and it's done by the least technical person in the chain, under emotional pressure. A timelock decides when $BTC can move; it says nothing about whether the device doing the moving is honest.\n\nWhat makes a 2-key default sound is that it turns a tampered stack into a partial compromise instead of a total one. The cost is real, though: every extra key is something the family has to locate, recognize and use correctly years later, possibly with hardware that no longer exists. Security against attackers and recoverability by heirs pull in opposite directions, and the right point between them is rarely the same for two families.\n\nWhich is why the instructions an heir inherits may end up mattering as much as the script itself.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 139,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 0
+      },
+      "followers_count": 15806,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T14:30:43.507Z",
+      "followers_checked_at": "2026-11-25T14:30:43.507Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
