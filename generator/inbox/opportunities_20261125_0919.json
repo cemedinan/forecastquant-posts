@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T12:20:10.048Z",
+  "topic": "rainbow",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125560464385933723",
+      "author": "Cointelegraph",
+      "url": "https://x.com/Cointelegraph/status/2125560464385933723",
+      "created_at": "2026-11-25T12:01:20.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-25 09:01:20 America/Santiago",
+      "context": "@Cointelegraph (2.925.287 seguidores), en inglés, con imagen: \"🔥 LATEST: Bitcoin has fallen below the lowest band of the Bitcoin Rainbow Chart, labeled \"Basically a Fire Sale.\" Are you buying the dip?\" Publicado hace ~20 min: 50 likes, 8 reposts, 32 respuestas, 18.047 vistas. Tema arcoíris de riesgo (tono optimista).",
+      "suggested_text": "\"Fire sale\" is the name of the band, but the more useful read is what it measures: how far price sits from Bitcoin's long-term log trend. Below the lowest band means that gap is wider on the downside than at any point the chart was built to show.\n\nZoom out and the pattern is familiar. 14 years and 4 halvings took BTC from $12 to over $100,000, and almost every cycle included stretches where the chart looked broken and sentiment was at its worst. Those stretches felt like the end of the model at the time, and in hindsight read more like the cheap part of the curve.\n\nNone of that sets a floor or a date. But when a valuation chart gets declared dead, it's worth asking whether the trend failed or the crowd's patience did. Full history: https://x.com/ForecastQuant/status/2122106525854401008",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122106525854401008",
+      "topic": "rainbow",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 18047,
+        "like_count": 50,
+        "quote_count": 0,
+        "reply_count": 32,
+        "retweet_count": 8
+      },
+      "followers_count": 2925287,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T12:20:10.048Z",
+      "followers_checked_at": "2026-11-25T12:20:10.048Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
