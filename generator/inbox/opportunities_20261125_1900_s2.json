@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T22:00:06.518Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125709431547871316",
+      "author": "brickcryptox",
+      "url": "https://x.com/brickcryptox/status/2125709431547871316",
+      "created_at": "2026-11-25T21:53:16.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 18:53:16 America/Santiago",
+      "context": "@brickcryptox (16.462 seguidores; trader), en inglés, con gráfico: espera 30 días de acumulación con subida lenta hacia 66,5K, un techo local hacia el 22 de diciembre y el piso del ciclo hacia el 17 de febrero. Despegando: en ~6 min tenía 21 likes, 6 reposts, 4 guardados y solo 4 respuestas. Se contesta con tus datos de caídas y tiempos de recuperación.",
+      "suggested_text": "A cycle bottom on a specific date is a bold call, and history makes the timing the hardest part. The depth of $BTC drawdowns has been fairly consistent (-92.7% after 2011, -84.5% after the late-2013 top), but the time around them hasn't: 622 days to reclaim the 2011 high versus 1,177 for the 2013 one, and even the two 2013 tops recovered in 210 and 1,177 days.\n\nThat spread is why the Cycle Clock reads bottoms as a zone rather than a day: https://x.com/ForecastQuant/status/2122375393776951738\n\nA relief grind toward 66.5K before a lower low does fit how past bear markets have moved. Whether February turns out to be the date, or just the stretch where the market finally runs out of sellers, is a different question.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 1126,
+        "like_count": 21,
+        "quote_count": 0,
+        "reply_count": 4,
+        "repost_count": 6
+      },
+      "followers_count": 16462,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T22:00:06.518Z",
+      "followers_checked_at": "2026-11-25T22:00:06.518Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
