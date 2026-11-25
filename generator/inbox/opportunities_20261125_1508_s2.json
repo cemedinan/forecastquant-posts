@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T18:08:53.175Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125651013226942526",
+      "author": "0xJokker",
+      "url": "https://x.com/0xJokker/status/2125651013226942526",
+      "created_at": "2026-11-25T18:01:08.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 15:01:08 America/Santiago",
+      "context": "@0xJokker (16.044 seguidores, cuenta mediana), en español: Bitcoin estaría repitiendo por cuarta vez el patrón de 4 años (bear, recuperación, bull #1, bull #2) y 2027 podría ser ventana de acumulación; nota que esta corrección fue más corta y menos profunda y pregunta si los 55k fueron el suelo. ~7 min al detectarlo, 2 respuestas. Halving: se aporta el mecanismo (emisión ~450 → ~225 BTC/día, 3,125% por emitir) y la secuencia de drawdowns cada vez menores.",
+      "suggested_text": "El patrón calza, pero vale la pena mirar qué lo sostiene, porque esa es la parte que está cambiando. Ese ritmo de cuatro años no es calendario: es el halving. Cada uno partió por la mitad la emisión nueva, y en ciclos tempranos ese recorte era enorme frente a la oferta total. Hoy la red emite unos 450 BTC al día; tras el próximo halving serán ~225, y para entonces solo quedará por emitir el 3,125% de los 21 millones.\n\nEso explica bien lo que señalas de que cada corrección es menos profunda: desde el máximo, la caída fue de ~84% en 2014, ~84% en 2018, ~77% en 2022, y este ciclo va en torno a 56% con el mínimo de 55k. Un shock de oferta cada vez más chico, frente a un mercado cada vez más grande y con ETF, tiende a producir ciclos más suaves.\n\nLa pregunta incómoda es la inversa: si el motor del patrón pesa menos en cada vuelta, ¿qué parte del ciclo de cuatro años sigue siendo oferta, y qué parte ya es solo un mercado que se comporta así porque espera que el patrón se repita?",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 107,
+        "like_count": 4,
+        "quote_count": 0,
+        "reply_count": 2,
+        "repost_count": 2
+      },
+      "followers_count": 16044,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T18:08:53.175Z",
+      "followers_checked_at": "2026-11-25T18:08:53.175Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
