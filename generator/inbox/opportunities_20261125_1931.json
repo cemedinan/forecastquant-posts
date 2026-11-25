@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T22:31:30.939Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125715530065547585",
+      "author": "dgt10011",
+      "url": "https://x.com/dgt10011/status/2125715530065547585",
+      "created_at": "2026-11-25T22:17:30.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 19:17:30 America/Santiago",
+      "context": "@dgt10011 (105.523 seguidores), en inglés, post largo: reflexiona que este es \"psychologically the toughest bitcoin cycle yet\" para él; la tesis de Bitcoin está más vigente que nunca (desconfianza institucional, vigilancia, riesgo criptográfico) pero el precio no da un retorno diferenciado y tienta rotar a otros activos. Concluye que Bitcoin nunca prometió un precio ni un catalizador sino \"an exit\" (oferta que nadie infla, liquidación sin censura, propiedad sin permiso) y que lo que está dañado quizá es la paciencia. Publicado hace ~14 min: 40 likes, 5 respuestas, 2.638 vistas. Tema caídas y recuperación / ciclos.",
+      "suggested_text": "What makes this one heavier isn't the depth of the drawdown, it's the lack of narrative cover. Past cycles were brutal in raw numbers: after 2011 BTC fell 92.7% and took 622 days to reclaim its high; after late 2013 it fell 84.5% and needed 1,177 days. But back then the pain had an obvious excuse: immature tech, failing exchanges. Today the thesis is arguably more relevant than ever and price still isn't paying for it. That's a different kind of test.\n\nOne data point that fits your \"exit\" framing: over the past year BTC fell about 32%, and the network still added roughly 2.5 million addresses with a balance. Price tells one story; people quietly keeping a position tells another.\n\nPatience is easy when the chart agrees with you. The real cost is holding an exit whose value only becomes obvious the day it's the last door still open.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2638,
+        "like_count": 40,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 0
+      },
+      "followers_count": 105523,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T22:31:30.939Z",
+      "followers_checked_at": "2026-11-25T22:31:30.939Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
