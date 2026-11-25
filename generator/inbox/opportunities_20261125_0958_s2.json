@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T12:56:59.317Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125573718080409847",
+      "author": "PastanagaCrypto",
+      "url": "https://x.com/PastanagaCrypto/status/2125573718080409847",
+      "created_at": "2026-11-25T12:54:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 09:54:00 America/Santiago",
+      "context": "@PastanagaCrypto (30.567 seguidores, cuenta mediana), en español: \"Holdear Bitcoin no es rentable\"; propone vender tras 3 años de subidas y recomprar tras una caída del 60%. ~3 min, 469 vistas y 0 respuestas (despegando). Caídas y ciclos: se responde con datos del Cycle Clock y del Drawdown Atlas.",
+      "suggested_text": "La regla suena limpia vista hacia atrás, pero se apoya en muy pocos ciclos y en umbrales elegidos después. En 2011 la caída de $BTC llegó a -92,7% y en 2013 a -84,5%: quien recompraba al -60% todavía tenía por delante una baja de más de la mitad de lo que le quedaba. Y la recuperación tampoco tiene reloj: en 2013 hubo dos máximos, uno se recuperó en 210 días y el otro en 1.177.\n\nCon tan pocas muestras, \"vender tras 3 años y recomprar tras -60%\" es más un ajuste a la historia que una estrategia probada, y cada salida paga impuestos y abre la posibilidad de no volver a entrar. Eso no quita que holdear sin plan tenga su costo; solo que equivocarse en el timing no cuesta lo mismo hacia los dos lados.\n\nLa pregunta incómoda es cuántos de los que vendieron en el techo de un ciclo recompraron de verdad en el piso del siguiente.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122375393776951738",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 469,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 30567,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T12:56:59.317Z",
+      "followers_checked_at": "2026-11-25T12:56:59.317Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
