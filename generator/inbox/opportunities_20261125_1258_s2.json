@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T15:58:26.492Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125617541720555791",
+      "author": "Criptoinforme",
+      "url": "https://x.com/Criptoinforme/status/2125617541720555791",
+      "created_at": "2026-11-25T15:48:08.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 12:48:08 America/Santiago",
+      "context": "@Criptoinforme (15.738 seguidores, cuenta mediana de noticias), en español: $BTC vuelve a perder US$60.000 (US$58.250, mínimo US$57.300 según Binance) y está 14,77% bajo su media de 200 semanas (cálculo de Criptoinforme); sexta sesión de salidas de ETF (−US$231,56 M el martes) y miedo y codicia en 13. Noticia fresca (~10 min al detectarla), 1 respuesta. Encaja con temperatura de mercado: media de 200 semanas y el índice Market Temperature propio.",
+      "suggested_text": "Ese 14,77% bajo la media de 200 semanas es el dato más relevante del post. Esa media resume cuatro años de precio, casi un ciclo completo de halving, y por eso funciona más como un costo de largo plazo del mercado que como un soporte técnico: históricamente $BTC ha pasado muy poco tiempo por debajo, y esos tramos coincidieron con las zonas de capitulación de cada ciclo.\n\nLo que cambia la lectura es la duración, no la profundidad. En 2020 fue una mecha de días; en 2022 fueron meses bajo la media antes de recuperarla. Por eso conviene mirarla junto a otras variables: en este índice la combino con MVRV, drawdown desde el máximo y momentum ajustado por volatilidad, y pasó de 99,29 a 0,67 en 364 días: https://x.com/ForecastQuant/status/2122727211610542288\n\nCon miedo y codicia en 13 y seis sesiones seguidas de salidas de ETF, el precio dice \"barato\" frente a su propia historia. Lo que todavía no dice es cuánto tiempo va a pedir el mercado para que eso se note.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 98,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 0
+      },
+      "followers_count": 15738,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T15:58:26.492Z",
+      "followers_checked_at": "2026-11-25T15:58:26.492Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
