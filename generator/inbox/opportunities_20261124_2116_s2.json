@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T00:16:12.807Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125367821534192007",
+      "author": "CriptoNoticias",
+      "url": "https://x.com/CriptoNoticias/status/2125367821534192007",
+      "created_at": "2026-11-24T23:15:50.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-24 20:15:50 America/Santiago",
+      "context": "@CriptoNoticias (266.854 seguidores), en español: \"El hackeo a Binance encendió la caída de bitcoin, pero las liquidaciones y la salida de capital hicieron la mayor parte del daño.\" Enlaza un artículo sobre un informe de 21Shares: BTC llegó a caer 26% desde el ataque, salidas de USD 3.900 M de ETF de BTC y ETH, USD 10.700 M menos en stablecoins, 81% de USD 5.800 M liquidados fueron largos, los 18.270 BTC robados sin moverse, BTC bajo la media de 200 semanas (~USD 68.000) y precio realizado en USD 53.250. Noticia de ~1 hora, 0 respuestas y 1.741 vistas: post en español, fresco y sin competencia, que menciona la media de 200 semanas y la mecánica de las caídas.",
+      "suggested_text": "El dato que más llama la atención del informe es que los 18.270 BTC robados seguían sin moverse a mediados de noviembre. O sea, el hackeo fue el detonante, pero no el vendedor: el daño vino de la liquidez que se fue (USD 3.900 millones fuera de los ETF de BTC y ETH, USD 10.700 millones menos en stablecoins) y de los largos apalancados liquidados en cascada.\n\nEs el patrón de casi todas las caídas fuertes de $BTC: el evento abre la grieta y el apalancamiento la ensancha. Por eso perder la media de 200 semanas (cerca de USD 68.000) pesa más que el titular del hackeo, y el precio realizado en USD 53.250 pasa a ser la referencia que el mercado mira ahora.\n\nLo difícil de ver en tiempo real es cuándo ya no queda apalancamiento que limpiar, y suele ser eso, más que el fin de las malas noticias, lo que separa un rebote de un piso.",
+      "language": "es",
+      "cta": "",
+      "source_post_id": "",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1741,
+        "like_count": 5,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 2
+      },
+      "followers_count": 266854,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T00:16:12.807Z",
+      "followers_checked_at": "2026-11-25T00:16:12.807Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
