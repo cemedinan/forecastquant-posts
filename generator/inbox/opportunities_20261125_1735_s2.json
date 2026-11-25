@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T20:34:47.723Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125682832609567217",
+      "author": "vitalikmilgrau",
+      "url": "https://x.com/vitalikmilgrau/status/2125682832609567217",
+      "created_at": "2026-11-25T20:07:35.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 17:07:35 America/Santiago",
+      "context": "@vitalikmilgrau (25.666 seguidores; cuenta de humor/parodia sobre cripto e inversiones), en portugués: \"21 de novembro de 2022: o bitcoin caiu 28% em 15 dias e ali foi o FUNDO... 21 de novembro de 2026: o bitcoin caiu 28% em 15 dias. Mesmo dia. Mesma queda. Foi o fundo de novo?\" ~27 min y 1 respuesta al detectarlo. Pregunta abierta sobre el piso, en portugués, que se responde con tus datos de temperatura y caídas.",
+      "suggested_text": "A coincidência de calendário é curiosa, mas o que pesa mais é o contexto de cada queda. Em novembro de 2022 o $BTC já acumulava cerca de 77% de queda desde o topo, e aquela perna de 28% foi a capitulação de um mercado que já estava exausto.\n\nHoje a leitura também está fria: no índice que combina MVRV, preço vs. média de 200 semanas, drawdown desde o recorde e momentum ajustado por volatilidade, a temperatura saiu de 99,29 para 0,67 em 364 dias: https://x.com/ForecastQuant/status/2122727211610542288\n\nSó que fundo costuma ser uma faixa, não um dia. Depois do topo do fim de 2013, o preço levou 1.177 dias para voltar ao recorde. Talvez a pergunta mais útil nem seja se foi o fundo, e sim quanto tempo o mercado aguenta ficar perto dele.",
+      "language": "pt",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 102,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 0
+      },
+      "followers_count": 25666,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T20:34:47.723Z",
+      "followers_checked_at": "2026-11-25T20:34:47.723Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
