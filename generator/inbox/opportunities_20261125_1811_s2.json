@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T21:10:44.145Z",
+  "topic": "rainbow",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125698540303179848",
+      "author": "silvertrade",
+      "url": "https://x.com/silvertrade/status/2125698540303179848",
+      "created_at": "2026-11-25T21:10:00.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "snowflake_id",
+      "created_at_chile": "2026-11-25 18:10:00 America/Santiago",
+      "context": "@silvertrade (85.883 seguidores), en inglés, con imagen: \"🌈 BITCOIN PLUNGES BELOW ITS FAMOUS RAINBOW CHART ⚠️ This could get ugly...\" Recién publicado (~1 min) y sin respuestas al detectarlo. Noticia fresca del arcoíris que se contesta con tus datos, en tono optimista.",
+      "suggested_text": "Worth remembering what the Rainbow Chart actually is: a log regression fitted to past prices, with bands drawn around it. Slipping under the lowest band doesn't break the model so much as say the market is pricing $BTC further below its long-run trend than the fit expected.\n\nThe arc it was built on is still the same one: 14 years and 4 halvings, from around $12 to above $100,000, and every one of those cycles had stretches that looked broken from the inside. The bands are drawn after the fact, so the useful question was never whether price stays inside them, but how far below trend the market is willing to go before long-term holders start treating it as an opportunity.\n\n\"Ugly\" and \"cheap relative to trend\" can describe the same week. History tends to remember only one of them.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122106525854401008",
+      "topic": "rainbow",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 85883,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T21:10:44.145Z",
+      "followers_checked_at": "2026-11-25T21:10:44.145Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
