@@ -1,0 +1,37 @@
+{
+  "searched_at": "2026-11-25T19:54:24.499Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125650106867458353",
+      "author": "XRPathologist",
+      "url": "https://x.com/XRPathologist/status/2125650106867458353",
+      "created_at": "2026-11-25T17:57:32.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 14:57:32 America/Santiago",
+      "context": "@XRPathologist (8.129 seguidores), en inglés, respondiendo a tu respuesta sobre drawdowns por ciclo: \"I didn't consider that first drawdown due to very, very limited adoption. Most people were clueless to Bitcoin or even how to buy it.\" Cuenta que ya conversa contigo y aún no le contestas; sigue la conversación con datos de caídas y adopción.",
+      "suggested_text": "That's a fair reason to set it aside. In 2011 the market was a few thousand early users and one exchange did most of the trading, so a -92.7% move says as much about thin plumbing as it does about holder behavior.\n\nThe same logic cuts the other way, though. If thin adoption explains how deep 2011 went, a wider holder base should explain part of why each bottom since has been shallower. Over the last year $BTC fell 32% and the network still added about 2.5M addresses with a balance, something the 2011 market simply couldn't do.\n\nWhere it gets less tidy is the recovery clock: the late-2013 high, with a far bigger base than 2011, still took 1,177 days to reclaim versus 622. Adoption seems to cap the depth more clearly than it shortens the wait.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122676377011069293",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 46,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0
+      },
+      "followers_count": 8129,
+      "followers_count_verified": true,
+      "followers_source": "x.search_posts_all.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T19:54:24.499Z",
+      "followers_checked_at": "2026-11-25T19:54:24.499Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
