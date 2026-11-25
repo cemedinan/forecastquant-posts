@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T01:58:25.807Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125398297494049236",
+      "author": "Diditaihuttu",
+      "url": "https://x.com/Diditaihuttu/status/2125398297494049236",
+      "created_at": "2026-11-25T01:16:56.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-24 22:16:56 America/Santiago",
+      "context": "@Diditaihuttu (87.926 seguidores), en inglés, con imagen: \"Bitcoin Wednesday: weekly RSI & momentum. BTC: $59.4k. Week: -5.7%. Weekly RSI (14): 34; 4 weeks ago: 52. Weekly MACD: bearish, histogram still falling. Momentum is weak. But RSI is not oversold (<30) yet. Weekly RSI closed under 30 only a few times: • Jan 2015 • Dec 2018 • …\" Publicado hace ~40 min: 3 likes, 1 repost, 0 respuestas, 699 vistas. Tema temperatura de mercado / valoración y piso.",
+      "suggested_text": "Weekly RSI at 34 with the MACD histogram still falling says momentum is weak, but momentum is only one input. Put it next to valuation (MVRV), price against the 200-week average and the drawdown from the high, and the read is much colder than RSI alone suggests: my Market Temperature index went from 99.29 to 0.67 in 364 days.\n\nThat gap is the useful part. RSI and MACD measure the speed of the move, not how stretched price is versus what holders actually paid, so valuation gauges can sit at extremes well before trend indicators confirm anything.\n\nJan 2015 and Dec 2018 are worth looking at from that angle too, because momentum and valuation don't always hit their extremes in the same week.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 699,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "followers_count": 87926,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T01:58:25.807Z",
+      "followers_checked_at": "2026-11-25T01:58:25.807Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
