@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T17:45:48.460Z",
+  "topic": "halving",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125643180037054772",
+      "author": "cryptorover",
+      "url": "https://x.com/cryptorover/status/2125643180037054772",
+      "created_at": "2026-11-25T17:30:01.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 14:30:01 America/Santiago",
+      "context": "@cryptorover (1.623.083 seguidores), en inglés, con imagen: \"Bitcoin Halving Progress: 65%\"; dice que esta señal predijo cada piso de $BTC (\"You know what that means...\"). Publicado hace ~16 min: 104 likes, 11 reposts, 26 respuestas, 19.123 vistas. Tema halving y emisión.",
+      "suggested_text": "The halving clock has lined up with past bottoms for a mechanical reason more than a magical one. Every four years the block subsidy is cut in half, and miners, the only structural sellers of new supply, have to adapt. Today that's roughly 450 BTC a day hitting the market. After the next halving it drops to about 225, from 3.125 to 1.5625 BTC per block, with only 3.125% of the 21M left to be issued.\n\nAt 65% of the cycle, though, new supply isn't what's moving price. Demand is: ETF flows, forced sellers and how patient long-term holders are willing to be.\n\nThe more interesting question for $BTC is what the cycle looks like once issuance is too small to matter at all.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122747344701501622",
+      "topic": "halving",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 19123,
+        "like_count": 104,
+        "quote_count": 1,
+        "reply_count": 26,
+        "retweet_count": 11
+      },
+      "followers_count": 1623083,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T17:45:48.460Z",
+      "followers_checked_at": "2026-11-25T17:45:48.460Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
