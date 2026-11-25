@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-25T10:31:02.281Z",
+  "topic": "rainbow",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125530300537340149",
+      "author": "Cryptoze",
+      "url": "https://x.com/Cryptoze/status/2125530300537340149",
+      "created_at": "2026-11-25T10:01:28.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_id",
+      "created_at_chile": "2026-11-25 07:01:28 America/Santiago",
+      "context": "@Cryptoze (92.545 seguidores), en inglés, con imagen: \"🚨 BITCOIN HAS BROKEN THE RAINBOW CHART. $BTC is now trading BELOW the entire model. Is the model officially dead? 💀\" Publicado hace ~30 min: 60 likes, 5 reposts, 34 respuestas, 3.921 vistas. Tema arcoíris de riesgo (BTC bajo la banda inferior del Rainbow Chart; varias cuentas grandes lo comentan esta mañana).",
+      "suggested_text": "Trading under the lowest band says more about the model than about Bitcoin. The Rainbow Chart is a logarithmic curve fitted to past prices with color bands drawn around it. It was never a law, and it has already been redrawn before when price stepped outside it.\n\nWhat it captures well is the long arc: 14 years, 4 halvings, from $12 to over $100,000, with deep drawdowns into the cooler colors along the way. Price below the bottom band is that same signal pushed to an extreme: BTC far under its own long-term trend.\n\nModels tend to break at the edges. The real question is whether the trend is wrong, or the market is simply stretched further from it than the curve ever allowed. Full history here: https://x.com/ForecastQuant/status/2122106525854401008",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122106525854401008",
+      "topic": "rainbow",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 3921,
+        "like_count": 60,
+        "quote_count": 0,
+        "reply_count": 34,
+        "retweet_count": 5
+      },
+      "followers_count": 92545,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_id.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-25T10:31:02.281Z",
+      "followers_checked_at": "2026-11-25T10:31:02.281Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
