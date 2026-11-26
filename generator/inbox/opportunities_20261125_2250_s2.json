@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-26T01:48:37.308Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125758215912632827",
+      "author": "ZynxBTC",
+      "url": "https://x.com/ZynxBTC/status/2125758215912632827",
+      "created_at": "2026-11-26T01:07:08.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 22:07:08 America/Santiago",
+      "context": "@ZynxBTC (22.444 seguidores, Bitcoin y economía austriaca), en inglés: dice que es momento de comprar porque estamos cerca de los mínimos del bear market, con una lista de 14 frases de desesperación de su feed (liquidaciones, \"Bitcoin está muerto\", mineros capitulando, Schiff tenía razón...). A ~41 min: 55 likes, 2 reposts, 4 guardados, 10 respuestas. Cuenta mediana con post despegando; se puede responder con tu Market Temperature y los datos del halving (punto 11 sobre mineros).",
+      "suggested_text": "Sentiment lists like this are a decent contrarian tell, but the feed is a noisy sensor. The data says something similar with less emotion: my Market Temperature index (MVRV, price vs. the 200-week average, drawdown from the record and volatility-adjusted 90-day momentum, 25% each) fell from 99.29 to 0.67 in 364 days. Cold confirms the mood; it has never said how long the floor lasts.\n\nPoint 11 deserves more nuance than the rest. Miner stress is structural, not a sign the network is dying: the next halving cuts the subsidy from 3.125 to 1.5625 BTC per block, roughly 450 to 225 BTC a day, and by then only 3.125% of the 21M will be left to issue. Weak miners selling has been part of how past $BTC bear markets cleared supply.\n\nDespair tends to mark the zone. Time spent in it is the part nobody can chart.",
+      "language": "en",
+      "cta": "",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 1544,
+        "like_count": 55,
+        "quote_count": 0,
+        "reply_count": 10,
+        "repost_count": 2
+      },
+      "followers_count": 22444,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-26T01:48:37.308Z",
+      "followers_checked_at": "2026-11-26T01:48:37.308Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
