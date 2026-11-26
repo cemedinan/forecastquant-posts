@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-26T00:13:46.416Z",
+  "topic": "powerlaw",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125741208894832849",
+      "author": "david_eng_mba",
+      "url": "https://x.com/david_eng_mba/status/2125741208894832849",
+      "created_at": "2026-11-25T23:59:33.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 20:59:33 America/Santiago",
+      "context": "@david_eng_mba (26.506 seguidores, perfil de power law y análisis cuantitativo), en inglés: tras un rebote de 9,5%, $BTC está 14% bajo su piso P10 de la power law y 11% bajo la media de 200 semanas; dice que estuvo bajo ese piso 24 veces y un año después siempre estaba más arriba (peor +39%, mediana +118%). A ~14 min: 10 likes, 1 repost, 1 respuesta. Cuenta mediana con post despegando, poca competencia y datos que calzan con tu power law y Market Temperature.",
+      "suggested_text": "The 24-for-24 stat is striking, but those episodes aren't independent: readings below the floor tend to bunch up inside a few bear markets, so the real sample is closer to a handful of cycles than to 24 separate trials. Worth keeping in mind before treating \"worst year +39%\" as a floor of its own.\n\nWhat stands out right now is that two very different anchors agree: a time-based curve (the power law) and a cost-based one (the 200-week MA). My Market Temperature index blends MVRV, price vs. the 200-week average, drawdown from the record and volatility-adjusted 90-day momentum, and it went from 99.29 to 0.67 in 364 days. That's about as cold as that data gets.\n\nThe 2018 low also slipped under the original power law before the curve mattered again. Cold readings have historically been good zones to accumulate $BTC; they've rarely been good timing tools.\n\nhttps://x.com/ForecastQuant/status/2122727211610542288",
+      "language": "en",
+      "cta": "",
+      "topic": "powerlaw",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 590,
+        "like_count": 10,
+        "quote_count": 0,
+        "reply_count": 1,
+        "repost_count": 1
+      },
+      "followers_count": 26506,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-26T00:13:46.416Z",
+      "followers_checked_at": "2026-11-26T00:13:46.416Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
