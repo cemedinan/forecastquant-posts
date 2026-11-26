@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-26T01:26:26.828Z",
+  "topic": "temperature",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125755828112412888",
+      "author": "WuBlockchain",
+      "url": "https://x.com/WuBlockchain/status/2125755828112412888",
+      "created_at": "2026-11-26T00:57:38.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 21:57:38 America/Santiago",
+      "context": "@WuBlockchain (Wu Blockchain, 558.063 seguidores), en inglés: Galaxy (Alex Thorn) retira su llamado de que el mercado bajista terminó en junio, tras perder BTC las medias de 50 y 200 semanas; si cierra bajo el mínimo de junio ($58.525), los 7 quiebres históricos comparables cayeron al menos 17% más (mediana 52%), con mínimos posibles de ~$48.500 y ~$28.200; solo 2 de 13 indicadores de piso cumplidos. Publicado hace ~30 min: 17 likes, 5 reposts, 13 respuestas, 6.972 vistas. Tema temperatura de mercado / piso.",
+      "suggested_text": "The interesting part isn't the downside targets, it's why the call was withdrawn. Losing the 200-week average matters because in most past cycles that zone acted as the long-term floor, so once price trades below it, \"the bottom is in\" needs more than one signal agreeing.\n\nThat's the logic behind blending indicators instead of trusting one. Market Temperature weighs MVRV, price vs the 200-week close average, drawdown from the high and volatility-adjusted 90-day momentum, 25% each, and it went from 99.29 to 0.67 in 364 days: https://x.com/ForecastQuant/status/2122727211610542288\n\nGalaxy also notes this bear has lasted longer than previous ones with a shallower drawdown. A cycle that stretches in time rather than depth may never print the same bottom signals the old ones did.",
+      "language": "en",
+      "cta": "",
+      "source_post_id": "2122727211610542288",
+      "topic": "temperature",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 6972,
+        "like_count": 17,
+        "quote_count": 2,
+        "reply_count": 13,
+        "retweet_count": 5
+      },
+      "followers_count": 558063,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-26T01:26:26.828Z",
+      "followers_checked_at": "2026-11-26T01:26:26.828Z",
+      "forecastquant_replied_or_quoted": false
+    }
+  ]
+}
