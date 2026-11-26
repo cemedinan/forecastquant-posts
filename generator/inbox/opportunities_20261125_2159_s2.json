@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-26T00:57:29.181Z",
+  "topic": "drawdowns",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125744858266554561",
+      "author": "anyelamarillo",
+      "url": "https://x.com/anyelamarillo/status/2125744858266554561",
+      "created_at": "2026-11-26T00:14:03.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 21:14:03 America/Santiago",
+      "context": "@anyelamarillo (7.921 seguidores, cuenta de mercados y cripto), en español: explica cómo cubrir BTC spot con un short del mismo tamaño en un perp (ejemplo con 0,1 BTC a $60.700, comisiones y funding), como alternativa a vender por miedo con BTC 25% abajo en un mes. A ~45 min: 7 likes, 1 repost, 6 respuestas. Post en español con poca competencia de respuestas con datos; encaja con tu postura (spot, sin apalancamiento, custodia) y con tus datos de caídas y recuperación.",
+      "suggested_text": "Buena explicación del mecanismo, y vale la pena sumar el matiz que casi nunca aparece: el short en un perp vive en un exchange. Para cubrir tus BTC tienes que dejar colateral en manos de un tercero, y si el precio sube fuerte, ese colateral se va consumiendo; con margen ajustado, el short se puede liquidar justo cuando el spot está ganando. En la práctica la cobertura no es tan simétrica: el riesgo de contraparte y de liquidación queda del lado del short.\n\nAdemás, el momento importa. En caídas de este tamaño, los peores tramos de $BTC han venido antes de las recuperaciones más largas: en 2011 la caída fue de -92,7% y tomó 622 días recuperar el máximo; en 2013, -84,5% y 1.177 días. Quien se cubre en esta zona neutraliza la baja, pero también el rebote, que rara vez avisa.\n\nQuizás la pregunta de fondo no es cómo protegerse del próximo 10%, sino qué parte de lo que uno tiene está pensada de verdad para aguantar el ciclo completo.",
+      "language": "es",
+      "cta": "",
+      "topic": "drawdowns",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 301,
+        "like_count": 7,
+        "quote_count": 0,
+        "reply_count": 6,
+        "repost_count": 1
+      },
+      "followers_count": 7921,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-26T00:57:29.181Z",
+      "followers_checked_at": "2026-11-26T00:57:29.181Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
