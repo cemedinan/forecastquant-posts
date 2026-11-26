@@ -1,0 +1,36 @@
+{
+  "searched_at": "2026-11-26T02:33:40.575Z",
+  "topic": "custody",
+  "max_new_per_round": 1,
+  "items": [
+    {
+      "id": "2125716188781035983",
+      "author": "KashKysh",
+      "url": "https://x.com/KashKysh/status/2125716188781035983",
+      "created_at": "2026-11-25T22:20:07.000Z",
+      "created_at_verified": true,
+      "timestamp_source": "x.get_posts_by_ids",
+      "created_at_chile": "2026-11-25 19:20:07 America/Santiago",
+      "context": "@KashKysh (65.538 seguidores), en inglés: ironiza sobre las cold wallets en 2026 (Ledger, Trezor, Coldcard con semillas no aleatorias por 5 años, Tangem) y remata que la cold wallet más segura es no tener cripto. Noticia fresca verificada: Coinkite admitió que el firmware de Coldcard (mar-2021 a jul-2026) usó un RNG débil; Galaxy Research cifra ~1.778 BTC robados. A ~4 h: 34 likes, 4 reposts, 20 respuestas. Conversación activa de custodia donde tu libro calza directo.",
+      "suggested_text": "The pattern across that list is that almost none of it breaks the idea of cold storage itself. Each case is trust placed in one link of the chain: the reseller, the email channel, or the vendor's random number generator.\n\nColdcard is the clearest example. From March 2021 to July 2026, affected firmware built seeds on a weak software RNG, with entropy reportedly as low as 40 bits, and attackers rebuilt keys on their own machines without touching a single device. Galaxy Research counts about 1,778 BTC taken. A firmware update doesn't repair a seed that already exists; the only fix is a new seed and moving the funds.\n\nThat's why the part of self-custody worth owning is the entropy and the signing process itself, not just the brand of the box. It's the approach I walk through in the book: https://x.com/ForecastQuant/status/2123585216740528526\n\nNot owning crypto does remove this risk. It just swaps it for a different one that's harder to see.",
+      "language": "en",
+      "cta": "",
+      "topic": "custody",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 2416,
+        "like_count": 34,
+        "quote_count": 0,
+        "reply_count": 20,
+        "repost_count": 4
+      },
+      "followers_count": 65538,
+      "followers_count_verified": true,
+      "followers_source": "x.get_posts_by_ids.includes.users.public_metrics.followers_count",
+      "checked_at": "2026-11-26T02:33:40.575Z",
+      "followers_checked_at": "2026-11-26T02:33:40.575Z",
+      "forecastquant_replied_or_quoted": false,
+      "scanner": "s2"
+    }
+  ]
+}
